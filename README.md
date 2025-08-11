@@ -17,7 +17,7 @@ hardware:
   - The [M0S PMOD](m0s_pmod) allows to use the M0S Dock on a PMOD
   port as e.g. available on the Tang Primer 25K or the Tang Mega 138K
 
-  - The [Keyboard](keyboard) design is a tiny 50% Atari ST style keyboard which is meant to become the basis for a Mini Atari ST
+  - The [Atari ST Keyboard](atarist_keyboard) design is a tiny 50% Atari ST style keyboard which is meant to become the basis for a Mini Atari ST
 
   - The [T20 PMOD](t20_pmod) is an add-on for the Efinix T20BGA256 development board adding a PMOD for HDMI usage, the SD card slot and a Raspberry Pi PICO incl. USB-A header to it making it a complete MiSTeryNano setup.
 
