@@ -21,6 +21,10 @@ hardware:
 
   - The [T20 PMOD](t20_pmod) is an add-on for the Efinix T20BGA256 development board adding a PMOD for HDMI usage, the SD card slot and a Raspberry Pi PICO incl. USB-A header to it making it a complete MiSTeryNano setup.
 
+  - The [MiSTeryDev20k](misterydev20k) is meant to become a
+  first test of a complete all-in-one board for the GW2AR-LV18 FPGA
+  (the same one as on the Tang Nano 20k).
+
 ## Related projects
 
 Further hardware is available in related projects:
