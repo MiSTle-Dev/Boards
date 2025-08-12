@@ -30,4 +30,6 @@ Further hardware is available in related projects:
   - [PMOD PiZero](https://github.com/vossstef/tang_nano_20k_c64/tree/main/board/pizero_pmod) us a board similar to the [M0S PMOD](m0s_pmod) using a Raspberry Pi Pico compatible RP2040-ZERO board instead of the M0S Dock
 
   - [MisteryShield20k DS2 Adapter](https://github.com/vossstef/tang_nano_20k_c64/blob/main/board/misteryshield20k_ds2_adapter/misteryshield20k_ds2_adapter_cable.md) is an add-on for the [MiSTeryShield20k](misteryshield20k) allowing to connect Playstation Dualshock 2 Game controllers to it
+
+  - [MisteryNano Case](https://github.com/prcoder-1/MiSTeryNano-Case) is a 3d printable case design for the bare Tang Nano 20k (no shields) with room and mounting instructions for expansion connectors and an optional M0S Dock
   
