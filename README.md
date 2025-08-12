@@ -2,7 +2,7 @@
 
 The MiSTle projects can be used with off-the-shelf components and
 some breadboard setup.
-voss
+
 To simplify this the MiSTeryNano project provides additional
 hardware:
 
