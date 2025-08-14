@@ -1,10 +1,10 @@
 The MiSTle projects can be used with off-the-shelf components and
 some breadboard setup.
 
-To simplify this the MiSTeryNano project provides additional
+To simplify this the MiSTeryNano project provides additional custom designed hardware boards.
 
 ## Shields
-Shields are carrier boards that carry one or more off-the-shelf development boards, connect them and perovides them with additional peripherals.
+Shields are carrier boards that carry one or more off-the-shelf development boards, connect them and provide them with additional peripherals like USB Hubs, MIDI ports, Joystick ports etc.
 
   - The [MiSTeryShield20k](misteryshield20k) is a base board for
   the Tang Nano 20k and the M0S Dock with a DB9 joystick connector and
