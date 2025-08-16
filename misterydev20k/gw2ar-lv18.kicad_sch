@@ -5387,6 +5387,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 97.79) (xy 254 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5652bbef-c8e6-49fe-93a5-a1f38bcbe19a")
+	)
+	(wire
+		(pts
 			(xy 64.77 127) (xy 73.66 127)
 		)
 		(stroke
@@ -6427,6 +6437,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 100.33) (xy 254 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bf4832-14cf-45bb-b00f-10f8c98ce9c1")
+	)
+	(wire
+		(pts
 			(xy 203.2 69.85) (xy 199.39 69.85)
 		)
 		(stroke
@@ -6697,6 +6717,50 @@
 			)
 		)
 	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 158.75 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "253e8667-578d-4413-9fee-501f80b8bf0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 17.5052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape output)
+		(at 248.92 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2996c3ce-7b83-4087-ba61-10d17f020338")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.4852 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D1+"
 		(shape output)
 		(at 152.4 154.94 270)
@@ -6710,6 +6774,28 @@
 		(uuid "2beb0858-b941-45fc-abca-2d3906eabc1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.4 161.3229 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 248.92 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31dc3085-dc65-461a-b22d-081b52263e04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.7876 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,6 +7549,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape output)
+		(at 161.29 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7dd126a-8ba3-4dcb-a54f-03213f22fe39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 17.8076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15963,7 +16071,7 @@
 	)
 	(sheet
 		(at 254 34.29)
-		(size 26.67 62.23)
+		(size 26.67 72.136)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15987,7 +16095,7 @@
 			)
 		)
 		(property "Sheetfile" "interfaces.kicad_sch"
-			(at 254 97.1046 0)
+			(at 254 107.0106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,6 +16306,26 @@
 		(pin "~{SD_DET}" output
 			(at 254 57.15 180)
 			(uuid "99b25c0f-de90-48a4-beec-86b033cf1960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" output
+			(at 254 97.79 180)
+			(uuid "976c3d1e-cf8e-40aa-b352-007012f55ff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" input
+			(at 254 100.33 180)
+			(uuid "c308cb35-6dc8-43b5-8243-ccd46798b345")
 			(effects
 				(font
 					(size 1.27 1.27)
