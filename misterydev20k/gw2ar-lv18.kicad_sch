@@ -4450,7 +4450,7 @@
 	)
 	(text "Option to disconnect the \nSD card from the RP2040 MCU"
 		(exclude_from_sim no)
-		(at 223.774 37.338 0)
+		(at 219.964 37.338 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4904,7 +4904,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 34.29) (xy 233.68 34.29)
+			(xy 218.44 27.94) (xy 233.68 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4924,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 41.91) (xy 246.38 41.91)
+			(xy 236.22 41.91) (xy 246.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4954,7 +4954,7 @@
 	)
 	(bus
 		(pts
-			(xy 246.38 66.04) (xy 254 66.04)
+			(xy 246.38 68.58) (xy 254 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4964,7 +4964,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 34.29) (xy 243.84 54.61)
+			(xy 243.84 27.94) (xy 243.84 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5074,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 54.61) (xy 243.84 54.61)
+			(xy 227.33 54.61) (xy 243.84 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5124,6 +5124,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 30.48) (xy 241.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205236c1-dddc-4f30-ad73-705d2e479a37")
+	)
+	(wire
+		(pts
 			(xy 257.81 146.05) (xy 259.08 146.05)
 		)
 		(stroke
@@ -5134,7 +5144,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 31.75) (xy 246.38 41.91)
+			(xy 246.38 25.4) (xy 246.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5164,7 +5174,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 49.53) (xy 254 49.53)
+			(xy 227.33 49.53) (xy 254 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5254,7 +5264,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 29.21) (xy 248.92 44.45)
+			(xy 248.92 22.86) (xy 248.92 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5364,7 +5374,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 29.21) (xy 233.68 29.21)
+			(xy 218.44 22.86) (xy 233.68 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5394,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 31.75) (xy 246.38 31.75)
+			(xy 241.3 25.4) (xy 246.38 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5574,7 +5584,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 31.75) (xy 222.25 31.75)
+			(xy 224.79 25.4) (xy 218.44 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5634,7 +5644,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 29.21) (xy 248.92 29.21)
+			(xy 241.3 22.86) (xy 248.92 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5644,7 +5654,7 @@
 	)
 	(bus
 		(pts
-			(xy 246.38 63.5) (xy 254 63.5)
+			(xy 246.38 66.04) (xy 254 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5674,7 +5684,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 60.96) (xy 254 60.96)
+			(xy 246.38 63.5) (xy 254 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5874,7 +5884,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 26.67) (xy 251.46 26.67)
+			(xy 241.3 20.32) (xy 251.46 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5954,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 26.67) (xy 233.68 26.67)
+			(xy 218.44 20.32) (xy 233.68 20.32)
 		)
 		(stroke
 			(width 0)
@@ -6141,6 +6151,16 @@
 			(type default)
 		)
 		(uuid "b92c6fc3-4955-4717-8150-8a4c9a4f0240")
+	)
+	(wire
+		(pts
+			(xy 218.44 30.48) (xy 241.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6be1c2-9590-43ea-ac6a-3a3da84f984f")
 	)
 	(wire
 		(pts
@@ -6354,7 +6374,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 52.07) (xy 254 52.07)
+			(xy 227.33 52.07) (xy 254 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6414,7 +6434,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 31.75) (xy 233.68 31.75)
+			(xy 229.87 25.4) (xy 233.68 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6454,7 +6474,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 44.45) (xy 248.92 44.45)
+			(xy 227.33 44.45) (xy 248.92 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6464,7 +6484,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 41.91) (xy 234.95 41.91)
+			(xy 254 57.15) (xy 241.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf4196b-b5ed-464f-9359-d901e2beca73")
+	)
+	(wire
+		(pts
+			(xy 227.33 41.91) (xy 231.14 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6544,7 +6574,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 46.99) (xy 251.46 46.99)
+			(xy 227.33 46.99) (xy 251.46 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6554,7 +6584,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 26.67) (xy 251.46 46.99)
+			(xy 251.46 20.32) (xy 251.46 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6564,7 +6594,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 34.29) (xy 243.84 34.29)
+			(xy 241.3 27.94) (xy 243.84 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6674,7 +6704,7 @@
 	)
 	(global_label "WS2812"
 		(shape input)
-		(at 246.38 60.96 180)
+		(at 246.38 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6684,7 +6714,7 @@
 		)
 		(uuid "01924ffd-d216-44ad-9433-cda8d3af3748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.5501 60.96 0)
+			(at 236.5501 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6770,7 @@
 	)
 	(global_label "SD_DAT2"
 		(shape bidirectional)
-		(at 231.14 52.07 180)
+		(at 227.33 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6750,7 +6780,7 @@
 		)
 		(uuid "14bbec19-94e3-4152-b38c-c17f1820b3bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.8737 52.07 0)
+			(at 216.0637 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +6924,7 @@
 	)
 	(global_label "SD_CLK"
 		(shape input)
-		(at 231.14 41.91 180)
+		(at 227.33 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6904,7 +6934,7 @@
 		)
 		(uuid "4375d4c2-42a7-4380-9994-2b4a5f64176a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.7938 41.91 0)
+			(at 217.9838 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7100,7 @@
 	)
 	(global_label "SD_CMD"
 		(shape input)
-		(at 231.14 44.45 180)
+		(at 227.33 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7080,7 +7110,7 @@
 		)
 		(uuid "62015eda-89d1-469a-a43d-7a79d29ef00c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.3705 44.45 0)
+			(at 217.5605 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7122,7 @@
 	)
 	(global_label "LED[0..5]"
 		(shape input)
-		(at 246.38 66.04 180)
+		(at 246.38 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7102,7 +7132,7 @@
 		)
 		(uuid "67214940-8803-404d-aebf-7da1114ae538")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.2799 66.04 0)
+			(at 235.2799 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7320,7 @@
 	)
 	(global_label "SD_DAT3"
 		(shape bidirectional)
-		(at 231.14 54.61 180)
+		(at 227.33 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7300,7 +7330,7 @@
 		)
 		(uuid "9900bffe-cd91-4d49-92fa-37e2e60df6c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.8737 54.61 0)
+			(at 216.0637 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7430,7 @@
 	)
 	(global_label "SD_DAT1"
 		(shape bidirectional)
-		(at 231.14 49.53 180)
+		(at 227.33 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7410,7 +7440,7 @@
 		)
 		(uuid "acfccfc9-bd8c-4068-952d-1205bc1c122f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.8737 49.53 0)
+			(at 216.0637 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7554,7 +7584,7 @@
 	)
 	(global_label "SD_DAT0"
 		(shape bidirectional)
-		(at 231.14 46.99 180)
+		(at 227.33 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7564,7 +7594,7 @@
 		)
 		(uuid "d64dfad2-7c0a-4b21-980e-80e22a27e36f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.8737 46.99 0)
+			(at 216.0637 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7738,7 @@
 	)
 	(global_label "KEY[0..1]"
 		(shape output)
-		(at 246.38 63.5 180)
+		(at 246.38 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7718,7 +7748,7 @@
 		)
 		(uuid "fc206ed2-62b7-41cc-bfcb-ac3796d7417b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.2194 63.5 0)
+			(at 235.2194 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +7793,7 @@
 	)
 	(hierarchical_label "SD_DI"
 		(shape input)
-		(at 222.25 29.21 180)
+		(at 218.44 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7796,7 +7826,7 @@
 	)
 	(hierarchical_label "SD_DO"
 		(shape output)
-		(at 222.25 26.67 180)
+		(at 218.44 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7807,7 +7837,7 @@
 	)
 	(hierarchical_label "~{SD_CS}"
 		(shape input)
-		(at 222.25 34.29 180)
+		(at 218.44 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7849,9 +7879,20 @@
 		)
 		(uuid "4efeaf92-08c2-4bbb-9249-cc4e2b00d240")
 	)
-	(hierarchical_label "SD_CLK"
+	(hierarchical_label "~{SD_DET}"
+		(shape output)
+		(at 218.44 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59d9d518-7888-49b8-9260-371a3eee1307")
+	)
+	(hierarchical_label "SD_CLK_PI"
 		(shape input)
-		(at 222.25 31.75 180)
+		(at 218.44 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10416,7 +10457,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 237.49 31.75 0)
+		(at 237.49 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10424,7 +10465,7 @@
 		(dnp no)
 		(uuid "41790a80-6fe2-4683-8d5e-e343ff311bea")
 		(property "Reference" "JP13"
-			(at 233.68 30.48 0)
+			(at 233.68 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10432,7 +10473,7 @@
 			)
 		)
 		(property "Value" "CLK"
-			(at 242.57 30.48 0)
+			(at 242.57 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +10481,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 237.49 31.75 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 31.75 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10499,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 237.49 31.75 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12452,7 +12493,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 237.49 41.91 270)
+		(at 233.68 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12460,7 +12501,7 @@
 		(dnp no)
 		(uuid "73c0833c-9930-49da-83dd-6a9895c6b09d")
 		(property "Reference" "R52"
-			(at 233.172 40.894 90)
+			(at 229.362 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +12509,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 241.3 40.64 90)
+			(at 237.49 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12476,7 +12517,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 237.49 41.91 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12485,7 +12526,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 41.91 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12494,7 +12535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 41.91 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +12544,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 237.49 41.91 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12593,7 +12634,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 237.49 34.29 0)
+		(at 237.49 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12601,7 +12642,7 @@
 		(dnp no)
 		(uuid "79aea6f0-d1c4-4bef-8e27-23f198a092a2")
 		(property "Reference" "JP14"
-			(at 233.68 33.02 0)
+			(at 233.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12609,7 +12650,7 @@
 			)
 		)
 		(property "Value" "~{CS}"
-			(at 242.57 33.02 0)
+			(at 242.57 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12617,7 +12658,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 237.49 34.29 0)
+			(at 237.49 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12626,7 +12667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 34.29 0)
+			(at 237.49 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12635,7 +12676,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 237.49 34.29 0)
+			(at 237.49 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +13325,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 228.6 31.75 270)
+		(at 227.33 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13292,7 +13333,7 @@
 		(dnp no)
 		(uuid "97632239-8c1c-476a-a78a-3c92b826cb02")
 		(property "Reference" "R26"
-			(at 224.282 30.734 90)
+			(at 223.012 24.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,7 +13341,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 224.282 33.02 90)
+			(at 223.012 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +13349,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 228.6 31.75 0)
+			(at 227.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +13358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 31.75 0)
+			(at 227.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13326,7 +13367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 31.75 0)
+			(at 227.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13335,7 +13376,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 228.6 31.75 0)
+			(at 227.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13467,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 237.49 26.67 0)
+		(at 237.49 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13434,7 +13475,7 @@
 		(dnp no)
 		(uuid "97e36315-e735-42fe-872a-3d1c5fd21028")
 		(property "Reference" "JP11"
-			(at 233.68 25.4 0)
+			(at 233.68 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13442,7 +13483,7 @@
 			)
 		)
 		(property "Value" "DO"
-			(at 242.57 25.4 0)
+			(at 242.57 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13450,7 +13491,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 237.49 26.67 0)
+			(at 237.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,7 +13500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 26.67 0)
+			(at 237.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,7 +13509,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 237.49 26.67 0)
+			(at 237.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15228,7 +15269,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 237.49 29.21 0)
+		(at 237.49 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15236,7 +15277,7 @@
 		(dnp no)
 		(uuid "d9bc39da-30d9-466b-bc71-487dd8ca1543")
 		(property "Reference" "JP12"
-			(at 233.68 27.94 0)
+			(at 233.68 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15244,7 +15285,7 @@
 			)
 		)
 		(property "Value" "DI"
-			(at 242.57 27.94 0)
+			(at 242.57 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15252,7 +15293,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 237.49 29.21 0)
+			(at 237.49 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15261,7 +15302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 29.21 0)
+			(at 237.49 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15270,7 +15311,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 237.49 29.21 0)
+			(at 237.49 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16573,7 +16614,7 @@
 			)
 		)
 		(pin "WS2812" input
-			(at 254 60.96 180)
+			(at 254 63.5 180)
 			(uuid "0d190201-27f9-474a-af81-c39c44d177df")
 			(effects
 				(font
@@ -16663,7 +16704,7 @@
 			)
 		)
 		(pin "LED[0..5]" input
-			(at 254 66.04 180)
+			(at 254 68.58 180)
 			(uuid "6445df37-a15d-4730-8008-8e127eb6696a")
 			(effects
 				(font
@@ -16673,8 +16714,18 @@
 			)
 		)
 		(pin "KEY[0..1]" output
-			(at 254 63.5 180)
+			(at 254 66.04 180)
 			(uuid "9a723a55-4ff9-4e4e-8fd4-8460f826cb08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SD_DET}" output
+			(at 254 57.15 180)
+			(uuid "99b25c0f-de90-48a4-beec-86b033cf1960")
 			(effects
 				(font
 					(size 1.27 1.27)
