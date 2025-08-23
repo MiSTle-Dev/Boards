@@ -2,7 +2,7 @@
 
 Features:
 * PMOD carrier for a [Raspberry Pi Pico W](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)
-* USB-C to e.g. USB-C HUB or HID
+* USB-C to e.g. USB-C HUB or HID dongle
 * Debug header for Pico UART
 * PMOD spare signals on Testpoints
 * Status LED's
@@ -10,10 +10,6 @@ Features:
 
 PCBA production files for [JLCPCB](https://jlcpcb.com) are availble [here](production).  
 (Fully assembled boards can orderd based on BOM partlist, excluding the RP2040)  
-
-> [!IMPORTANT]
-> Pin headers are already assembled  
-> Take the RP2040 variant without pin headers !
 
 ![PNG](pico_pmod_3d.png)  
 ![PNG](pico_pmod_scm.png)  
