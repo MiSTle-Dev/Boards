@@ -1,0 +1,294 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "75b9521a-0ff9-453b-94db-43ff0ddddda1")
+	(paper "A4")
+	(lib_symbols)
+	(text "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22"
+		(exclude_from_sim no)
+		(at 56.388 33.274 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "04deeae6-8489-4fc3-9a84-d8e3664ad759")
+	)
+	(text "Pin"
+		(exclude_from_sim no)
+		(at 137.16 29.464 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "0d68a769-476c-4ed5-97ce-d62e0a269b05")
+	)
+	(text "67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88"
+		(exclude_from_sim no)
+		(at 137.16 97.028 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "0f69eded-fbe7-4e4c-9a91-84a6867dd004")
+	)
+	(text "NanoMig"
+		(exclude_from_sim no)
+		(at 178.562 29.464 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "25821c80-b009-46fb-bbf0-00f2752e5caf")
+	)
+	(text "Vcc\nVss\nIOB6A\nIOB6B\nIOB8A\nIOB8B\nIOB14A\nIOB14B\nIOB18A\nIOB18B\nIOB24A\nIOB24B\nIOB30A\nIOB30B\nIOB34A\nIOB34B\nIOB40A\nIOB40B\nIOB43A\nIOB42B\nVss\nVcc"
+		(exclude_from_sim no)
+		(at 64.008 95.758 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "25a3c819-2f0c-42f1-9c6a-576db8fffc86")
+	)
+	(text "-\n-\n-\n-\nMIDI_OUT\nMIDI_IN\nSPARE 0\nSPARE 1\nBL616_DIR\nBL616_DAT\nSPARE 2\n-\nWS2812\nSDIO_D2\nSDIO_D3\nSDIO_CMD\nSDIO_CLK\nSDIO_D0\nSDIO_D1\nBL616_CS \nBTN_RESET\nBTN_USER"
+		(exclude_from_sim no)
+		(at 179.324 97.028 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "535b9849-4fcd-4bb0-80b0-f2a48a279b24")
+	)
+	(text "-\n-\nLCD_HS *\nLCD_VS *\nLCD_B7 *\nLCD_B6 *\nLCD_B5 *\nLCD_B4 *\nLCD_B3 *\nLCD_G7\nDVI_CKP\nDVI_CKN\nDVI_D0P\nDVI_D0N\nDVI_D1P\nDVI_D1N\nDVI_D2P\nDVI_D2N\nLCD_R4 *\nLCD_R3 *\n-\n-"
+		(exclude_from_sim no)
+		(at 77.724 96.012 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "5ae5db3a-7399-4b36-a0de-959b3acc47ed")
+	)
+	(text "Vcore\nVss\nEXTR\nIOR49B\nIOR49A\nVccpll\nIOR45A\nIOR39A\nIOR38B\nIOR38A\nIOR36B\nIOR36A\nIOR35A\nVcc\nIOR34B\nIOR34A\nIOR33B\nIOR33A\nIOR29A\nVccx\nVss\nVcore"
+		(exclude_from_sim no)
+		(at 144.78 33.02 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "5e918fae-7dea-4566-88d4-c7be555c8c6f")
+	)
+	(text "-\n-\n-\nSYS_CLK\nSYS_TMS\nSYS_TCK\nSYS_TDI\nSYS_TDO\n~{RECFG}\n5351_CKP\n5351_CKN\n-\nHSPI_SCLK\n-\nLED0 *\nLED1 *\nLED2 *\nLED3 *\nLED4 *\nLED5 *\n-\n-"
+		(exclude_from_sim no)
+		(at 77.47 33.528 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "628e439f-bf89-47bd-baf1-160251cc4542")
+	)
+	(text "45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66"
+		(exclude_from_sim no)
+		(at 137.16 33.02 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "641f97ea-d322-4a8d-9df8-88f03d22fb41")
+	)
+	(text "* pin exposed on headers"
+		(exclude_from_sim no)
+		(at 66.04 163.83 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "6f28f493-c600-4733-b516-6bc5ea498d4a")
+	)
+	(text "-\n-\nSYS_TX\nSYS_RX\nHSPI_DIN0 *\nHSPI_DIN1 *\nHSPI_DIN2 *\nHSPI_DIN3 *\nHDPI_DIR *\nHDPI_DAT *\nLCD_CLK *\n-\nWS2812 *\nSDIO_D2 *\nSDIO_D3\nSDIO_CMD\nSDIO_CLK\nSDIO_D0\nSDIO_D1 *\nHSPI_CSN \nKEY 2 *\nKEY 1"
+		(exclude_from_sim no)
+		(at 158.75 97.028 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "723c8491-5144-4de4-8332-8f6fbd91e510")
+	)
+	(text "-\n-\nIO 2\nIO 3\nIO 0\nIO 1\nIO 4\nIO 5\nSPARE 3\n-\nDVI_CKP\nDVI_CKN\nDVI_D0P\nDVI_D0N\nDVI_D1P\nDVI_D1N\nDVI_D2P\nDVI_D2N\nMOS 0\nMOS 1\n-\n-"
+		(exclude_from_sim no)
+		(at 97.79 96.266 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "74ee562a-9c9f-4936-98c5-3e6995975253")
+	)
+	(text "TN20K"
+		(exclude_from_sim no)
+		(at 77.47 29.718 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "7638d17b-0a91-47e1-96bb-163d5c429f1d")
+	)
+	(text "TN20K"
+		(exclude_from_sim no)
+		(at 158.242 29.718 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "8abfe6de-b13a-4121-b627-b57be3dcdc8e")
+	)
+	(text "NanoMig"
+		(exclude_from_sim no)
+		(at 97.79 29.464 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "9562ad81-777b-4ab4-8a30-25bd96f68993")
+	)
+	(text "Vcore\nVss\nVccc\nIOL7A\nIOR25B\nIOR26A\nIOR26B\nIOR25A\nIOR31B\nIOL29A\nIOL29B\nVccx\nIOL45A\nVccpll\nIOL47A\nIOL47B\nIOL49A\nIOL49B\nIOL51A\nIOL51B\nVss\nVcore"
+		(exclude_from_sim no)
+		(at 64.008 33.528 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "a065c549-9423-466a-bb0d-ab991a10dd26")
+	)
+	(text "23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44"
+		(exclude_from_sim no)
+		(at 56.388 95.504 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "a7e28115-a9bc-46b5-ac30-9404ad557489")
+	)
+	(text "-\n-\n-\nCLOCK\n-\n-\n-\n-\n-\n-\n-\n-\nBL616_SCLK\n-\nLED0\nLED1\nLED2\nLED3\nLED4\nLED5\n-\n-"
+		(exclude_from_sim no)
+		(at 97.79 33.528 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "afd4470b-424e-42ef-a384-0f438608d159")
+	)
+	(text "Pin"
+		(exclude_from_sim no)
+		(at 56.388 29.464 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "b173f7a8-9090-4a6b-a54a-29d7db64198c")
+	)
+	(text "Function"
+		(exclude_from_sim no)
+		(at 144.526 29.464 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "bab268fc-8180-4f43-903e-5a8effc042cb")
+	)
+	(text "-\n-\n-\nLCD_DE *\nLCD_BL *\n-\nPA_EN *\nEDID_DAT *\nEDID_CLK *\nI2S_DIN *\nI2S_LRCK *\nI2S_BCLK *\nMSPI_WP\n-\nMSPI_CLK\nMSPI_CS\nMSPI_DI\nMSPI_DO\nMSPI_HOLD\n-\n-\n-"
+		(exclude_from_sim no)
+		(at 158.496 32.766 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "c8c237dc-e934-4913-a451-d01f09f76d99")
+	)
+	(text "FPGA pin usage "
+		(exclude_from_sim no)
+		(at 179.07 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d579bb1a-76a4-444d-8641-c21cb1948f20")
+	)
+	(text "Function"
+		(exclude_from_sim no)
+		(at 63.754 29.464 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "dca2346a-9ed8-4030-9acc-a2766eefeed5")
+	)
+	(text "-\n-\n-\nMOS 5\nSPARE 4\n-\nMOS 4\n-\n-\nMOS 3\nSPARE 5\nMOS 2\nMSPI_WP\n-\nMSPI_CLK\nMSPI_CS\nMSPI_DI\nMSPI_DO\nMSPI_HOLD\n-\n-\n-"
+		(exclude_from_sim no)
+		(at 179.07 32.512 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "e8cb9faa-de76-4df0-965a-45be7267f564")
+	)
+	(text "Vcc\nVss\nIOT50A\nIOT44B\nIOT44A\nIOT40B\nIOT40A\nIOT34B\nIOT34A\nIOT30B\nIOT30A\nVcc\nIOT27B\nIOT27A\nIOT17B\nIOT17A\nIOT6B\nIOT6A\nIOT4B\nIOT4A\nIOR20B\nIOR30A"
+		(exclude_from_sim no)
+		(at 144.78 97.028 0)
+		(effects
+			(font
+				(size 1.6256 1.6256)
+			)
+			(justify left top)
+		)
+		(uuid "fd4f87c6-07e0-4ab5-9afc-f72fcb45b395")
+	)
+)

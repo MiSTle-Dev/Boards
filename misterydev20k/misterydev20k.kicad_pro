@@ -458,6 +458,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -691,6 +692,10 @@
     [
       "1f0ce8d2-82e9-428d-82b0-dc1a063a67f6",
       "Interfaces"
+    ],
+    [
+      "2b15d12d-9b4d-46cb-b32b-5a62d595d001",
+      "FPGA Pin Usage"
     ]
   ],
   "text_variables": {}
