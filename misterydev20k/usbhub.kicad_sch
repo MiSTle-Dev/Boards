@@ -3876,7 +3876,7 @@
 		)
 		(uuid "323fc143-7fc4-4a75-880a-6e01be75279f")
 	)
-	(hierarchical_label "USB-D+"
+	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 73.66 66.04 180)
 		(effects

@@ -5044,10 +5044,6 @@
 		(uuid "186ddc94-4468-4bc7-bd33-eba4bc732ba9")
 	)
 	(no_connect
-		(at 199.39 95.25)
-		(uuid "18f6f6b9-ea39-407d-83c6-232803540852")
-	)
-	(no_connect
 		(at 88.9 92.71)
 		(uuid "4518ba6e-91c9-486e-aef4-fbba7f4948e7")
 	)
@@ -5941,6 +5937,16 @@
 			(type default)
 		)
 		(uuid "535da537-9eee-42a8-96d8-22f491c86104")
+	)
+	(wire
+		(pts
+			(xy 199.39 95.25) (xy 205.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542196a7-7be1-4df3-86f4-90df0b083758")
 	)
 	(wire
 		(pts
@@ -8933,6 +8939,17 @@
 			(justify left)
 		)
 		(uuid "d1123031-5572-4502-a3cb-e177bb6eb1f1")
+	)
+	(hierarchical_label "SPARE"
+		(shape bidirectional)
+		(at 205.74 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9a6b0fb-7f95-4226-8308-8c239f1a3d2e")
 	)
 	(hierarchical_label "MON_RX"
 		(shape input)

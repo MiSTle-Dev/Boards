@@ -1840,7 +1840,7 @@
 				)
 				(uuid "8b34ca79-5334-43a2-a0a0-77da32404977")
 			)
-			(table_cell ""
+			(table_cell "M0S5"
 				(exclude_from_sim no)
 				(at 140.716 65.786 0)
 				(size 21.844 3.048)
