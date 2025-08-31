@@ -1,0 +1,1011 @@
+.HEA
+.TIM 2025-08-31T15:52:33+0200
+.APP "Eeschema 9.0.4-9.0.4-0~ubuntu24.04.1"
+.TYP FULL
+
+.ADD_COM     R3     "5k1"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C14     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     U4     "RP2040"     "Sleep-Lib:RP2040-QFN-56"
+.ADD_COM     R55     "3k3_1%"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C7     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C57     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C56     "22uF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     D1     "green"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     SW1     "Boot"     "Button_Switch_SMD:SW_SPST_TL3342"
+.ADD_COM     C1     "1uF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C54     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C5     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R6     "1k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C10     "22pF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     U3     "USBLC6-2SC6"     "Package_TO_SOT_SMD:SOT-23-6"
+.ADD_COM     C6     "1uF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     U1     "SY8113BADC"     "Package_TO_SOT_SMD:TSOT-23-6"
+.ADD_COM     H4     "MountingHole"     "MountingHole:MountingHole_3.2mm_M3"
+.ADD_COM     R9     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     J1     "SWD"     "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+.ADD_COM     C52     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     D2     "Mouse"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     C8     "1uF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     H1     "MountingHole"     "MountingHole:MountingHole_3.2mm_M3"
+.ADD_COM     JP2     "SRC_D-"     "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+.ADD_COM     R8     "30k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     JP1     "SRC_D+"     "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+.ADD_COM     R10     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C9     "22pF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C13     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     H2     "MountingHole"     "MountingHole:MountingHole_3.2mm_M3"
+.ADD_COM     C51     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C12     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R2     "5k1"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     Y1     "12MHz"     "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+.ADD_COM     R11     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     U2     "W25Q128JVS"     "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+.ADD_COM     R1     "1k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C55     "22pF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R4     "27R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R5     "27R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     D3     "Keyboard"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     C2     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C53     "10uF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     L3     "3.3uH"     "Inductor_SMD:L_Sunlord_MWSA0402S"
+.ADD_COM     R51     "22"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     J2     "USB_C_Receptacle_USB2.0"     "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+.ADD_COM     C11     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R53     "47k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     D4     "Joystick"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     C3     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R7     "1k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R54     "15k_1%"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     H3     "MountingHole"     "MountingHole:MountingHole_3.2mm_M3"
+.ADD_COM     R12     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R32     "4k7"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C46     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     Y2     "27MHz"     "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+.ADD_COM     U6     "W25Q128JVS"     "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+.ADD_COM     C35     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C49     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C50     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C16     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C38     "22uF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     R56     "18k_1%"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     U5     "GW2AR-LV18-QN88"     "Package_DFN_QFN:ArtInChip_QFN-88-1EP_10x10mm_P0.4mm_EP6.74x6.74mm_ThermalVias"
+.ADD_COM     R37     "47k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C17     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     JP13     "CLK"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+.ADD_COM     C43     "4u7"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R39     "12k_1%"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C36     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     FB3     "MPZ1608S101"     "Inductor_SMD:L_0603_1608Metric"
+.ADD_COM     C42     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C47     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C37     "22pF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C39     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C4     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C48     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R52     "22"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     J3     "Jumper_block"     "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+.ADD_COM     JP14     "~{CS}"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+.ADD_COM     C34     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     L1     "3.3uH"     "Inductor_SMD:L_Sunlord_MWSA0402S"
+.ADD_COM     R40     "4k7"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R18     "4k7"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R26     "22"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     JP11     "DO"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+.ADD_COM     R31     "4k7"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C33     "10uF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     R30     "1k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C27     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R19     "4k7"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     U8     "SY8113BADC"     "Package_TO_SOT_SMD:TSOT-23-6"
+.ADD_COM     R38     "30k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     JP12     "DI"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+.ADD_COM     C44     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R17     "22"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C15     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C41     "4u7"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R29     "4k7"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     FB4     "MPZ1608S101"     "Inductor_SMD:L_0603_1608Metric"
+.ADD_COM     R22     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     D9     "PORT2"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     R34     "220"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     F2     "500mA"     "Fuse:Fuse_1206_3216Metric"
+.ADD_COM     D10     "PORT1"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     R33     "220"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     D8     "PORT3"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     C30     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C29     "1uF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     U7     "CH334U"     "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm"
+.ADD_COM     D7     "PORT4"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     C31     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     J7     "USB_A_Stacked"     "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+.ADD_COM     C28     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C32     "1uF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     J13     "USB_A_Stacked"     "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+.ADD_COM     Y3     "12MHz"     "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+.ADD_COM     R35     "470"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     D11     "ACTIVE"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     U10     "74LCX07"     "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+.ADD_COM     D13     "green"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     C58     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R15     "1k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R20     "100"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C22     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R47     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C45     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     SW2     "KEY1"     "Button_Switch_SMD:SW_SPST_TL3342"
+.ADD_COM     RN2     "R_Pack04"     "Resistor_SMD:R_Array_Concave_4x0603"
+.ADD_COM     U9     "74LCX07"     "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+.ADD_COM     D15     "green"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     C18     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R50     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R28     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R43     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     SW3     "KEY2"     "Button_Switch_SMD:SW_SPST_TL3342"
+.ADD_COM     J6     "Grove_1125S-4P"     "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+.ADD_COM     D16     "green"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     J5     "HDMI_A"     "Connector_Video:HDMI_A_Molex_208658-1001_Horizontal"
+.ADD_COM     C25     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R41     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R42     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C24     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C19     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R24     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R44     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C21     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C20     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R46     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R21     "5k1"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R23     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R48     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     D14     "green"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     D17     "green"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     R27     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     RN1     "R_Pack04"     "Resistor_SMD:R_Array_Concave_4x0603"
+.ADD_COM     RN3     "R_Pack04"     "Resistor_SMD:R_Array_Concave_4x0603"
+.ADD_COM     J11     "Joystick_0"     "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
+.ADD_COM     C60     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     D12     "green"     "LED_SMD:LED_0805_2012Metric"
+.ADD_COM     C40     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     F1     "500mA"     "Fuse:Fuse_1206_3216Metric"
+.ADD_COM     R14     "330"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R13     "330"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     J4     "Micro_SD_Card_Det1"     "Footprints:TF-015"
+.ADD_COM     C59     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C23     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C26     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     R36     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R45     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     D5     "WS2812B-2020"     "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+.ADD_COM     D18     "1N5819WS"     "Diode_SMD:D_SOD-323"
+.ADD_COM     J12     "Joystick_1"     "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
+.ADD_COM     R49     "560"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R25     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R16     "1k"     "Resistor_SMD:R_0402_1005Metric"
+
+
+.ADD_TER   C37   2     "+1V0"
+.TER       C38   1
+            C39   1
+            FB3   1
+            FB4   1
+            L1   2
+            R39   2
+            U5   1
+            U5   22
+            U5   45
+            U5   66
+
+.ADD_TER   C1   1     "+1V1"
+.TER       C2   1
+            C3   1
+            U4   23
+            U4   45
+            U4   50
+
+.ADD_TER   C11   1     "+3V3"
+.TER       C12   1
+            C13   1
+            C14   1
+            C15   1
+            C16   2
+            C17   2
+            C27   1
+            C4   2
+            C45   2
+            C46   2
+            C47   2
+            C48   2
+            C49   2
+            C5   1
+            C50   2
+            C55   2
+            C56   1
+            C57   1
+            C59   2
+            C6   2
+            C60   2
+            C7   1
+            C8   1
+            D12   2
+            D13   2
+            D14   2
+            D15   2
+            D16   2
+            D17   2
+            D5   4
+            J4   4
+            L3   2
+            R13   1
+            R14   1
+            R19   1
+            R23   1
+            R24   1
+            R25   1
+            R27   1
+            R28   1
+            R29   2
+            R31   2
+            R32   2
+            R36   1
+            R40   1
+            R41   1
+            R54   2
+            R6   1
+            U10   14
+            U2   8
+            U4   1
+            U4   10
+            U4   22
+            U4   33
+            U4   42
+            U4   43
+            U4   44
+            U4   48
+            U4   49
+            U5   12
+            U5   23
+            U5   3
+            U5   44
+            U5   58
+            U5   64
+            U5   67
+            U5   78
+            U6   8
+            U9   14
+            Y2   1
+            Y2   4
+
+.ADD_TER   C28   1     "+5V"
+.TER       C29   2
+            C33   1
+            C34   1
+            C52   1
+            C53   1
+            D18   2
+            F1   2
+            F2   2
+            J2   A4
+            J2   A9
+            J2   B4
+            J2   B9
+            J6   3
+            R37   2
+            R53   2
+            U1   5
+            U3   5
+            U7   20
+            U8   5
+
+.ADD_TER   J2   A5     "/CC1"
+.TER       R2   1
+
+.ADD_TER   J2   B5     "/CC2"
+.TER       R3   1
+
+.ADD_TER   R4   2     "/D_+"
+.TER       U4   47
+
+.ADD_TER   R5   2     "/D_-"
+.TER       U4   46
+
+.ADD_TER   J4   5     "/GW2AR-LV18 FPGA/Interfaces/SD_CLK"
+.TER       JP13   2
+            R52   1
+
+.ADD_TER   J13   3     "/USB Hub/USB1_D+"
+.TER       U7   11
+
+.ADD_TER   J13   2     "/USB Hub/USB1_D-"
+.TER       U7   10
+
+.ADD_TER   J13   7     "/USB Hub/USB2_D+"
+.TER       U7   9
+
+.ADD_TER   J13   6     "/USB Hub/USB2_D-"
+.TER       U7   8
+
+.ADD_TER   J7   3     "/USB Hub/USB3_D+"
+.TER       U7   7
+
+.ADD_TER   J7   2     "/USB Hub/USB3_D-"
+.TER       U7   6
+
+.ADD_TER   J7   7     "/USB Hub/USB4_D+"
+.TER       U7   5
+
+.ADD_TER   J7   6     "/USB Hub/USB4_D-"
+.TER       U7   4
+
+.ADD_TER   R1   1     "/~{USB_BOOT}"
+.TER       SW1   2
+
+.ADD_TER   C26   1     "5V_DVI"
+.TER       D18   1
+            J5   18
+            R42   2
+            R43   2
+            R44   2
+
+.ADD_TER   C21   1     "CK+"
+.TER       U5   33
+
+.ADD_TER   C25   1     "CK-"
+.TER       U5   34
+
+.ADD_TER   R17   2     "CLK"
+.TER       U5   4
+
+.ADD_TER   C20   1     "D0+"
+.TER       U5   35
+
+.ADD_TER   C24   1     "D0-"
+.TER       U5   36
+
+.ADD_TER   C19   1     "D1+"
+.TER       U5   37
+
+.ADD_TER   C23   1     "D1-"
+.TER       U5   38
+
+.ADD_TER   C18   1     "D2+"
+.TER       U5   39
+
+.ADD_TER   C22   1     "D2-"
+.TER       U5   40
+
+.ADD_TER   J1   5     "DBG RX"
+.TER       U4   3
+            U5   48
+
+.ADD_TER   J1   4     "DBG TX"
+.TER       U4   2
+            U5   55
+
+.ADD_TER   C1   2     "GND"
+.TER       C10   1
+            C11   2
+            C12   2
+            C13   2
+            C14   2
+            C15   2
+            C16   1
+            C17   1
+            C2   2
+            C26   2
+            C27   2
+            C28   2
+            C29   1
+            C3   2
+            C30   1
+            C31   1
+            C32   1
+            C33   2
+            C34   2
+            C35   1
+            C38   2
+            C39   2
+            C4   1
+            C40   1
+            C41   1
+            C42   1
+            C43   1
+            C44   1
+            C45   1
+            C46   1
+            C47   1
+            C48   1
+            C49   1
+            C5   2
+            C50   1
+            C51   1
+            C52   2
+            C53   2
+            C56   2
+            C57   2
+            C58   1
+            C59   1
+            C6   1
+            C60   1
+            C7   2
+            C8   2
+            C9   1
+            D1   1
+            D2   1
+            D3   1
+            D4   1
+            D5   2
+            J1   2
+            J11   0
+            J11   8
+            J12   0
+            J12   8
+            J13   4
+            J13   8
+            J13   9
+            J2   A1
+            J2   A12
+            J2   B1
+            J2   B12
+            J2   S1
+            J3   11
+            J3   12
+            J4   10
+            J4   6
+            J5   11
+            J5   17
+            J5   2
+            J5   5
+            J5   8
+            J5   SH
+            J6   4
+            J7   4
+            J7   8
+            J7   9
+            R15   2
+            R16   2
+            R18   2
+            R2   2
+            R21   1
+            R22   1
+            R3   2
+            R30   1
+            R38   1
+            R55   1
+            R56   1
+            R8   1
+            SW1   1
+            U1   2
+            U10   7
+            U2   4
+            U3   2
+            U4   19
+            U4   57
+            U5   2
+            U5   21
+            U5   24
+            U5   43
+            U5   46
+            U5   65
+            U5   68
+            U5   89
+            U6   4
+            U7   1
+            U7   12
+            U7   28
+            U8   2
+            U9   7
+            Y1   2
+            Y1   4
+            Y2   2
+            Y3   2
+            Y3   4
+
+.ADD_TER   U5   27     "JOYA0"
+.TER       U9   2
+
+.ADD_TER   U5   28     "JOYA1"
+.TER       U9   6
+
+.ADD_TER   U5   25     "JOYA2"
+.TER       U9   12
+
+.ADD_TER   U5   26     "JOYA3"
+.TER       U9   10
+
+.ADD_TER   U5   29     "JOYA4"
+.TER       U9   4
+
+.ADD_TER   U5   30     "JOYA5"
+.TER       U9   8
+
+.ADD_TER   U10   8     "JOYB0"
+.TER       U5   73
+
+.ADD_TER   U10   12     "JOYB1"
+.TER       U5   74
+
+.ADD_TER   U10   6     "JOYB2"
+.TER       U5   77
+
+.ADD_TER   U10   4     "JOYB3"
+.TER       U5   31
+
+.ADD_TER   U10   10     "JOYB4"
+.TER       U5   49
+
+.ADD_TER   U10   2     "JOYB5"
+.TER       U5   52
+
+.ADD_TER   R10   1     "LED 1"
+.TER       U4   6
+
+.ADD_TER   R11   1     "LED 2"
+.TER       U4   7
+
+.ADD_TER   R12   1     "LED 3"
+.TER       U4   8
+
+.ADD_TER   R45   1     "LED0"
+.TER       U5   15
+
+.ADD_TER   R46   1     "LED1"
+.TER       U5   16
+
+.ADD_TER   R47   1     "LED2"
+.TER       U5   17
+
+.ADD_TER   R48   1     "LED3"
+.TER       U5   18
+
+.ADD_TER   R49   1     "LED4"
+.TER       U5   19
+
+.ADD_TER   R50   1     "LED5"
+.TER       U5   20
+
+.ADD_TER   U4   27     "MISO"
+.TER       U5   42
+
+.ADD_TER   R15   1     "MODE0"
+.TER       SW2   2
+            U4   35
+            U5   88
+
+.ADD_TER   R16   1     "MODE1"
+.TER       SW3   2
+            U4   36
+            U5   87
+
+.ADD_TER   U4   30     "MOSI"
+.TER       U5   41
+
+.ADD_TER   R30   2     "MSPI_CLK"
+.TER       U5   59
+            U6   6
+
+.ADD_TER   U5   61     "MSPI_DI"
+.TER       U6   5
+
+.ADD_TER   U5   62     "MSPI_DO"
+.TER       U6   2
+
+.ADD_TER   C10   2     "Net-(C10-Pad2)"
+.TER       R7   1
+            Y1   1
+
+.ADD_TER   D1   2     "Net-(D1-A)"
+.TER       R9   2
+
+.ADD_TER   D10   2     "Net-(D10-A)"
+.TER       D9   1
+            R34   2
+
+.ADD_TER   C30   2     "Net-(D11-A)"
+.TER       C31   2
+            C32   2
+            D11   2
+            U7   13
+            U7   21
+
+.ADD_TER   D11   1     "Net-(D11-K)"
+.TER       R35   2
+
+.ADD_TER   D12   1     "Net-(D12-K)"
+.TER       R45   2
+
+.ADD_TER   D13   1     "Net-(D13-K)"
+.TER       R46   2
+
+.ADD_TER   D14   1     "Net-(D14-K)"
+.TER       R47   2
+
+.ADD_TER   D15   1     "Net-(D15-K)"
+.TER       R48   2
+
+.ADD_TER   D16   1     "Net-(D16-K)"
+.TER       R49   2
+
+.ADD_TER   D17   1     "Net-(D17-K)"
+.TER       R50   2
+
+.ADD_TER   D2   2     "Net-(D2-A)"
+.TER       R10   2
+
+.ADD_TER   D3   2     "Net-(D3-A)"
+.TER       R11   2
+
+.ADD_TER   D4   2     "Net-(D4-A)"
+.TER       R12   2
+
+.ADD_TER   D5   3     "Net-(D5-DIN)"
+.TER       R20   2
+            R21   2
+
+.ADD_TER   D7   1     "Net-(D7-K)"
+.TER       D8   2
+            R33   2
+
+.ADD_TER   F2   1     "Net-(J13-VBUS1)"
+.TER       J13   1
+            J13   5
+            J7   1
+            J7   5
+
+.ADD_TER   J2   A6     "Net-(J2-D+-PadA6)"
+.TER       J2   B6
+            U3   6
+
+.ADD_TER   J2   A7     "Net-(J2-D--PadA7)"
+.TER       J2   B7
+            U3   4
+
+.ADD_TER   J3   1     "Net-(J3-Pin_1)"
+.TER       U5   5
+
+.ADD_TER   J3   3     "Net-(J3-Pin_3)"
+.TER       R18   1
+            U5   6
+
+.ADD_TER   J3   5     "Net-(J3-Pin_5)"
+.TER       U5   7
+
+.ADD_TER   J3   7     "Net-(J3-Pin_7)"
+.TER       R19   2
+            U5   8
+
+.ADD_TER   J3   9     "Net-(J3-Pin_9)"
+.TER       R40   2
+            U5   9
+
+.ADD_TER   J5   13     "Net-(J5-CEC)"
+.TER       R42   1
+
+.ADD_TER   C21   2     "Net-(J5-CK+)"
+.TER       J5   10
+
+.ADD_TER   C25   2     "Net-(J5-CK-)"
+.TER       J5   12
+
+.ADD_TER   C20   2     "Net-(J5-D0+)"
+.TER       J5   7
+
+.ADD_TER   C24   2     "Net-(J5-D0-)"
+.TER       J5   9
+
+.ADD_TER   C19   2     "Net-(J5-D1+)"
+.TER       J5   4
+
+.ADD_TER   C23   2     "Net-(J5-D1-)"
+.TER       J5   6
+
+.ADD_TER   C18   2     "Net-(J5-D2+)"
+.TER       J5   1
+
+.ADD_TER   C22   2     "Net-(J5-D2-)"
+.TER       J5   3
+
+.ADD_TER   J5   19     "Net-(J5-HPD)"
+.TER       R41   2
+
+.ADD_TER   J5   15     "Net-(J5-SCL)"
+.TER       R43   1
+
+.ADD_TER   J5   16     "Net-(J5-SDA)"
+.TER       R44   1
+
+.ADD_TER   JP1   1     "Net-(JP1-A)"
+.TER       U3   1
+
+.ADD_TER   JP1   2     "Net-(JP1-C)"
+.TER       R4   1
+
+.ADD_TER   JP13   1     "Net-(JP13-A)"
+.TER       R26   1
+
+.ADD_TER   JP2   1     "Net-(JP2-A)"
+.TER       U3   3
+
+.ADD_TER   JP2   2     "Net-(JP2-C)"
+.TER       R5   1
+
+.ADD_TER   R13   2     "Net-(R13-Pad2)"
+.TER       SW2   1
+
+.ADD_TER   R14   2     "Net-(R14-Pad2)"
+.TER       SW3   1
+
+.ADD_TER   J12   4     "Net-(RN1-R1.1)"
+.TER       RN1   1
+            U10   3
+
+.ADD_TER   C40   2     "Net-(RN1-R1.2)"
+.TER       C58   2
+            F1   1
+            J11   7
+            J12   7
+            RN1   5
+            RN1   6
+            RN1   7
+            RN1   8
+            RN2   5
+            RN2   6
+            RN2   7
+            RN2   8
+            RN3   5
+            RN3   6
+            RN3   7
+            RN3   8
+
+.ADD_TER   J12   9     "Net-(RN1-R2.1)"
+.TER       RN1   2
+            U10   1
+
+.ADD_TER   J11   9     "Net-(RN1-R3.1)"
+.TER       RN1   3
+            U9   9
+
+.ADD_TER   J11   4     "Net-(RN1-R4.1)"
+.TER       RN1   4
+            U9   11
+
+.ADD_TER   J11   3     "Net-(RN2-R1.1)"
+.TER       RN2   1
+            U9   13
+
+.ADD_TER   J11   2     "Net-(RN2-R2.1)"
+.TER       RN2   2
+            U9   5
+
+.ADD_TER   J11   6     "Net-(RN2-R3.1)"
+.TER       RN2   3
+            U9   3
+
+.ADD_TER   J11   1     "Net-(RN2-R4.1)"
+.TER       RN2   4
+            U9   1
+
+.ADD_TER   J12   1     "Net-(RN3-R1.1)"
+.TER       RN3   1
+            U10   9
+
+.ADD_TER   J12   6     "Net-(RN3-R2.1)"
+.TER       RN3   2
+            U10   11
+
+.ADD_TER   J12   2     "Net-(RN3-R3.1)"
+.TER       RN3   3
+            U10   13
+
+.ADD_TER   J12   3     "Net-(RN3-R4.1)"
+.TER       RN3   4
+            U10   5
+
+.ADD_TER   C54   1     "Net-(U1-BOOST)"
+.TER       U1   1
+
+.ADD_TER   C51   2     "Net-(U1-EN)"
+.TER       R53   1
+            R8   2
+            U1   4
+
+.ADD_TER   C55   1     "Net-(U1-FB)"
+.TER       R54   1
+            R55   2
+            U1   3
+
+.ADD_TER   C54   2     "Net-(U1-SW)"
+.TER       L3   1
+            U1   6
+
+.ADD_TER   U2   6     "Net-(U2-CLK)"
+.TER       U4   52
+
+.ADD_TER   U2   5     "Net-(U2-DI(IO0))"
+.TER       U4   53
+
+.ADD_TER   U2   2     "Net-(U2-DO(IO1))"
+.TER       U4   55
+
+.ADD_TER   U2   3     "Net-(U2-IO2)"
+.TER       U4   54
+
+.ADD_TER   U2   7     "Net-(U2-IO3)"
+.TER       U4   51
+
+.ADD_TER   R1   2     "Net-(U2-~{CS})"
+.TER       U2   1
+            U4   56
+
+.ADD_TER   R51   1     "Net-(U4-GPIO15)"
+.TER       U4   18
+
+.ADD_TER   R9   1     "Net-(U4-GPIO25)"
+.TER       U4   37
+
+.ADD_TER   C9   2     "Net-(U4-XTAL_IN)"
+.TER       U4   20
+            Y1   3
+
+.ADD_TER   R7   2     "Net-(U4-XTAL_OUT)"
+.TER       U4   21
+
+.ADD_TER   R22   2     "Net-(U5-EXTR)"
+.TER       U5   47
+
+.ADD_TER   U7   3     "Net-(U7-XI)"
+.TER       Y3   1
+
+.ADD_TER   U7   2     "Net-(U7-XO)"
+.TER       Y3   3
+
+.ADD_TER   C36   1     "Net-(U8-BOOST)"
+.TER       U8   1
+
+.ADD_TER   C35   2     "Net-(U8-EN)"
+.TER       R37   1
+            R38   2
+            U8   4
+
+.ADD_TER   C37   1     "Net-(U8-FB)"
+.TER       R39   1
+            R56   2
+            U8   3
+
+.ADD_TER   C36   2     "Net-(U8-SW)"
+.TER       L1   1
+            U8   6
+
+.ADD_TER   R17   1     "Net-(Y2-OUT)"
+.TER       Y2   3
+
+.ADD_TER   U4   29     "SCK"
+.TER       U5   54
+
+.ADD_TER   R52   2     "SD_CLK"
+.TER       U5   83
+
+.ADD_TER   R26   2     "SD_CLK_PI"
+.TER       U4   13
+
+.ADD_TER   J4   3     "SD_CMD"
+.TER       JP12   2
+            R25   2
+            U5   82
+
+.ADD_TER   J4   7     "SD_DAT0"
+.TER       JP11   2
+            R24   2
+            U5   84
+
+.ADD_TER   J4   8     "SD_DAT1"
+.TER       R23   2
+            U5   85
+
+.ADD_TER   J4   1     "SD_DAT2"
+.TER       R28   2
+            U5   80
+
+.ADD_TER   J4   2     "SD_DAT3"
+.TER       JP14   2
+            R27   2
+            U5   81
+
+.ADD_TER   JP12   1     "SD_DI"
+.TER       U4   14
+
+.ADD_TER   JP11   1     "SD_DO"
+.TER       U4   11
+
+.ADD_TER   U4   31     "SPARE"
+.TER       U5   53
+
+.ADD_TER   J1   3     "SWCLK"
+.TER       U4   24
+
+.ADD_TER   J1   1     "SWD"
+.TER       U4   25
+
+.ADD_TER   J3   4     "TCK"
+.TER       R51   2
+
+.ADD_TER   J3   6     "TDI"
+.TER       U4   15
+
+.ADD_TER   J3   8     "TDO"
+.TER       U4   17
+
+.ADD_TER   J3   2     "TMS"
+.TER       U4   16
+
+.ADD_TER   J6   1     "UART_RX"
+.TER       U5   72
+
+.ADD_TER   J6   2     "UART_TX"
+.TER       U5   71
+
+.ADD_TER   JP1   3     "USB D+"
+.TER       U4   4
+            U7   16
+
+.ADD_TER   JP2   3     "USB D-"
+.TER       U4   5
+            U7   15
+
+.ADD_TER   R33   1     "USB LED 1"
+.TER       U7   23
+
+.ADD_TER   R34   1     "USB LED 2"
+.TER       U7   24
+
+.ADD_TER   D10   1     "USB LED 4"
+.TER       D7   2
+            D8   1
+            D9   2
+            R35   1
+            U7   22
+
+.ADD_TER   C41   2     "VCCPLLL"
+.TER       C42   2
+            FB3   2
+            U5   14
+
+.ADD_TER   C43   2     "VCCPLLR"
+.TER       C44   2
+            FB4   2
+            U5   50
+
+.ADD_TER   R20   1     "WS2812"
+.TER       U5   79
+
+.ADD_TER   J3   10     "~{CFG}"
+.TER       U4   32
+
+.ADD_TER   U4   28     "~{CS}"
+.TER       U5   56
+
+.ADD_TER   U4   34     "~{IRQ}"
+.TER       U5   51
+
+.ADD_TER   R29   1     "~{MSPI_CS}"
+.TER       U5   60
+            U6   1
+
+.ADD_TER   R31   1     "~{MSPI_HOLD}"
+.TER       U5   63
+            U6   7
+
+.ADD_TER   R32   1     "~{MSPI_WP}"
+.TER       U5   57
+            U6   3
+
+.ADD_TER   R6   2     "~{RESET}"
+.TER       U4   26
+
+.ADD_TER   JP14   1     "~{SD_CS}"
+.TER       U4   12
+
+.ADD_TER   J4   9     "~{SD_DET}"
+.TER       R36   2
+            U4   9
+
+.END
