@@ -21,3 +21,4 @@ Further minor changes over the existing boards are:
   - MIDI on M5 Stack connector
 
 [Schematic PDF](misterydev20k_sch.pdf)
+[Layout PDF](misterydev20k_board.pdf)	
