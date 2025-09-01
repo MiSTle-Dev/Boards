@@ -22,3 +22,14 @@ Further minor changes over the existing boards are:
 
 [Schematic PDF](misterydev20k_sch.pdf)
 [Layout PDF](misterydev20k_board.pdf)	
+
+## Current state
+
+  - Schematic :white_check_mark:
+  - Initial PCB layout :white_check_mark:
+  - LCSC part mapping :x:
+  - BOM verification :x:
+  - Final PCB layout :x:
+  - FPGA stock :x:
+  - Manufacture :x:
+  - Test :x:
