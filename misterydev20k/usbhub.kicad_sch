@@ -3959,7 +3959,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 90.17 113.03 0)
 			(effects
 				(font
@@ -4035,8 +4044,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 81.28 115.57 0)
+		(property "checked" "once"
+			(at 81.28 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25091"
+			(at 81.28 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,8 +4208,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C70076"
-			(at 196.85 55.88 0)
+		(property "checked" "once"
+			(at 196.85 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C70076"
+			(at 196.85 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4302,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 90.17 118.11 0)
 			(effects
 				(font
@@ -4654,8 +4690,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 81.28 102.87 0)
+		(property "checked" "once"
+			(at 81.28 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25091"
+			(at 81.28 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4784,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 90.17 105.41 0)
 			(effects
 				(font
@@ -4835,7 +4889,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1525"
 			(at 97.79 82.55 0)
 			(effects
 				(font
@@ -4844,7 +4898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "0805"
+		(property "Comment" ""
 			(at 97.79 82.55 0)
 			(effects
 				(font
@@ -4853,7 +4907,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
 			(at 97.79 82.55 0)
 			(effects
 				(font
@@ -4961,7 +5015,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C28323"
+		(property "LCSC Part #" "C52923"
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -4970,7 +5024,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "0805"
+		(property "Comment" "Samsung 25V X5R"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -5165,6 +5228,15 @@
 			)
 		)
 		(property "Comment" "SSOP-28"
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
 			(at 140.97 80.01 0)
 			(effects
 				(font
@@ -5484,7 +5556,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 90.17 100.33 0)
 			(effects
 				(font
@@ -5580,7 +5661,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15850"
+		(property "LCSC Part #" "C15525"
 			(at 105.41 82.55 0)
 			(effects
 				(font
@@ -5589,7 +5670,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "0805"
+		(property "Comment" "Samsung 6.3V X5R"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
 			(at 105.41 82.55 0)
 			(effects
 				(font
@@ -5708,6 +5798,15 @@
 			)
 		)
 		(property "Comment" ""
+			(at 231.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
 			(at 231.14 107.95 0)
 			(effects
 				(font
@@ -5885,7 +5984,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 82.55 82.55 0)
 			(effects
 				(font
@@ -5894,7 +5993,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "checked" "once"
 			(at 82.55 82.55 0)
 			(effects
 				(font
@@ -6000,7 +6099,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C28323"
+		(property "LCSC Part #" "C52923"
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -6009,8 +6108,17 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "0805"
+		(property "Comment" "Samsung 25V X5R"
 			(at 163.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 163.83 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,6 +6244,15 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "9b0e499e-1a24-4e2c-a485-8308475e8e05")
 		)
@@ -6252,6 +6369,15 @@
 			)
 		)
 		(property "Comment" "SMD 3225 4-Pin"
+			(at 168.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
 			(at 168.91 101.6 0)
 			(effects
 				(font
@@ -6423,8 +6549,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 106.68 127 0)
+		(property "checked" "once"
+			(at 106.68 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25117"
+			(at 106.68 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,8 +6643,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
-			(at 113.03 106.68 0)
+		(property "checked" "once"
+			(at 113.03 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
+			(at 113.03 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)

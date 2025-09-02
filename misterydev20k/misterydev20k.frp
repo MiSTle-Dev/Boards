@@ -1,5 +1,5 @@
 .HEA
-.TIM 2025-08-31T15:52:33+0200
+.TIM 2025-09-02T08:38:36+0200
 .APP "Eeschema 9.0.4-9.0.4-0~ubuntu24.04.1"
 .TYP FULL
 
@@ -22,7 +22,7 @@
 .ADD_COM     U1     "SY8113BADC"     "Package_TO_SOT_SMD:TSOT-23-6"
 .ADD_COM     H4     "MountingHole"     "MountingHole:MountingHole_3.2mm_M3"
 .ADD_COM     R9     "560"     "Resistor_SMD:R_0402_1005Metric"
-.ADD_COM     J1     "SWD"     "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+.ADD_COM     J1     "SWD"     "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 .ADD_COM     C52     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     D2     "Mouse"     "LED_SMD:LED_0805_2012Metric"
 .ADD_COM     C8     "1uF"     "Capacitor_SMD:C_0402_1005Metric"
@@ -62,6 +62,7 @@
 .ADD_COM     C46     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     Y2     "27MHz"     "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 .ADD_COM     U6     "W25Q128JVS"     "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+.ADD_COM     TP9     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     C35     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C49     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C50     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
@@ -72,20 +73,25 @@
 .ADD_COM     R37     "47k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C17     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     JP13     "CLK"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-.ADD_COM     C43     "4u7"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C43     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R39     "12k_1%"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C36     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     TP2     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     FB3     "MPZ1608S101"     "Inductor_SMD:L_0603_1608Metric"
 .ADD_COM     C42     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     TP7     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     C47     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C37     "22pF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     TP6     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     C39     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     C4     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C48     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     TP3     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     R52     "22"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     J3     "Jumper_block"     "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 .ADD_COM     JP14     "~{CS}"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 .ADD_COM     C34     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     TP1     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     L1     "3.3uH"     "Inductor_SMD:L_Sunlord_MWSA0402S"
 .ADD_COM     R40     "4k7"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     R18     "4k7"     "Resistor_SMD:R_0402_1005Metric"
@@ -100,10 +106,13 @@
 .ADD_COM     R38     "30k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     JP12     "DI"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 .ADD_COM     C44     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     TP8     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
+.ADD_COM     TP4     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     R17     "22"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C15     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
-.ADD_COM     C41     "4u7"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C41     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R29     "4k7"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     TP5     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     FB4     "MPZ1608S101"     "Inductor_SMD:L_0603_1608Metric"
 .ADD_COM     R22     "10k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     D9     "PORT2"     "LED_SMD:LED_0805_2012Metric"
@@ -133,7 +142,7 @@
 .ADD_COM     R47     "560"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C45     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     SW2     "KEY1"     "Button_Switch_SMD:SW_SPST_TL3342"
-.ADD_COM     RN2     "R_Pack04"     "Resistor_SMD:R_Array_Concave_4x0603"
+.ADD_COM     RN2     "10k"     "Resistor_SMD:R_Array_Concave_4x0603"
 .ADD_COM     U9     "74LCX07"     "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 .ADD_COM     D15     "green"     "LED_SMD:LED_0805_2012Metric"
 .ADD_COM     C18     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
@@ -154,14 +163,14 @@
 .ADD_COM     C21     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C20     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R46     "560"     "Resistor_SMD:R_0402_1005Metric"
-.ADD_COM     R21     "5k1"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R21     "10k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     R23     "10k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     R48     "560"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     D14     "green"     "LED_SMD:LED_0805_2012Metric"
 .ADD_COM     D17     "green"     "LED_SMD:LED_0805_2012Metric"
 .ADD_COM     R27     "10k"     "Resistor_SMD:R_0402_1005Metric"
-.ADD_COM     RN1     "R_Pack04"     "Resistor_SMD:R_Array_Concave_4x0603"
-.ADD_COM     RN3     "R_Pack04"     "Resistor_SMD:R_Array_Concave_4x0603"
+.ADD_COM     RN1     "10k"     "Resistor_SMD:R_Array_Concave_4x0603"
+.ADD_COM     RN3     "10k"     "Resistor_SMD:R_Array_Concave_4x0603"
 .ADD_COM     J11     "Joystick_0"     "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 .ADD_COM     C60     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     D12     "green"     "LED_SMD:LED_0805_2012Metric"
@@ -851,6 +860,33 @@
 
 .ADD_TER   R22   2     "Net-(U5-EXTR)"
 .TER       U5   47
+
+.ADD_TER   TP1   1     "Net-(U5-IOB18B)"
+.TER       U5   32
+
+.ADD_TER   TP7   1     "Net-(U5-IOL29A{slash}GCLKT_6)"
+.TER       U5   10
+
+.ADD_TER   TP8   1     "Net-(U5-IOL29B{slash}GCLKC_6)"
+.TER       U5   11
+
+.ADD_TER   TP9   1     "Net-(U5-IOL45A{slash}LPLL2_T_in)"
+.TER       U5   13
+
+.ADD_TER   TP3   1     "Net-(U5-IOT30B{slash}GCLKC_1)"
+.TER       U5   76
+
+.ADD_TER   TP4   1     "Net-(U5-IOT34A)"
+.TER       U5   75
+
+.ADD_TER   TP5   1     "Net-(U5-IOT44B)"
+.TER       U5   70
+
+.ADD_TER   TP2   1     "Net-(U5-IOT4A)"
+.TER       U5   86
+
+.ADD_TER   TP6   1     "Net-(U5-IOT50A)"
+.TER       U5   69
 
 .ADD_TER   U7   3     "Net-(U7-XI)"
 .TER       Y3   1

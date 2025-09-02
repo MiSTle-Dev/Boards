@@ -7438,6 +7438,24 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 76.2 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
+			(at 76.2 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678633")
 		)
@@ -7551,7 +7569,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 59.69 40.64 0)
 			(effects
 				(font
@@ -7824,7 +7851,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" " C4967"
+		(property "LCSC Part #" "C1525"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
 			(at 133.35 102.87 0)
 			(effects
 				(font
@@ -7966,7 +8002,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "checked" "once"
+			(at 252.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -8042,8 +8087,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 247.65 36.83 0)
+		(property "checked" "once"
+			(at 247.65 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25076"
+			(at 247.65 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,8 +8373,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 186.69 45.72 0)
+		(property "checked" "once"
+			(at 186.69 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,8 +8523,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C163460"
-			(at 52.07 49.53 0)
+		(property "checked" "once"
+			(at 52.07 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C163460"
+			(at 52.07 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,8 +8610,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 107.95 82.55 0)
+		(property "checked" "once"
+			(at 107.95 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 107.95 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8698,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318884"
+		(property "checked" "once"
+			(at 257.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318884"
 			(at 257.81 67.31 0)
 			(effects
 				(font
@@ -8697,6 +8787,24 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678631")
 		)
@@ -8766,7 +8874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack04"
+		(property "Value" "10k"
 			(at 97.536 108.712 90)
 			(effects
 				(font
@@ -8795,6 +8903,24 @@
 		)
 		(property "Description" "4 resistor network, parallel topology"
 			(at 105.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 105.41 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C110924"
+			(at 105.41 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,6 +9073,24 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
 			(at 64.77 125.73 0)
 			(effects
 				(font
@@ -9202,7 +9346,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 59.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 59.69 58.42 0)
 			(effects
 				(font
@@ -9280,8 +9433,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 184.15 43.18 0)
+		(property "checked" "once"
+			(at 184.15 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 184.15 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,8 +9518,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C163460"
-			(at 52.07 76.2 0)
+		(property "checked" "once"
+			(at 52.07 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C163460"
+			(at 52.07 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9432,8 +9603,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 114.3 48.26 0)
+		(property "checked" "once"
+			(at 114.3 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 114.3 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,6 +9684,24 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
 			(at 184.15 134.62 0)
 			(effects
 				(font
@@ -9615,8 +9813,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 191.77 71.12 0)
+		(property "checked" "once"
+			(at 191.77 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 191.77 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9901,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318884"
+		(property "checked" "once"
+			(at 257.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C318884"
 			(at 257.81 82.55 0)
 			(effects
 				(font
@@ -9831,6 +10047,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 267.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" ""
 			(at 267.97 127 0)
 			(effects
 				(font
@@ -10057,7 +10282,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 59.69 67.31 0)
 			(effects
 				(font
@@ -10128,6 +10362,24 @@
 			)
 		)
 		(property "Description" "HDMI type A connector"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C720616"
 			(at 207.01 63.5 0)
 			(effects
 				(font
@@ -10325,6 +10577,24 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678635")
 		)
@@ -10497,8 +10767,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 186.69 60.96 0)
+		(property "checked" "once"
+			(at 186.69 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10573,8 +10852,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 191.77 81.28 0)
+		(property "checked" "once"
+			(at 191.77 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 191.77 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10649,8 +10937,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 191.77 66.04 0)
+		(property "checked" "once"
+			(at 191.77 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 191.77 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,8 +11024,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 186.69 55.88 0)
+		(property "checked" "once"
+			(at 186.69 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10796,6 +11102,24 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
 			(at 64.77 156.21 0)
 			(effects
 				(font
@@ -11110,8 +11434,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 184.15 48.26 0)
+		(property "checked" "once"
+			(at 184.15 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 184.15 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,8 +11519,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 106.68 48.26 0)
+		(property "checked" "once"
+			(at 106.68 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 106.68 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11256,6 +11598,24 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
+			(at 64.77 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 64.77 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
 			(at 64.77 171.45 0)
 			(effects
 				(font
@@ -11433,8 +11793,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 191.77 73.66 0)
+		(property "checked" "once"
+			(at 191.77 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 191.77 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,8 +11880,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 184.15 58.42 0)
+		(property "checked" "once"
+			(at 184.15 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 184.15 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11589,8 +11967,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 184.15 53.34 0)
+		(property "checked" "once"
+			(at 184.15 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 184.15 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11665,8 +12052,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C163460"
-			(at 52.07 40.64 0)
+		(property "checked" "once"
+			(at 52.07 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C163460"
+			(at 52.07 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +12102,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "10k"
 			(at 247.65 44.45 0)
 			(effects
 				(font
@@ -11741,7 +12137,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "checked" "once"
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 251.46 41.91 0)
 			(effects
 				(font
@@ -11817,8 +12222,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 104.14 48.26 0)
+		(property "checked" "once"
+			(at 104.14 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 104.14 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11960,8 +12374,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C163460"
-			(at 52.07 58.42 0)
+		(property "checked" "once"
+			(at 52.07 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C163460"
+			(at 52.07 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12178,7 +12601,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 59.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 59.69 49.53 0)
 			(effects
 				(font
@@ -12264,7 +12696,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 59.69 76.2 0)
 			(effects
 				(font
@@ -12408,8 +12849,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 111.76 48.26 0)
+		(property "checked" "once"
+			(at 111.76 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 111.76 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12515,7 +12965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack04"
+		(property "Value" "10k"
 			(at 112.776 108.712 90)
 			(effects
 				(font
@@ -12544,6 +12994,24 @@
 		)
 		(property "Description" "4 resistor network, parallel topology"
 			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 120.65 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C110924"
+			(at 120.65 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12668,7 +13136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack04"
+		(property "Value" "10k"
 			(at 98.806 153.162 90)
 			(effects
 				(font
@@ -12697,6 +13165,24 @@
 		)
 		(property "Description" "4 resistor network, parallel topology"
 			(at 106.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 106.68 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C110924"
+			(at 106.68 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12856,6 +13342,24 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678638")
 		)
@@ -12953,6 +13457,24 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
 			(at 87.63 120.65 0)
 			(effects
 				(font
@@ -13093,6 +13615,15 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "0"
 			(uuid "39c4c1eb-69d7-4839-8c23-a0a8c428fd8e")
 		)
@@ -13178,6 +13709,24 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
+			(at 76.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 76.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
 			(at 76.2 130.81 0)
 			(effects
 				(font
@@ -13424,6 +13973,24 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b67863b")
 		)
@@ -13529,8 +14096,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 209.55 121.92 0)
+		(property "checked" "once"
+			(at 209.55 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 209.55 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13615,7 +14191,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "checked" "once"
+			(at 59.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
 			(at 59.69 31.75 0)
 			(effects
 				(font
@@ -13825,7 +14410,16 @@
 				)
 			)
 		)
-		(property "LCSC Part #" " C4967"
+		(property "LCSC Part #" "C1525"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
 			(at 142.24 102.87 0)
 			(effects
 				(font
@@ -13903,8 +14497,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C70076"
-			(at 90.17 99.06 0)
+		(property "checked" "once"
+			(at 90.17 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C70076"
+			(at 90.17 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13973,6 +14576,24 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
+			(at 87.63 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 87.63 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
 			(at 87.63 166.37 0)
 			(effects
 				(font
@@ -14152,6 +14773,24 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 265.43 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C105875"
+			(at 265.43 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ec8ad3b-685c-46db-91d0-133a73a8f865")
 		)
@@ -14213,6 +14852,24 @@
 		)
 		(property "Description" ""
 			(at 265.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 265.43 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C105875"
+			(at 265.43 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14430,6 +15087,15 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "17ad943c-1c44-4a15-bdf7-e74bb95e2e26")
 		)
@@ -14523,8 +15189,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 186.69 121.92 0)
+		(property "checked" "once"
+			(at 186.69 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14601,8 +15276,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 186.69 50.8 0)
+		(property "checked" "once"
+			(at 186.69 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14745,8 +15429,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 209.55 34.29 0)
+		(property "checked" "once"
+			(at 209.55 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 209.55 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,8 +15581,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 116.84 48.26 0)
+		(property "checked" "once"
+			(at 116.84 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 116.84 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14964,8 +15666,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C163460"
-			(at 52.07 31.75 0)
+		(property "checked" "once"
+			(at 52.07 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C163460"
+			(at 52.07 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15034,6 +15745,24 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C965555"
 			(at 259.08 36.83 0)
 			(effects
 				(font
@@ -15314,6 +16043,24 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 196.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2927280"
+			(at 196.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6cabff6c-60e2-41a9-8a72-cd37738aa84f")
 		)
@@ -15402,6 +16149,15 @@
 			)
 		)
 		(property "JLCPCB Position Offset" "1,5.5"
+			(at 146.05 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
 			(at 146.05 171.45 0)
 			(effects
 				(font
@@ -15501,8 +16257,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C163460"
-			(at 52.07 67.31 0)
+		(property "checked" "once"
+			(at 52.07 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C163460"
+			(at 52.07 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15577,8 +16342,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 109.22 48.26 0)
+		(property "checked" "once"
+			(at 109.22 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 109.22 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15647,6 +16421,24 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
+			(at 87.63 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 87.63 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -15892,6 +16684,24 @@
 				(hide yes)
 			)
 		)
+		(property "checked" "once"
+			(at 87.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2676034"
+			(at 87.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b67863d")
 		)
@@ -15996,7 +16806,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "checked" "once"
+			(at 252.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
 			(at 252.73 85.09 0)
 			(effects
 				(font

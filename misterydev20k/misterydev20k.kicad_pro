@@ -551,7 +551,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": false
@@ -560,7 +560,7 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -594,12 +594,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
           "show": true
@@ -614,7 +608,7 @@
           "group_by": false,
           "label": "Comment",
           "name": "Comment",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -627,14 +621,20 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "checked",
+          "name": "checked",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": ""
     },
     "connection_grid_size": 50.0,
     "drawing": {

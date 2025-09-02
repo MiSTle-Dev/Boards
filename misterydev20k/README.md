@@ -25,11 +25,12 @@ Further minor changes over the existing boards are:
 
 ## Current state
 
-  - Schematic :white_check_mark:
-  - Initial PCB layout :white_check_mark:
-  - LCSC part mapping :x:
-  - BOM verification :x:
+  - Schematic :heavy_check_mark:
+  - Initial PCB layout :heavy_check_mark:
+  - LCSC part mapping :heavy_check_mark:
+  - BOM verification :heavy_check_mark:
   - Final PCB layout :x:
   - FPGA stock :x:
+  - JLCPCB preparation :x:
   - Manufacture :x:
   - Test :x:

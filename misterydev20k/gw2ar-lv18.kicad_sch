@@ -137,6 +137,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -5031,42 +5138,6 @@
 		(color 0 0 0 0)
 		(uuid "fd28a619-cdc7-426e-98db-36d469c0e0c7")
 	)
-	(no_connect
-		(at 123.19 27.94)
-		(uuid "00b3df2c-fc14-47a0-90e2-d308e2625e47")
-	)
-	(no_connect
-		(at 166.37 27.94)
-		(uuid "07750a5c-2a68-4b28-9998-27f9238f7ffa")
-	)
-	(no_connect
-		(at 148.59 27.94)
-		(uuid "186ddc94-4468-4bc7-bd33-eba4bc732ba9")
-	)
-	(no_connect
-		(at 88.9 92.71)
-		(uuid "4518ba6e-91c9-486e-aef4-fbba7f4948e7")
-	)
-	(no_connect
-		(at 163.83 27.94)
-		(uuid "c4270d99-5e16-497e-9242-f0b5b66b5a94")
-	)
-	(no_connect
-		(at 88.9 85.09)
-		(uuid "d0a97e6b-f21d-4125-8e80-ebc5f94d5075")
-	)
-	(no_connect
-		(at 151.13 27.94)
-		(uuid "e9586c97-b53c-4128-b160-50e553531fe8")
-	)
-	(no_connect
-		(at 88.9 87.63)
-		(uuid "fa5c56a0-f8a6-4c75-95c5-bf4165249ef5")
-	)
-	(no_connect
-		(at 139.7 149.86)
-		(uuid "fabe0bdf-aa82-4123-94af-33d6148f5aae")
-	)
 	(bus_entry
 		(at 78.74 95.25)
 		(size 2.54 2.54)
@@ -9025,7 +9096,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "checked" "once"
+			(at 261.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25900"
 			(at 261.62 130.81 0)
 			(effects
 				(font
@@ -9104,7 +9184,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 38.1 129.54 0)
 			(effects
 				(font
@@ -9248,6 +9337,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2901577"
+			(at 35.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
 			(at 35.56 54.61 0)
 			(effects
 				(font
@@ -9460,7 +9558,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C131025"
+		(property "checked" "once"
+			(at 245.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C131025"
 			(at 245.11 140.97 0)
 			(effects
 				(font
@@ -9969,6 +10076,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "164e54a1-2e7e-44bb-ab61-2a32965a724f")
+		(property "Reference" "TP9"
+			(at 80.645 92.075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 84.3281 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "016b44ae-c5b5-4dba-8502-2d811b83c1ba")
+		)
+		(instances
+			(project "misterydev20k"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 64.77 270)
 		(unit 1)
@@ -10220,7 +10394,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 52.07 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 52.07 179.07 0)
 			(effects
 				(font
@@ -10299,7 +10482,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 64.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 64.77 129.54 0)
 			(effects
 				(font
@@ -10378,7 +10570,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 73.66 129.54 0)
 			(effects
 				(font
@@ -10456,7 +10657,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -10667,7 +10877,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "checked" "once"
+			(at 100.33 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Murata 10V X5R"
+			(at 100.33 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84419"
 			(at 100.33 173.99 0)
 			(effects
 				(font
@@ -10743,7 +10971,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "checked" "once"
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C138044"
 			(at 92.71 179.07 0)
 			(effects
 				(font
@@ -10811,6 +11048,15 @@
 			)
 		)
 		(property "Description" "Gowin GW2AR-LV18 FPGA in QFN88 package"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" ""
 			(at 144.78 88.9 0)
 			(effects
 				(font
@@ -11147,8 +11393,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 41.91 176.53 0)
+		(property "checked" "once"
+			(at 41.91 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 41.91 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +11612,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 170.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 170.18 152.4 0)
 			(effects
 				(font
@@ -11433,6 +11697,15 @@
 				(hide yes)
 			)
 		)
+		(property "checked" ""
+			(at 237.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3868427a-7185-45ee-b0e1-92e4918c7d40")
 		)
@@ -11466,7 +11739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "10uF"
 			(at 63.5 44.45 0)
 			(effects
 				(font
@@ -11502,7 +11775,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "checked" "once"
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Samsung 6.3V X5R"
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
 			(at 57.15 41.91 0)
 			(effects
 				(font
@@ -11545,7 +11836,7 @@
 			)
 		)
 		(property "Value" "VCCPLLL"
-			(at 86.36 92.71 90)
+			(at 85.725 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11709,8 +12000,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 92.71 173.99 0)
+		(property "checked" "once"
+			(at 92.71 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25752"
+			(at 92.71 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11787,8 +12087,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 74.93 171.45 0)
+		(property "checked" "once"
+			(at 74.93 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 74.93 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,6 +12115,73 @@
 			(project "misterydev20k"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "46a8f96a-ec05-409f-9f25-a048d9159f01")
+		(property "Reference" "TP2"
+			(at 123.19 19.685 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 120.65 23.3681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4099ccb-859d-4801-8e6a-226d599ca8af")
+		)
+		(instances
+			(project "misterydev20k"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11863,7 +12239,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107332"
+		(property "checked" "once"
+			(at 53.34 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107332"
 			(at 53.34 24.13 90)
 			(effects
 				(font
@@ -12008,7 +12393,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 67.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 67.31 26.67 0)
 			(effects
 				(font
@@ -12367,6 +12761,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d43f960-2471-426f-bc56-abaeba3aa7cb")
+		(property "Reference" "TP7"
+			(at 80.645 84.455 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 84.3281 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba93e19-2037-4b04-8cbd-788ce8c6fad7")
+		)
+		(instances
+			(project "misterydev20k"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 181.61 0)
 		(unit 1)
@@ -12686,7 +13147,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 46.99 129.54 0)
 			(effects
 				(font
@@ -12764,7 +13234,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 86.36 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1555"
 			(at 86.36 173.99 0)
 			(effects
 				(font
@@ -12783,6 +13262,73 @@
 			(project "misterydev20k"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6500e6c9-fc69-45d8-97f4-aac0c60d56c2")
+		(property "Reference" "TP6"
+			(at 166.37 19.685 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 163.83 23.3681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 171.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73157cdc-f1bb-466d-a773-d0cf37d70a39")
+		)
+		(instances
+			(project "misterydev20k"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -13174,7 +13720,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 105.41 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 105.41 173.99 0)
 			(effects
 				(font
@@ -13253,7 +13808,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 29.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 29.21 129.54 0)
 			(effects
 				(font
@@ -13332,7 +13896,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 55.88 129.54 0)
 			(effects
 				(font
@@ -13351,6 +13924,73 @@
 			(project "misterydev20k"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7190a1c0-4e6f-4ac7-a067-70c03bca5731")
+		(property "Reference" "TP3"
+			(at 148.59 19.685 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 23.3681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3ca9513-35f3-40d6-b046-5dab5eb8a4f2")
+		)
+		(instances
+			(project "misterydev20k"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -13408,8 +14048,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 233.68 41.91 0)
+		(property "checked" "once"
+			(at 233.68 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25092"
+			(at 233.68 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,6 +14126,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C6837606"
 			(at 54.61 77.47 0)
 			(effects
 				(font
@@ -13647,6 +14314,15 @@
 				(hide yes)
 			)
 		)
+		(property "checked" ""
+			(at 237.49 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfad4920-2e3d-4e25-bb74-cdb6a77d2c6c")
 		)
@@ -13716,7 +14392,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 33.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 33.02 176.53 0)
 			(effects
 				(font
@@ -13800,6 +14485,73 @@
 			(project "misterydev20k"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f499f6d-52c6-46e6-9b14-ed7f094d7538")
+		(property "Reference" "TP1"
+			(at 139.065 158.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 142.24 154.4319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08e64791-a07a-4796-bbab-8970381331fb")
+		)
+		(instances
+			(project ""
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -13924,7 +14676,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C408336"
+		(property "checked" "once"
+			(at 82.55 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C408336"
 			(at 82.55 171.45 90)
 			(effects
 				(font
@@ -14067,8 +14828,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 74.93 62.23 0)
+		(property "checked" "once"
+			(at 74.93 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25900"
+			(at 74.93 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14275,7 +15045,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "checked" "once"
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25900"
 			(at 72.39 87.63 0)
 			(effects
 				(font
@@ -14351,8 +15130,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 227.33 25.4 0)
+		(property "checked" "once"
+			(at 227.33 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25092"
+			(at 227.33 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14560,6 +15348,15 @@
 				(hide yes)
 			)
 		)
+		(property "checked" ""
+			(at 237.49 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71b914f4-54d4-425d-a95b-199ef08c9d4f")
 		)
@@ -14627,7 +15424,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "checked" "once"
+			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25900"
 			(at 259.08 130.81 0)
 			(effects
 				(font
@@ -14705,7 +15511,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "checked" "once"
+			(at 26.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Samsung 10V X5R"
+			(at 26.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19702"
 			(at 26.67 176.53 0)
 			(effects
 				(font
@@ -14911,7 +15735,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "checked" "once"
+			(at 232.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
 			(at 232.41 148.59 0)
 			(effects
 				(font
@@ -15055,8 +15888,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 267.97 128.27 0)
+		(property "checked" "once"
+			(at 267.97 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 267.97 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15218,7 +16060,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0156983-5ef4-4f24-ab4e-488f769f0581")
 		(property "Reference" "#PWR058"
 			(at 92.71 90.17 0)
@@ -15230,7 +16071,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 85.09 90.1699 90)
+			(at 84.455 89.535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15329,8 +16170,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 69.85 62.23 0)
+		(property "checked" "once"
+			(at 69.85 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25900"
+			(at 69.85 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15465,6 +16315,24 @@
 			)
 		)
 		(property "Description" "High Efficiency, 500kHz, 3A, 18V Input Synchronous Step Down Regulator"
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 62.23 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C78989"
 			(at 62.23 173.99 0)
 			(effects
 				(font
@@ -15884,7 +16752,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "checked" "once"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C138008"
 			(at 46.99 179.07 0)
 			(effects
 				(font
@@ -16091,6 +16968,15 @@
 				(hide yes)
 			)
 		)
+		(property "checked" ""
+			(at 237.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d471f35-aa7e-4576-b21f-e0eda87917a7")
 		)
@@ -16160,7 +17046,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "checked" "once"
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 67.31 41.91 0)
 			(effects
 				(font
@@ -16179,6 +17074,140 @@
 			(project "misterydev20k"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddcbec79-9ed2-4953-a5d7-70afb13453c3")
+		(property "Reference" "TP8"
+			(at 80.645 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 84.3281 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9e07641-a27a-495d-925f-bf67574e335b")
+		)
+		(instances
+			(project "misterydev20k"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "de36ece5-8eea-4a66-8b39-a64f9dfda057")
+		(property "Reference" "TP4"
+			(at 151.13 19.685 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.59 23.3681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 156.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce641989-5800-4fda-8583-ebdd8e180b41")
+		)
+		(instances
+			(project "misterydev20k"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -16236,8 +17265,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 45.72 54.61 0)
+		(property "checked" "once"
+			(at 45.72 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25092"
+			(at 45.72 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16314,8 +17352,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 27.94 58.42 0)
+		(property "checked" "once"
+			(at 27.94 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 27.94 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16423,7 +17470,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "10uF"
 			(at 63.5 29.21 0)
 			(effects
 				(font
@@ -16459,7 +17506,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "checked" "once"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Samsung 6.3V X5R"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
 			(at 57.15 26.67 0)
 			(effects
 				(font
@@ -16600,7 +17665,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "checked" "once"
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25900"
 			(at 232.41 133.35 0)
 			(effects
 				(font
@@ -16619,6 +17693,73 @@
 			(project "misterydev20k"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5565183-9258-4309-873f-ba57250471a1")
+		(property "Reference" "TP5"
+			(at 163.83 19.685 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.29 23.3681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "382ba1cb-2f80-443c-8c36-203e4466e2a4")
+		)
+		(instances
+			(project "misterydev20k"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -16744,7 +17885,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107332"
+		(property "checked" "once"
+			(at 53.34 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C107332"
 			(at 53.34 39.37 90)
 			(effects
 				(font
@@ -16820,8 +17970,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 207.01 110.49 0)
+		(property "checked" "once"
+			(at 207.01 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 207.01 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
