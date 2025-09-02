@@ -4,6 +4,12 @@ This is a work-in-progress and it will be the first prototype of a
 complete custom board which will not be needing daughter boards
 like the Tang Nano 20k or the Raspberry Pi Pico.
 
+The board features the Gowin GW2AR-LV18QN88C8/I7 FPGA present on the
+Tang Nano 20k and will run the same cores as that device including the
+[NanoMig](http://github.com/MiSTle-Dev/NanoMig) and [MisteryNano](http://github.com/MiSTle-Dev/MiSTeryNano).
+
+This board will be available through [JLCPCBs assembly service](http://jlcpcb.com).
+
 ![Rendering](misterydev20k_board.jpg)
 
 The main objective of this board is to run known-good cores and
