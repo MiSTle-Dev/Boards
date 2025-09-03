@@ -1,5 +1,5 @@
 .HEA
-.TIM 2025-09-02T08:38:36+0200
+.TIM 2025-09-03T11:35:38+0200
 .APP "Eeschema 9.0.4-9.0.4-0~ubuntu24.04.1"
 .TYP FULL
 
@@ -510,36 +510,36 @@
             Y3   4
 
 .ADD_TER   U5   27     "JOYA0"
-.TER       U9   2
+.TER       U9   4
 
 .ADD_TER   U5   28     "JOYA1"
 .TER       U9   6
 
 .ADD_TER   U5   25     "JOYA2"
-.TER       U9   12
+.TER       U9   2
 
 .ADD_TER   U5   26     "JOYA3"
 .TER       U9   10
 
 .ADD_TER   U5   29     "JOYA4"
-.TER       U9   4
+.TER       U9   12
 
 .ADD_TER   U5   30     "JOYA5"
 .TER       U9   8
 
-.ADD_TER   U10   8     "JOYB0"
+.ADD_TER   U10   10     "JOYB0"
 .TER       U5   73
 
 .ADD_TER   U10   12     "JOYB1"
 .TER       U5   74
 
-.ADD_TER   U10   6     "JOYB2"
+.ADD_TER   U10   8     "JOYB2"
 .TER       U5   77
 
 .ADD_TER   U10   4     "JOYB3"
 .TER       U5   31
 
-.ADD_TER   U10   10     "JOYB4"
+.ADD_TER   U10   6     "JOYB4"
 .TER       U5   49
 
 .ADD_TER   U10   2     "JOYB5"
