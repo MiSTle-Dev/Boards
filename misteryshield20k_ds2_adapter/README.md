@@ -1,16 +1,16 @@
 # MisteryShield20k DS2 Adapter / Cable
 
 This site shows how to build and connect an Adapter or an Adapter cable to the **Spare Pin Header J8**  
-of the [MiSTery Nano Midi Shield by Till Harbaum](https://github.com/harbaum/MiSTeryNano/blob/main/board/misteryshield20k/README.md) to use a Playstation Dualshock 2 (DS2) Controller.
+of the [MiSTery Nano Midi Shield by Till Harbaum](https://github.com/MiSTle-Dev/Boards/tree/main/misteryshield20k) to use a Playstation Dualshock 2 (DS2) Controller.
 
 ## Building your own Adapter
-Use the [Gerber](.assets/mistery_ds2_breakout_gerber.zip) Files from the [KiCad](.assets/mistery_ds2_breakout_kicad.zip) MiSTery Shield DS2 Adapter Project 
+Use the [Gerber](https://github.com/MiSTle-Dev/Boards/tree/main/misteryshield20k_ds2_adapter/MiSTery_DS2_Breakout/Gerber) Files from the [KiCad](https://github.com/MiSTle-Dev/Boards/tree/main/misteryshield20k_ds2_adapter/MiSTery_DS2_Breakout) MiSTery Shield DS2 Adapter Project 
 and get some PCBs.  
-![MiStery Shield DS2 PCB](/board/misteryshield20k_ds2_adapter/mistery_shield_ds2_adapter_pcb.png)  
+![MiStery Shield DS2 PCB](mistery_shield_ds2_adapter_pcb.png)  
 
 You need a PS2 Connector and a 4x2 Pin Connector for the PCB.  
 The final result could end up looking like this:  
-![MiStery Shield DS2 build](/board/misteryshield20k_ds2_adapter/mistery_shield_ds2_adapter_build.png)  
+![MiStery Shield DS2 build](mistery_shield_ds2_adapter_build.png)  
   
 **OR**
   
@@ -33,7 +33,7 @@ how to use Dupont terminals.
 Finally double check your Adapter wires to make sure all pins, ***especially the voltage pins***, are at the correct position.
 
 Your adapter could end up looking like this:  
-![ds2_adaptercable](/board/misteryshield20k_ds2_adapter/ds2_adapter_cable.png)
+![ds2_adaptercable](ds2_adapter_cable.png)
 
 If your Adapter cable is finished, make sure you connect it in the correct orientation.  
 See the MiSTery Shield Board Layout (see below) for the correct position of **J8-Pin 1**, which should match **Pin 1** of your cable.  
@@ -42,10 +42,10 @@ Activate the DS2 Controller using **DS2 #1 Joy or DS2 #2 Joy** in the Menu and h
 
 ## Pinouts and Connection Table
 ### Pinout of the Playstation Pad Connector
-![ds2_pinmap](/board/misteryshield20k_ds2_adapter/ps_pad_connector.png)
+![ds2_pinmap](ps_pad_connector.png)
   
 ### Pinout of the MiSTery Shield Pin Header J8
-![ds2_pinmap](/board/misteryshield20k_ds2_adapter/pcb_m0s_j8_pinout.png)
+![ds2_pinmap](pcb_m0s_j8_pinout.png)
 
 ### Connection Table
 |DS2 Connector Pin|DS2 Signal Name|DS2 Function|MiSTery Shield J8 Pin|
