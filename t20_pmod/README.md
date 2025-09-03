@@ -1,33 +1,38 @@
-# MiSTeryNano board
+# T20BGA256 MiSTeryNano PMOD
 
-The MiSTeryNano can be used with off-the-shelf components and
-some breadboard setup.
+![Rendering](t20_pmod_render.jpg)
 
-To simplify this the MiSTeryNano project provides additional
-hardware:
+This is an add-on for the [Efinix T20BGA256 development board](https://www.efinixinc.com/products-devkits-triont20.html). It adds all components needed for a complete MiSTeryNano setup.
 
-  - The [MiSTeryShield20k](misteryshield20k) is a base board for
-  the Tang Nano 20k and the M0S Dock with a DB9 joystick connector and
-  MIDI ports
+  * SD card slot
+  * PMOD connector for use with HDMI PMOD
+  * Raspberry Pi PICO
+  * USB-A host connector
 
-  - The [MiSTeryShield20k lite](misteryshield20k_lite) is also a base
-  board for the Tang Nano 20k. It includes the RP2040 and a USB-A
-  port and is a minimal all-in-one solution for the Tang Nano 20k.
+The board plugs into the ```Bank 1B_1C``` header.
 
-  - The [M0S PMOD](m0s_pmod) allows to use the M0S Dock on a PMOD
-  port as e.g. available on the Tang Primer 25K or the Tang Mega 138K
+![Add-on installed](t20_pmod.jpeg)
 
-  - The [Keyboard](keyboard) design is a tiny 50% Atari ST style keyboard which is meant to become the basis for a Mini Atari ST
+## Components
 
-  - The [T20 PMOD](t20_pmod) is an add-on for the Efinix T20BGA256 development board adding a PMOD for HDMI usage, the SD card slot and a Raspberry Pi PICO incl. USB-A header to it making it a complete MiSTeryNano setup.
+The following additional items are required:
 
-## Related projects
+  * [```Sipeed DVI PMOD```](https://wiki.sipeed.com/hardware/en/tang/tang-PMOD/FPGA_PMOD.html), ```iCESugar HDMi PMOD``` or similar
+  * [USB-A](https://de.aliexpress.com/item/32888479323.html)
+  * [SD-card breakout](https://de.aliexpress.com/item/32799352825.html)
+    * 5x 22ohms 0805 resistors
+    * 1x 100nF and 1x 10uF 0805 capacitor
+  * 90 degree 2x06 pin 2.54mm socket (PMOD connector)
+  * 1x02 and 2x18 pin 2.54 pin socket (to plug into the bank header)
+  * some 2.54mm pin headers or wires
 
-Further hardware is available in related projects:
+## Design files
 
-  - [MiSTeryShield20k RPiPico](https://github.com/vossstef/tang_nano_20k_c64/tree/main/board/misteryshield20k_rpipico) is a board similar to the [MiSTeryShield20k](misteryshield20k) but using a Raspberry Pi Pico instead of the M0S Dock and with a USB hub already built-in
+The board was designed with KiCAD. Ready to used gerber files
+are [provided as well](t20_pmod_gerbers.zip).
 
-  - [PMOD PiZero](https://github.com/vossstef/tang_nano_20k_c64/tree/main/board/pizero_pmod) us a board similar to the [M0S PMOD](m0s_pmod) using a Raspberry Pi Pico compatible RP2040-ZERO board instead of the M0S Dock
+![Schematic](t20_pmod_schematic.png)
 
-  - [MisteryShield20k DS2 Adapter](https://github.com/vossstef/tang_nano_20k_c64/blob/main/board/misteryshield20k_ds2_adapter/misteryshield20k_ds2_adapter_cable.md) is an add-on for the [MiSTeryShield20k](misteryshield20k) allowing to connect Playstation Dualshock 2 Game controllers to it
-  
+[PDF](t20_pmod.pdf)
+
+![PCB](t20_pmod_pcb.png)
