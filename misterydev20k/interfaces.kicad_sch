@@ -6842,7 +6842,7 @@
 		)
 		(uuid "fea11b2e-c61a-408a-a27a-2f22300fafa8")
 	)
-	(label "JOYB2"
+	(label "JOYB4"
 		(at 50.8 166.37 0)
 		(effects
 			(font
@@ -6852,7 +6852,7 @@
 		)
 		(uuid "15099eb9-58fe-4109-b623-5db8a6fa2f2a")
 	)
-	(label "JOYB0"
+	(label "JOYB2"
 		(at 50.8 181.61 0)
 		(effects
 			(font
@@ -6862,7 +6862,7 @@
 		)
 		(uuid "24cd5999-085b-42a2-90e9-cacc9fa42da5")
 	)
-	(label "JOYA2"
+	(label "JOYA4"
 		(at 49.53 120.65 0)
 		(effects
 			(font
@@ -6872,7 +6872,7 @@
 		)
 		(uuid "2f315506-6710-48de-893e-5a40ff2a86b5")
 	)
-	(label "JOYB4"
+	(label "JOYB0"
 		(at 50.8 176.53 0)
 		(effects
 			(font
@@ -6882,7 +6882,7 @@
 		)
 		(uuid "3a55716a-8deb-497d-93fa-8b7db2377d37")
 	)
-	(label "JOYA4"
+	(label "JOYA0"
 		(at 49.53 130.81 0)
 		(effects
 			(font
@@ -7022,7 +7022,7 @@
 		)
 		(uuid "e2cb2998-9e7a-40da-87e7-6e212a8f812f")
 	)
-	(label "JOYA0"
+	(label "JOYA2"
 		(at 49.53 135.89 0)
 		(effects
 			(font
