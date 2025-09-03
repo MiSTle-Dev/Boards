@@ -8,7 +8,7 @@ Features:
 * Status LED's
 * [CERN-OHL-S](https://cern-ohl.web.cern.ch/home) license
 
-PCBA production files for [JLCPCB](https://jlcpcb.com) are availble [here](production).  
+PCBA production files for [JLCPCB](https://jlcpcb.com) are availble [here](Output/production).  
 (Fully assembled boards can orderd based on BOM partlist, excluding the RP2040)  
 
 ![PNG](pico_pmod_3d.png)  
