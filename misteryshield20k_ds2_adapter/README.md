@@ -1,7 +1,7 @@
 # MisteryShield20k DS2 Adapter / Cable
 
 This site shows how to build and connect an Adapter or an Adapter cable to the **Spare Pin Header J8**  
-of the [MiSTery Nano Midi Shield by Till Harbaum](https://github.com/MiSTle-Dev/Boards/tree/main/misteryshield20k) to use a Playstation Dualshock 2 (DS2) Controller.
+of the [MiSTery Nano Midi Shield](https://github.com/MiSTle-Dev/Boards/tree/main/misteryshield20k) to use a Playstation Dualshock 2 (DS2) Controller.
 
 ## Building your own Adapter
 Use the [Gerber](https://github.com/MiSTle-Dev/Boards/tree/main/misteryshield20k_ds2_adapter/MiSTery_DS2_Breakout/Gerber) Files from the [KiCad](https://github.com/MiSTle-Dev/Boards/tree/main/misteryshield20k_ds2_adapter/MiSTery_DS2_Breakout) MiSTery Shield DS2 Adapter Project 
