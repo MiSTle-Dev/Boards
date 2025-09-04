@@ -557,13 +557,13 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
@@ -634,7 +634,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": ""
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -1,5 +1,5 @@
 .HEA
-.TIM 2025-09-03T11:35:38+0200
+.TIM 2025-09-04T10:01:01+0200
 .APP "Eeschema 9.0.4-9.0.4-0~ubuntu24.04.1"
 .TYP FULL
 
@@ -7,6 +7,7 @@
 .ADD_COM     C14     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     U4     "RP2040"     "Sleep-Lib:RP2040-QFN-56"
 .ADD_COM     R55     "3k3_1%"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R57     "560"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C7     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C57     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     C56     "22uF"     "Capacitor_SMD:C_0603_1608Metric"
@@ -112,7 +113,6 @@
 .ADD_COM     C15     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C41     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R29     "4k7"     "Resistor_SMD:R_0402_1005Metric"
-.ADD_COM     TP5     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     FB4     "MPZ1608S101"     "Inductor_SMD:L_0603_1608Metric"
 .ADD_COM     R22     "10k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     D9     "PORT2"     "LED_SMD:LED_0805_2012Metric"
@@ -165,6 +165,7 @@
 .ADD_COM     R46     "560"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     R21     "10k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     R23     "10k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     J8     "EXT_UART"     "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 .ADD_COM     R48     "560"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     D14     "green"     "LED_SMD:LED_0805_2012Metric"
 .ADD_COM     D17     "green"     "LED_SMD:LED_0805_2012Metric"
@@ -321,6 +322,11 @@
 .TER       JP13   2
             R52   1
 
+.ADD_TER   J3   7     "/GW2AR-LV18 FPGA/UART_TX"
+.TER       R19   2
+            R57   2
+            U5   8
+
 .ADD_TER   J13   3     "/USB Hub/USB1_D+"
 .TER       U7   11
 
@@ -383,12 +389,12 @@
 .TER       U5   40
 
 .ADD_TER   J1   5     "DBG RX"
-.TER       U4   3
-            U5   48
+.TER       R57   1
+            U4   3
 
 .ADD_TER   J1   4     "DBG TX"
 .TER       U4   2
-            U5   55
+            U5   70
 
 .ADD_TER   C1   2     "GND"
 .TER       C10   1
@@ -470,6 +476,7 @@
             J7   4
             J7   8
             J7   9
+            J8   3
             R15   2
             R16   2
             R18   2
@@ -572,6 +579,12 @@
 .ADD_TER   R50   1     "LED5"
 .TER       U5   20
 
+.ADD_TER   J6   1     "MIDI_IN"
+.TER       U5   72
+
+.ADD_TER   J6   2     "MIDI_OUT"
+.TER       U5   71
+
 .ADD_TER   U4   27     "MISO"
 .TER       U5   42
 
@@ -584,6 +597,12 @@
 .TER       SW3   2
             U4   36
             U5   87
+
+.ADD_TER   J8   2     "MON_RX"
+.TER       U5   55
+
+.ADD_TER   J8   1     "MON_TX"
+.TER       U5   48
 
 .ADD_TER   U4   30     "MOSI"
 .TER       U5   41
@@ -677,10 +696,6 @@
 
 .ADD_TER   J3   5     "Net-(J3-Pin_5)"
 .TER       U5   7
-
-.ADD_TER   J3   7     "Net-(J3-Pin_7)"
-.TER       R19   2
-            U5   8
 
 .ADD_TER   J3   9     "Net-(J3-Pin_9)"
 .TER       R40   2
@@ -879,9 +894,6 @@
 .ADD_TER   TP4   1     "Net-(U5-IOT34A)"
 .TER       U5   75
 
-.ADD_TER   TP5   1     "Net-(U5-IOT44B)"
-.TER       U5   70
-
 .ADD_TER   TP2   1     "Net-(U5-IOT4A)"
 .TER       U5   86
 
@@ -972,12 +984,6 @@
 
 .ADD_TER   J3   2     "TMS"
 .TER       U4   16
-
-.ADD_TER   J6   1     "UART_RX"
-.TER       U5   72
-
-.ADD_TER   J6   2     "UART_TX"
-.TER       U5   71
 
 .ADD_TER   JP1   3     "USB D+"
 .TER       U4   4

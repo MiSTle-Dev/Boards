@@ -277,7 +277,7 @@
 				(effects
 					(font
 						(size 1.6256 1.6256)
-						(thickness 0.254)
+						(thickness 0.3251)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -298,7 +298,7 @@
 				(effects
 					(font
 						(size 1.6256 1.6256)
-						(thickness 0.254)
+						(thickness 0.3251)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -319,7 +319,7 @@
 				(effects
 					(font
 						(size 1.6256 1.6256)
-						(thickness 0.254)
+						(thickness 0.3251)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -340,7 +340,7 @@
 				(effects
 					(font
 						(size 1.6256 1.6256)
-						(thickness 0.254)
+						(thickness 0.3251)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -365,6 +365,7 @@
 						(bold yes)
 						(color 0 0 0 1)
 					)
+					(justify left)
 				)
 				(uuid "209ce4c8-9ad6-408b-a1a5-0fbb9e2e6328")
 			)
@@ -381,7 +382,7 @@
 				(effects
 					(font
 						(size 1.6256 1.6256)
-						(thickness 0.254)
+						(thickness 0.3251)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -402,7 +403,7 @@
 				(effects
 					(font
 						(size 1.6256 1.6256)
-						(thickness 0.254)
+						(thickness 0.3251)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -423,7 +424,7 @@
 				(effects
 					(font
 						(size 1.6256 1.6256)
-						(thickness 0.254)
+						(thickness 0.3251)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -444,7 +445,7 @@
 				(effects
 					(font
 						(size 1.6256 1.6256)
-						(thickness 0.254)
+						(thickness 0.3251)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -465,7 +466,7 @@
 				(effects
 					(font
 						(size 1.6256 1.6256)
-						(thickness 0.254)
+						(thickness 0.3251)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -490,6 +491,7 @@
 						(bold yes)
 						(color 0 0 0 1)
 					)
+					(justify left)
 				)
 				(uuid "a34af133-c47f-4e87-9901-c3a242f03272")
 			)
@@ -1249,7 +1251,7 @@
 				)
 				(uuid "c94b122f-6cb8-4b7a-b2d6-99417ae1cb7d")
 			)
-			(table_cell ""
+			(table_cell "EXT UART OUT"
 				(exclude_from_sim no)
 				(at 206.502 33.401 0)
 				(size 21.844 3.048)
@@ -1260,7 +1262,7 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.6256 1.6256)
 					)
 					(justify left top)
 				)
@@ -1880,7 +1882,7 @@
 				)
 				(uuid "8dbe7e62-7907-4af5-9e3d-6e1f85934cd4")
 			)
-			(table_cell ""
+			(table_cell "UART_TX"
 				(exclude_from_sim no)
 				(at 100.838 45.593 0)
 				(size 19.812 3.048)
@@ -1897,7 +1899,7 @@
 				)
 				(uuid "dc326400-33b1-4cc1-8d48-77ce296265a9")
 			)
-			(table_cell ""
+			(table_cell "FPGA->MCU"
 				(exclude_from_sim no)
 				(at 120.65 45.593 0)
 				(size 19.812 3.048)
@@ -1908,7 +1910,7 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.6256 1.6256)
 					)
 					(justify left top)
 				)
@@ -2564,7 +2566,7 @@
 				)
 				(uuid "2c2b5f15-055a-4020-8a3a-9fca50e57008")
 			)
-			(table_cell ""
+			(table_cell "EXT UART IN"
 				(exclude_from_sim no)
 				(at 206.502 54.737 0)
 				(size 21.844 3.048)
@@ -2575,7 +2577,7 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.6256 1.6256)
 					)
 					(justify left top)
 				)
@@ -5409,7 +5411,7 @@
 				)
 				(uuid "75603989-823a-4b54-9c5f-bb29906ab650")
 			)
-			(table_cell ""
+			(table_cell "UART_RX"
 				(exclude_from_sim no)
 				(at 184.658 100.457 0)
 				(size 21.844 3.048)
@@ -5426,7 +5428,7 @@
 				)
 				(uuid "3a174bf2-0960-4a3a-8268-0f0853782e29")
 			)
-			(table_cell ""
+			(table_cell "MCU->FPGA"
 				(exclude_from_sim no)
 				(at 206.502 100.457 0)
 				(size 21.844 3.048)
@@ -5437,7 +5439,7 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.6256 1.6256)
 					)
 					(justify left top)
 				)

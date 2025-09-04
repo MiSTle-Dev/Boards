@@ -7283,7 +7283,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 50.8) (xy 226.06 50.8)
+			(xy 222.25 50.8) (xy 226.06 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7523,6 +7523,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f876d8ee-7346-4179-905b-20901054a314")
+	)
+	(wire
+		(pts
 			(xy 200.66 144.78) (xy 203.2 144.78)
 		)
 		(stroke
@@ -7665,7 +7675,7 @@
 	)
 	(global_label "DBG RX"
 		(shape output)
-		(at 223.52 50.8 180)
+		(at 213.36 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7675,7 +7685,7 @@
 		)
 		(uuid "010c58fd-1790-43c6-b332-377029dbcdce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.9319 50.8 0)
+			(at 203.7719 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,6 +9738,91 @@
 			(project ""
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 219.71 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20e3f8ba-4019-4c5a-b6bc-1941c2529715")
+		(property "Reference" "R57"
+			(at 215.646 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560"
+			(at 223.774 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "once"
+			(at 219.71 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C163460"
+			(at 219.71 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0741132b-3e0c-43c1-afba-5116a57212d1")
+		)
+		(pin "2"
+			(uuid "fab97aae-a771-4e51-994d-6e2efca049e3")
+		)
+		(instances
+			(project "misterydev20k"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -17049,7 +17144,7 @@
 				(justify left)
 			)
 		)
-		(pin "MON_RX" input
+		(pin "UART_RX" input
 			(at 226.06 48.26 180)
 			(uuid "c7f457fe-1376-44b0-a657-60cca429f3c4")
 			(effects
@@ -17059,7 +17154,7 @@
 				(justify left)
 			)
 		)
-		(pin "MON_TX" output
+		(pin "UART_TX" output
 			(at 226.06 50.8 180)
 			(uuid "3087b0c8-0e4a-4020-b31c-23308548ccd0")
 			(effects
