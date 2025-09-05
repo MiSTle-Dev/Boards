@@ -29,6 +29,7 @@ FPGA baords providing PMOD ports are include the Tang Primer 20K, Primer 25K, Me
 ## Other boards
   
   - The [T20 PMOD](t20_pmod) is an add-on for the Efinix T20BGA256 development board adding a PMOD for HDMI usage, the SD card slot and a Raspberry Pi PICO incl. USB-A header to it making it a complete MiSTeryNano setup.
+  - The [LVDS2TMDS board](lvds2tmds) is and add-on for the Efinix T20BGA256 development board converting its LVDS outputs to TMDS allowing to drive regular digital video signals
   - The [Atari ST Keyboard](atarist_keyboard) design is a tiny 50% Atari ST style keyboard which is meant to become the basis for a Mini Atari ST
   - [MisteryShield20k DS2 Adapter](misteryshield20k_ds2_adapter) is an add-on for the [MiSTeryShield20k](misteryshield20k) allowing to connect Playstation Dualshock 2 Game controllers to it
 
