@@ -8,7 +8,7 @@ The board features the Gowin GW2AR-LV18QN88C8/I7 FPGA present on the
 Tang Nano 20k and will run the same cores as that device including the
 [NanoMig](http://github.com/MiSTle-Dev/NanoMig) and [MisteryNano](http://github.com/MiSTle-Dev/MiSTeryNano).
 
-This board will be available through [JLCPCBs assembly service](http://jlcpcb.com).
+This board can be manfactured through [JLCPCBs assembly service](http://jlcpcb.com) using the [production data](production).
 
 ![Rendering](misterydev20k_board.jpg)
 
