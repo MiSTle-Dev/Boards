@@ -4871,24 +4871,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" ""
-			(at 97.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 97.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 97.79 82.55 0)
 			(effects
@@ -4989,24 +4971,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 90.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -5201,24 +5165,6 @@
 			)
 		)
 		(property "LCSC Part #" "C5187524"
-			(at 140.97 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 140.97 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
 			(at 140.97 80.01 0)
 			(effects
 				(font
@@ -5643,24 +5589,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" ""
-			(at 105.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 105.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C15525"
 			(at 105.41 82.55 0)
 			(effects
@@ -5771,24 +5699,6 @@
 			)
 		)
 		(property "LCSC Part #" "C456021"
-			(at 231.14 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 231.14 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
 			(at 231.14 107.95 0)
 			(effects
 				(font
@@ -6081,24 +5991,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" ""
-			(at 163.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 163.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C52923"
 			(at 163.83 54.61 0)
 			(effects
@@ -6217,24 +6109,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" ""
-			(at 231.14 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 231.14 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Comment" ""
 			(at 231.14 66.04 0)
 			(effects
@@ -6333,24 +6207,6 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 168.91 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 168.91 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
 			(at 168.91 101.6 0)
 			(effects
 				(font

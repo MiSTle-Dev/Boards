@@ -7712,6 +7712,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 76.2 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678633")
 		)
@@ -9061,6 +9070,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678631")
 		)
@@ -9347,6 +9365,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2676034"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 64.77 125.73 0)
 			(effects
 				(font
@@ -9966,6 +9993,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678634")
 		)
@@ -10262,7 +10298,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d3470ab-5dc6-4d9b-8e2e-bd2b11782fcd")
@@ -10644,6 +10680,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "238239be-1a1b-4797-a1f3-b7bafb2d4eab")
 		)
@@ -10843,6 +10888,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2676034"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -11451,6 +11505,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678636")
 		)
@@ -11939,6 +12002,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2676034"
+			(at 64.77 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 64.77 171.45 0)
 			(effects
 				(font
@@ -12651,7 +12723,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8c019cd7-632b-4932-b608-621917b5f048")
@@ -13754,6 +13826,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678638")
 		)
@@ -13877,6 +13958,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "4e783fc5-12f1-453a-a9d5-fe3d2b678639")
 		)
@@ -13991,25 +14081,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "270"
-			(at 146.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" "1,5.5"
-			(at 146.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "checked" "once"
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "1,5.5"
 			(at 146.05 125.73 0)
 			(effects
 				(font
@@ -14121,6 +14211,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2676034"
+			(at 76.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 76.2 130.81 0)
 			(effects
 				(font
@@ -14377,6 +14476,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2676034"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 64.77 110.49 0)
 			(effects
 				(font
@@ -14988,6 +15096,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2676034"
+			(at 87.63 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 87.63 166.37 0)
 			(effects
 				(font
@@ -16533,25 +16650,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "270"
-			(at 146.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" "1,5.5"
-			(at 146.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "checked" "once"
+			(at 146.05 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 146.05 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "1,5.5"
 			(at 146.05 171.45 0)
 			(effects
 				(font
@@ -16841,6 +16958,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 87.63 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "12d902ca-a3a2-4319-b9f2-16fa32492db6")
 		)
@@ -17088,6 +17214,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2676034"
+			(at 87.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 87.63 135.89 0)
 			(effects
 				(font

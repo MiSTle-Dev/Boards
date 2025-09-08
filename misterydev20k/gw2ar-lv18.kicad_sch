@@ -11190,7 +11190,16 @@
 				(hide yes)
 			)
 		)
-		(property "checked" ""
+		(property "checked" "once"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C9900028472"
 			(at 144.78 88.9 0)
 			(effects
 				(font
@@ -14277,7 +14286,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C6837606"
+		(property "LCSC Part #" "C32713279"
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 54.61 77.47 0)
 			(effects
 				(font

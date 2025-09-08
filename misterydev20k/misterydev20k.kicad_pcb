@@ -2902,7 +2902,7 @@
 		(path "/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/1f0ce8d2-82e9-428d-82b0-dc1a063a67f6/5d3470ab-5dc6-4d9b-8e2e-bd2b11782fcd")
 		(sheetname "/GW2AR-LV18 FPGA/Interfaces/")
 		(sheetfile "interfaces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 3 -3)
 			(end 3 0)
@@ -6958,8 +6958,34 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80342df3-d191-445d-b3ee-9ea8bac75dce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be718c96-792e-48e7-87cc-0dac5f55651b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* DIP*W7.62mm*")
-		(path "/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/1f0ce8d2-82e9-428d-82b0-dc1a063a67f6/ba6600e9-e5aa-4243-a739-fa6cdfbd41fa")
+		(path "/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/1f0ce8d2-82e9-428d-82b0-dc1a063a67f6/7674202b-2963-4150-97e8-41c178501f63")
 		(sheetname "/GW2AR-LV18 FPGA/Interfaces/")
 		(sheetfile "interfaces.kicad_sch")
 		(attr smd)
@@ -13690,6 +13716,32 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd92143c-2d33-41c1-a344-d33125afaf3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0b50367-cdec-4325-98ea-e126f2fa1243")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4efdc316-02c3-46a1-a5f0-22ad44d42146")
 		(sheetname "/")
@@ -16593,6 +16645,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e72dfd20-a2c5-439e-8dcd-ab4c86eea2fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0c8c82c-8d48-49bc-9120-dd22e63760e4")
 			(effects
 				(font
 					(size 1 1)
@@ -22744,7 +22809,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "270"
+		(property "JLCPCB Rotation Offset" "180"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22776,6 +22841,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2c18582-6656-4018-94aa-ac625af4a656")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72064362-040f-4b2b-b308-0534432fb3e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "1,5.5"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45998b96-d746-4385-a416-5d673b54ccef")
 			(effects
 				(font
 					(size 1 1)
@@ -26827,6 +26918,32 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24e674ed-7c75-4f37-8df4-c4a16bf42d74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5ced759-64b8-4a12-a8d5-cb6811f6bb5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "HDMI*A*")
 		(path "/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/1f0ce8d2-82e9-428d-82b0-dc1a063a67f6/635aaa9d-85bf-4876-9934-837b33df18f9")
 		(sheetname "/GW2AR-LV18 FPGA/Interfaces/")
@@ -29445,7 +29562,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "270"
+		(property "JLCPCB Rotation Offset" "180"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29477,6 +29594,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2917d35-8bef-47ae-af41-4ebbfa711553")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ed4d5bf-968e-4589-98af-c68d42c238d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "1,5.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80d58d29-32eb-41e4-9156-3b50125c37b3")
 			(effects
 				(font
 					(size 1 1)
@@ -36667,12 +36810,25 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C6837606"
+		(property "LCSC Part #" "C32713279"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b99ca9ac-ccd1-4587-aec7-25824e563a81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b3fabcd-9c8a-488d-b8fc-aa17e823d970")
 			(effects
 				(font
 					(size 1 1)
@@ -37928,12 +38084,25 @@
 				)
 			)
 		)
-		(property "checked" ""
+		(property "checked" "once"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0faeaed8-b923-45e9-9ba4-3721c0930ba6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C9900028472"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee37bd1e-7313-4a37-a123-965aae7bda7d")
 			(effects
 				(font
 					(size 1 1)
@@ -40417,7 +40586,7 @@
 		(path "/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/1f0ce8d2-82e9-428d-82b0-dc1a063a67f6/8c019cd7-632b-4932-b608-621917b5f048")
 		(sheetname "/GW2AR-LV18 FPGA/Interfaces/")
 		(sheetfile "interfaces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -46047,6 +46216,32 @@
 				)
 			)
 		)
+		(property "JLCPCB Position Offset" "0,-4"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17b3f3f6-df6f-410e-bb45-ebb28c175734")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "0,2"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "442b0629-6c5b-4bac-a70d-dc8a49588db0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/d2af485f-388e-41f2-94e9-d0d182e144e5")
 		(sheetname "/")
@@ -50454,6 +50649,32 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99247be2-2502-471e-bc64-fa353eb349c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87dde391-610f-4d7d-8808-5ddf20e29cd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* DIP*W7.62mm*")
 		(path "/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/1f0ce8d2-82e9-428d-82b0-dc1a063a67f6/af161e6a-eb44-4f5d-95dc-16a770de5217")
 		(sheetname "/GW2AR-LV18 FPGA/Interfaces/")
@@ -53506,6 +53727,18 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "TX RX GND\nDBG UART"
+		(at 135.5 91.5 0)
+		(layer "F.SilkS")
+		(uuid "5ac7dd59-11f4-4f90-88d1-5a56ad93e488")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "SWD\n\nGND\n\nSWC\n\nTX\n\nRX"
