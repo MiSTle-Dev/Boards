@@ -2,9 +2,10 @@
 
 This is a work-in-progress and it will be the first prototype of a
 complete custom board which will not be needing daughter boards
-like the Tang Nano 20k or the Raspberry Pi Pico.
+like the [Tang Nano 20k](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html) or
+the [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html).
 
-The board features the Gowin GW2AR-LV18QN88C8/I7 FPGA present on the
+The board features the [Gowin GW2AR-LV18QN88C8/I7](https://www.gowinsemi.com/en/product/detail/38/) FPGA present on the
 Tang Nano 20k and will run the same cores as that device including the
 [NanoMig](http://github.com/MiSTle-Dev/NanoMig) and [MisteryNano](http://github.com/MiSTle-Dev/MiSTeryNano).
 
@@ -35,8 +36,8 @@ Further minor changes over the existing boards are:
   - Initial PCB layout :heavy_check_mark:
   - LCSC part mapping :heavy_check_mark:
   - BOM verification :heavy_check_mark:
-  - Final PCB layout :x:
-  - FPGA stock :x:
-  - JLCPCB preparation :x:
+  - Final PCB layout :heavy_check_mark:
+  - Prepare JLCPCB [production data](production) :heavy_check_mark:
+  - FPGA [stock](https://jlcpcb.com/partdetail/5794058-GW2AR_LV18QN88C8I7/C9900028472) :x:
   - Manufacture :x:
   - Test :x:
