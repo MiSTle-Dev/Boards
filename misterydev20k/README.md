@@ -1,7 +1,7 @@
 # MiSTeryDev20k
 
 This is a work-in-progress and it will be the first prototype of a
-complete custom board which will not be needing daughter boards
+complete custom board which will *not* be needing daughter boards
 like the [Tang Nano 20k](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html) or
 the [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html).
 
