@@ -1,5 +1,5 @@
 .HEA
-.TIM 2025-09-04T10:01:01+0200
+.TIM 2025-09-10T12:31:59+0200
 .APP "Eeschema 9.0.4-9.0.4-0~ubuntu24.04.1"
 .TYP FULL
 
@@ -61,9 +61,10 @@
 .ADD_COM     R12     "560"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     R32     "4k7"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C46     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     U11     "LY68L6400SLIT"     "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 .ADD_COM     Y2     "27MHz"     "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 .ADD_COM     U6     "W25Q128JVS"     "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-.ADD_COM     TP9     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
+.ADD_COM     TP1     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     C35     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C49     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C50     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
@@ -77,22 +78,17 @@
 .ADD_COM     C43     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R39     "12k_1%"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C36     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
-.ADD_COM     TP2     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     FB3     "MPZ1608S101"     "Inductor_SMD:L_0603_1608Metric"
 .ADD_COM     C42     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
-.ADD_COM     TP7     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     C47     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C37     "22pF"     "Capacitor_SMD:C_0402_1005Metric"
-.ADD_COM     TP6     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     C39     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     C4     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C48     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
-.ADD_COM     TP3     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     R52     "22"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     J3     "Jumper_block"     "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 .ADD_COM     JP14     "~{CS}"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 .ADD_COM     C34     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
-.ADD_COM     TP1     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     L1     "3.3uH"     "Inductor_SMD:L_Sunlord_MWSA0402S"
 .ADD_COM     R40     "4k7"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     R18     "4k7"     "Resistor_SMD:R_0402_1005Metric"
@@ -104,11 +100,11 @@
 .ADD_COM     C27     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R19     "4k7"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     U8     "SY8113BADC"     "Package_TO_SOT_SMD:TSOT-23-6"
+.ADD_COM     C61     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R38     "30k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     JP12     "DI"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 .ADD_COM     C44     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
-.ADD_COM     TP8     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
-.ADD_COM     TP4     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
+.ADD_COM     TP0     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     R17     "22"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C15     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C41     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
@@ -234,6 +230,7 @@
             C59   2
             C6   2
             C60   2
+            C61   1
             C7   1
             C8   1
             D12   2
@@ -262,6 +259,7 @@
             R54   2
             R6   1
             U10   14
+            U11   8
             U2   8
             U4   1
             U4   10
@@ -441,6 +439,7 @@
             C59   1
             C6   1
             C60   1
+            C61   2
             C7   2
             C8   2
             C9   1
@@ -492,6 +491,7 @@
             SW1   1
             U1   2
             U10   7
+            U11   4
             U2   4
             U3   2
             U4   19
@@ -515,6 +515,21 @@
             Y2   2
             Y3   2
             Y3   4
+
+.ADD_TER   U11   6     "HR_CLK"
+.TER       U5   69
+
+.ADD_TER   U11   5     "HR_IO0"
+.TER       U5   75
+
+.ADD_TER   U11   2     "HR_IO1"
+.TER       U5   76
+
+.ADD_TER   U11   3     "HR_IO2"
+.TER       U5   86
+
+.ADD_TER   U11   7     "HR_IO3"
+.TER       U5   10
 
 .ADD_TER   U5   27     "JOYA0"
 .TER       U9   4
@@ -876,29 +891,11 @@
 .ADD_TER   R22   2     "Net-(U5-EXTR)"
 .TER       U5   47
 
-.ADD_TER   TP1   1     "Net-(U5-IOB18B)"
-.TER       U5   32
-
-.ADD_TER   TP7   1     "Net-(U5-IOL29A{slash}GCLKT_6)"
-.TER       U5   10
-
-.ADD_TER   TP8   1     "Net-(U5-IOL29B{slash}GCLKC_6)"
+.ADD_TER   TP0   1     "Net-(U5-IOL29B{slash}GCLKC_6)"
 .TER       U5   11
 
-.ADD_TER   TP9   1     "Net-(U5-IOL45A{slash}LPLL2_T_in)"
+.ADD_TER   TP1   1     "Net-(U5-IOL45A{slash}LPLL2_T_in)"
 .TER       U5   13
-
-.ADD_TER   TP3   1     "Net-(U5-IOT30B{slash}GCLKC_1)"
-.TER       U5   76
-
-.ADD_TER   TP4   1     "Net-(U5-IOT34A)"
-.TER       U5   75
-
-.ADD_TER   TP2   1     "Net-(U5-IOT4A)"
-.TER       U5   86
-
-.ADD_TER   TP6   1     "Net-(U5-IOT50A)"
-.TER       U5   69
 
 .ADD_TER   U7   3     "Net-(U7-XI)"
 .TER       Y3   1
@@ -1024,6 +1021,9 @@
 
 .ADD_TER   U4   28     "~{CS}"
 .TER       U5   56
+
+.ADD_TER   U11   1     "~{HR_CS}"
+.TER       U5   32
 
 .ADD_TER   U4   34     "~{IRQ}"
 .TER       U5   51
