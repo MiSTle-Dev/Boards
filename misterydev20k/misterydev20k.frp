@@ -1,5 +1,5 @@
 .HEA
-.TIM 2025-09-10T12:31:59+0200
+.TIM 2025-09-11T12:26:24+0200
 .APP "Eeschema 9.0.4-9.0.4-0~ubuntu24.04.1"
 .TYP FULL
 
@@ -102,6 +102,7 @@
 .ADD_COM     U8     "SY8113BADC"     "Package_TO_SOT_SMD:TSOT-23-6"
 .ADD_COM     C61     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R38     "30k"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     R58     "4k7"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     JP12     "DI"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 .ADD_COM     C44     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     TP0     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
@@ -257,6 +258,7 @@
             R40   1
             R41   1
             R54   2
+            R58   2
             R6   1
             U10   14
             U11   8
@@ -1022,8 +1024,9 @@
 .ADD_TER   U4   28     "~{CS}"
 .TER       U5   56
 
-.ADD_TER   U11   1     "~{HR_CS}"
-.TER       U5   32
+.ADD_TER   R58   1     "~{HR_CS}"
+.TER       U11   1
+            U5   32
 
 .ADD_TER   U4   34     "~{IRQ}"
 .TER       U5   51
