@@ -3,6 +3,9 @@ some breadboard setup.
 
 To simplify this the MiSTeryNano project provides additional custom designed hardware boards.
 
+These boards are typically to be produced through a service like [JLCPCB](https://jlcpcb.com/). You might
+want to check the [instructions in our wiki](https://github.com/MiSTle-Dev/.github/wiki/JLCPCB-Order).
+
 ## Shields
 Shields are carrier boards that carry one or more off-the-shelf development boards, connect them and provide them with additional peripherals like USB Hubs, MIDI ports, Joystick ports etc.
 
