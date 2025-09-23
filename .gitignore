@@ -3,3 +3,7 @@ fp-info-cache
 *-backups
 *~
 *.bak
+designators.csv
+netlist.ipc
+fabrication-toolkit-options.json
+backups
