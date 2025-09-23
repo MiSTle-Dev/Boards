@@ -1,5 +1,5 @@
 .HEA
-.TIM 2025-09-11T12:26:24+0200
+.TIM 2025-09-23T11:09:46+0200
 .APP "Eeschema 9.0.4-9.0.4-0~ubuntu24.04.1"
 .TYP FULL
 
@@ -63,6 +63,7 @@
 .ADD_COM     C46     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     U11     "LY68L6400SLIT"     "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 .ADD_COM     Y2     "27MHz"     "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+.ADD_COM     C64     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     U6     "W25Q128JVS"     "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 .ADD_COM     TP1     "TestPoint"     "TestPoint:TestPoint_Pad_D1.0mm"
 .ADD_COM     C35     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
@@ -82,20 +83,25 @@
 .ADD_COM     C42     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C47     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C37     "22pF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     C67     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     C39     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     C4     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C48     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R52     "22"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C62     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     J3     "Jumper_block"     "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 .ADD_COM     JP14     "~{CS}"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 .ADD_COM     C34     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C65     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     L1     "3.3uH"     "Inductor_SMD:L_Sunlord_MWSA0402S"
+.ADD_COM     C63     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R40     "4k7"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     R18     "4k7"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     R26     "22"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     JP11     "DO"     "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 .ADD_COM     R31     "4k7"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C33     "10uF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C68     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     R30     "1k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     C27     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R19     "4k7"     "Resistor_SMD:R_0402_1005Metric"
@@ -110,6 +116,7 @@
 .ADD_COM     C15     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C41     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     R29     "4k7"     "Resistor_SMD:R_0402_1005Metric"
+.ADD_COM     C66     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     FB4     "MPZ1608S101"     "Inductor_SMD:L_0603_1608Metric"
 .ADD_COM     R22     "10k"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     D9     "PORT2"     "LED_SMD:LED_0805_2012Metric"
@@ -193,6 +200,11 @@
 .ADD_TER   C37   2     "+1V0"
 .TER       C38   1
             C39   1
+            C62   1
+            C63   2
+            C64   2
+            C65   1
+            C66   1
             FB3   1
             FB4   1
             L1   2
@@ -232,6 +244,8 @@
             C6   2
             C60   2
             C61   1
+            C67   1
+            C68   1
             C7   1
             C8   1
             D12   2
@@ -442,6 +456,13 @@
             C6   1
             C60   1
             C61   2
+            C62   2
+            C63   1
+            C64   1
+            C65   2
+            C66   2
+            C67   2
+            C68   2
             C7   2
             C8   2
             C9   1
