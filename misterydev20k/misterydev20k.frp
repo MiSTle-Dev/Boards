@@ -1,5 +1,5 @@
 .HEA
-.TIM 2025-09-23T11:09:46+0200
+.TIM 2025-09-29T10:21:05+0200
 .APP "Eeschema 9.0.4-9.0.4-0~ubuntu24.04.1"
 .TYP FULL
 
@@ -119,24 +119,15 @@
 .ADD_COM     C66     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
 .ADD_COM     FB4     "MPZ1608S101"     "Inductor_SMD:L_0603_1608Metric"
 .ADD_COM     R22     "10k"     "Resistor_SMD:R_0402_1005Metric"
-.ADD_COM     D9     "PORT2"     "LED_SMD:LED_0805_2012Metric"
-.ADD_COM     R34     "220"     "Resistor_SMD:R_0402_1005Metric"
 .ADD_COM     F2     "500mA"     "Fuse:Fuse_1206_3216Metric"
-.ADD_COM     D10     "PORT1"     "LED_SMD:LED_0805_2012Metric"
-.ADD_COM     R33     "220"     "Resistor_SMD:R_0402_1005Metric"
-.ADD_COM     D8     "PORT3"     "LED_SMD:LED_0805_2012Metric"
 .ADD_COM     C30     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     C29     "1uF"     "Capacitor_SMD:C_0402_1005Metric"
-.ADD_COM     U7     "CH334U"     "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm"
-.ADD_COM     D7     "PORT4"     "LED_SMD:LED_0805_2012Metric"
 .ADD_COM     C31     "10uF"     "Capacitor_SMD:C_0402_1005Metric"
 .ADD_COM     J7     "USB_A_Stacked"     "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
 .ADD_COM     C28     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
-.ADD_COM     C32     "1uF"     "Capacitor_SMD:C_0402_1005Metric"
+.ADD_COM     U12     "CH334R"     "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 .ADD_COM     J13     "USB_A_Stacked"     "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
 .ADD_COM     Y3     "12MHz"     "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-.ADD_COM     R35     "470"     "Resistor_SMD:R_0402_1005Metric"
-.ADD_COM     D11     "ACTIVE"     "LED_SMD:LED_0805_2012Metric"
 .ADD_COM     U10     "74LCX07"     "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 .ADD_COM     D13     "green"     "LED_SMD:LED_0805_2012Metric"
 .ADD_COM     C58     "100nF"     "Capacitor_SMD:C_0402_1005Metric"
@@ -316,8 +307,8 @@
             R37   2
             R53   2
             U1   5
+            U12   12
             U3   5
-            U7   20
             U8   5
 
 .ADD_TER   J2   A5     "/CC1"
@@ -342,28 +333,28 @@
             U5   8
 
 .ADD_TER   J13   3     "/USB Hub/USB1_D+"
-.TER       U7   11
+.TER       U12   8
 
 .ADD_TER   J13   2     "/USB Hub/USB1_D-"
-.TER       U7   10
+.TER       U12   7
 
 .ADD_TER   J13   7     "/USB Hub/USB2_D+"
-.TER       U7   9
+.TER       U12   6
 
 .ADD_TER   J13   6     "/USB Hub/USB2_D-"
-.TER       U7   8
+.TER       U12   5
 
 .ADD_TER   J7   3     "/USB Hub/USB3_D+"
-.TER       U7   7
+.TER       U12   4
 
 .ADD_TER   J7   2     "/USB Hub/USB3_D-"
-.TER       U7   6
+.TER       U12   3
 
 .ADD_TER   J7   7     "/USB Hub/USB4_D+"
-.TER       U7   5
+.TER       U12   2
 
 .ADD_TER   J7   6     "/USB Hub/USB4_D-"
-.TER       U7   4
+.TER       U12   1
 
 .ADD_TER   R1   1     "/~{USB_BOOT}"
 .TER       SW1   2
@@ -427,7 +418,6 @@
             C3   2
             C30   1
             C31   1
-            C32   1
             C33   2
             C34   2
             C35   1
@@ -515,6 +505,7 @@
             U1   2
             U10   7
             U11   4
+            U12   14
             U2   4
             U3   2
             U4   19
@@ -528,9 +519,6 @@
             U5   68
             U5   89
             U6   4
-            U7   1
-            U7   12
-            U7   28
             U8   2
             U9   7
             Y1   2
@@ -662,20 +650,6 @@
 .ADD_TER   D1   2     "Net-(D1-A)"
 .TER       R9   2
 
-.ADD_TER   D10   2     "Net-(D10-A)"
-.TER       D9   1
-            R34   2
-
-.ADD_TER   C30   2     "Net-(D11-A)"
-.TER       C31   2
-            C32   2
-            D11   2
-            U7   13
-            U7   21
-
-.ADD_TER   D11   1     "Net-(D11-K)"
-.TER       R35   2
-
 .ADD_TER   D12   1     "Net-(D12-K)"
 .TER       R45   2
 
@@ -706,10 +680,6 @@
 .ADD_TER   D5   3     "Net-(D5-DIN)"
 .TER       R20   2
             R21   2
-
-.ADD_TER   D7   1     "Net-(D7-K)"
-.TER       D8   2
-            R33   2
 
 .ADD_TER   F2   1     "Net-(J13-VBUS1)"
 .TER       J13   1
@@ -879,6 +849,16 @@
 .TER       L3   1
             U1   6
 
+.ADD_TER   C30   2     "Net-(U12-VDD33_{LDO})"
+.TER       C31   2
+            U12   13
+
+.ADD_TER   U12   16     "Net-(U12-XI)"
+.TER       Y3   3
+
+.ADD_TER   U12   15     "Net-(U12-XO)"
+.TER       Y3   1
+
 .ADD_TER   U2   6     "Net-(U2-CLK)"
 .TER       U4   52
 
@@ -919,12 +899,6 @@
 
 .ADD_TER   TP1   1     "Net-(U5-IOL45A{slash}LPLL2_T_in)"
 .TER       U5   13
-
-.ADD_TER   U7   3     "Net-(U7-XI)"
-.TER       Y3   1
-
-.ADD_TER   U7   2     "Net-(U7-XO)"
-.TER       Y3   3
 
 .ADD_TER   C36   1     "Net-(U8-BOOST)"
 .TER       U8   1
@@ -1006,25 +980,12 @@
 .TER       U4   16
 
 .ADD_TER   JP1   3     "USB D+"
-.TER       U4   4
-            U7   16
+.TER       U12   11
+            U4   4
 
 .ADD_TER   JP2   3     "USB D-"
-.TER       U4   5
-            U7   15
-
-.ADD_TER   R33   1     "USB LED 1"
-.TER       U7   23
-
-.ADD_TER   R34   1     "USB LED 2"
-.TER       U7   24
-
-.ADD_TER   D10   1     "USB LED 4"
-.TER       D7   2
-            D8   1
-            D9   2
-            R35   1
-            U7   22
+.TER       U12   10
+            U4   5
 
 .ADD_TER   C41   2     "VCCPLLL"
 .TER       C42   2

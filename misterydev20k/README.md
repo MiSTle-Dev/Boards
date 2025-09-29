@@ -38,6 +38,6 @@ Further minor changes over the existing boards are:
   - BOM verification :heavy_check_mark:
   - Final PCB layout :heavy_check_mark:
   - Prepare JLCPCB [production data](production) :heavy_check_mark:
-  - FPGA [stock](https://jlcpcb.com/partdetail/5794058-GW2AR_LV18QN88C8I7/C9900028472)  :heavy_check_mark:
-  - Manufacture :x:
+  - FPGA [stock](https://jlcpcb.com/partdetail/5794058-GW2AR_LV18QN88C8I7/C9900028472) :heavy_check_mark:
+  - Order placed :heavy_check_mark:
   - Test :x:
