@@ -47,4 +47,5 @@ FPGA baords providing PMOD ports are include the Tang Primer 20K, Primer 25K, Me
 Further hardware is available in related projects:
 
   - [MisteryNano Case](https://github.com/prcoder-1/MiSTeryNano-Case) is a 3d printable case design for the bare Tang Nano 20k (no shields) with room and mounting instructions for expansion connectors and an optional M0S Dock
-  
+  - [Nano-Hub](https://github.com/Mangerrione/Nano-Hub), a Tang Nano 20k sized USB Hub
+  - [Nano-Box](https://github.com/Mangerrione/Nano-Box), a Amiga themed case for the NanoMig
