@@ -42,4 +42,17 @@ Further minor changes over the existing boards are:
   - Order placed :heavy_check_mark:
   - Order shipped :heavy_check_mark:
   - Order stuck in customs :heavy_check_mark:	
-  - Test :x:
+  - Boards arrived :heavy_check_mark:	
+  - Test
+    - Power consumption :heavy_check_mark:
+    - Voltage rails :heavy_check_mark:
+    - RP2040 :heavy_check_mark:
+    - USB hub :heavy_check_mark:
+    - FPGA detection via external JTAG :heavy_check_mark:
+    - FPGA SRAM programming
+    - FPGA flash programming
+    - FPGA LEDs
+    - HDMI
+    - ...
+
+![Photo](misterydev20k_photo.jpg)
