@@ -55,7 +55,14 @@ Further minor changes over the existing boards are:
     - FPGA LEDs :heavy_check_mark:
     - WS2812 :x:
       - Supply is 3.3V, should be 5V
-    - HDMI
+    - HDMI :heavy_check_mark:
+    - FPGA/RP2040 link
+    - DB9 Joysticks
+    - HyperRAM
+    - RP2040 JTAG
+    - FPGA access to SD card
+    - RP2040 access to SD card
+    - M5 UART/MIDI port
     - ...
 
 ![Photo](misterydev20k_photo.jpg)
