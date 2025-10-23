@@ -49,9 +49,12 @@ Further minor changes over the existing boards are:
     - RP2040 :heavy_check_mark:
     - USB hub :heavy_check_mark:
     - FPGA detection via external JTAG :heavy_check_mark:
-    - FPGA SRAM programming
-    - FPGA flash programming
-    - FPGA LEDs
+    - FPGA SRAM programming :heavy_check_mark:
+    - FPGA flash programming :x:
+      - 16Mbit installed, should be 64MBit
+    - FPGA LEDs :heavy_check_mark:
+    - WS2812 :x:
+      - Supply is 3.3V, should be 5V
     - HDMI
     - ...
 
