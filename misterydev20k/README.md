@@ -42,27 +42,9 @@ Further minor changes over the existing boards are:
   - Order placed :heavy_check_mark:
   - Order shipped :heavy_check_mark:
   - Order stuck in customs :heavy_check_mark:	
-  - Boards arrived :heavy_check_mark:	
-  - Test
-    - Power consumption :heavy_check_mark:
-    - Voltage rails :heavy_check_mark:
-    - RP2040 :heavy_check_mark:
-    - USB hub :heavy_check_mark:
-    - FPGA detection via external JTAG :heavy_check_mark:
-    - FPGA SRAM programming :heavy_check_mark:
-    - FPGA flash programming :x:
-      - 16Mbit installed, should be 64MBit
-    - FPGA LEDs :heavy_check_mark:
-    - WS2812 :x:
-      - Supply is 3.3V, should be 5V
-    - HDMI :heavy_check_mark:
-    - FPGA/RP2040 link
-    - DB9 Joysticks
-    - HyperRAM
-    - RP2040 JTAG
-    - FPGA access to SD card
-    - RP2040 access to SD card
-    - M5 UART/MIDI port
-    - ...
+  - Boards arrived :heavy_check_mark:
+  - Basic 90% function test using Atari ST core :heavy_check_mark:
+  - Extensive testing
+  - New features
 
 ![Photo](misterydev20k_photo.jpg)
