@@ -47,4 +47,10 @@ Further minor changes over the existing boards are:
   - Extensive testing
   - New features
 
+Issues on V1.0:
+  - WS2812 should be powered by 5V. 3.3V is out of spec, but works
+  - JLCPCB BOM contains 16MBit flash for Pico and FPGA, at least FPGA
+    should be 64MBit
+  - Pico debug header labels on PCB are in reverse order
+
 ![Photo](misterydev20k_photo.jpg)
