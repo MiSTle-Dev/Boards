@@ -17,15 +17,15 @@ The main objective of this board is to run known-good cores and
 firmware and test a few features that couldn't be implemented and
 tested with the Tang Nano 20k. These include:
 
-  - Use the RP2040 for JTAG programming of the FPGA
+  - Use the RP2040 for JTAG programming of the FPGA :heavy_check_mark:
   - Additional access to the SD card directly from the RP2040
     - Boot the FPGA from SD card
   - Optionally use the RP2040's native USB via the USB Hub
 
 Further minor changes over the existing boards are:
 
-  - Two DB9 joysticks
-  - MIDI on M5 Stack connector
+  - Two DB9 joysticks :heavy_check_mark: 
+  - MIDI on M5 Stack connector :heavy_check_mark:
 
 [Schematic PDF](misterydev20k_sch.pdf)
 [Layout PDF](misterydev20k_board.pdf)	
@@ -44,7 +44,7 @@ Further minor changes over the existing boards are:
   - Order stuck in customs :heavy_check_mark:	
   - Boards arrived :heavy_check_mark:
   - Basic 90% function test using Atari ST core :heavy_check_mark:
-  - Extensive testing
+  - Extensive testing :heavy_check_mark:
   - New features
 
 Issues on V1.0:
