@@ -19,12 +19,12 @@ tested with the Tang Nano 20k. These include:
 
   - Use the RP2040 for JTAG programming of the FPGA :heavy_check_mark:
     - Using openFPGAloader :heavy_check_mark:
-    - Using Gowin Garphical Programmer :heavy_check_mark:
+    - Using Gowin Graphical Programmer :heavy_check_mark:
     - Using Gowin Programmer CLI :heavy_check_mark:
     - Extensive analysis and debugging of USB/JTAG commands as they pass the rp2040 :heavy_check_mark:
   - Additional access to the SD card directly from the RP2040 :heavy_check_mark:
     - SPI access is not possible since the SD card cannot return into SD card mode for FPGA usage
-    - 1-bit SD mode work via software bitbang and achieves ~700kBytes/s
+    - 1-bit SD mode work via software bitbang and achieves ~700kBytes/s :heavy_check_mark:
   - Control the FPGA directly from the RP2040 :heavy_check_mark:
     - Boot the FPGA from ```.fs``` file from SD card :heavy_check_mark:
     - Boot the FPGA from ```.bin``` file from SD card :wrench:
