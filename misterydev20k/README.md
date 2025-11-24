@@ -27,7 +27,7 @@ tested with the Tang Nano 20k. These include:
     - 1-bit SD mode work via software bitbang and achieves ~700kBytes/s
   - Control the FPGA directly from the RP2040 :heavy_check_mark:
     - Boot the FPGA from ```.fs``` file from SD card :heavy_check_mark:
-    - Boot the FPGA from ```.bin``` file from SD card
+    - Boot the FPGA from ```.bin``` file from SD card :wrench:
     - Boot the FPGA from compressed ```.bin.gz``` file from SD card
   - Optionally use the RP2040's native USB via the USB Hub
 
@@ -54,12 +54,13 @@ Further minor improvements over the existing boards are:
   - Boards arrived :heavy_check_mark:
   - Basic 90% function test using Atari ST core :heavy_check_mark:
   - Extensive testing :heavy_check_mark:
-  - New features
+  - New features :wrench:
 
 Issues on V1.0:
   - WS2812 should be powered by 5V. 3.3V is out of spec, but works
   - JLCPCB BOM contains 16MBit flash for Pico and FPGA, at least FPGA
     should be 64MBit
   - Pico debug header labels on PCB are in reverse order
+  - Pico most not SD card in SPI mode. 1-bit SD mode does work. Also allow for 4 bit SD
 
 ![Photo](misterydev20k_photo.jpg)
