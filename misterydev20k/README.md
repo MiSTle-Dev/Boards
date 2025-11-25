@@ -27,8 +27,8 @@ tested with the Tang Nano 20k. These include:
     - 1-bit SD mode work via software bitbang and achieves ~700kBytes/s :heavy_check_mark:
   - Control the FPGA directly from the RP2040 :heavy_check_mark:
     - Boot the FPGA from ```.fs``` file from SD card :heavy_check_mark:
-    - Boot the FPGA from ```.bin``` file from SD card :wrench:
-    - Boot the FPGA from compressed ```.bin.gz``` file from SD card
+    - Boot the FPGA from ```.bin``` file from SD card :heavy_check_mark:
+  - Test SPI PSRAM
   - Optionally use the RP2040's native USB via the USB Hub
 
 Further minor improvements over the existing boards are:
