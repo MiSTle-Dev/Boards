@@ -98,12 +98,15 @@ always @(posedge clk_pixel)
 wire is_cursor = (vcnt[9:4] == cursor_y) && (hcntD2[9:3] == cursor_x) && cursor_blink_counter[24];
 
 wire pixel = fontrom_dout[3'd7 - hcntD2[2:0]] ^ is_cursor;
-wire [23:0] pixel_rgb = pixel?24'hffffff:24'h000000;
 
 // jtag byte rx interface
 reg [7:0] jtag_rx_byte;          // (non-zero) byte received via JTAG
 reg jtag_rx_toggle;              // toggle whenever a new byte has been received
 reg jtag_tx_toggle;              // toggle whenever a new byte has been sent
+
+// the text is only active if it's being driven via JTAG
+reg [31:0] text_active_counter;
+wire text_overlay_active = text_active_counter != 0;
 
 always @(posedge clk_pixel) begin
     reg [7:0] init_cnt;
@@ -129,9 +132,14 @@ always @(posedge clk_pixel) begin
         tx_wptr <= 4'd0;
         tx_rptr <= 4'd0;
         tx_cnt <= 8'd255;
+
+        text_active_counter <= 32'd0;
     end else begin
         logic init;
         init = init_cnt < 52;   // init message is 52 characters long
+
+        if(text_active_counter)
+            text_active_counter <= text_active_counter - 32'd1;
 
         // todo: clear video mem after reset. Currently it's all zero which is ok, since
         // in the font, the zero character is blank
@@ -142,6 +150,7 @@ always @(posedge clk_pixel) begin
         if(jtag_rx_toggleD ^ jtag_rx_toggleD2) begin
             rx_fifo[rx_wptr] <= jtag_rx_byte;
             rx_wptr <= rx_wptr + 4'd1;
+            text_active_counter <= 32'd100_000_000;
         end
 
         // bring jtag_tx_toggle into the local clock domain and act on its change
@@ -194,6 +203,48 @@ always @(posedge clk_pixel) begin
         // delayed hcnt for later processing after ram/font rom has been read
         hcntD <= hcnt;
         hcntD2 <= hcntD;
+    end
+end
+
+// ---------------------- background image -------------------------
+
+// the image comes with a colormap and rle encoded data as generated
+// by image_encoder.py
+
+reg [23:0] colormap[537];
+   initial $readmemh("mistle_cmap.mem", colormap);
+
+reg [17:0] image_data[16812];
+   initial $readmemh("mistle.mem", image_data);
+
+reg [16:0] image_rom_addr;
+reg [17:0] image_rom_data;   
+
+// overlay image with text
+reg [23:0] pixel_image;
+
+wire [23:0] pixel_image_light = { 
+    3'b111, pixel_image[23:19],
+    3'b111, pixel_image[15:11],
+    3'b111, pixel_image[7:3] };
+
+wire [23:0] pixel_rgb = text_overlay_active?(pixel?24'h000000:pixel_image_light):pixel_image;
+
+always @(posedge clk_pixel) begin
+    // reset rom address after active image area
+    if(vcnt == 480 && hcnt == 0) begin
+        image_rom_addr <= 17'd0;
+        image_rom_data <= image_data[0];
+    end else begin
+        if(hcnt < 640 && vcnt < 480) begin
+            if(image_rom_data[7:0])
+                image_rom_data[7:0] <= image_rom_data[7:0] - 8'd1;
+            else begin
+                image_rom_addr <= image_rom_addr + 17'd1;                
+                image_rom_data <= image_data[image_rom_addr + 17'd1];
+            end
+        end
+        pixel_image <= colormap[image_rom_data[17:8]];
     end
 end
 
@@ -260,9 +311,8 @@ always @(posedge tck_o or posedge reset) begin
         // this demo uses user1 (ir == 0x42) only.
         // It may additionally use user2 (ir == 0x43)
         if(enable_er1_o) begin
-
             if(shift_dr_capture_dr_o) begin
-                jtag_rx_byte <= { jtag_rx_byte[6:0], tdi_o };            // shift serial JTAG data in
+                jtag_rx_byte <= { jtag_rx_byte[6:0], tdi_o };          // shift serial JTAG data in
                 bit_cnt <= bit_cnt  + 8'd1;                            // count bits
 
                 // one complete byte received: trigger fifo write. Ignore any 0 bytes received
@@ -271,7 +321,6 @@ always @(posedge tck_o or posedge reset) begin
 
                 if(bit_cnt[2:0] == 3'd7 && (tx_rptr != tx_wptr))
                     jtag_tx_toggle <= !jtag_tx_toggle;                    
-
             end 
 
             // the number of bits received may not have been a multiple of 8 ...
