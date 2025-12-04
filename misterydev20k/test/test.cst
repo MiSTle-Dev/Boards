@@ -12,14 +12,15 @@ IO_PORT "leds_n[1]" PULL_MODE=UP DRIVE=4 IO_TYPE=LVCMOS33;
 IO_LOC "leds_n[0]" 15;
 IO_PORT "leds_n[0]" PULL_MODE=UP DRIVE=4 IO_TYPE=LVCMOS33;
 
-//IO_LOC "tck_pad_i" 6;
-//IO_PORT "tck_pad_i" IO_TYPE=LVCMOS33;
-//IO_LOC "tms_pad_i" 5;
-//IO_PORT "tms_pad_i" IO_TYPE=LVCMOS33;
-//IO_LOC "tdi_pad_i" 7;
-//IO_PORT "tdi_pad_i" IO_TYPE=LVCMOS33;
-//IO_LOC "tdo_pad_o" 8;
-//IO_PORT "tdo_pad_o" IO_TYPE=LVCMOS33;
+// these are actually wired up magically internally
+//IO_LOC "tck" 6;
+//IO_PORT "tck" IO_TYPE=LVCMOS33;
+//IO_LOC "tms" 5;
+//IO_PORT "tms" IO_TYPE=LVCMOS33;
+//IO_LOC "tdi" 7;
+//IO_PORT "tdi" IO_TYPE=LVCMOS33;
+//IO_LOC "tdo" 8;
+//IO_PORT "tdo" IO_TYPE=LVCMOS33;
 
 // digital video
 IO_LOC "tmds_clk_p" 33,34;
@@ -30,6 +31,20 @@ IO_LOC "tmds_d_p[1]" 37,38;
 IO_PORT "tmds_d_p[1]" PULL_MODE=NONE DRIVE=8;
 IO_LOC "tmds_d_p[2]" 39,40;
 IO_PORT "tmds_d_p[2]" PULL_MODE=NONE DRIVE=8;
+
+// SPI PSRAM
+IO_LOC "psram_csn" 32;
+IO_PORT "psram_csn" IO_TYPE=LVCMOS33;
+IO_LOC "psram_clk" 69;
+IO_PORT "psram_clk" IO_TYPE=LVCMOS33;
+IO_LOC "psram_io[0]" 75;
+IO_PORT "psram_io[0]" IO_TYPE=LVCMOS33;
+IO_LOC "psram_io[1]" 76;
+IO_PORT "psram_io[1]" IO_TYPE=LVCMOS33;
+IO_LOC "psram_io[2]" 86;
+IO_PORT "psram_io[2]" IO_TYPE=LVCMOS33;
+IO_LOC "psram_io[3]" 10;
+IO_PORT "psram_io[3]" IO_TYPE=LVCMOS33;
 
 // ws2812 led
 IO_LOC "ws2812" 79;

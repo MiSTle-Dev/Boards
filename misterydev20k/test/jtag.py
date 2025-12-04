@@ -3,6 +3,7 @@
 
 from pyftdi.jtag import JtagEngine
 from pyftdi.bits import BitSequence
+import time
 
 def detect_fpga(jtag):
     jtag.change_state('shift_dr')
@@ -10,12 +11,24 @@ def detect_fpga(jtag):
     print(f'idcode: 0x{int(out):08x}')
     return int(out) == 0x81b
 
-def enter_user_cmd(jtag):
-    # enter user1 command (0x42) into JTAG ir
+def set_cmd(jtag, cmd):
     jtag.change_state('shift_ir')
-    jtag.shift_and_update_register(BitSequence(0x42, msb=True, length=8))
+    jtag.shift_and_update_register(BitSequence(cmd, length=8))
 
-def send_user1_text(jtag, str):
+def setup_cmd(jtag, cmd, addr = None, extra = None):
+    jtag.change_state('shift_dr')
+    jtag.shift_register(BitSequence(cmd, length=8))
+    if addr != None: jtag.shift_register(BitSequence(addr[0], length=addr[1]))
+    if extra != None: jtag.shift_register(BitSequence(None, length=extra))
+        
+def data_tx(jtag, data, len=8):
+    jtag.shift_and_update_register(BitSequence(data, length=len))
+
+def data_rx(jtag, len=8):
+    rx = jtag.shift_and_update_register(BitSequence(None, length=len))
+    return rx.tobytes(msby=True)
+
+def text(jtag, str):
     print("Sending:", str.strip("\n"))
     
     # append some zero bytes, so the FPGA gets a chance to react on the last character
@@ -23,13 +36,24 @@ def send_user1_text(jtag, str):
     
     # prepare tranmission into data register
     jtag.change_state('shift_dr')
-    bits = BitSequence(bytes_=str.encode("latin1"), msb=True)
+    bits = BitSequence(bytes_=str.encode("latin1"), msb=False)
     out = jtag.shift_and_update_register(bits)
-
+    
     # check for non-zero bytes in the reply and print them
     print("Received:", ''.join([chr(char) if char else '' for char in out.tobytes(msby=True)]).strip("\n"))
-    # jtag.go_idle()
-        
+    
+def hexdump(data: bytes, extra_offset=0):
+    def to_printable_ascii(byte):
+        return chr(byte) if 32 <= byte <= 126 else "."
+
+    offset = 0
+    while offset < len(data):
+        chunk = data[offset : offset + 16]
+        hex_values = " ".join(f"{byte:02x}" for byte in chunk)
+        ascii_values = "".join(to_printable_ascii(byte) for byte in chunk)
+        print(f"{offset+extra_offset:08x}  {hex_values:<48}  |{ascii_values}|")
+        offset += 16
+    
 if __name__ == '__main__':
     # gowin has JTAG on ft2232 port a
     jtag = JtagEngine(trst=True, frequency=1E6)
@@ -40,5 +64,43 @@ if __name__ == '__main__':
     if not detect_fpga(jtag):
         print("No GW2AR-LV18 FPGA detected")
     else:
-        enter_user_cmd(jtag)
-        send_user1_text(jtag, "This text is being sent via JTAG\n")
+        # --- gao#1/0x42 is used for text IO ---
+        set_cmd(jtag, 0x42)
+        text(jtag, "This text is being sent via JTAG\n")
+
+        # --- gao#2/0x43 is used for debug IO ---
+        set_cmd(jtag, 0x43)
+
+        # drive leds on/off/on/off/on/off, rgb white
+        setup_cmd(jtag, 1)
+        data_tx(jtag, 0xd5404040, 32)
+
+        print("==== PSRAM tests ====")
+        
+        # read 32 bit SPI PSRAM status
+        setup_cmd(jtag, 2)
+        status = data_rx(jtag, 32)
+        if not (status[0] & 0x80): print("PSRAM is not ready")
+        else:
+            print("PSRAM is ready")
+            if not (status[0] & 0x40): print("PSRAM not ok")
+            if status[0] & 0x20: print("PSRAM busy")
+            if status[0] & 0x1f: print("PSRAM status invalid")
+            print("PSRAM vendor:", hex(status[1]), "(should be 0x0d)")
+            print("PSRAM JTAG transfer length:", status[2], "bytes")
+
+            # write some test data
+            setup_cmd(jtag, 4, (0,24))
+            data_tx(jtag, 0x123456789abcdef0123456789abcdef000112233445566778899aabbccddeeff, 256)
+            
+            # read 512 bytes of SPI PSRAM data
+            for i in range(512//status[2]):
+                # Send command, address and 8 extra data bits.
+                # We need to send 8 extra bits in a seperate transfer to give PSRAM some
+                # time to react. The problem is that the first reply bit is already prepared
+                # with the last bit of the previous transfer. The PSRAM does not have enough
+                # time to react when this is being sent with the address bits. This was true
+                # with serial SPI at 25Mhz and may have changed with QPI at 100Mhz.
+                setup_cmd(jtag, 3, (status[2]*i,24), 8)
+                hexdump(data_rx(jtag, 8*status[2]), status[2]*i)
+
