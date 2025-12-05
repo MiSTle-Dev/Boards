@@ -21,8 +21,11 @@ def setup_cmd(jtag, cmd, addr = None, extra = None):
     if addr != None: jtag.shift_register(BitSequence(addr[0], length=addr[1]))
     if extra != None: jtag.shift_register(BitSequence(None, length=extra))
         
-def data_tx(jtag, data, len=8):
-    jtag.shift_and_update_register(BitSequence(data, length=len))
+def data_tx(jtag, data, len=None):
+    if isinstance(data, bytearray):
+        jtag.shift_and_update_register(BitSequence(bytes_=data))
+    else:
+        jtag.shift_and_update_register(BitSequence(data, length=len))
 
 def data_rx(jtag, len=8):
     rx = jtag.shift_and_update_register(BitSequence(None, length=len))
@@ -89,10 +92,24 @@ if __name__ == '__main__':
             print("PSRAM vendor:", hex(status[1]), "(should be 0x0d)")
             print("PSRAM JTAG transfer length:", status[2], "bytes")
 
-            # write some test data
-            setup_cmd(jtag, 4, (0,24))
-            data_tx(jtag, 0x123456789abcdef0123456789abcdef000112233445566778899aabbccddeeff, 256)
-            
+            # write 32 bytes / 256 bits test data
+            LEN=32
+            data = bytearray([0x12,0x34,0x56,0x78,0x9a,0xbc,0xde,0xf0,0x12,0x34,0x56,0x78,0x9a,0xbc,0xde,0xf0,
+                              0x00,0x11,0x22,0x33,0x44,0x55,0x66,0x77,0x88,0x99,0xaa,0xbb,0xcc,0xdd,0xee,0xff ])
+            # data = 0xffeeddccbbaa99887766554433221100fe
+            mask = (1 << (8*status[2]))-1
+
+            for i in range(len(data)//status[2]):
+                setup_cmd(jtag, 4, (status[2]*i,24))
+                data_tx(jtag, data[i*status[2]:(i+1)*status[2]])
+
+            # read one row once
+            for i in range(len(data)//status[2]):
+                setup_cmd(jtag, 3, (status[2]*i,24), 8)
+                hexdump(data_rx(jtag, 8*status[2]), status[2]*i)
+
+            print()
+                
             # read 512 bytes of SPI PSRAM data
             for i in range(512//status[2]):
                 # Send command, address and 8 extra data bits.
@@ -104,3 +121,4 @@ if __name__ == '__main__':
                 setup_cmd(jtag, 3, (status[2]*i,24), 8)
                 hexdump(data_rx(jtag, 8*status[2]), status[2]*i)
 
+            # TODO: Extensive ram test

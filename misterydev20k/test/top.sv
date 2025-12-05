@@ -72,7 +72,7 @@ end
 // This has been tested up to 100.265MHz. At much lower frequencies, the extra
 // read delay may need to be set to 0
 
-// This should be working up to 108MHz, bit does not work at 104 MHz
+// This should be working up to 108MHz, but does not work at 104 MHz
    
 wire pll_psram_lock;
 wire clk_psram;
@@ -81,14 +81,17 @@ pll_psram pll_psram (
     .clkin(clk),
     .lock(pll_psram_lock),
     .clkout(clk_psram),      // 100.265MHz
-    .clkoutp(psram_clk)      // 337.5°/-22.5° shifted
+    .clkoutp(psram_clk)      // 315°/-45° shifted
 );
 
 // For maximum performance, we operate the PSRAM in WRAP32 mode which in
 // turn means, that max 32 bytes starting at a 32 byte boundary can
 // be transferred at once to never cross a 32 byte boundary as the transfer
-// would wrap there (wrap32)   
-localparam JTAG_PSRAM_IO_LEN = { 6'd32, 3'b000 };   // 256 bits / 32 bytes
+// would wrap there (wrap32)
+
+// 32 bytes is unstable on JTAG receive
+localparam JTAG_PSRAM_IO_BITS = 8'd5;
+localparam [7:0] JTAG_PSRAM_IO_LEN  = 1<<JTAG_PSRAM_IO_BITS;   // 256 bits / 32 bytes
 
 localparam EXTRA_READ_DELAY = 1;   
    
@@ -110,8 +113,18 @@ wire [7:0] cmd_spi     = 8'hf5;  // quad mode exit
 
 reg  [63:0] reply_eid;   // eid reply is 64 bits in total
 
-reg  [JTAG_PSRAM_IO_LEN-1:0] psram_data_out;
-reg  [JTAG_PSRAM_IO_LEN-1:0] psram_data_in;
+// fifo to transfer data from JTAG to PSRAM
+reg [7:0] psram_data_in_fifo [JTAG_PSRAM_IO_LEN];
+reg [JTAG_PSRAM_IO_BITS-1:0] psram_data_in_fifo_wptr = 0;
+reg [JTAG_PSRAM_IO_BITS-1:0] psram_data_in_fifo_rptr = 0;   
+reg [7:0] psram_data_in_byte;
+
+// fifo to transfer data from PSRAM to JTAG
+reg [7:0] psram_data_out_fifo [JTAG_PSRAM_IO_LEN];
+reg [JTAG_PSRAM_IO_BITS-1:0] psram_data_out_fifo_wptr = 0;
+reg [JTAG_PSRAM_IO_BITS-1:0] psram_data_out_fifo_rptr = 0;   
+reg [3:0] psram_data_out_nibble;
+reg [7:0] psram_data_out_fifo_byte; 
 
 // PSRAM init state machine
 reg [15:0] psram_init = 16'h0000;   
@@ -121,16 +134,16 @@ reg	       psram_select = 1'b0;
 reg	       psram_write  = 1'b0;
 
 localparam LAST_INIT_STATE = 16'd512;   
-   
-reg [8:0]  psram_state;   // enough states for 256 bit transfers
+
+reg [8:0]  psram_state;   // enough states for 256 bit transfers incl. setup
 reg [23:0] psram_addr;
-wire	   psram_busy = (psram_state != 8'hff);
+wire	   psram_busy = (psram_state != 9'h1ff);
 wire	   psram_ready = (psram_init == LAST_INIT_STATE);   
 wire	   [7:0] vendor = reply_eid[63:56];
 wire	   psram_ok = reply_eid[55:48] == 8'h5d;
 wire	   psram_valid = (reply_eid[55:52] == 4'h5) && (reply_eid[50:48] == 3'h5);   
 wire [31:0] psram_status = { psram_ready, psram_valid, psram_busy, 5'b00000, vendor,
-							 2'b00, JTAG_PSRAM_IO_LEN[8:3], 8'h00 };   
+							 JTAG_PSRAM_IO_LEN, 8'h00 };   
 reg [1:0] last_select = 2'b00;	  
 
 always @(posedge clk_psram or negedge pll_psram_lock) begin
@@ -140,7 +153,8 @@ always @(posedge clk_psram or negedge pll_psram_lock) begin
       reply_eid <= 64'd0;
 	  psram_init <= 16'd0;	  
 	  psram_state <= 9'h1ff;
-	  last_select <= 2'b00;	  
+	  last_select <= 2'b00;
+	  psram_data_in_fifo_rptr <= 0; 
    end else begin
       pcsn <= 1'b1;     // default chipselect is not selected (1)
 	  pdout <= 4'bzzzz; // by default data lines are undriven
@@ -215,7 +229,7 @@ always @(posedge clk_psram or negedge pll_psram_lock) begin
 			// start state machine on rising edge of select
 			if(last_select == 2'b01) begin			   
 			   psram_state <= 9'd0;
-			   psram_data_out <= 0;
+			   psram_data_out_fifo_wptr <= 0;
 			end
 		 end else begin
 			pcsn <= 1'b0;   // select chip
@@ -236,10 +250,17 @@ always @(posedge clk_psram or negedge pll_psram_lock) begin
 
 			   // read 4 data bits into transmit buffer
 			   if((psram_state > 2+6+6+EXTRA_READ_DELAY) && 
-				  (psram_state <= 2+6+6+EXTRA_READ_DELAY+(JTAG_PSRAM_IO_LEN/4)))
-				 psram_data_out <= { psram_data_out[JTAG_PSRAM_IO_LEN-4:0], psram_io};
-			   
-			   if(psram_state < 2+6+6+EXTRA_READ_DELAY+(JTAG_PSRAM_IO_LEN/4))
+				  (psram_state <= 2+6+6+EXTRA_READ_DELAY+2*JTAG_PSRAM_IO_LEN)) begin
+				  // read nibble into buffer and assemble with the second nibble into fifo
+				  if(psram_state[0] ^ EXTRA_READ_DELAY[0])
+					psram_data_out_nibble <= psram_io;
+				  else begin
+					 psram_data_out_fifo[psram_data_out_fifo_wptr] <= { psram_data_out_nibble, psram_io };
+					 psram_data_out_fifo_wptr <= psram_data_out_fifo_wptr + 1;					 
+				  end
+			   end
+
+			   if(psram_state < 2+6+6+EXTRA_READ_DELAY+2*JTAG_PSRAM_IO_LEN)
 				 psram_state <= psram_state + 1;
 			   else begin 
 				  pcsn <= 1'b1;
@@ -257,10 +278,17 @@ always @(posedge clk_psram or negedge pll_psram_lock) begin
 				 pdout <= psram_addr[23-4*(psram_state-2) -:4];
 			   
 			   // write 4 data bits from receive buffer
-			   if((psram_state >= 2+6) && (psram_state < 2+6+(JTAG_PSRAM_IO_LEN/4)))
-				 pdout <= psram_data_in[JTAG_PSRAM_IO_LEN-1-4*(psram_state-(2+6)) -:4];
+			   if((psram_state >= 2+6) && (psram_state < 2+6+2*JTAG_PSRAM_IO_LEN)) begin
+				  // the fifo is byte wide, so toggle between the two nibbles
+				  if(!psram_state[0])
+					pdout <= psram_data_in_fifo[psram_data_in_fifo_rptr][7:4];
+			      else begin
+					 pdout <= psram_data_in_fifo[psram_data_in_fifo_rptr][3:0];
+					 psram_data_in_fifo_rptr <= psram_data_in_fifo_rptr + 1;
+				  end
+			   end
 			   
-			   if(psram_state < 2+6+(JTAG_PSRAM_IO_LEN/4)) psram_state <= psram_state + 1;
+			   if(psram_state < 2+6+2*JTAG_PSRAM_IO_LEN) psram_state <= psram_state + 1;
 			   else begin pcsn <= 1'b1; psram_state <= 9'h1ff; end
 			end
 		 end
@@ -299,7 +327,7 @@ font fontrom (
     .ad({ chr, vcnt[3:0] })
 );
 
-// fifo to receive data from JTAG (t be put onto screen)
+// fifo to receive data from JTAG (to be put onto screen)
 reg [7:0] rx_fifo [16];
 reg [3:0] rx_wptr, rx_rptr;
 
@@ -541,15 +569,7 @@ reg [6:0]  jtag_cmd = 7'h00;    // incoming command byte on gao#2
 reg [31:0] jtag_cmd1_rx_data;  // payload received for cmd1
 
 reg [23:0] psram_addr;  // payload received for cmd5
-   
-wire [4:0] byte_index = bit_cnt[7:3];
 
-// The xor reverses the byte order, but nor the bit order
-wire [7:0] bit_index = (bit_cnt-9'd48) ^ 9'b111111000;   
-
-// TODO: The first bit returned is broken		   
-
-// the psram is still busy ...
 assign tdo_er2_i =
 				   // cmd 2: read PSRAM status
 				   (jtag_cmd == 7'h02)?(
@@ -559,7 +579,7 @@ assign tdo_er2_i =
 							):
 				   // cmd 3: read ram
 				   (jtag_cmd == 7'h03)?(
-							psram_data_out[(bit_cnt-9'd40) ^ 9'b11111000]):
+							psram_data_out_fifo_byte[bit_cnt-9'd40]):
 				   1'b0;
 
 reg	shift_dr_capture_dr_oD, update_dr_oD;
@@ -586,7 +606,7 @@ always @(negedge tck_o) begin
 		 jtag_rx_byte <= { tdi_o, jtag_rx_byte[7:1] };          // shift serial JTAG data in
 		 
 		 // one complete byte received: trigger fifo write. Ignore any 0 bytes received
-		 if(bit_cnt[2:0] == 3'd8 && { tdi_o, jtag_rx_byte[7:1] })
+		 if(bit_cnt[2:0] == 3'd0 && { tdi_o, jtag_rx_byte[7:1] })
            jtag_rx_toggle <= !jtag_rx_toggle;
 			
 		 if(bit_cnt[2:0] == 3'd7 && (tx_rptr != tx_wptr))
@@ -612,18 +632,38 @@ always @(negedge tck_o) begin
 			psram_addr  <= { tdi_o, psram_addr[23:1] };
 
 			// trigger a command 3 read directly after the address has been received
-			if(bit_cnt == 32 && jtag_cmd == 7'h03) begin
-			   psram_select <= 1'b1;
-			   psram_write <= 1'b0;
+			if(bit_cnt == 32) begin
+			   if(jtag_cmd == 7'h03) begin
+				  psram_select <= 1'b1;
+				  psram_write <= 1'b0;
+				  psram_data_out_fifo_rptr <= 0;
+			   end else if(jtag_cmd == 7'h04)
+				 psram_data_in_fifo_wptr <= 0;			   
 			end
 		 end
 
+		 // command 3: transmit payload
+		 if(jtag_cmd == 7'h03 && bit_cnt >= 32 && bit_cnt < 32+8*JTAG_PSRAM_IO_LEN) begin
+			// every 8 bits fetch a byte from the fifo to be sent via JTAG
+			if(bit_cnt[2:0] == 3'd7) begin
+			   psram_data_out_fifo_byte <= psram_data_out_fifo[psram_data_out_fifo_rptr];			   
+			   psram_data_out_fifo_rptr <= psram_data_out_fifo_rptr + 1;			   
+			end			
+		 end
+
 		 // command 4: receive 32 bytes / 256 bits payload
-		 if(jtag_cmd == 7'h04 && bit_cnt > 32 && bit_cnt <= 32+JTAG_PSRAM_IO_LEN) begin
-			psram_data_in  <= { tdi_o, psram_data_in[JTAG_PSRAM_IO_LEN-1:1] };
+		 if(jtag_cmd == 7'h04 && bit_cnt > 32 && bit_cnt <= 32+8*JTAG_PSRAM_IO_LEN) begin
+			// shift data into byte register ...
+			psram_data_in_byte <= { tdi_o, psram_data_in_byte[7:1] };
+			// ... and once a byte is complete write it into the fifo
+			if(bit_cnt[2:0] == 3'd0) begin
+			   // psram_data_in_fifo[psram_data_in_fifo_wptr] <= { 2'b11, bit_cnt[8:3] }; 
+			   psram_data_in_fifo[psram_data_in_fifo_wptr] <= { tdi_o, psram_data_in_byte[7:1] };
+			   psram_data_in_fifo_wptr <= psram_data_in_fifo_wptr + 1;			   
+			end
 			
 			// trigger a command 4 write after the data has been received
-			if(bit_cnt == 32+JTAG_PSRAM_IO_LEN) begin
+			if(bit_cnt == 32+8*JTAG_PSRAM_IO_LEN) begin
 			   psram_select <= 1'b1;
 			   psram_write <= 1'b1;
 			end
