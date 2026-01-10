@@ -1,8 +1,8 @@
-MiSTeryShield20k RPiPico USB dual DB9 board
+# MiSTeryShield20k RPiPico USB dual DB9 board
 
-The Shield is a Mod of the "MiSTeryShield20k RPiPico USB board"
+The Shield is a Mod of the **MiSTeryShield20k RPiPico USB board** by Stefan Voss
 
-New Features:
+**New Features:**
 
   + 2 DB9 Joystick Ports on board
   + on board USB-C power receptacle
@@ -12,7 +12,7 @@ New Features:
   - no spare pins (used for 2nd DB9 port)
   - no debug header
 
-The 2nd DB9 port ist supported by
+**The 2nd DB9 port ist supported by**
 
 + MiSTeryNano
 + C64 Nano
@@ -20,10 +20,10 @@ The 2nd DB9 port ist supported by
 
 other cores may follow...
 
-THE SHIELD IS A WORK IN PROGRESS!
-NOT READY YET!
+**THE SHIELD IS A WORK IN PROGRESS!
+NOT READY YET!**
 
-TO DO
+**TO DO**
 
 - Schematic
 - PCB layout
