@@ -42,7 +42,7 @@ NOT READY YET!**
    
 ![https://github.com/MiSTle-Dev/Boards/blob/e8456667307dc792dcf06e8b199755b37f9edaa0/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_b.jpg](https://github.com/MiSTle-Dev/Boards/blob/e8456667307dc792dcf06e8b199755b37f9edaa0/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_b.jpg)
 
-![https://github.com/MiSTle-Dev/Boards/blob/c00b45e0a107d2c4048141dfc8c5c605f1db6eb8/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_1.jpg](https://github.com/MiSTle-Dev/Boards/blob/c00b45e0a107d2c4048141dfc8c5c605f1db6eb8/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_1.jpg)
+!(https://github.com/MiSTle-Dev/Boards/blob/d1d7e0f56eee792ad825cb5f66e38bc82f0e9d53/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_1.jpg)
 
 ![https://github.com/MiSTle-Dev/Boards/blob/56f8e8eeb1f3c4189ffecd1a10772dff70c5f408/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_2.jpg](https://github.com/MiSTle-Dev/Boards/blob/56f8e8eeb1f3c4189ffecd1a10772dff70c5f408/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_2.jpg)
 
