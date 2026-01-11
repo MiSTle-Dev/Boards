@@ -4,7 +4,7 @@ The Shield is a Mod of the **MiSTeryShield20k RPiPico USB board** by Stefan Voss
 
 **New Features:**
 
-  + 2 DB9 Joystick Ports on board
+  + 2 DB9 Joystick ports on board
   + on board USB-C power receptacle
   + pin header for case power switch
 
