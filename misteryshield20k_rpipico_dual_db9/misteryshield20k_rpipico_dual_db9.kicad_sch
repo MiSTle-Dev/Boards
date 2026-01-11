@@ -5625,12 +5625,6 @@
 		(uuid "2d275ec4-21bd-440d-8f3b-4d296ff5b31e")
 	)
 	(junction
-		(at 254 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "390fc775-2904-4381-ba40-dd27b327a7cf")
-	)
-	(junction
 		(at 71.755 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5751,12 +5745,6 @@
 		(uuid "8b3ed238-4ef2-4223-b10b-819ee7252526")
 	)
 	(junction
-		(at 234.95 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c00d17d-f349-44ac-8c74-80bd5c21685e")
-	)
-	(junction
 		(at 100.33 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5775,16 +5763,16 @@
 		(uuid "903df508-e509-407f-ad44-22ce4a56fcb2")
 	)
 	(junction
+		(at 220.98 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "927bd6ae-73de-46d9-b2c1-c0cb2525de70")
+	)
+	(junction
 		(at 111.76 47.625)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95362d74-b50f-4824-b645-063fc6a44725")
-	)
-	(junction
-		(at 256.54 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "964a6ff3-c743-4572-9b48-d5f429c7b32e")
 	)
 	(junction
 		(at 65.405 59.055)
@@ -6598,6 +6586,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 114.3) (xy 264.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc2adde-9680-4b67-89c6-e97f21ec7598")
+	)
+	(wire
+		(pts
 			(xy 201.93 152.4) (xy 199.39 152.4)
 		)
 		(stroke
@@ -6708,7 +6706,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 114.3) (xy 254 114.3)
+			(xy 246.38 114.3) (xy 255.27 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6928,17 +6926,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 114.3) (xy 264.16 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d8e6202-1dbe-4816-bd68-912ff73c54cc")
-	)
-	(wire
-		(pts
-			(xy 234.95 105.41) (xy 234.95 106.68)
+			(xy 220.98 105.41) (xy 220.98 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7068,6 +7056,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 114.3) (xy 238.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bb75ac-52fb-40e1-9cc5-5ceaf506b4e3")
+	)
+	(wire
+		(pts
 			(xy 71.755 110.49) (xy 71.755 109.22)
 		)
 		(stroke
@@ -7178,17 +7176,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 114.3) (xy 256.54 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b6e924-5b48-4057-8077-2c574f939d33")
-	)
-	(wire
-		(pts
-			(xy 215.9 114.3) (xy 222.25 114.3)
+			(xy 215.9 114.3) (xy 220.98 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7658,16 +7646,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 114.3) (xy 238.76 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d51f37d7-2b5e-4dfe-a514-2ae8839a67ac")
-	)
-	(wire
-		(pts
 			(xy 101.6 125.73) (xy 122.555 125.73)
 		)
 		(stroke
@@ -7738,6 +7716,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 114.3) (xy 226.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53a299e-67eb-4116-ae7e-842674dfb8a4")
+	)
+	(wire
+		(pts
 			(xy 118.745 111.125) (xy 122.555 111.125)
 		)
 		(stroke
@@ -7765,16 +7753,6 @@
 			(type default)
 		)
 		(uuid "e628d142-b973-44e7-acb0-c5dca9f8c96a")
-	)
-	(wire
-		(pts
-			(xy 229.87 114.3) (xy 234.95 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e647cc85-6702-4249-915d-3e24149dca25")
 	)
 	(wire
 		(pts
@@ -10191,7 +10169,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:PTVS5V0P1UP")
-		(at 234.95 110.49 90)
+		(at 220.98 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10199,7 +10177,7 @@
 		(dnp no)
 		(uuid "3d78abb9-0323-49ce-b6cc-bb3fc7967e25")
 		(property "Reference" "D1"
-			(at 237.744 110.49 90)
+			(at 223.774 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +10186,7 @@
 			)
 		)
 		(property "Value" "PTVS5V0P1UP"
-			(at 228.6 107.188 90)
+			(at 214.63 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10195,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 234.95 110.49 0)
+			(at 220.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10204,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/475226a1f5f23e88222b181b564f5c39/PTVSXP1UP_SER.pdf"
-			(at 234.95 110.49 0)
+			(at 220.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,7 +10213,7 @@
 			)
 		)
 		(property "Description" "SOD-128 Unidirectional TVS diode, 5V, 600W, Alternate KiCAD Library"
-			(at 234.95 110.49 0)
+			(at 220.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13948,7 +13926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 105.41 180)
+		(at 220.98 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13957,7 +13935,7 @@
 		(fields_autoplaced yes)
 		(uuid "c06d1b1e-fd08-4eaa-8cc5-ead122d5f4b5")
 		(property "Reference" "#PWR033"
-			(at 234.95 99.06 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,7 +13944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 100.33 0)
+			(at 220.98 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,7 +13952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 105.41 0)
+			(at 220.98 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13983,7 +13961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 105.41 0)
+			(at 220.98 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13992,7 +13970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 105.41 0)
+			(at 220.98 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15065,7 +15043,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 226.06 114.3 90)
+		(at 229.87 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15073,7 +15051,7 @@
 		(dnp no)
 		(uuid "de491f2a-3bd6-4767-8d01-89b77bbb3cee")
 		(property "Reference" "F1"
-			(at 226.06 114.3 90)
+			(at 229.87 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15081,7 +15059,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 226.06 111.76 90)
+			(at 229.87 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15089,7 +15067,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 226.06 116.078 90)
+			(at 229.87 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15098,7 +15076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 114.3 0)
+			(at 229.87 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15107,7 +15085,7 @@
 			)
 		)
 		(property "Description" "Polyfuse"
-			(at 226.06 117.094 90)
+			(at 229.87 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15122,7 +15100,7 @@
 			(uuid "86988205-c311-48ed-ba0e-459fcfd4907b")
 		)
 		(instances
-			(project ""
+			(project "misteryshield20k_rpipico_dual_db9"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "F1")
 					(unit 1)
@@ -16388,7 +16366,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 256.54 109.22 270)
+		(at 257.81 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16396,7 +16374,7 @@
 		(dnp no)
 		(uuid "fc37ca91-fc1f-4306-bc30-48b447c3eb88")
 		(property "Reference" "J5"
-			(at 250.698 108.712 90)
+			(at 251.968 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16405,7 +16383,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 258.572 108.966 90)
+			(at 259.842 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16414,7 +16392,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 256.54 109.22 0)
+			(at 257.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16423,7 +16401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 109.22 0)
+			(at 257.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16432,7 +16410,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 256.54 109.22 0)
+			(at 257.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16447,7 +16425,7 @@
 			(uuid "a405594a-9207-4844-a1c7-97ceaddfc4e4")
 		)
 		(instances
-			(project ""
+			(project "misteryshield20k_rpipico_dual_db9"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "J5")
 					(unit 1)
