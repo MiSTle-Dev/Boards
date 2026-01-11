@@ -3772,12 +3772,20 @@
 		(uuid "17116d54-6750-4b14-a3c9-c7f891bd2cad")
 	)
 	(no_connect
+		(at 66.04 36.83)
+		(uuid "246801d6-08ca-4447-bf44-19707ab52a63")
+	)
+	(no_connect
 		(at 127 54.61)
 		(uuid "3f669761-381e-43df-87dc-356e30315c2b")
 	)
 	(no_connect
 		(at 66.04 80.01)
 		(uuid "40e554b9-eb9a-4970-8e97-57f98aecf512")
+	)
+	(no_connect
+		(at 66.04 34.29)
+		(uuid "42be68d8-bfbc-4f39-bf38-643573f84378")
 	)
 	(no_connect
 		(at 198.12 58.42)
@@ -3946,16 +3954,6 @@
 			(type default)
 		)
 		(uuid "0ad6e640-de90-4a0c-b1f1-9ce1b20ebfc2")
-	)
-	(wire
-		(pts
-			(xy 45.72 34.29) (xy 66.04 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b6211e7-0a13-44d6-8415-865ed1656f86")
 	)
 	(wire
 		(pts
@@ -4296,16 +4294,6 @@
 			(type default)
 		)
 		(uuid "5e41bc27-75d3-4df6-9a3d-78a89c736c91")
-	)
-	(wire
-		(pts
-			(xy 45.72 36.83) (xy 66.04 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62863ac9-da2c-46d9-ad67-a92f9dc3c5c4")
 	)
 	(wire
 		(pts
@@ -4947,16 +4935,6 @@
 		)
 		(uuid "3a50c158-aa68-4cb9-9723-ed6f09a42603")
 	)
-	(label "PI_UART_TX"
-		(at 48.26 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ab90697-bb02-46eb-9993-5b57d4e48e9a")
-	)
 	(label "UP_D-"
 		(at 207.01 68.58 180)
 		(effects
@@ -5026,16 +5004,6 @@
 			(justify left bottom)
 		)
 		(uuid "97d8cccc-6101-48c6-88cb-d45013b9d246")
-	)
-	(label "PI_UART_RX"
-		(at 48.26 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9aaa9f85-255c-45da-82fa-c46f275044f0")
 	)
 	(label "USB4_D-"
 		(at 275.59 101.6 180)
