@@ -292,7 +292,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/abfe2cbb-f2af-407e-bc44-e54cefcab901")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -820,7 +820,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ee4cc7ab-a0fc-41a4-b5c5-570d06e9b663")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1783,7 +1783,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/daca6531-d131-4c62-8df3-943dce676801")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.1 1.2)
@@ -2333,7 +2333,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/a1f56f0d-12e4-4631-8ea2-2d51df51dc6d")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -2619,7 +2619,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fc37ca91-fc1f-4306-bc30-48b447c3eb88")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.39 3.92)
@@ -3127,7 +3127,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/470c5ddb-51a5-404f-b7c6-07d34dd89224")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -3606,7 +3606,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6d6032fc-4f7a-4365-a793-840d070b5b6a")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -3879,7 +3879,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/63e30b0d-125c-4f34-a95f-7a265e989115")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.76 -1.56)
@@ -4256,7 +4256,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2a0762a0-7d0e-42fd-8cec-2932772ca5a8")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5081,7 +5081,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/290a3330-9cd4-408a-b8c2-7d0d5fecd39e")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5332,7 +5332,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/26cbde18-07dd-4cba-9423-4f149429d90e")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5859,7 +5859,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/83e56525-090e-4a20-97d4-2fbdc6b75a53")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -6112,7 +6112,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/882041df-bbf9-4a07-8ec5-238ca2b5c05e")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -6388,7 +6388,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/02cd5b0a-baf2-47d0-b322-bd58ec07decf")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -6907,7 +6907,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c3b2ce55-76e8-4adf-8f59-79b0a1df238f")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -7158,7 +7158,7 @@
 		(property ki_fp_filters "DSUB*Male*")
 		(path "/a7e7dbbf-eaa2-4de5-911e-70e2da328c57")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.945 10.48)
@@ -7885,7 +7885,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e2d86516-4f02-4c49-ab6a-178d83e69e26")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -8158,7 +8158,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f358edd9-c690-49e7-b9f8-4967432d4ff5")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -8411,7 +8411,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a54c1d95-e609-47a8-9db6-8ee5a144d817")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -8684,7 +8684,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/7f130615-d7f9-4bc2-b022-aad54afae89e")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.76 -1.56)
@@ -9061,7 +9061,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/82c1c8c5-629e-4838-ab71-37b4fcc39a3c")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.76 -1.56)
@@ -9430,7 +9430,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/4d6ad9f7-c427-44f2-9fef-7122814b0a18")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -9585,7 +9585,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/872c38de-e274-4578-bcb4-dfd2ac3980f0")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -10311,7 +10311,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fb215cea-e6d4-4018-b1e7-423a494b49a7")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -10584,7 +10584,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e82c9214-f6da-472f-b17b-8c22783a030b")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -10835,7 +10835,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c3b3b760-bd4b-4260-94b4-2ec6ba714440")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -11086,7 +11086,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5647f783-54db-47ee-abce-fc06fdf7e350")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -11339,7 +11339,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/289fb321-af26-4e15-8a23-dce1051a9152")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -11613,7 +11613,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/b48b71fb-cf9b-403f-89b4-5e67e0bc7d00")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -11953,7 +11953,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6c21e7cc-e663-464e-bf9b-e24eec013ba1")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -12227,7 +12227,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/d5f8f4f3-a9b3-4770-8679-ee8aac094d0e")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -12513,7 +12513,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/de491f2a-3bd6-4767-8d01-89b77bbb3cee")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.386252 1.71)
@@ -12708,7 +12708,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cc9af150-5f48-49e1-b365-166aad37a042")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -12931,7 +12931,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/fa78b025-a46c-4b64-b36f-7c5c95c2bed9")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.57 6)
@@ -14168,7 +14168,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/e7a51bad-5482-445e-a992-f6c6d9a8569d")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.76 -1.56)
@@ -14495,7 +14495,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/3d78abb9-0323-49ce-b6cc-bb3fc7967e25")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -15103,7 +15103,7 @@
 		(property ki_fp_filters "DSUB*Male*")
 		(path "/2b67e2de-e76b-4ba0-8d63-3a75ab04ba68")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.25 -2.754338)
@@ -15830,7 +15830,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/9d7031ed-45e0-4e35-ae19-674d0d773527")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -16467,7 +16467,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/e4b6e3b4-6f87-403b-9321-b6d55110f6aa")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -17084,7 +17084,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4be41003-477b-4005-91a9-d5115a4048f0")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -17842,7 +17842,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/07f2134a-ec86-4c4f-99e0-36f8d54884b6")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -19024,7 +19024,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/c0e06594-8155-447f-864c-2a214b63cee9")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.76 -1.56)
@@ -19401,7 +19401,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/14192dfb-0661-4dbc-afd5-6e146835fcf2")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -19652,7 +19652,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b4cb013c-9da0-4ff1-a9b1-b190468c32a3")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -19852,7 +19852,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0f497c67-e4fd-4d19-a36d-8f9307d9cbb7")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.3 0.800002)
@@ -20125,7 +20125,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dd6b9370-055f-49e0-a436-0e314a153cb6")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -20379,7 +20379,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/19945935-3fbc-45e0-bb42-960529d521b6")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -20653,7 +20653,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/d8f91d0b-135a-4119-8980-972d4b0e1994")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -20983,7 +20983,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0c72e42c-5810-454b-ad03-f445429938ea")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -21136,7 +21136,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/94533868-3596-44fb-9cee-61f3efe609b7")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -21409,7 +21409,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/b5dc8eee-5f34-4d73-b956-b94c96cccaed")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.76 -1.56)
@@ -21788,7 +21788,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/aab476c5-24e3-46b9-902d-954a3c4fc954")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -22063,7 +22063,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e12b43cc-fbac-4497-bd02-0c272f19c5c2")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -22338,7 +22338,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0837cfa9-13eb-4c24-8be0-624ee7c9cccd")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -22603,7 +22603,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/f27e1217-15c4-4fcb-8bfc-7f306dbea4d3")
 		(sheetname "/")
-		(sheetfile "misteryshield20k_rpipico_II.kicad_sch")
+		(sheetfile "misteryshield20k_rpipico_dual_db9.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
