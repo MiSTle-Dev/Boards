@@ -38,12 +38,12 @@ NOT READY YET!**
 
 
 
-![https://github.com/MiSTle-Dev/Boards/blob/e8456667307dc792dcf06e8b199755b37f9edaa0/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_a.jpg](https://github.com/MiSTle-Dev/Boards/blob/e8456667307dc792dcf06e8b199755b37f9edaa0/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_a.jpg)
+![](https://github.com/MiSTle-Dev/Boards/blob/e8456667307dc792dcf06e8b199755b37f9edaa0/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_a.jpg)
    
-![https://github.com/MiSTle-Dev/Boards/blob/e8456667307dc792dcf06e8b199755b37f9edaa0/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_b.jpg](https://github.com/MiSTle-Dev/Boards/blob/e8456667307dc792dcf06e8b199755b37f9edaa0/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_b.jpg)
+![](https://github.com/MiSTle-Dev/Boards/blob/e8456667307dc792dcf06e8b199755b37f9edaa0/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_b.jpg)
 
 ![](https://github.com/MiSTle-Dev/Boards/blob/d1d7e0f56eee792ad825cb5f66e38bc82f0e9d53/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_1.jpg)
 
-![https://github.com/MiSTle-Dev/Boards/blob/56f8e8eeb1f3c4189ffecd1a10772dff70c5f408/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_2.jpg](https://github.com/MiSTle-Dev/Boards/blob/56f8e8eeb1f3c4189ffecd1a10772dff70c5f408/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_2.jpg)
+![](https://github.com/MiSTle-Dev/Boards/blob/56f8e8eeb1f3c4189ffecd1a10772dff70c5f408/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_2.jpg)
 
-![https://github.com/MiSTle-Dev/Boards/blob/a4d24504b4c3b1237cd3c1ef73a208c7e1ca24ef/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_PCB.jpg](https://github.com/MiSTle-Dev/Boards/blob/a4d24504b4c3b1237cd3c1ef73a208c7e1ca24ef/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_PCB.jpg)
+![](https://github.com/MiSTle-Dev/Boards/blob/a4d24504b4c3b1237cd3c1ef73a208c7e1ca24ef/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_PCB.jpg)
