@@ -8,6 +8,8 @@ The Shield is a Mod of the **MiSTeryShield20k RPiPico USB board** by Stefan Voss
   + on board USB-C power receptacle
   + pin header for case power switch
 
+**Features removed**
+
   - no MIDI ports (might not be relevant for all users)
   - no spare pin header (the spare pins are used for the 2nd DB9 port)
   - no debug header
