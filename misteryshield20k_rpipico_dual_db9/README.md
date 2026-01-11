@@ -46,4 +46,4 @@ NOT READY YET!**
 
 ![](https://github.com/MiSTle-Dev/Boards/blob/56f8e8eeb1f3c4189ffecd1a10772dff70c5f408/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_2.jpg)
 
-![](https://github.com/MiSTle-Dev/Boards/blob/a4d24504b4c3b1237cd3c1ef73a208c7e1ca24ef/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_PCB.jpg)
+![](https://github.com/MiSTle-Dev/Boards/blob/efe7f2e6449183a525ca33d3c7cc4dd4b3051cab/misteryshield20k_rpipico_dual_db9/PCB.jpg)
