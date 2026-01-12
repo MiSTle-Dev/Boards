@@ -1,0 +1,6 @@
+*~
+impl/gwsynthesis/**
+impl/temp/**
+impl/pnr/**
+!impl/test_*.json
+*.user

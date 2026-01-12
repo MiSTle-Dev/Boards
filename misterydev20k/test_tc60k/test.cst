@@ -1,0 +1,30 @@
+// the six on-board leds
+
+IO_LOC "leds_n[1]" U12;
+IO_PORT "leds_n[1]" PULL_MODE=NONE DRIVE=4 IO_TYPE=LVCMOS33;
+IO_LOC "leds_n[0]" G11;
+IO_PORT "leds_n[0]" PULL_MODE=NONE DRIVE=4 IO_TYPE=LVCMOS33;
+
+// these are actually wired up magically internally
+//IO_LOC "tck" 6;
+//IO_PORT "tck" IO_TYPE=LVCMOS33;
+//IO_LOC "tms" 5;
+//IO_PORT "tms" IO_TYPE=LVCMOS33;
+//IO_LOC "tdi" 7;
+//IO_PORT "tdi" IO_TYPE=LVCMOS33;
+//IO_LOC "tdo" 8;
+//IO_PORT "tdo" IO_TYPE=LVCMOS33;
+
+// digital video
+IO_LOC "tmds_clk_p" G15,G16;
+IO_PORT "tmds_clk_p" PULL_MODE=NONE DRIVE=8 IO_TYPE=LVCMOS33D;
+IO_LOC "tmds_d_p[0]" J14,H14;
+IO_PORT "tmds_d_p[0]" PULL_MODE=NONE DRIVE=8 IO_TYPE=LVCMOS33D;
+IO_LOC "tmds_d_p[1]" J15,H15;
+IO_PORT "tmds_d_p[1]" PULL_MODE=NONE DRIVE=8 IO_TYPE=LVCMOS33D;
+IO_LOC "tmds_d_p[2]" K17,J17
+IO_PORT "tmds_d_p[2]" PULL_MODE=NONE DRIVE=8 IO_TYPE=LVCMOS33D;
+
+// 50MHz XO
+IO_LOC "clk" V22;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=OFF;
