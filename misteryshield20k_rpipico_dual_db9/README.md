@@ -39,7 +39,7 @@ NOT READY YET!**
 
 ![](https://github.com/MiSTle-Dev/Boards/blob/89d01bb390508d7edb035e5681d7ed07ab6dfbae/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9.jpg)
 
-![](https://github.com/MiSTle-Dev/Boards/blob/d1d7e0f56eee792ad825cb5f66e38bc82f0e9d53/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_1.jpg)
+![](https://github.com/MiSTle-Dev/Boards/blob/9f2c6844f65da15029488d3fe0eb7acd830c176b/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_1.jpg)
 
 ![](https://github.com/MiSTle-Dev/Boards/blob/56f8e8eeb1f3c4189ffecd1a10772dff70c5f408/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_2.jpg)
 
