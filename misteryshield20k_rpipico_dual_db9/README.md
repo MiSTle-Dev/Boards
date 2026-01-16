@@ -37,7 +37,7 @@ NOT READY YET!**
 - Testing
 
 
-![](https://github.com/MiSTle-Dev/Boards/blob/89d01bb390508d7edb035e5681d7ed07ab6dfbae/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9.jpg)
+![](../misteryshield20k_rpipico_dual_db9/Shield.jpg)
 
 ![](../misteryshield20k_rpipico_dual_db9/Schematic1.jpg)
 
