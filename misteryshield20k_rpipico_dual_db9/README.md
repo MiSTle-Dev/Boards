@@ -44,3 +44,5 @@ NOT READY YET!**
 ![](https://github.com/MiSTle-Dev/Boards/blob/56f8e8eeb1f3c4189ffecd1a10772dff70c5f408/misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9_Schematics_2.jpg)
 
 ![](https://github.com/MiSTle-Dev/Boards/blob/148828f972a26fd473724df3ce9fdb2ffde5e812/misteryshield20k_rpipico_dual_db9/PCB.jpg)
+
+PCB in KiCanvas: https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FMiSTle-Dev%2FBoards%2Fblob%2Feed25b104954b580e4da3eaffa35d38c1b20c265%2Fmisteryshield20k_rpipico_dual_db9%2Fmisteryshield20k_rpipico_dual_db9.kicad_pcb
