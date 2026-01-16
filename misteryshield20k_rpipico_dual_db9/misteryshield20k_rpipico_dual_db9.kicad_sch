@@ -9097,7 +9097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "MiSTeryShield20kRPiPico:SOD-128_L3.7-W2.5-LS4.7-RD"
 			(at 218.44 134.62 0)
 			(effects
 				(font
@@ -9124,7 +9124,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C426873"
+		(property "JLCPCB Part #" "C426873"
 			(at 218.44 134.62 90)
 			(effects
 				(font
@@ -10667,15 +10667,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C5374812"
-			(at 186.69 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "LCSC"
 			(at 186.69 137.16 0)
 			(effects
@@ -10686,6 +10677,15 @@
 			)
 		)
 		(property "LCSC Part Name" "Type-C 母 卧贴"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5374812"
 			(at 186.69 137.16 0)
 			(effects
 				(font
@@ -15436,6 +15436,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C492410"
 			(at 251.46 133.35 0)
 			(effects
 				(font

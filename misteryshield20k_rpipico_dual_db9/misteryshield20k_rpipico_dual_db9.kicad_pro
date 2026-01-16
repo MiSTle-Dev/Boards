@@ -514,7 +514,7 @@
       "plot": "Output/Fabrication/Gerber/",
       "pos_files": "Output/Fabrication/Pick and Place/",
       "specctra_dsn": "",
-      "step": "Output/3D/MiSTeryShield20kRPiPico.step",
+      "step": "Output/3D/MiSTeryShield20kRPiPico.glb",
       "svg": "Output/",
       "vrml": "misteryshield20k.wrl"
     },
