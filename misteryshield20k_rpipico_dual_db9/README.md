@@ -37,14 +37,6 @@ NOT READY YET!**
 - Testing
 
 
-![](../misteryshield20k_rpipico_dual_db9/Shield.jpg)
 
-![](../misteryshield20k_rpipico_dual_db9/PCB2.jpg)
-
-![](../misteryshield20k_rpipico_dual_db9/Schematic1.jpg)
-
-![](../misteryshield20k_rpipico_dual_db9/Schematic2.jpg)
-
-![](../misteryshield20k_rpipico_dual_db9/PCB.jpg)
 
 PCB in KiCanvas: https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FMiSTle-Dev%2FBoards%2Fblob%2Fa85683f79b8f8875139c23e7dccc30edd762e2e6%2Fmisteryshield20k_rpipico_dual_db9%2Fmisteryshield20k_rpipico_dual_db9.kicad_pcb
