@@ -42,7 +42,7 @@ NOT READY YET!**
 
 ![](../misteryshield20k_rpipico_dual_db9/Schematic1.jpg)
 
-![](../misteryshield20k_rpipico_dual_db9/Schematic2.jpg)
+![](../misteryshield20k_rpipico_dual_db9-Pi_Pico_USB_Hub.svg)
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB.jpg)
 
