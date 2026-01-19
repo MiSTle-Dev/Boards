@@ -6,9 +6,10 @@ With kind permission & support!
 **New Features:**
 
   + 2 DB9 Joystick ports on board
-  + on board USB-C power receptacle
-  + pin header for case power switch
+  + on board USB-C power receptacle (incl. fuse and ESD-protection)
+  + pin header for case power switch (can be shorted if not needed)
   + Power, Core, Activity LEDs (like MiST & MiSTer)
+  + alternative core loading via Tang Nano USB-C port (press S2 for 5 sec. at power on)
 
 **Features removed:**
 
