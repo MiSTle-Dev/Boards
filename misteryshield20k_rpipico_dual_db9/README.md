@@ -8,7 +8,7 @@ With kind permission & support!
   + 2 DB9 Joystick ports on board
   + on board USB-C power receptacle
   + pin header for case power switch
-  + Power, Core, Activity LEDs
+  + Power, Core, Activity LEDs (like MiST & MiSTer)
 
 **Features removed:**
 
