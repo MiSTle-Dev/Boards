@@ -3258,6 +3258,226 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Diodes:Schottky,BAT54"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.032 0.834 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAT54"
+				(at 2.032 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SOT-23"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406171624_hongjiacheng-BAT54_C22466368.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "nan"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C22466368"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "59263"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.016USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Diodes,Schottky Diodes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "BAT54"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Schottky,BAT54_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -0.635) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Schottky,BAT54_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BSS123"
 			(pin_names
 				(hide yes)
@@ -4695,6 +4915,28 @@
 		)
 		(uuid 7af6a222-0bc5-4b31-95c2-b4d7aeadbde4)
 	)
+	(rectangle
+		(start 60.96 147.32)
+		(end 156.21 191.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b7196513-8fbc-499f-9fc7-6ce232aa2724)
+	)
+	(text "Core Power"
+		(exclude_from_sim no)
+		(at 86.106 154.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06fdfdb6-d231-4c98-b9a5-f0ea59e857b2")
+	)
 	(text "Board Power Circuit"
 		(exclude_from_sim no)
 		(at 168.91 116.332 0)
@@ -4750,6 +4992,16 @@
 		)
 		(uuid "646f44c3-e6f9-4269-a717-c07466c0e58a")
 	)
+	(text "Drive Activity"
+		(exclude_from_sim no)
+		(at 113.03 154.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73767353-25a3-44bc-8ed0-c85cdd32e7cc")
+	)
 	(text "6 x 2N7002"
 		(exclude_from_sim no)
 		(at 73.66 40.005 0)
@@ -4771,6 +5023,16 @@
 			(justify left bottom)
 		)
 		(uuid "99dfc1cd-a3d2-4a65-987e-a030d6706e7a")
+	)
+	(text "Board Power"
+		(exclude_from_sim no)
+		(at 72.644 154.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8fb418f-458c-4bc6-91b1-50d0f5cecbf8")
 	)
 	(text "6 * Levelshifter 5V/3.3V"
 		(exclude_from_sim no)
@@ -4804,6 +5066,17 @@
 			(justify left bottom)
 		)
 		(uuid "f4d69451-308b-4d69-be69-9f605dc52d2b")
+	)
+	(text "LED Strip"
+		(exclude_from_sim no)
+		(at 62.738 145.542 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6e2bf37-fb90-48b8-b6e7-52b2720de167")
 	)
 	(junction
 		(at 105.41 57.15)
@@ -4882,6 +5155,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d275ec4-21bd-440d-8f3b-4d296ff5b31e")
+	)
+	(junction
+		(at 110.49 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d6c1645-66ca-40e8-81dc-1b32c99ff2b5")
 	)
 	(junction
 		(at 66.04 91.44)
@@ -4998,12 +5277,6 @@
 		(uuid "903df508-e509-407f-ad44-22ce4a56fcb2")
 	)
 	(junction
-		(at 218.44 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "927bd6ae-73de-46d9-b2c1-c0cb2525de70")
-	)
-	(junction
 		(at 109.22 34.925)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5070,10 +5343,22 @@
 		(uuid "b23880a3-3bd7-463b-91b3-04759ab6c62e")
 	)
 	(junction
+		(at 218.44 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8b111cf-a817-45b8-ad68-e321ad832f65")
+	)
+	(junction
 		(at 90.805 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c097ba5a-6efa-4512-b480-f67535f9751b")
+	)
+	(junction
+		(at 121.92 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca11afe5-d64e-487a-982c-3281436b232b")
 	)
 	(junction
 		(at 81.915 127)
@@ -5122,6 +5407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e89d7040-b647-4c61-8862-268bb38896b7")
+	)
+	(junction
+		(at 133.35 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9096431-044f-4402-8a3d-4d8059f53f78")
 	)
 	(junction
 		(at 59.69 111.76)
@@ -5220,6 +5511,16 @@
 			(type default)
 		)
 		(uuid "00b1933b-2573-4a0f-93d3-2c1f854ce95a")
+	)
+	(wire
+		(pts
+			(xy 133.35 171.45) (xy 144.78 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014f71ca-de58-48a3-9dc4-8b8448ffaefe")
 	)
 	(wire
 		(pts
@@ -5333,6 +5634,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 171.45) (xy 110.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a53fef-4bfc-4a90-8131-049fa53c8191")
+	)
+	(wire
+		(pts
 			(xy 85.725 43.815) (xy 85.725 49.53)
 		)
 		(stroke
@@ -5410,6 +5721,16 @@
 			(type default)
 		)
 		(uuid "1f3026bc-ba09-48fc-a1b1-9ec1faa8956d")
+	)
+	(wire
+		(pts
+			(xy 121.92 170.18) (xy 121.92 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7d14cb-8b86-432e-be4c-3646da675d6c")
 	)
 	(wire
 		(pts
@@ -5663,6 +5984,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 171.45) (xy 121.92 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e410180-9022-4e2d-b294-894c09917455")
+	)
+	(wire
+		(pts
 			(xy 76.835 46.355) (xy 62.865 46.355)
 		)
 		(stroke
@@ -5760,6 +6091,16 @@
 			(type default)
 		)
 		(uuid "4ad5b4c0-a9c3-45cf-9802-e94289ce0885")
+	)
+	(wire
+		(pts
+			(xy 72.39 182.88) (xy 72.39 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aeb64ac-1a90-4048-9ab0-46d89640a24b")
 	)
 	(wire
 		(pts
@@ -6243,6 +6584,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 154.94) (xy 121.92 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912831f3-5931-44b1-ab5e-9d42b277d741")
+	)
+	(wire
+		(pts
 			(xy 59.69 91.44) (xy 59.69 93.345)
 		)
 		(stroke
@@ -6290,6 +6641,16 @@
 			(type default)
 		)
 		(uuid "99bb75ac-52fb-40e1-9cc5-5ceaf506b4e3")
+	)
+	(wire
+		(pts
+			(xy 218.44 138.43) (xy 223.52 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3bcf78-fdfe-4280-99c8-42048f4f4b2f")
 	)
 	(wire
 		(pts
@@ -6610,6 +6971,16 @@
 			(type default)
 		)
 		(uuid "ba675340-ef62-451e-9097-fb95431da711")
+	)
+	(wire
+		(pts
+			(xy 121.92 171.45) (xy 133.35 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb622b2f-4f7d-4442-9011-21f45b109e59")
 	)
 	(wire
 		(pts
@@ -6953,16 +7324,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 138.43) (xy 223.52 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53a299e-67eb-4116-ae7e-842674dfb8a4")
-	)
-	(wire
-		(pts
 			(xy 113.03 92.075) (xy 116.84 92.075)
 		)
 		(stroke
@@ -7070,6 +7431,16 @@
 			(type default)
 		)
 		(uuid "ee8f56f7-5251-4b60-bebb-2dbbe555e8b6")
+	)
+	(wire
+		(pts
+			(xy 121.92 161.29) (xy 121.92 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f064ce0c-867a-49e8-917e-c0fec2225078")
 	)
 	(wire
 		(pts
@@ -7493,7 +7864,7 @@
 	)
 	(global_label "LED4"
 		(shape bidirectional)
-		(at 124.46 171.45 270)
+		(at 133.35 179.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7503,7 +7874,7 @@
 		)
 		(uuid "104a47fd-0a5f-4eb7-b78a-fbb7f66df890")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 180.2031 90)
+			(at 133.35 187.8231 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +7948,7 @@
 	)
 	(global_label "LED2"
 		(shape bidirectional)
-		(at 104.14 171.45 270)
+		(at 110.49 179.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7587,7 +7958,7 @@
 		)
 		(uuid "265a6cb0-1c7c-4bbf-9d69-040f5de759f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 180.2031 90)
+			(at 110.49 187.8231 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +7992,7 @@
 	)
 	(global_label "LED1"
 		(shape bidirectional)
-		(at 93.98 171.45 270)
+		(at 99.06 179.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7631,7 +8002,7 @@
 		)
 		(uuid "338bc7d0-74df-4dcf-ae19-989bf9ab18d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 180.2031 90)
+			(at 99.06 187.8231 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +8014,7 @@
 	)
 	(global_label "LED0"
 		(shape bidirectional)
-		(at 83.82 171.45 270)
+		(at 86.36 179.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7653,7 +8024,7 @@
 		)
 		(uuid "3399a282-fc33-49d9-ada7-e0de533b68b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 180.2031 90)
+			(at 86.36 187.8231 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +8102,7 @@
 	)
 	(global_label "LED5"
 		(shape bidirectional)
-		(at 134.62 171.45 270)
+		(at 144.78 179.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7741,7 +8112,7 @@
 		)
 		(uuid "65540b0f-2f06-4da5-a573-74d1b69e49b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 180.2031 90)
+			(at 144.78 187.8231 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +8212,7 @@
 	)
 	(global_label "LED3"
 		(shape bidirectional)
-		(at 114.3 171.45 270)
+		(at 121.92 179.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7851,7 +8222,7 @@
 		)
 		(uuid "94249a31-f2ea-4df3-8081-b618613e8378")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 180.2031 90)
+			(at 121.92 187.8231 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,112 +8383,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 114.3 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02efaa5e-9a05-4cd4-9228-aca2836d9ba5")
-		(property "Reference" "D8"
-			(at 118.11 160.3374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "green"
-			(at 118.11 162.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 114.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 114.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 114.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 114.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2297"
-			(at 114.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3b00aef-ea27-4d5a-88af-23674a831cc9")
-		)
-		(pin "1"
-			(uuid "627d6d40-ec0d-42aa-b777-9fcefba69816")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "D8")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -8604,7 +8869,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 34.29 170.18 180)
+		(at 26.67 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8612,7 +8877,7 @@
 		(dnp no)
 		(uuid "19945935-3fbc-45e0-bb42-960529d521b6")
 		(property "Reference" "C3"
-			(at 38.1 169.545 90)
+			(at 30.48 169.545 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8885,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 40.005 169.545 90)
+			(at 32.385 169.545 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,7 +8893,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 33.3248 166.37 0)
+			(at 25.7048 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8902,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 170.18 0)
+			(at 26.67 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 170.18 0)
+			(at 26.67 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8920,7 @@
 			)
 		)
 		(property "LCSC Part #" "C49678"
-			(at 34.29 170.18 0)
+			(at 26.67 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8929,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" ""
-			(at 34.29 170.18 0)
+			(at 26.67 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8938,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 34.29 170.18 0)
+			(at 26.67 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8947,7 @@
 			)
 		)
 		(property "Comment" "0805"
-			(at 34.29 170.18 0)
+			(at 26.67 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,6 +9097,72 @@
 			(project "misteryshield20k_m0s"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 72.39 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "206b9a01-f04b-413b-a40c-712355da5388")
+		(property "Reference" "#PWR026"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 72.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84b133cd-3e70-409a-b4ff-44402e29db57")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9003,6 +9334,111 @@
 			(project "misteryshield20k_rpipico_II"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26d821ce-f925-4500-9917-9ea2817ff084")
+		(property "Reference" "R30"
+			(at 124.46 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 124.46 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 120.142 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C28636"
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "0805"
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f5b813-9c05-44d5-bcb1-cbc3dc397ac8")
+		)
+		(pin "2"
+			(uuid "e5e5c127-fbd1-4606-835b-c7fd4854e190")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9211,6 +9647,166 @@
 			(project "misteryshield20k_rpipico_II"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,BAT54")
+		(at 121.92 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "291637c2-0295-4216-a18d-1ca5c7505dfa")
+		(property "Reference" "D6"
+			(at 124.46 174.3074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 124.46 176.8475 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOT-23"
+			(at 120.142 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406171624_hongjiacheng-BAT54_C22466368.pdf"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nan"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22466368"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "59263"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.016USD"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Diodes"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BAT54"
+			(at 121.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1240aed-e211-4373-af05-d1858abb1565")
+		)
+		(pin "3"
+			(uuid "41374f54-4973-410d-9a0b-79afba61a939")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9518,72 +10114,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 93.98 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33077761-a3c1-4a5d-afa7-0272b7471d29")
-		(property "Reference" "#PWR026"
-			(at 93.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c51305c5-d412-403c-8bd3-6dc925cb9e00")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 207.645 67.31 90)
 		(unit 1)
@@ -9717,8 +10247,168 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,BAT54")
+		(at 99.06 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bfab569-3af9-4227-baf3-9e97edd5eda4")
+		(property "Reference" "D11"
+			(at 101.6 174.3074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 101.6 176.8475 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOT-23"
+			(at 97.282 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406171624_hongjiacheng-BAT54_C22466368.pdf"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nan"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22466368"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "59263"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.016USD"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Diodes"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BAT54"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19ecf21e-d8cc-46a8-890e-3b8212db0c4c")
+		)
+		(pin "3"
+			(uuid "2b51458f-2412-4bdc-a9f2-837c55f56390")
+		)
+		(instances
+			(project ""
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:PTVS5V0P1UP")
-		(at 218.44 134.62 90)
+		(at 218.44 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9726,7 +10416,7 @@
 		(dnp no)
 		(uuid "3d78abb9-0323-49ce-b6cc-bb3fc7967e25")
 		(property "Reference" "D1"
-			(at 219.71 132.08 90)
+			(at 217.17 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,7 +10425,7 @@
 			)
 		)
 		(property "Value" "TVS DIODE 5V"
-			(at 219.71 129.794 90)
+			(at 232.41 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9804,74 +10494,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 124.46 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "417a017c-8da6-423c-b6c6-f45a265baa52")
-		(property "Reference" "#PWR042"
-			(at 124.46 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "755e806a-31fe-4d53-89ae-2fa9498bc566")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 52.07 173.99 0)
+		(at 39.37 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9879,7 +10503,7 @@
 		(dnp no)
 		(uuid "46795a2f-04c5-4e6e-a6ff-4b66d764ac4a")
 		(property "Reference" "#PWR025"
-			(at 52.07 180.34 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +10512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.975 177.8 0)
+			(at 41.275 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,7 +10521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 173.99 0)
+			(at 39.37 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,7 +10530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 173.99 0)
+			(at 39.37 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,7 +10539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 173.99 0)
+			(at 39.37 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,112 +10554,6 @@
 			(project "misteryshield20k_m0s"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 124.46 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46f2f581-f7cd-4228-808f-82fa0895a1f2")
-		(property "Reference" "D9"
-			(at 128.27 160.3374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "green"
-			(at 128.27 162.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 124.46 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 124.46 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 124.46 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 124.46 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2297"
-			(at 124.46 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "75794999-9a8c-4e1a-adfd-8068214e17f0")
-		)
-		(pin "1"
-			(uuid "cd5658f3-2b4b-49f0-bb20-4b361336da57")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -10127,112 +10645,6 @@
 			(project "misteryshield20k_m0s"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 83.82 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a2da423-49fc-49b8-ac7e-550811d5b1a8")
-		(property "Reference" "R30"
-			(at 86.36 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 86.36 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 82.042 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C28636"
-			(at 83.82 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 83.82 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 83.82 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 83.82 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67e20dcb-a2a5-443f-b70a-3c0d11221676")
-		)
-		(pin "2"
-			(uuid "607519e3-c47c-4bf0-9e1d-2349e86b0d66")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -10488,112 +10900,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 93.98 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d93a00f-c5d4-4083-84d1-8ae34ea5e180")
-		(property "Reference" "D6"
-			(at 97.79 160.3374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "green"
-			(at 97.79 162.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 93.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 93.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 93.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 93.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2297"
-			(at 93.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57086998-9876-446c-a589-6638e6014f0b")
-		)
-		(pin "1"
-			(uuid "0b4dba2e-1481-4bd5-979c-65cc62908e3a")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 238.76 148.59 0)
 		(unit 1)
@@ -10654,6 +10960,72 @@
 			(project "misteryshield20k_rpipico_II"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5569b587-6bd1-482a-bb78-a8552945cf23")
+		(property "Reference" "#PWR027"
+			(at 72.39 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36162f1a-2aa7-42a8-b289-7daafbe45d45")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10831,17 +11203,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 83.82 156.21 0)
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,BAT54")
+		(at 133.35 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57954bd2-6e1a-40cc-b50d-8312438e0d5a")
-		(property "Reference" "#PWR011"
-			(at 83.82 160.02 0)
+		(uuid "582334c3-6bb0-49ab-bcba-fc7183d68a28")
+		(property "Reference" "D8"
+			(at 135.89 174.3074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 135.89 176.8475 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOT-23"
+			(at 131.572 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10849,16 +11239,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 83.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 156.21 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406171624_hongjiacheng-BAT54_C22466368.pdf"
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,8 +11248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 83.82 156.21 0)
+		(property "Description" "nan"
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,8 +11257,89 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 83.82 156.21 0)
+		(property "LCSC" "C22466368"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "59263"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.016USD"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Diodes"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 133.35 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BAT54"
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,46 +11348,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a809ebc-aba9-430e-91ed-c56a1575fded")
+			(uuid "7b2725cf-3238-4270-9985-ef73f081a1d3")
+		)
+		(pin "3"
+			(uuid "ebfa33b1-10df-4e0c-9522-253fd7a759e6")
 		)
 		(instances
 			(project "misteryshield20k_rpipico_dual_db9"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "#PWR011")
+					(reference "D8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 114.3 156.21 0)
+		(lib_id "Device:LED")
+		(at 72.39 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f3b3774-62b0-4042-883a-2d10729fcc5b")
-		(property "Reference" "#PWR036"
-			(at 114.3 160.02 0)
+		(uuid "5ea36f80-fd75-4661-9e20-bcc0554159c6")
+		(property "Reference" "D19"
+			(at 76.2 167.9574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 114.3 152.4 0)
+		(property "Value" "green"
+			(at 76.2 170.4974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 156.21 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +11400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 156.21 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,7 +11409,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 156.21 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10950,13 +11417,52 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" "0805"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "682caf46-8fe0-4d4e-b667-52433b9759cb")
+		)
 		(pin "1"
-			(uuid "24fb34f5-8b7c-49be-b7ce-41635f2ff05c")
+			(uuid "f626f800-fab2-4996-81c9-0f086dfd1e25")
 		)
 		(instances
 			(project "misteryshield20k_rpipico_dual_db9"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "#PWR036")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -11137,6 +11643,112 @@
 			(project "misteryshield20k_rpipico_II"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6640caa9-866e-4d33-9f58-31482a1a0fcc")
+		(property "Reference" "R31"
+			(at 74.93 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 74.93 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 70.612 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C28636"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "0805"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aff7d8d9-e212-4982-b0d5-23fa5a9e664b")
+		)
+		(pin "2"
+			(uuid "f4bac403-6d90-4c56-b5f9-bb2d394df63c")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -11896,6 +12508,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 121.92 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76c8a8fe-2cdf-44c5-a798-ed076d16db92")
+		(property "Reference" "D7"
+			(at 125.73 157.7974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "green"
+			(at 125.73 160.3374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "0805"
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2297"
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb738680-e505-41d2-9434-013758905dbb")
+		)
+		(pin "1"
+			(uuid "8d324cfc-4788-4ae9-9ea2-48a13d3e205f")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 28.575 74.93 0)
 		(mirror y)
@@ -12357,178 +13075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 124.46 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "853801fc-cce9-412d-8ea7-312b2656566e")
-		(property "Reference" "R34"
-			(at 127 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 127 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 122.682 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C28636"
-			(at 124.46 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 124.46 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 124.46 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 124.46 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34f5b91d-b649-475a-b68d-6bc08e15d011")
-		)
-		(pin "2"
-			(uuid "8a356e44-1aa8-4076-bb15-cb828baf7282")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 134.62 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "858d58f5-b36f-4776-b3f5-b6b12ecd21ec")
-		(property "Reference" "#PWR043"
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 134.62 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e0c7667-9042-42f2-be2f-6dabcc06981e")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x20_Pin")
 		(at 152.4 54.61 0)
 		(mirror y)
@@ -12793,16 +13339,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 104.14 160.02 90)
+		(at 86.36 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "916f012a-c2c5-435b-acce-dafc9c8b6f07")
-		(property "Reference" "D7"
-			(at 107.95 160.3374 90)
+		(uuid "92fc3421-4287-47f1-bfee-dffb92b6438f")
+		(property "Reference" "D20"
+			(at 90.17 167.9574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12811,7 +13356,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 107.95 162.8774 90)
+			(at 90.17 170.4974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12820,7 +13365,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 104.14 160.02 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12829,7 +13374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 160.02 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12838,7 +13383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 160.02 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,7 +13392,7 @@
 			)
 		)
 		(property "Comment" "0805"
-			(at 104.14 160.02 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12856,7 +13401,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" ""
-			(at 104.14 160.02 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12865,7 +13410,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 104.14 160.02 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12874,7 +13419,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2297"
-			(at 104.14 160.02 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12883,121 +13428,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9a33c2cb-e6d1-4e67-a819-c768ec83485e")
+			(uuid "b416410b-7001-47a0-a97d-e25770da5f1b")
 		)
 		(pin "1"
-			(uuid "fac19433-b32f-445c-87c6-0c1c984611d4")
+			(uuid "10dc726a-f9b3-453f-88c7-38b6cef32a60")
 		)
 		(instances
 			(project "misteryshield20k_rpipico_dual_db9"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 83.82 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9215dd5d-4ce7-4bcc-8be0-e2e87fdd6782")
-		(property "Reference" "D5"
-			(at 87.63 160.3374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "green"
-			(at 87.63 162.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 83.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 83.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 83.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 83.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2297"
-			(at 83.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d4cc1fb7-0fe2-415c-92b2-ecf26518d3f6")
-		)
-		(pin "1"
-			(uuid "df6ae856-7a77-4f37-bb4a-67084117c0b8")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "D5")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -13222,7 +13661,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 173.99 0)
+		(at 26.67 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13230,7 +13669,7 @@
 		(dnp no)
 		(uuid "9e0f1ee8-63fd-434b-8347-2b327808a11d")
 		(property "Reference" "#PWR031"
-			(at 34.29 180.34 0)
+			(at 26.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,7 +13678,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.195 177.8 0)
+			(at 28.575 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +13687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 173.99 0)
+			(at 26.67 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13257,7 +13696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 173.99 0)
+			(at 26.67 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +13705,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 173.99 0)
+			(at 26.67 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13393,6 +13832,166 @@
 			(project "misteryshield20k_m0s"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,BAT54")
+		(at 110.49 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c9fe6b-9e16-4e51-beaa-12da490184f0")
+		(property "Reference" "D5"
+			(at 113.03 174.3074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 113.03 176.8475 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOT-23"
+			(at 108.712 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406171624_hongjiacheng-BAT54_C22466368.pdf"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nan"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22466368"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "59263"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.016USD"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Diodes"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BAT54"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8caad0fb-c1eb-46fc-bf68-454dd553211e")
+		)
+		(pin "3"
+			(uuid "f2825a62-f3d5-46ef-aa69-8c822b5d45be")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13563,112 +14162,6 @@
 			(project "misteryshield20k_m0s"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 93.98 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5d151c3-dd0f-48a2-8dfe-839ecc34e8f3")
-		(property "Reference" "R31"
-			(at 96.52 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 96.52 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 92.202 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C28636"
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7642f0ec-d7a8-4b3d-befb-012b8f05f4fe")
-		)
-		(pin "2"
-			(uuid "02b0ac02-526b-4924-9fe5-d06d07c0c26b")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -13978,7 +14471,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.07 166.37 0)
+		(at 39.37 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13986,7 +14479,7 @@
 		(dnp no)
 		(uuid "abc1626a-ff74-41d4-bf3a-fea28186240f")
 		(property "Reference" "#PWR024"
-			(at 52.07 170.18 0)
+			(at 39.37 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13995,7 +14488,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 50.165 162.56 0)
+			(at 37.465 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14004,7 +14497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 166.37 0)
+			(at 39.37 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14013,7 +14506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 166.37 0)
+			(at 39.37 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14022,7 +14515,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 166.37 0)
+			(at 39.37 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14059,7 +14552,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5.1K"
 			(at 201.93 147.32 90)
 			(effects
 				(font
@@ -14243,112 +14736,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 114.3 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3bcb9da-fc89-4079-a3e6-d6724dad6f11")
-		(property "Reference" "R33"
-			(at 116.84 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 116.84 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 112.522 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C28636"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72a86e07-2c44-4ced-a25e-0703221dbc34")
-		)
-		(pin "2"
-			(uuid "7b5c2eea-0b23-4635-8090-012c9ef89458")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 257.81 138.43 270)
 		(unit 1)
@@ -14415,35 +14802,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 134.62 167.64 0)
+		(lib_id "power:+3.3V")
+		(at 121.92 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4010acc-67a9-45a4-8d0b-5ff2cf3f9725")
-		(property "Reference" "R35"
-			(at 137.16 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 137.16 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.842 167.64 90)
+		(uuid "b402f50d-f317-4823-ad71-b4ff77023e05")
+		(property "Reference" "#PWR011"
+			(at 121.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14451,8 +14820,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 167.64 0)
+		(property "Value" "+3.3V"
+			(at 121.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14461,43 +14847,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C28636"
-			(at 134.62 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 134.62 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 134.62 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 134.62 167.64 0)
+			(at 121.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14506,15 +14856,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "960c278b-6b76-493e-adea-6454d18cd6ac")
-		)
-		(pin "2"
-			(uuid "86be0064-3b5d-4419-b1d9-e4b3e8a70d72")
+			(uuid "e4be41fd-3099-47be-bcec-76a3e4754ecb")
 		)
 		(instances
 			(project "misteryshield20k_rpipico_dual_db9"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "R35")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -15228,6 +15575,272 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 86.36 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24ec4e2-86a6-42bd-bcad-007a93a2614e")
+		(property "Reference" "R32"
+			(at 88.9 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 88.9 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 84.582 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C28636"
+			(at 86.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 86.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 86.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "0805"
+			(at 86.36 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a858341-8baf-4907-9718-dcae1befc55e")
+		)
+		(pin "2"
+			(uuid "cacc3c04-5b6f-4897-9498-dac8445b3699")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,BAT54")
+		(at 144.78 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b0188d-4875-4a27-b1ad-4ed9bceb9b8e")
+		(property "Reference" "D9"
+			(at 147.32 174.3074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 147.32 176.8475 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOT-23"
+			(at 143.002 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406171624_hongjiacheng-BAT54_C22466368.pdf"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nan"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22466368"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "59263"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.016USD"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Diodes"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BAT54"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6632cab7-ebba-4ac4-bc5e-307295f7f6c4")
+		)
+		(pin "3"
+			(uuid "34e0bbe0-03c7-4212-9481-7ed61a0cd6aa")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 201.93 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15243,7 +15856,7 @@
 				)
 			)
 		)
-		(property "Value" "5K1"
+		(property "Value" "5.1K"
 			(at 201.93 134.874 90)
 			(effects
 				(font
@@ -15636,7 +16249,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 34.29 166.37 0)
+		(at 26.67 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15645,7 +16258,7 @@
 		(fields_autoplaced yes)
 		(uuid "d164e580-1361-4244-a547-4b637efc5a3b")
 		(property "Reference" "#PWR030"
-			(at 34.29 170.18 0)
+			(at 26.67 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +16267,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 34.29 161.925 0)
+			(at 26.67 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15662,7 +16275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 166.37 0)
+			(at 26.67 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15671,7 +16284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 166.37 0)
+			(at 26.67 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15680,7 +16293,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 166.37 0)
+			(at 26.67 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16108,112 +16721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 134.62 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dde33dc0-7e38-4cce-b683-0b89afcf15a2")
-		(property "Reference" "D10"
-			(at 138.43 160.3374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "green"
-			(at 138.43 162.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2297"
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bbf24c8d-8d5f-400d-a823-f34c0d9ae9ff")
-		)
-		(pin "1"
-			(uuid "d50dfb22-641d-421a-8a14-c9bd7d85b388")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 227.33 138.43 90)
 		(unit 1)
@@ -16231,7 +16738,7 @@
 			)
 		)
 		(property "Value" "Reset Fuse 6V 2A"
-			(at 231.902 136.144 90)
+			(at 230.378 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16461,7 +16968,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 170.18 180)
+		(at 39.37 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16469,7 +16976,7 @@
 		(dnp no)
 		(uuid "e2d86516-4f02-4c49-ab6a-178d83e69e26")
 		(property "Reference" "C1"
-			(at 55.88 169.545 90)
+			(at 43.18 169.545 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16477,7 +16984,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 57.785 169.545 90)
+			(at 45.085 169.545 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16485,7 +16992,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 51.1048 166.37 0)
+			(at 38.4048 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16494,7 +17001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 170.18 0)
+			(at 39.37 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16503,7 +17010,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 170.18 0)
+			(at 39.37 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16512,7 +17019,7 @@
 			)
 		)
 		(property "LCSC Part #" "C49678"
-			(at 52.07 170.18 0)
+			(at 39.37 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16521,7 +17028,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" ""
-			(at 52.07 170.18 0)
+			(at 39.37 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16530,7 +17037,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 52.07 170.18 0)
+			(at 39.37 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16539,7 +17046,7 @@
 			)
 		)
 		(property "Comment" "0805"
-			(at 52.07 170.18 0)
+			(at 39.37 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16670,112 +17177,6 @@
 			(project "misteryshield20k_m0s"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 104.14 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e65a42c6-b061-441d-be74-ad68026aba55")
-		(property "Reference" "R32"
-			(at 106.68 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 106.68 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 102.362 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C28636"
-			(at 104.14 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 104.14 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 104.14 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0805"
-			(at 104.14 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf05c2da-9639-44f9-94c6-7b39280aef4c")
-		)
-		(pin "2"
-			(uuid "fb0417c8-7ecb-49f0-b69b-fdbf695f7b83")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -17102,72 +17503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 104.14 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0f61cfb-a370-4258-b098-db0367854beb")
-		(property "Reference" "#PWR027"
-			(at 104.14 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 104.14 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7c7b530-e05d-4c32-a2c2-50b2936d35a4")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 255.27 100.33 0)
 		(unit 1)
@@ -17423,6 +17758,72 @@
 			(project "misteryshield20k_rpipico_II"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 86.36 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4425eb4-cea5-4c9c-9eb3-dc7c8f06925d")
+		(property "Reference" "#PWR036"
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aace448c-4fdb-4f7c-bb3c-a91bc6068839")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
