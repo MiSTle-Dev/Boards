@@ -5,17 +5,17 @@ With kind permission & support!
 
 **New Features:**
 
-  + 2 DB9 Joystick ports on board
+  + 2 DB9 Joystick ports on board (gamers edition)
   + on board USB-C power receptacle (incl. fuse and ESD-protection)
   + pin header for case power switch (can be shorted if not needed)
   + Power, Core, Activity LEDs (like MiST & MiSTer)
-  + alternative core loading via the Tang Nano's USB-C port 
+  + alternative core loading via the Tang Nano's USB-C port (USB-C Thumbstick)
+  + debug header optional (not populated)
 
 **Features removed:**
 
   - no MIDI ports (might not be relevant for all users)
   - no spare pin header (the spare pins are used for the 2nd DB9 port)
-  - no debug header
 
 **The 2nd DB9 port ist supported by:**
 
