@@ -30,8 +30,9 @@ NOT READY YET!**
 
 **TO DO**
 
-- Schematic
-- PCB layout
+- Reciew Schematic
+- Review PCB 
+- BOM check
 - Preparation of production data
 - Order placement
 - Shipping
