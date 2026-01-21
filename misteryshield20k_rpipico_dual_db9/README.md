@@ -9,7 +9,7 @@ With kind permission & support!
   + on board USB-C power receptacle (incl. fuse and ESD-protection)
   + pin header for case power switch (can be shorted if not needed)
   + Power + Core + Activity LEDs (like MiST & MiSTer)
-  + alternative core loading via the Tang Nano's USB-C port from USB-C Thumbstick
+  + alternative core loading via the Tang Nano's USB-C port from USB-C Thumbstick (by Stefan Voss)
   + debug header optional (not populated)
 
 **Features removed:**
