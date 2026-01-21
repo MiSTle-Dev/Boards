@@ -1608,6 +1608,257 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MiSTeryShield20kRPiPico:PZ254-2-04-W-8.5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProLib_pcs_2026-01-20:HDR-TH_8P-P2.54-H-M-R2-C4-S2.54-N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254-2-04-W-8.5/3132660.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Structure:2x4P Pitch:2.54mm Row Spacing:2.54mm Circluar Pins/Square Pins:Pin Header Mounting Type:Right Angle Number of Rows:2 Number of Pins:8P Current Rating:3A Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Co"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "PZ254-2-04-W-8.5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HCTL(华灿天禄)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C2894984"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "2x4P 间距:2.54mm 方针 弯插"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PZ254-2-04-W-8.5_1_0"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MiSTeryShield20kRPiPico:Raspberry_Pi_Pico_W"
 			(pin_names
 				(offset 1.016)
@@ -2863,6 +3114,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -3772,20 +4145,12 @@
 		(uuid "17116d54-6750-4b14-a3c9-c7f891bd2cad")
 	)
 	(no_connect
-		(at 66.04 36.83)
-		(uuid "246801d6-08ca-4447-bf44-19707ab52a63")
-	)
-	(no_connect
 		(at 127 54.61)
 		(uuid "3f669761-381e-43df-87dc-356e30315c2b")
 	)
 	(no_connect
 		(at 66.04 80.01)
 		(uuid "40e554b9-eb9a-4970-8e97-57f98aecf512")
-	)
-	(no_connect
-		(at 66.04 34.29)
-		(uuid "42be68d8-bfbc-4f39-bf38-643573f84378")
 	)
 	(no_connect
 		(at 198.12 58.42)
@@ -3846,6 +4211,10 @@
 	(no_connect
 		(at 198.12 43.18)
 		(uuid "a3205181-d8b7-4211-823d-102489895a5e")
+	)
+	(no_connect
+		(at 177.8 101.6)
+		(uuid "ba28eca2-56c2-4296-a9c4-cec0b92229ea")
 	)
 	(no_connect
 		(at 127 59.69)
@@ -3954,6 +4323,16 @@
 			(type default)
 		)
 		(uuid "0ad6e640-de90-4a0c-b1f1-9ce1b20ebfc2")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af188da-1cc7-43b5-b737-eb5237974b1b")
 	)
 	(wire
 		(pts
@@ -4237,6 +4616,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 101.6) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe95d17-475b-4efa-b941-78f2bc790541")
+	)
+	(wire
+		(pts
 			(xy 259.08 53.34) (xy 273.05 53.34)
 		)
 		(stroke
@@ -4294,6 +4683,16 @@
 			(type default)
 		)
 		(uuid "5e41bc27-75d3-4df6-9a3d-78a89c736c91")
+	)
+	(wire
+		(pts
+			(xy 45.72 36.83) (xy 66.04 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60aaa179-aae7-45ce-a06f-331e190a6faa")
 	)
 	(wire
 		(pts
@@ -4447,6 +4846,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 34.29) (xy 66.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d79940-e44c-4e06-b20b-d8b1044ca352")
+	)
+	(wire
+		(pts
 			(xy 259.08 43.18) (xy 266.7 43.18)
 		)
 		(stroke
@@ -4507,6 +4916,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 96.52) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0f541b-1f61-4410-82e5-7a45bc4d5cf9")
+	)
+	(wire
+		(pts
 			(xy 198.12 35.56) (xy 200.66 35.56)
 		)
 		(stroke
@@ -4554,6 +4973,16 @@
 			(type default)
 		)
 		(uuid "b82f30a0-222d-4820-830a-476ccb53d614")
+	)
+	(wire
+		(pts
+			(xy 194.31 99.06) (xy 187.96 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8daea3b-a9a6-491d-9c01-a81702b7fd00")
 	)
 	(wire
 		(pts
@@ -4727,6 +5156,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 96.52) (xy 177.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60d5c98-a8ea-404d-a72f-c23c0ff3b735")
+	)
+	(wire
+		(pts
 			(xy 127 36.83) (xy 129.54 36.83)
 		)
 		(stroke
@@ -4847,6 +5286,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 104.14) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf54826-1065-4c0a-9148-d4b04d7e4801")
+	)
+	(wire
+		(pts
 			(xy 44.45 54.61) (xy 44.45 55.88)
 		)
 		(stroke
@@ -4864,6 +5313,16 @@
 			(type default)
 		)
 		(uuid "fd84655c-c8dc-4cb1-bab7-4bb8739063c8")
+	)
+	(wire
+		(pts
+			(xy 171.45 99.06) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff21ea51-3e79-424d-90fd-c0276fa8712f")
 	)
 	(label "USB3_D+"
 		(at 275.59 93.98 180)
@@ -4975,6 +5434,16 @@
 		)
 		(uuid "56d8e353-a3e9-4eaf-91aa-b6b9241f7e3a")
 	)
+	(label "PI_UART_TX"
+		(at 160.02 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58c66a5f-198e-4c10-bee9-20e6089f56cd")
+	)
 	(label "USB1_D+"
 		(at 161.29 60.96 0)
 		(effects
@@ -4994,6 +5463,16 @@
 			(justify left bottom)
 		)
 		(uuid "864e841c-8fad-4a22-91d0-2eee897c6bbe")
+	)
+	(label "PI_UART_TX"
+		(at 48.26 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "953b9991-7a75-48e7-b6da-dff218faea2d")
 	)
 	(label "USB2_D+"
 		(at 161.29 55.88 0)
@@ -5025,6 +5504,16 @@
 		)
 		(uuid "be08e30d-b487-4f76-8d76-d95346e57217")
 	)
+	(label "PI_UART_RX"
+		(at 204.47 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c03563a7-1137-4610-b78e-079b3799d4a7")
+	)
 	(label "USB1_D-"
 		(at 161.29 58.42 0)
 		(effects
@@ -5044,6 +5533,16 @@
 			(justify left bottom)
 		)
 		(uuid "cb14ebe1-8d55-4b54-8c3f-913a95a85aa2")
+	)
+	(label "PI_UART_RX"
+		(at 48.26 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d36a3a9c-36f8-4690-9567-ee1a1f0006c8")
 	)
 	(label "USB4_D-"
 		(at 161.29 43.18 0)
@@ -5151,6 +5650,28 @@
 		)
 		(uuid "ab5e5386-67a7-4a5f-92e7-0d81a89e74f8")
 	)
+	(hierarchical_label "UART_TX"
+		(shape output)
+		(at 194.31 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc8f521e-1006-49c9-8129-c713ce74e93b")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 171.45 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e846a0f9-3915-4524-b5df-fd89a2485a6f")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 81.28 -116.84 0)
@@ -5206,10 +5727,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c031016-670c-45a8-9d30-99792d2cf41b")
+			(uuid "aa0ec0c9-5fea-48a1-ac43-c9d8966a6e68")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR055")
 					(unit 1)
@@ -5308,36 +5829,103 @@
 			)
 		)
 		(pin "9"
-			(uuid "e3ca7d4d-0488-4189-9a7d-7e182e10b32d")
+			(uuid "6a293a9e-fe67-4312-a4da-d978c2a6caf6")
 		)
 		(pin "2"
-			(uuid "c8901d35-22f6-425f-b5ec-286d41cd9ee3")
+			(uuid "57e1203c-099c-4281-ad80-d6b004915bfe")
 		)
 		(pin "3"
-			(uuid "1ad61828-c46f-453d-a309-f5435955ff84")
+			(uuid "12138e58-be97-4ca4-a178-49c79e61503b")
 		)
 		(pin "4"
-			(uuid "9ba2ff2c-e9d5-49b0-99e7-b843d3916829")
+			(uuid "1e78acb0-6f31-44a6-b510-83708407ebc3")
 		)
 		(pin "1"
-			(uuid "01e9f0ea-6667-455e-b9cb-39f69a6750f5")
+			(uuid "f50fe9d7-703c-4da7-a5f1-ccb4c83861bc")
 		)
 		(pin "5"
-			(uuid "42380564-278c-4f2b-8d9b-4110a98f4b85")
+			(uuid "80ddf057-b547-4f26-985a-521289c4f556")
 		)
 		(pin "6"
-			(uuid "5aa2e643-438c-410c-b900-06836ba2491f")
+			(uuid "e0f8802a-ede1-48e5-b16f-d23e070d1ad3")
 		)
 		(pin "7"
-			(uuid "716472cd-932b-4415-b717-849a2e482367")
+			(uuid "b9a08745-1d59-4720-9977-4e0f85eea74d")
 		)
 		(pin "8"
-			(uuid "ebd81236-8d80-46a1-bdb4-f23c3ff12bb7")
+			(uuid "ce86eb2d-27cf-436b-8b85-1dba0aa43936")
 		)
 		(instances
 			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 101.6 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e9cb159-bc6c-4c03-857a-437b4a5ff582")
+		(property "Reference" "#PWR042"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "405019da-9a51-44f1-8032-9d176f0085f1")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5398,18 +5986,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bd0c364-1e32-403c-8c20-0c99468d8c82")
+			(uuid "2b70d78e-a227-4ebb-a002-91151b841758")
 		)
 		(instances
-			(project "misteryshield20k_pico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-			(project "usbhub_pipico"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5506,67 +6088,67 @@
 			)
 		)
 		(pin "1"
-			(uuid "01a350c9-ae4a-4064-92cb-d0d6453ecdab")
+			(uuid "133b2897-31af-4432-8aa1-0e28f6205208")
 		)
 		(pin "12"
-			(uuid "94567597-99c8-4831-a307-95f1b2c11880")
+			(uuid "1d8c7433-dc43-4d22-b9de-b215d7df23cf")
 		)
 		(pin "17"
-			(uuid "2af95621-b9fe-4c52-b3c9-4b8989996c20")
+			(uuid "da71c874-31e0-442f-a8a4-13e21515eeeb")
 		)
 		(pin "18"
-			(uuid "d6f294ec-593b-403a-823a-4b69d4b042c1")
+			(uuid "09102c20-6b22-49fb-907d-2b6bf15be10d")
 		)
 		(pin "20"
-			(uuid "857aefdd-0bc0-4439-8f02-2da13d0a4894")
+			(uuid "f0af5d92-bab8-4c3f-b2d9-c3f5dca92167")
 		)
 		(pin "5"
-			(uuid "11ba0619-3a3d-4b3d-9d92-9a4cade2e982")
+			(uuid "93cf7611-cbff-417b-989b-59ff04c2718d")
 		)
 		(pin "6"
-			(uuid "8a8f653c-5e42-4d27-a4de-20ede2584cfa")
+			(uuid "b962acf3-3932-4edb-b80b-4d0417d5f61f")
 		)
 		(pin "8"
-			(uuid "9794e28c-84ff-4e55-a4e1-7f2c87c73f05")
+			(uuid "5a93ad46-585f-4523-819e-46d6dc4d1c7a")
 		)
 		(pin "10"
-			(uuid "0180769a-3095-482a-9d71-5d926aeb6826")
+			(uuid "603d0d20-e094-481b-9f98-f96588e200f1")
 		)
 		(pin "7"
-			(uuid "e5952897-e531-4c06-9898-241d767538da")
+			(uuid "257cd578-99b1-4138-87b4-014932b37456")
 		)
 		(pin "4"
-			(uuid "a8946dbd-7315-4217-ba41-fed405cdbf5b")
+			(uuid "926955b3-31c3-450f-b99f-7b89dc624a09")
 		)
 		(pin "3"
-			(uuid "30af419c-4e5b-4e55-998e-2dd81078241f")
+			(uuid "41eedd6e-a560-44a1-a5ca-992709a05cae")
 		)
 		(pin "11"
-			(uuid "45219884-6a1d-4033-b462-83a8cbb6c7fa")
+			(uuid "7c3bf51f-5aac-4b9b-8dd6-869d0c87df26")
 		)
 		(pin "19"
-			(uuid "bc5e40d9-d194-461d-a7e7-a90ce0790413")
+			(uuid "ba7917c6-05b5-4cc1-9508-6e2e53d54272")
 		)
 		(pin "16"
-			(uuid "b28fefe5-010e-4c06-8a37-a18e022d4b07")
+			(uuid "029f847c-1800-43af-8bd3-4fb0b9b2f764")
 		)
 		(pin "2"
-			(uuid "bf1854fe-d377-49b1-be50-14e2e143bae1")
+			(uuid "6ad86844-4148-4225-9971-65681ad372da")
 		)
 		(pin "13"
-			(uuid "8ba5d18c-6f2f-4118-bcda-12b97cb710a6")
+			(uuid "337d762e-5b81-4b0c-8ad6-57694082c8ed")
 		)
 		(pin "15"
-			(uuid "9975d26c-c804-468a-966c-69e6747e3ee0")
+			(uuid "6880174f-8d0a-4700-8079-21739aeb23f0")
 		)
 		(pin "14"
-			(uuid "9fed899d-9f62-4bce-b764-82db3020816b")
+			(uuid "e1e311ed-21d6-4018-abad-ebea2dae7427")
 		)
 		(pin "9"
-			(uuid "fee393f2-d232-4da3-b2ff-fbbabbf997e0")
+			(uuid "48dbb18e-b53c-4e3a-95f2-55d69fc541d1")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "J8")
 					(unit 1)
@@ -5666,13 +6248,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "7485ada0-c036-4fad-aa6e-2c3b22177e58")
+			(uuid "807bc17b-a453-4b4f-86c4-f3520e48a958")
 		)
 		(pin "2"
-			(uuid "2173249b-ef07-4025-be1f-46ca7f5a33e3")
+			(uuid "0e1e0595-2b6f-46d2-ae29-24aa9aa2b855")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "R18")
 					(unit 1)
@@ -5735,10 +6317,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e65bd4b0-29c8-4710-98dd-e8305f9285fd")
+			(uuid "015dbacb-616f-4f82-aedb-465bd25d0938")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR057")
 					(unit 1)
@@ -5800,18 +6382,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc863055-a5aa-4500-8bee-b23ffe96ce00")
+			(uuid "77c91d35-c314-4cc5-846c-5f914b2e2081")
 		)
 		(instances
-			(project "HUB_CH334U_PCB"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-			(project "HUB_CH334U_PCB"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5909,13 +6485,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "de599c95-a087-4642-8f8a-dbb723894467")
+			(uuid "a2d6805e-b993-4ecb-9875-02c3a11d75b4")
 		)
 		(pin "1"
-			(uuid "9926a7d1-4c1a-4d13-9414-3316e619639b")
+			(uuid "7f03c518-0e94-4a69-904f-c398a4131110")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "D2")
 					(unit 1)
@@ -5978,10 +6554,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ceb64630-3eb2-48fe-b606-da6a946dbc50")
+			(uuid "76dab8ee-225c-4b0c-a6c9-b585063fc1c6")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR056")
 					(unit 1)
@@ -6045,10 +6621,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0f9ab63-aa37-48c0-a790-61ba593c3ddc")
+			(uuid "73662be7-8d68-4dda-9113-b2e80e1a7046")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR035")
 					(unit 1)
@@ -6148,13 +6724,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ae9a614-bc8d-4546-ac41-52153855a2ff")
+			(uuid "2c105a9e-a0d0-4fe9-9277-5c158796842b")
 		)
 		(pin "1"
-			(uuid "a6b3435a-fd05-4b83-89c3-9e9e2b052d7d")
+			(uuid "598b334e-7784-4b19-894f-27a4c945fb2b")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "D3")
 					(unit 1)
@@ -6217,18 +6793,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f91391c-25b8-4f99-b8d4-be3879c0a667")
+			(uuid "de88735b-e15d-4d2d-b722-5f03e464f857")
 		)
 		(instances
-			(project "misteryshield20k_pico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-			(project "usbhub_pipico"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6289,18 +6859,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7595f1d9-04bb-45d3-b59e-b22423cce846")
+			(uuid "fd410b9c-5228-4017-855f-b2dfa463ee29")
 		)
 		(instances
-			(project "misteryshield20k_pico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-			(project "usbhub_pipico"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6361,18 +6925,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b1ba28c-76a1-413b-9539-57afc7b52e61")
+			(uuid "5b1da006-3496-40a7-8e0e-9d4ce954d902")
 		)
 		(instances
-			(project "misteryshield20k_pico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-			(project "usbhub_pipico"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6433,18 +6991,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f338f3ad-00ef-4a38-9521-91d61218bc9c")
+			(uuid "07767145-63c2-4018-a95a-f66edabc4354")
 		)
 		(instances
-			(project "misteryshield20k_pico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-			(project "usbhub_pipico"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6505,18 +7057,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce884d8a-664d-4023-a84b-35acf4a04aaf")
+			(uuid "badc546a-2276-4561-a1ed-486cb74cb2f5")
 		)
 		(instances
-			(project "misteryshield20k_pico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-			(project "usbhub_pipico"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6613,21 +7159,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6e4a300-def2-403e-b05d-7b98b08fe110")
+			(uuid "561d0902-702e-4e45-9979-9a2f763fa8bf")
 		)
 		(pin "2"
-			(uuid "ce335a7d-fc16-4a63-b8c8-e14ab77b036a")
+			(uuid "b888c2a6-6a61-41f4-9b58-35237d625e51")
 		)
 		(instances
-			(project "HUB_CH334U_PCB"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "HUB_CH334U_PCB"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6688,10 +7228,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f684e491-2a85-4ca9-af31-c3b8d8ff1e9a")
+			(uuid "679b76a7-b47f-4c49-92ba-341b8acaf389")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR037")
 					(unit 1)
@@ -6790,21 +7330,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7b3bb63-6549-4a5d-8653-01473696f458")
+			(uuid "439d8818-b9d2-4cc4-9e33-ccfc9f85ca1a")
 		)
 		(pin "2"
-			(uuid "cbc92418-c067-4c1d-bb08-dd1ff4a784b9")
+			(uuid "d70a2de7-53c2-417c-9652-5d55f0784a5d")
 		)
 		(instances
-			(project "HUB_CH334U_PCB"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "HUB_CH334U_PCB"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6865,18 +7399,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f731518-fb0e-44c0-a764-2e521a05435c")
+			(uuid "c706da8c-97b3-475a-b2d0-655261f859b4")
 		)
 		(instances
-			(project "HUB_CH334U_PCB"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-			(project "HUB_CH334U_PCB"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6973,129 +7501,260 @@
 			)
 		)
 		(pin "15"
-			(uuid "20cc45f3-8a1a-42a8-a18c-1ffe4f4fafa8")
+			(uuid "b5679af7-30be-4730-b6d4-d6f42e3333d2")
 		)
 		(pin "2"
-			(uuid "263b8ce2-2754-43b6-aa10-0640d3b19962")
+			(uuid "480437af-61fd-404f-b6b0-84f919a3a4ff")
 		)
 		(pin "20"
-			(uuid "2b12db17-c08a-4207-8a50-f8eefbab2065")
+			(uuid "2a9ecb5f-14a7-4220-a2ea-ed9b6e5d774a")
 		)
 		(pin "19"
-			(uuid "352bd07e-1101-499e-8360-2f3591262342")
+			(uuid "1503d0df-91bb-48e1-9619-99deb08f1509")
 		)
 		(pin "21"
-			(uuid "b08055e5-9ce0-4572-9e64-a0503e525be3")
+			(uuid "6f944b0b-a10f-439c-b5ca-d9bd76746f34")
 		)
 		(pin "22"
-			(uuid "c5128e3a-fa65-43d8-9832-24ace1542694")
+			(uuid "ae14cce2-b79a-408a-85c4-99fb35ffc484")
 		)
 		(pin "1"
-			(uuid "f7b2b740-6469-4859-875d-3c767c186654")
+			(uuid "e3ad63c0-9161-43f3-b014-f5de43b9b98b")
 		)
 		(pin "23"
-			(uuid "1816cfb2-ba1d-49b8-8145-fd2de7a74036")
+			(uuid "bb92515b-236a-4fda-ae85-57885229601e")
 		)
 		(pin "24"
-			(uuid "605bba3a-6236-4631-bb45-4a8232eb8825")
+			(uuid "08ef24ec-9dcc-46de-b2b0-b427ebe7ccde")
 		)
 		(pin "25"
-			(uuid "be87e8a3-e3e4-447c-bdf5-13801628d691")
+			(uuid "0047c30c-6579-432c-944e-b2aab063f8e0")
 		)
 		(pin "26"
-			(uuid "5158a759-3486-45b7-b0ab-1066641274fe")
+			(uuid "7226feb2-c479-45a9-9664-e913c3c885bd")
 		)
 		(pin "27"
-			(uuid "731af90f-2ba8-4384-be9c-6d40e8ea5344")
+			(uuid "c82cfce3-f75a-4eb9-a988-1fa0aea10380")
 		)
 		(pin "28"
-			(uuid "afb7947e-4a5e-4b7e-8c24-4beec2ca2ab6")
+			(uuid "ea94e854-6521-449d-9227-9253fc8dbaff")
 		)
 		(pin "17"
-			(uuid "b22888f9-b82f-44ab-9337-5831a371b177")
+			(uuid "2ad0b016-8558-46ec-84a1-ca47ff0513c0")
 		)
 		(pin "10"
-			(uuid "08fcdcb1-94a2-4623-ad9a-0bf9656baebe")
+			(uuid "1de4d79e-0786-46ba-aa68-824634865c3e")
 		)
 		(pin "13"
-			(uuid "e77e2496-93fb-47b6-a86f-5d017c0e1889")
+			(uuid "01716680-3e08-465c-9a8b-84bdb0c8fcc4")
 		)
 		(pin "14"
-			(uuid "bfd9bb8f-e6ca-4942-9bf1-bda5045e08b4")
+			(uuid "d73aa6bf-e338-42c6-9e1d-869b1e529464")
 		)
 		(pin "12"
-			(uuid "92674761-c3ed-4fed-a2a0-27d28db98636")
+			(uuid "857fc143-a8b1-4fd4-9b35-de915b902ad6")
 		)
 		(pin "11"
-			(uuid "7ce1abb9-bc77-4527-974d-8e6883ecc33b")
+			(uuid "a3919b30-97cc-4a2c-9fe4-d39d43d59da6")
 		)
 		(pin "16"
-			(uuid "1a3dc38e-0297-4e93-86dc-175f466e0024")
+			(uuid "1034de32-e67f-4e0c-baa8-6b108fb06f36")
 		)
 		(pin "18"
-			(uuid "07e741d9-6175-4303-b096-c7f859f677eb")
+			(uuid "bafc00d1-f47e-40ff-9f28-016d2ec1cdae")
 		)
 		(pin "31"
-			(uuid "9e555c70-2e57-4b67-851c-0a7c7c371100")
+			(uuid "3b6646b6-c7a4-4840-824c-7a1ec8c9c8d1")
 		)
 		(pin "34"
-			(uuid "ee19002f-8ef6-4f2d-bffd-4cc92546d4fd")
+			(uuid "a17643ab-abdb-418e-abff-454235f35d50")
 		)
 		(pin "4"
-			(uuid "9421ed98-3c1f-4d10-b009-7a7acbc9bf4a")
+			(uuid "6972e7b9-be4c-451c-9ffa-2f90c1f0c75d")
 		)
 		(pin "32"
-			(uuid "111bc0ec-32d0-414c-bc8d-53c73a2ee754")
+			(uuid "dcfbe51c-a968-44d6-9c12-ee4947e9755e")
 		)
 		(pin "35"
-			(uuid "db19a5c8-e86b-485a-9cda-7ee28b833698")
+			(uuid "85c27b33-7b7b-477b-9cb4-a6ad64232246")
 		)
 		(pin "38"
-			(uuid "8b2f69c6-955f-443d-8647-4cd94f3bc3c8")
+			(uuid "d45d2e8d-06aa-4ffe-881e-53a566fb205b")
 		)
 		(pin "40"
-			(uuid "1bab7152-99d1-4445-b3d2-5bd8adc52ff2")
+			(uuid "b7523843-7e30-4f89-a48d-4497509ffc51")
 		)
 		(pin "7"
-			(uuid "5fc0f135-df3a-41ad-a931-9bd18b99b121")
+			(uuid "ddfc9bf3-47ad-4568-9bc2-4331527d7006")
 		)
 		(pin "3"
-			(uuid "bb1e63a7-0254-404f-8679-5c0ed5e81e37")
+			(uuid "3f4157e4-930e-41a1-98be-337e539c27d7")
 		)
 		(pin "33"
-			(uuid "77870bae-e827-49ad-9fc3-a37cf3695449")
+			(uuid "25b763d5-2efb-4cff-a52f-c61b078bab7c")
 		)
 		(pin "9"
-			(uuid "c5cae230-bf55-4921-875f-6159edd0b8bd")
+			(uuid "963b40ed-0493-44ed-9131-08e11b9f2a07")
 		)
 		(pin "39"
-			(uuid "2ec451a8-c970-420d-9874-9a6fb6f0d09e")
+			(uuid "ebb60193-c591-46ee-8e67-1170b23dd541")
 		)
 		(pin "37"
-			(uuid "2aba2ad7-be4b-4630-a2e1-20b840ac3313")
+			(uuid "b4c72e13-ec43-49b6-914a-9d855412c1d7")
 		)
 		(pin "8"
-			(uuid "e13c514f-8ea8-48cd-9a99-00ad5ac846ce")
+			(uuid "adca2a2d-57bf-47ba-b086-7c5524a7f086")
 		)
 		(pin "5"
-			(uuid "b49a956c-71c5-4964-99ef-767ec58416dd")
+			(uuid "4b570871-fce4-4b68-9dc5-6e993050fb82")
 		)
 		(pin "29"
-			(uuid "2280023c-6608-4e97-95bd-0c938af6d4a0")
+			(uuid "bb85c0e8-50ec-48bd-a224-06e4ecb55d5a")
 		)
 		(pin "6"
-			(uuid "4e6e9d03-ceb1-4804-a2a2-9de8b121f19e")
+			(uuid "383c397a-22a4-4fe7-83f3-2f1c7cd87800")
 		)
 		(pin "30"
-			(uuid "27e20016-503f-40bd-80d2-876360e27ea3")
+			(uuid "041e083b-0512-4432-b323-5020c6537b47")
 		)
 		(pin "36"
-			(uuid "662f4d26-cbba-454a-af3c-035f46cfafaa")
+			(uuid "73823c75-fd90-4944-81d6-0e01025924b5")
 		)
 		(instances
 			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MiSTeryShield20kRPiPico:PZ254-2-04-W-8.5")
+		(at 182.88 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dedb2e7-2d0a-4d96-a9c2-8ef8ff1a0872")
+		(property "Reference" "H5"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2x4 Pinheader horizontal"
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MiSTeryShield20kRPiPico:HDR-TH_8P-P2.54-H-M-R2-C4-S2.54-N"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254-2-04-W-8.5/3132660.html"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Structure:2x4P Pitch:2.54mm Row Spacing:2.54mm Circluar Pins/Square Pins:Pin Header Mounting Type:Right Angle Number of Rows:2 Number of Pins:8P Current Rating:3A Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Co"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PZ254-2-04-W-8.5"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2894984"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "2x4P 间距:2.54mm 方针 弯插"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "97abd373-cdb1-4c7f-af4d-3ceeee6c365c")
+		)
+		(pin "3"
+			(uuid "10cce06e-668b-44ca-af9c-6e7100e6e1ab")
+		)
+		(pin "2"
+			(uuid "aaaf2738-52eb-4dad-aed3-eab59e1c06b9")
+		)
+		(pin "6"
+			(uuid "d7d09451-0901-41bf-b3c1-9c82ff53cf27")
+		)
+		(pin "4"
+			(uuid "16360600-d19f-4636-aa3c-b5fed8198f67")
+		)
+		(pin "8"
+			(uuid "f8d98278-d25e-429e-ac6d-33b24c06445b")
+		)
+		(pin "1"
+			(uuid "cd5cae03-9a2a-4ad9-be46-9652e303a0b8")
+		)
+		(pin "5"
+			(uuid "39675e8b-f827-4915-9b5e-1712b3940923")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7191,99 +7850,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "49f0a0be-d21b-4b70-964c-0b259c311ca4")
+			(uuid "646b40af-c149-475b-af9c-f3273e1e664d")
 		)
 		(pin "10"
-			(uuid "5dc0e9d4-8c1b-44a6-a6de-3e755a48ba13")
+			(uuid "8270c0b7-48e7-4028-8bcc-8d34d6e2d283")
 		)
 		(pin "11"
-			(uuid "cede4491-8e24-4617-bf59-ad6b2e83dc8a")
+			(uuid "70a7bc88-4bb3-490a-bc21-520062e31b6f")
 		)
 		(pin "12"
-			(uuid "4328ad4b-2d7c-48f4-9097-e24929208d60")
+			(uuid "57edf51c-0565-4d3d-ad76-0e59de5ac678")
 		)
 		(pin "13"
-			(uuid "e194926d-e581-4026-86e5-d0455aecceaf")
+			(uuid "ce65837e-cb94-4771-90ed-50ad042116c0")
 		)
 		(pin "14"
-			(uuid "6ba8d11e-e783-4235-a11c-a946a5c3ca78")
+			(uuid "25afec7e-1d4c-4e2d-9b08-bd35f7de985f")
 		)
 		(pin "15"
-			(uuid "0ed79706-e95e-454a-864f-d79578c3db02")
+			(uuid "1838c227-181d-4921-bce4-c6f564c2ea36")
 		)
 		(pin "16"
-			(uuid "90f0c474-2932-4cdc-9b0d-03e28f2ab3f6")
+			(uuid "beba5817-a8d9-4858-aabe-66d85e1c40eb")
 		)
 		(pin "17"
-			(uuid "a170693c-5c51-48d9-8ba7-9097b52b79a5")
+			(uuid "6f2f3b05-6c27-43d0-9071-6e29c102fb92")
 		)
 		(pin "18"
-			(uuid "efec2daf-1edc-487a-aaed-242aab8b03b0")
+			(uuid "a8712b00-7714-4ccc-8a1f-31fe087d806f")
 		)
 		(pin "19"
-			(uuid "2c7731d9-403c-4585-a634-97dd1bfa6b85")
+			(uuid "32241ae5-e8f7-4d8c-8f0d-5a124aac1a14")
 		)
 		(pin "2"
-			(uuid "c458693a-948d-4b0a-b74c-cb12a1fcdeb0")
+			(uuid "969de0d2-d66a-4364-8c5c-5190cea7238a")
 		)
 		(pin "20"
-			(uuid "e9af72cf-abaf-4569-9ac7-74da826bafa3")
+			(uuid "ceeac2f9-f87d-4ad6-b041-1af4824bfcb9")
 		)
 		(pin "21"
-			(uuid "eb4a5037-b91f-4256-b14e-49540bcddea8")
+			(uuid "00001f96-4ef8-4a83-9a39-1ecdb1113e98")
 		)
 		(pin "22"
-			(uuid "abf8c19a-923c-4e0b-8393-3474e286d6c9")
+			(uuid "4f20b228-c1c0-44ed-bcaa-56933a9e3047")
 		)
 		(pin "23"
-			(uuid "7cc27153-263c-4fd2-9568-382a214c9ac0")
+			(uuid "2661d9c8-2dbd-471e-9481-5eb5c8554711")
 		)
 		(pin "24"
-			(uuid "e044ceb8-4c1a-4b3b-9772-e9f577065e7f")
+			(uuid "3135c04c-093c-42fa-a9bc-c6ff24adc0f1")
 		)
 		(pin "25"
-			(uuid "d7d20b98-7fcb-43a5-936c-8b00451d74d4")
+			(uuid "20450595-133a-4892-a285-d3d634ce9798")
 		)
 		(pin "26"
-			(uuid "5e17ac7d-1d9f-4b20-8216-8e8e7ea91887")
+			(uuid "fb60315e-70fa-4fe7-adbe-2a43c85d1c64")
 		)
 		(pin "27"
-			(uuid "ace7ef16-95e4-4554-9230-884bd2fadb88")
+			(uuid "c34d56bc-c583-4b8a-89b8-338a99990802")
 		)
 		(pin "28"
-			(uuid "f4eeb4b0-1922-497e-a924-53c6f2f97a31")
+			(uuid "ac0c7225-a7e8-446b-a05c-154d9a89243b")
 		)
 		(pin "3"
-			(uuid "2ef30fb0-72c1-483e-b0b6-1326fe119309")
+			(uuid "f678f2a4-0f8c-4ad0-af8e-aecb85c55b6a")
 		)
 		(pin "4"
-			(uuid "e240ae52-435a-44ea-aad0-63f37c45a4f4")
+			(uuid "b8137ccb-9ec6-4149-a271-0aebbc7d9953")
 		)
 		(pin "5"
-			(uuid "33447132-dc84-4d16-a112-c8ed2111f7ce")
+			(uuid "acd1b047-b5cc-46a7-a10a-0369503609a8")
 		)
 		(pin "6"
-			(uuid "874d9a11-5d7c-4880-9b13-41b61e24ecbb")
+			(uuid "3baf0980-db21-4881-b80d-3b40f08a3fb2")
 		)
 		(pin "7"
-			(uuid "7e7ef923-4291-41c6-9834-82e962e3d01f")
+			(uuid "089a9b27-8f6d-445b-9f7c-1781a0aaf021")
 		)
 		(pin "8"
-			(uuid "ce09dda7-edd9-4f2f-9652-652c0c8f6764")
+			(uuid "4f6bbfe3-6af5-4db5-8c80-b192f2e9ee70")
 		)
 		(pin "9"
-			(uuid "ef351969-3f09-4ac8-b05f-68a9aa146202")
+			(uuid "3a056b5b-9ac5-401c-95eb-1a6f7dc042da")
 		)
 		(instances
-			(project "HUB_CH334U_PCB"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "HUB_CH334U_PCB"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7344,18 +7997,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7de79c4-17b1-48a1-8b1b-e3189ad305b5")
+			(uuid "1f6668bf-19d9-4324-80be-a44de9c6a564")
 		)
 		(instances
-			(project "HUB_CH334U_PCB"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-			(project "HUB_CH334U_PCB"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7451,67 +8098,67 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0df520e-c999-4175-90e6-5eca4053128b")
+			(uuid "32da8f18-c899-4009-8ea5-d8fe0117e018")
 		)
 		(pin "12"
-			(uuid "58fafb1f-43f0-4645-9b70-1fac4ed44f5a")
+			(uuid "320863d6-9582-4fdb-89e2-d446d1b6bcc6")
 		)
 		(pin "17"
-			(uuid "af373b85-cdf5-4e2f-b73c-cbbfb58df64d")
+			(uuid "1f780195-52f9-4fcd-a0f9-8d04b984ed95")
 		)
 		(pin "18"
-			(uuid "707ed416-f966-4730-9372-2e0cd989ef4c")
+			(uuid "5f1a64c6-8d51-4fc8-999f-f39cb00265c9")
 		)
 		(pin "20"
-			(uuid "820447a5-a179-48e1-90ec-6cddfc768428")
+			(uuid "962816ba-0255-4a71-9498-f6beffaedb1a")
 		)
 		(pin "5"
-			(uuid "859a417e-b1b8-4d33-88a7-cb8183feadaf")
+			(uuid "23e1cf1d-35bd-489b-b78d-a1bffc5e4adb")
 		)
 		(pin "6"
-			(uuid "1c946112-e008-455e-81e8-f9993b24da3e")
+			(uuid "511319f8-c1c5-4d45-aaa9-b495b360e85d")
 		)
 		(pin "8"
-			(uuid "72193d0b-bed5-4d1d-bc5b-c4ecd0b79130")
+			(uuid "690eb113-9bb3-4396-a07d-80374b2285de")
 		)
 		(pin "10"
-			(uuid "778ea121-f254-45de-ae70-cc5f8e42dde4")
+			(uuid "8f42eb51-7979-4c94-9414-804be7da6df6")
 		)
 		(pin "7"
-			(uuid "3d86388e-4c5c-4868-8f83-8c52319c517f")
+			(uuid "4f0a9b42-7c41-40a2-b9be-ec0139f7469b")
 		)
 		(pin "4"
-			(uuid "f1226135-523e-4f1e-9d4a-67d04631aec3")
+			(uuid "875a58bf-5245-4f08-8df1-c1f4fb0e4f71")
 		)
 		(pin "3"
-			(uuid "53cb387d-33ed-4ea9-aac5-3e7e489a529b")
+			(uuid "c375cf32-07b8-45f3-b5fe-afb8baab8edd")
 		)
 		(pin "11"
-			(uuid "240466d6-d761-4a7e-a30a-c622ba414389")
+			(uuid "a46c84a3-899b-485a-93e5-f9956df9ad2f")
 		)
 		(pin "19"
-			(uuid "24c189b6-2ccc-462d-96c1-1b5ba88fffce")
+			(uuid "6357c453-8fae-4692-8793-a4d8e1cce776")
 		)
 		(pin "16"
-			(uuid "eb601824-66b5-486b-a5c5-947aae5f0eb3")
+			(uuid "258ae746-c77c-4ba7-bd6a-17c3f7ecfd7c")
 		)
 		(pin "2"
-			(uuid "5fd50860-4fef-414e-a2cd-2be85ccfb29e")
+			(uuid "e2bde817-0309-4c25-8f4a-3235a188df80")
 		)
 		(pin "13"
-			(uuid "3dafe639-01b4-48c9-9b0a-c8f52e5a7663")
+			(uuid "0a52271d-ba20-405e-a116-1594b1c9226f")
 		)
 		(pin "15"
-			(uuid "e96971ec-c9de-41d2-993b-093260684b71")
+			(uuid "60277028-e91f-49d8-babf-7abeb0e2e4a5")
 		)
 		(pin "14"
-			(uuid "c7fd9f4a-eb4c-4a98-a7e3-72620d44736f")
+			(uuid "8545e08c-72fa-436b-b0e6-4489da65a410")
 		)
 		(pin "9"
-			(uuid "417ddd91-9dda-46c2-8a38-decfa9d889ee")
+			(uuid "dca4cc85-fdb4-4956-9fe8-a2047faf6cae")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "J9")
 					(unit 1)
@@ -7574,10 +8221,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "249d6fa6-5d69-48f8-ab0d-8dc7f4c23b21")
+			(uuid "0cbcd1b9-6289-423f-a860-e395fc6e17d6")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR058")
 					(unit 1)
@@ -7676,31 +8323,31 @@
 			)
 		)
 		(pin "8"
-			(uuid "a78e57ca-60c1-46fa-b4fd-f1ebd14d1572")
+			(uuid "df9e6a44-432b-472f-b3b6-c7dbfdbbcf66")
 		)
 		(pin "5"
-			(uuid "13945ad6-fb1d-42a8-8c75-2bc903a36dd3")
+			(uuid "9ad1e703-734f-477f-af57-c938d8612a19")
 		)
 		(pin "6"
-			(uuid "5374aa08-5f0e-4735-ac60-5c39cf5ee1ea")
+			(uuid "eee37497-4c7a-42d0-9ac9-7f4b636dd483")
 		)
 		(pin "9"
-			(uuid "f98689ff-c855-4039-8402-73b43b66d5ef")
+			(uuid "b72be40b-59dc-4182-8dc7-14c1a37b7789")
 		)
 		(pin "1"
-			(uuid "37dbd975-3a05-4f34-9eaf-eccd090bf6ed")
+			(uuid "9d7deb17-a463-4cdb-acb0-c00c93df2c5b")
 		)
 		(pin "3"
-			(uuid "3f4856cf-bd68-40a7-8c89-0d72def70361")
+			(uuid "44b9afe8-f99d-4b1c-99aa-1f77322165b2")
 		)
 		(pin "7"
-			(uuid "17bed485-b244-40b6-80dc-1836936ad31d")
+			(uuid "54e637fc-190c-4b9c-baad-825fdea62a0f")
 		)
 		(pin "4"
-			(uuid "8d5a35a5-760d-40ab-b857-807abc4d285c")
+			(uuid "abf3f530-ad73-4de8-be22-26c3ffa6c01b")
 		)
 		(pin "2"
-			(uuid "38c1af3f-3327-45a4-b63e-504741f7a587")
+			(uuid "5d1c224f-71bc-4f7b-87fc-02cd5486ab12")
 		)
 		(instances
 			(project ""
@@ -7803,13 +8450,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "b72b1c22-fd58-4830-9c7c-e8d0fbeaa418")
+			(uuid "060639af-2bda-44d1-9a88-c04420c89f71")
 		)
 		(pin "2"
-			(uuid "2df6d345-30c0-4b90-9ef6-573e9cb6a46c")
+			(uuid "7b129bff-a810-4e76-be13-ae3d2a60a05c")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "R19")
 					(unit 1)
@@ -7872,12 +8519,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "285c8e63-61cf-477d-a367-689622aebcb4")
+			(uuid "6676db33-8b9d-487d-b3d6-99dcee82579c")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 193.04 104.14 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b77e4c17-4d46-4db8-863c-00da2548493d")
+		(property "Reference" "#PWR?"
+			(at 189.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 196.85 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce026361-28e9-4d57-8e64-774114ad69e1")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7974,21 +8688,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "201b46dc-3693-42c5-bbca-706a2b67cd7f")
+			(uuid "b9adc878-df45-41a3-8b59-eb65a1db4639")
 		)
 		(pin "2"
-			(uuid "1f8fcbad-f0c5-489a-bc4e-6e97a0cf1397")
+			(uuid "fe65b9d1-118a-45ce-a650-501bb0d59428")
 		)
 		(instances
-			(project "HUB_CH334U_PCB"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "HUB_CH334U_PCB"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8049,18 +8757,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9b0d9ff-32f7-432e-802d-951b88ac583b")
+			(uuid "c1e2777b-c0f2-4789-85d3-ab3919b79bed")
 		)
 		(instances
-			(project "misteryshield20k_pico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-			(project "usbhub_pipico"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8157,21 +8859,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "7455b86b-da33-416b-b25b-54fdf4e81a7b")
+			(uuid "1f0a0722-b4fd-4f08-9cfc-cf113619c498")
 		)
 		(pin "2"
-			(uuid "b08ee595-1a83-43e2-8399-3cd5628b85a4")
+			(uuid "e05eea07-4e66-40d2-b983-5e63665071b0")
 		)
 		(instances
-			(project "HUB_CH334U_PCB"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "C4")
 					(unit 1)
 				)
 			)
-			(project "HUB_CH334U_PCB"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "C3")
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 172.72 104.14 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9de9460-22cf-47a1-99d7-aa3b3c7b96e3")
+		(property "Reference" "#PWR043"
+			(at 176.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 169.545 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6840969-c862-445a-b56b-0ae1922879dc")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8266,27 +9029,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "c36be74e-e566-4eb5-bf53-97abc85c02c9")
+			(uuid "087ab00e-3257-4c38-bd6d-8e0eb30cee12")
 		)
 		(pin "4"
-			(uuid "caa29f2b-401b-4ff3-80b3-9632d09e9797")
+			(uuid "19a25f5a-3d60-46a3-bd78-753d85cff794")
 		)
 		(pin "3"
-			(uuid "c0dcbf1f-d0c5-4c4a-8462-3f9f38dcd5cf")
+			(uuid "71ba0a46-a0c6-4acd-8fae-92dea185a44a")
 		)
 		(pin "2"
-			(uuid "0f807df7-74c1-4d5c-b635-977f824e7d44")
+			(uuid "ab1425ec-6a37-41dc-a9cc-3bc9eee42ade")
 		)
 		(instances
 			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-			(project "usbhub_pipico"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "Y?")
 					(unit 1)
 				)
 			)
@@ -8384,13 +9141,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "77ab67dd-a695-4d2c-9104-0384ff2b238b")
+			(uuid "492a7e3d-f4a3-4898-9352-78edc7de359c")
 		)
 		(pin "2"
-			(uuid "a327e435-d8d7-4543-84df-43fc62f0d9bb")
+			(uuid "be365943-a21e-4628-9e46-92fac421d443")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "R20")
 					(unit 1)
@@ -8453,18 +9210,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9fd6883-dc45-413d-925d-c140029f9ae3")
+			(uuid "b2c82931-7fc0-4290-a7bf-cbb95876a2cf")
 		)
 		(instances
-			(project "misteryshield20k_pico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-			(project "usbhub_pipico"
-				(path "/eb510b7a-c17e-4308-ab48-84accb80c7de"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8562,13 +9313,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "58c06255-6531-4d73-9d83-60e791946c9d")
+			(uuid "746134aa-17a5-4f6e-8ab1-bb3ee595bad9")
 		)
 		(pin "1"
-			(uuid "c103c266-3e12-488a-9c0b-a06de414b7c9")
+			(uuid "c0c8e28c-3f97-4aa4-817b-b1c6807f7390")
 		)
 		(instances
-			(project "MiSTeryShield20kRPiPico"
+			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "D4")
 					(unit 1)
