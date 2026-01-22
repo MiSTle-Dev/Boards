@@ -9,7 +9,7 @@ With kind permission & support!
   + on board USB-C power receptacle (incl. fuse and ESD-protection)
   + pin header for case power switch (can be shorted if not needed)
   + Power + Core + Activity LEDs (like MiST & MiSTer)
-  + alternative core loading via the Tang Nano's USB-C port from USB-C Thumbstick (by Stefan Voss)
+  + alternative core loading from USB-C Thumbstick (by Stefan Voss)
   + debug header optional (not populated)
   + MIDI on M5 Stack connector to be used with e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH
 
@@ -51,4 +51,8 @@ NOT READY YET!**
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB.PNG)
 
+**Credits
 
+Circuit Design by Vossstef
+PCB Design by Cantclosevi
+Modifications by Manger
