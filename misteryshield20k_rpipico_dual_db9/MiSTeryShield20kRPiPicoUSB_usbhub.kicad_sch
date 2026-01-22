@@ -8540,7 +8540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b77e4c17-4d46-4db8-863c-00da2548493d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 189.23 104.14 0)
 			(effects
 				(font
@@ -8591,7 +8591,7 @@
 		(instances
 			(project "misteryshield20k_rpipico_dual_db9"
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
