@@ -57,7 +57,7 @@ Circuit Design by Vossstef\
 PCB Design by Cantclosevi\
 Modifications by Manger
 
-**optional MIDI**
+**MIDI (optional)**
 
 ![1000268609](https://github.com/user-attachments/assets/a8f1f348-554b-4779-a216-8330d96da4b7)
 ![1000268608](https://github.com/user-attachments/assets/699d2773-37e1-4fde-b76c-7f6f060c6545)
