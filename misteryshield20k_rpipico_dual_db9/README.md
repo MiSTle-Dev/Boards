@@ -11,10 +11,10 @@ With kind permission & support!
   + Power + Core + Activity LEDs (like MiST & MiSTer)
   + alternative core loading via the Tang Nano's USB-C port from USB-C Thumbstick (by Stefan Voss)
   + debug header optional (not populated)
+  + MIDI on M5 Stack connector to be used with e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH
 
 **Features removed:**
 
-  - no MIDI ports (might not be relevant for all users)
   - no spare pin header (the spare pins are used for the 2nd DB9 port)
 
 **The 2nd DB9 port ist supported by:**
