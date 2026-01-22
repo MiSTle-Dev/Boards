@@ -53,6 +53,6 @@ NOT READY YET!**
 
 **Credits**
 
-Circuit Design by Vossstef
-PCB Design by Cantclosevi
+Circuit Design by Vossstef\
+PCB Design by Cantclosevi\
 Modifications by Manger
