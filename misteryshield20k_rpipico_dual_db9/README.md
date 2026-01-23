@@ -51,6 +51,8 @@ NOT READY YET!**
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB.PNG)
 
+![](../misteryshield20k_rpipico_dual_db9/PCB2.PNG)
+
 **Credits**
 
 Circuit Design by Vossstef\
