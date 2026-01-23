@@ -7036,7 +7036,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 33.02) (xy 240.03 33.02)
+			(xy 228.6 33.02) (xy 240.03 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8034,6 +8034,16 @@
 		)
 		(uuid "40f72c22-cde9-45e9-bdbb-5d6e1d07fd9a")
 	)
+	(label "UART_RX"
+		(at 229.87 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42485334-30b0-4101-8eba-e3ac593430e2")
+	)
 	(label "UART_TX"
 		(at 198.12 36.83 0)
 		(effects
@@ -8674,7 +8684,7 @@
 	)
 	(global_label "P75"
 		(shape bidirectional)
-		(at 233.68 33.02 180)
+		(at 228.6 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8684,7 +8694,7 @@
 		)
 		(uuid "9f5e1160-45f2-4b30-bd60-7b3e4e411779")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.8945 33.02 0)
+			(at 220.8145 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
