@@ -30,7 +30,7 @@ NOT READY YET!**
 
 **TO DO**
 
-- Reciew Schematic
+- Review Schematic
 - Review PCB 
 - BOM check
 - Preparation of production data
