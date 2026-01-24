@@ -55,8 +55,8 @@ NOT READY YET!**
 
 **Credits**
 
-Circuit Design by Vossstef\
-PCB Design by Cantclosevi\
+Original Circuit Design by Vossstef\
+Original PCB Design by Cantclosevi\
 Modifications by Manger
 
 **MIDI (optional)**
