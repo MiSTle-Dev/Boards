@@ -16,6 +16,7 @@ With kind permission & support!
 **Features removed:**
 
   - no spare pin header (the spare pins are used for the 2nd DB9 port)
+  - MIDI circuit and DIN connectors (replaced by an external solution)
 
 **The 2nd DB9 port ist supported by:**
 
