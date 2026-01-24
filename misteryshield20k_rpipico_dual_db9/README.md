@@ -50,7 +50,9 @@ other cores may follow...
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB.PNG)
 
-![](../misteryshield20k_rpipico_dual_db9/PCB2.PNG)
+![](../misteryshield20k_rpipico_dual_db9/PCB.F.PNG)
+
+![](../misteryshield20k_rpipico_dual_db9/PCB.B.PNG)
 
 **Credits**
 
