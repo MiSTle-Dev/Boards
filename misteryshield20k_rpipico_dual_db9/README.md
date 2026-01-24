@@ -11,8 +11,8 @@ With kind permission & support!
   + Power + Core + Activity LEDs (like MiST & MiSTer)
   + alternative core loading from USB-C Thumbstick (by Stefan Voss)
   + debug header optional (not populated)
-  + MIDI optional on M5 Stack connector to be used with e.g.  
-    M5 SAM2695 MIDI, or M5 SAM2695 SYNTH
+  + MIDI optional on M5 Stack connector to be used with  
+    e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH
 
 **Features removed:**
 
