@@ -8,7 +8,7 @@ With kind permission & support!
   + 2nd DB9 Joystick port on board
   + on board USB-C power receptacle (incl. fuse and ESD-protection)
   + pin header for case power switch (can be shorted if not needed)
-  + Power + Core + Activity LEDs (like MiST & MiSTer)
+  + Power + Core + Activity LEDs (like on MiST & MiSTer)
   + alternative core loading from USB-C Thumbstick (by Stefan Voss)
   + debug header optional (not populated)
   + MIDI optional on M5 Stack connector to be used with  
