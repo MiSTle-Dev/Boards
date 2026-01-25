@@ -63,7 +63,7 @@ Original PCB Design by Cantclosevi\
 Modifications by Manger
 
 
-**MIDI (optional on M5 Stack connector to be used with
-e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH)**
+
+**MIDI - optional on M5 Stack connector to be used with e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH)**
 
 ![1000268608](https://github.com/user-attachments/assets/699d2773-37e1-4fde-b76c-7f6f060c6545)
