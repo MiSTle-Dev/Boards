@@ -46,9 +46,9 @@ other cores may follow...
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB6.jpg)
 
-![](../misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9.svg)
+![](../misteryshield20k_rpipico_dual_db9/Schematics1.PNG)
 
-![](../misteryshield20k_rpipico_dual_db9/misteryshield20k_rpipico_dual_db9-Pi_Pico_USB_Hub.svg)
+![](../misteryshield20k_rpipico_dual_db9/Schematics2.PNG)
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB.PNG)
 
