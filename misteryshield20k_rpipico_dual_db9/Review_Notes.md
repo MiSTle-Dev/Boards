@@ -8,7 +8,7 @@
 **suggestions for improvement:**
 
 * add a label to the POWER PORT
-* add lables to the MIDI port in the backside
+* add lables to the MIDI port pins on the backside
 
 
 **fixed/checked already:**
