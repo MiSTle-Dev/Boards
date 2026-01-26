@@ -8,7 +8,7 @@
 **suggestions for improvement:**
 
 
-**fixed/checkeed already:**
+**fixed/checked already:**
 
 * ortientation of TVS corrected
 * the pins of MIDI connector are wired correctly
