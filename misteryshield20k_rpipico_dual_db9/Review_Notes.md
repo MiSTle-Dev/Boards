@@ -7,6 +7,8 @@
 
 **suggestions for improvement:**
 
+* add a label to the POWER PORT
+
 
 **fixed/checked already:**
 
