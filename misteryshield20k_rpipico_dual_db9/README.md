@@ -19,6 +19,20 @@ With kind permission & support!
   - no spare pin header (the spare pins are used for the 2nd DB9 port)
   - MIDI circuit and DIN connectors (replaced by an external solution)
 
+**Features from the original design:**
+
+- Headers to plug the Tang Nano 20K
+- Headers to plug the Raspberry Pi Pico (W)
+- Atari / Commodore style joystick interface
+- Supports up to two buttons
+- Including 5V supply and 5V level shifters
+- Works with DB9 joystcks and mice
+- MIDI
+- 4 x USB-A Interface
+- Debug header for Pico UART and e.g. FPGA UART
+- 3 x PiPico Status LED (KBD/MOUSE/JOY)
+- 3D STEP model to ease case development
+
 **The 2nd DB9 port ist supported by:**
 
 + MiSTeryNano
