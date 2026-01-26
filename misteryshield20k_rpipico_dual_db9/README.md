@@ -43,9 +43,10 @@ other cores may follow...
 
 ## THE SHIELD IS A WORK IN PROGRESS! NOT READY YET!
 
-[Review Notes:](Review Notes.md)
 
- misteryshield20k_rpipico_dual_db9/Review Notes.md
+[Review Notes](Review_Notes.md)
+
+ 
 
 **TO DO**
 
