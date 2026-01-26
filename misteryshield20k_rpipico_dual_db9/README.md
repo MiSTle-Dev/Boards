@@ -50,8 +50,8 @@ other cores may follow...
 
 **TO DO**
 
-- Review Schematic
-- Review PCB 
+- Schematic Review
+- PCB Review
 - BOM check
 - Preparation of production data
 - Order placement
