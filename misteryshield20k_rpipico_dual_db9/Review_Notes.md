@@ -15,3 +15,4 @@
 
 * ortientation of TVS corrected
 * the pins of MIDI connector are wired correctly
+* 2nd DB9 wired correctly
