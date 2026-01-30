@@ -11,7 +11,7 @@
 * add a label to the POWER PORT
 * add lables to the MIDI port pins on the backside
 * change clearance from 0,5 to 0,25mm (minimum is 0,1mm at JLCPCB for 1 oz 2 layer PCBs) for better ground planes
-* change debug header to 2x3 pins (RX TX GND) for less complexity
+* change debug header to 2x3 pins (RX TX GND) for reduced complexity
 
 
 **fixed/checked already:**
