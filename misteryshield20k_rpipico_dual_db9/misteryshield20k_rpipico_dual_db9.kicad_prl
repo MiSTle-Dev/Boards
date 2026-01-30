@@ -10,10 +10,10 @@
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
-      "shapes": 0.0,
+      "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.3799999952316284
+      "zones": 0.49000000953674316
     },
     "selection_filter": {
       "dimensions": true,
@@ -48,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_aaaaaaaf",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

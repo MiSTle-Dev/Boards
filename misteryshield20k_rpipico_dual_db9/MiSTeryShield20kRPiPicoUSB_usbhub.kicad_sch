@@ -914,6 +914,264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x03_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1598,257 +1856,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MiSTeryShield20kRPiPico:PZ254-2-04-W-8.5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProLib_pcs_2026-01-20:HDR-TH_8P-P2.54-H-M-R2-C4-S2.54-N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254-2-04-W-8.5/3132660.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pin Structure:2x4P Pitch:2.54mm Row Spacing:2.54mm Circluar Pins/Square Pins:Pin Header Mounting Type:Right Angle Number of Rows:2 Number of Pins:8P Current Rating:3A Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Co"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "PZ254-2-04-W-8.5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HCTL(华灿天禄)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C2894984"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "2x4P 间距:2.54mm 方针 弯插"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PZ254-2-04-W-8.5_1_0"
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 3.81 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -3.81 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3114,128 +3121,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -4246,10 +4131,6 @@
 		(uuid "a3205181-d8b7-4211-823d-102489895a5e")
 	)
 	(no_connect
-		(at 185.42 107.95)
-		(uuid "ba28eca2-56c2-4296-a9c4-cec0b92229ea")
-	)
-	(no_connect
 		(at 127 59.69)
 		(uuid "c6f92a38-b9a6-4a48-87db-b745f80f07ea")
 	)
@@ -4356,16 +4237,6 @@
 			(type default)
 		)
 		(uuid "0ad6e640-de90-4a0c-b1f1-9ce1b20ebfc2")
-	)
-	(wire
-		(pts
-			(xy 180.34 110.49) (xy 185.42 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0af188da-1cc7-43b5-b737-eb5237974b1b")
 	)
 	(wire
 		(pts
@@ -4509,6 +4380,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 107.95) (xy 218.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aac3c76-fe93-48b2-889a-8b79956332b1")
+	)
+	(wire
+		(pts
 			(xy 205.74 63.5) (xy 212.09 63.5)
 		)
 		(stroke
@@ -4609,6 +4490,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 102.87) (xy 198.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad221e4-acc8-433d-8fb4-2b72ccc789b0")
+	)
+	(wire
+		(pts
 			(xy 127 74.93) (xy 133.35 74.93)
 		)
 		(stroke
@@ -4646,16 +4537,6 @@
 			(type default)
 		)
 		(uuid "4f534efd-4f7a-4a32-9be0-a36d6a8692a8")
-	)
-	(wire
-		(pts
-			(xy 200.66 107.95) (xy 195.58 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fe95d17-475b-4efa-b941-78f2bc790541")
 	)
 	(wire
 		(pts
@@ -4716,6 +4597,16 @@
 			(type default)
 		)
 		(uuid "5e41bc27-75d3-4df6-9a3d-78a89c736c91")
+	)
+	(wire
+		(pts
+			(xy 180.34 102.87) (xy 185.42 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f72ec12-aaff-42ac-b365-0ae29b96d8dc")
 	)
 	(wire
 		(pts
@@ -4949,16 +4840,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 102.87) (xy 214.63 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af0f541b-1f61-4410-82e5-7a45bc4d5cf9")
-	)
-	(wire
-		(pts
 			(xy 198.12 35.56) (xy 200.66 35.56)
 		)
 		(stroke
@@ -5006,16 +4887,6 @@
 			(type default)
 		)
 		(uuid "b82f30a0-222d-4820-830a-476ccb53d614")
-	)
-	(wire
-		(pts
-			(xy 201.93 105.41) (xy 195.58 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8daea3b-a9a6-491d-9c01-a81702b7fd00")
 	)
 	(wire
 		(pts
@@ -5159,6 +5030,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 107.95) (xy 185.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e470e5-9434-4d25-9465-6d8b35a54819")
+	)
+	(wire
+		(pts
 			(xy 166.37 33.02) (xy 167.64 33.02)
 		)
 		(stroke
@@ -5166,6 +5047,16 @@
 			(type default)
 		)
 		(uuid "e217d834-ceba-4aa6-96ed-5bde7b6a4f3f")
+	)
+	(wire
+		(pts
+			(xy 170.18 105.41) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f87b6d-2ce7-4c5b-8c21-6a4fb919ef0d")
 	)
 	(wire
 		(pts
@@ -5186,16 +5077,6 @@
 			(type default)
 		)
 		(uuid "e6029a8f-50d5-4704-96dc-2ec55c57de2c")
-	)
-	(wire
-		(pts
-			(xy 165.1 102.87) (xy 185.42 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e60d5c98-a8ea-404d-a72f-c23c0ff3b735")
 	)
 	(wire
 		(pts
@@ -5289,6 +5170,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 105.41) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43567b2-7b27-4043-b9d3-24d739714fb5")
+	)
+	(wire
+		(pts
 			(xy 66.04 39.37) (xy 63.5 39.37)
 		)
 		(stroke
@@ -5319,16 +5210,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 110.49) (xy 195.58 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf54826-1065-4c0a-9148-d4b04d7e4801")
-	)
-	(wire
-		(pts
 			(xy 44.45 54.61) (xy 44.45 55.88)
 		)
 		(stroke
@@ -5346,16 +5227,6 @@
 			(type default)
 		)
 		(uuid "fd84655c-c8dc-4cb1-bab7-4bb8739063c8")
-	)
-	(wire
-		(pts
-			(xy 179.07 105.41) (xy 185.42 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff21ea51-3e79-424d-90fd-c0276fa8712f")
 	)
 	(label "USB3_D+"
 		(at 275.59 93.98 180)
@@ -5396,6 +5267,16 @@
 			(justify left bottom)
 		)
 		(uuid "16d1af6b-ab03-43bf-9dcf-194559194569")
+	)
+	(label "PI_UART_TX"
+		(at 199.39 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cff06de-d964-462b-9c2c-10da80d70fcd")
 	)
 	(label "UP_D+"
 		(at 54.61 41.91 180)
@@ -5467,16 +5348,6 @@
 		)
 		(uuid "56d8e353-a3e9-4eaf-91aa-b6b9241f7e3a")
 	)
-	(label "PI_UART_TX"
-		(at 167.64 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58c66a5f-198e-4c10-bee9-20e6089f56cd")
-	)
 	(label "USB1_D+"
 		(at 161.29 60.96 0)
 		(effects
@@ -5537,16 +5408,6 @@
 		)
 		(uuid "be08e30d-b487-4f76-8d76-d95346e57217")
 	)
-	(label "PI_UART_RX"
-		(at 212.09 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c03563a7-1137-4610-b78e-079b3799d4a7")
-	)
 	(label "USB1_D-"
 		(at 161.29 58.42 0)
 		(effects
@@ -5597,6 +5458,16 @@
 		)
 		(uuid "e01e47cb-cc99-4bf9-a266-24660b395c30")
 	)
+	(label "PI_UART_RX"
+		(at 173.99 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3653942-cafe-4348-a7d4-bd26047b8c52")
+	)
 	(label "USB1_D-"
 		(at 273.05 50.8 180)
 		(effects
@@ -5616,6 +5487,17 @@
 			(justify right bottom)
 		)
 		(uuid "f1776057-ceb2-40d0-8553-6e4db6092a7c")
+	)
+	(hierarchical_label "UART_TX"
+		(shape output)
+		(at 212.09 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "243c832e-e6b7-4fa4-baea-c0b7cd9d6391")
 	)
 	(hierarchical_label "MISO"
 		(shape input)
@@ -5672,6 +5554,17 @@
 		)
 		(uuid "7af66993-b106-4810-81f8-7af09b2dd90d")
 	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 170.18 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fe9049c-e2af-47b6-8fa0-de0001216616")
+	)
 	(hierarchical_label "IRQ"
 		(shape input)
 		(at 133.35 62.23 0)
@@ -5682,28 +5575,6 @@
 			(justify left)
 		)
 		(uuid "ab5e5386-67a7-4a5f-92e7-0d81a89e74f8")
-	)
-	(hierarchical_label "UART_TX"
-		(shape output)
-		(at 201.93 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc8f521e-1006-49c9-8129-c713ce74e93b")
-	)
-	(hierarchical_label "UART_RX"
-		(shape input)
-		(at 179.07 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e846a0f9-3915-4524-b5df-fd89a2485a6f")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5899,7 +5770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 107.95 90)
+		(at 203.2 102.87 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5908,7 +5779,7 @@
 		(dnp no)
 		(uuid "1e9cb159-bc6c-4c03-857a-437b4a5ff582")
 		(property "Reference" "#PWR042"
-			(at 207.01 107.95 0)
+			(at 209.55 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 107.95 90)
+			(at 207.01 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +5797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 107.95 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +5806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 107.95 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +5815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 107.95 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7444,6 +7315,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 180.34 102.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c9a02ee-86cf-4ed3-b6f8-bb5b35528c59")
+		(property "Reference" "#PWR043"
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98d8de2a-fd44-4de1-b341-bd9d5ab27e61")
+		)
+		(instances
+			(project "misteryshield20k_rpipico_dual_db9"
+				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MiSTeryShield20kRPiPico:Raspberry_Pi_Pico_W")
 		(at 95.25 57.15 0)
 		(unit 1)
@@ -7663,8 +7601,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MiSTeryShield20kRPiPico:PZ254-2-04-W-8.5")
-		(at 190.5 106.68 0)
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 190.5 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7673,32 +7611,23 @@
 		(fields_autoplaced yes)
 		(uuid "8dedb2e7-2d0a-4d96-a9c2-8ef8ff1a0872")
 		(property "Reference" "H5"
-			(at 190.5 95.25 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2x4 Pinheader horizontal"
-			(at 190.5 97.79 0)
+		(property "Value" "2x3 Pinheader horizontal"
+			(at 191.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MiSTeryShield20kRPiPico:HDR-TH_8P-P2.54-H-M-R2-C4-S2.54-N"
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254-2-04-W-8.5/3132660.html"
-			(at 190.5 106.68 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
+			(at 190.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,8 +7635,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pin Structure:2x4P Pitch:2.54mm Row Spacing:2.54mm Circluar Pins/Square Pins:Pin Header Mounting Type:Right Angle Number of Rows:2 Number of Pins:8P Current Rating:3A Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Co"
-			(at 190.5 106.68 0)
+		(property "Datasheet" "~"
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 190.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,7 +7654,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PZ254-2-04-W-8.5"
-			(at 190.5 106.68 0)
+			(at 190.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +7663,7 @@
 			)
 		)
 		(property "Manufacturer" "HCTL(华灿天禄)"
-			(at 190.5 106.68 0)
+			(at 190.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,7 +7672,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 190.5 106.68 0)
+			(at 190.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7743,7 +7681,7 @@
 			)
 		)
 		(property "LCSC Part Name" "2x4P 间距:2.54mm 方针 弯插"
-			(at 190.5 106.68 0)
+			(at 190.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,7 +7690,7 @@
 			)
 		)
 		(property "LCSC Part # " "C2894984"
-			(at 190.5 106.68 0)
+			(at 190.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,8 +7698,14 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "97abd373-cdb1-4c7f-af4d-3ceeee6c365c")
+		(property "Supplier Part" "C2894984"
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
 			(uuid "10cce06e-668b-44ca-af9c-6e7100e6e1ab")
@@ -7774,9 +7718,6 @@
 		)
 		(pin "4"
 			(uuid "16360600-d19f-4636-aa3c-b5fed8198f67")
-		)
-		(pin "8"
-			(uuid "f8d98278-d25e-429e-ac6d-33b24c06445b")
 		)
 		(pin "1"
 			(uuid "cd5cae03-9a2a-4ad9-be46-9652e303a0b8")
@@ -8564,73 +8505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 200.66 110.49 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b77e4c17-4d46-4db8-863c-00da2548493d")
-		(property "Reference" "#PWR0101"
-			(at 196.85 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 204.47 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce026361-28e9-4d57-8e64-774114ad69e1")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 205.74 59.69 180)
 		(unit 1)
@@ -8901,73 +8775,6 @@
 			(project ""
 				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 180.34 110.49 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9de9460-22cf-47a1-99d7-aa3b3c7b96e3")
-		(property "Reference" "#PWR043"
-			(at 184.15 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 177.165 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6840969-c862-445a-b56b-0ae1922879dc")
-		)
-		(instances
-			(project "misteryshield20k_rpipico_dual_db9"
-				(path "/18b63fd5-4a6d-47a9-b0d3-ab759ce46098/f80bc7e0-5f99-45a2-85d3-d29a7b8b31dd"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
