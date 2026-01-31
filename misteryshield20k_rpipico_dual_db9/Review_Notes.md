@@ -12,6 +12,8 @@
 * add lables to the MIDI port pins on the backside
 * change clearance from 0,5 to 0,25mm (minimum is 0,1mm at JLCPCB for 1 oz 2 layer PCBs) for better ground planes
 * change debug header to 2x3 pins (RX TX GND) for reduced complexity
+* remove OR circuit
+* change LED0 = Power (green), LED1 = FDD (yellow), LED2 = HDD (red)
 
 
 **fixed/checked already:**
