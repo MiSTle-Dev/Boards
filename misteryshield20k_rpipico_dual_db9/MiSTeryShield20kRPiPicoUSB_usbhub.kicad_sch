@@ -4220,7 +4220,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 49.53) (xy 35.56 55.88)
+			(xy 38.1 49.53) (xy 38.1 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4320,7 +4320,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 49.53) (xy 35.56 49.53)
+			(xy 66.04 49.53) (xy 38.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4580,7 +4580,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 54.61) (xy 44.45 54.61)
+			(xy 66.04 54.61) (xy 49.53 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5210,7 +5210,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 44.45 55.88)
+			(xy 49.53 54.61) (xy 49.53 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6316,7 +6316,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "green"
+		(property "Value" "orange"
 			(at 30.48 62.5474 90)
 			(effects
 				(font
@@ -6352,7 +6352,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2297"
+		(property "LCSC Part #" " C110371"
 			(at 26.67 59.69 0)
 			(effects
 				(font
@@ -6538,7 +6538,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 35.56 59.69 90)
+		(at 38.1 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6547,7 +6547,7 @@
 		(fields_autoplaced yes)
 		(uuid "59152754-ca08-42db-ab7d-e862c112dabd")
 		(property "Reference" "D3"
-			(at 39.37 60.0074 90)
+			(at 41.91 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,8 +6555,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "green"
-			(at 39.37 62.5474 90)
+		(property "Value" "orange"
+			(at 41.91 62.5474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +6565,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 35.56 59.69 0)
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 59.69 0)
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 59.69 0)
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,8 +6591,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2297"
-			(at 35.56 59.69 0)
+		(property "LCSC Part #" " C110371"
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6601,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" ""
-			(at 35.56 59.69 0)
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6610,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 35.56 59.69 0)
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6619,7 @@
 			)
 		)
 		(property "Comment" "0805"
-			(at 35.56 59.69 0)
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8142,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 71.12 0)
+		(at 38.1 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8151,7 +8151,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6c3cee5-2918-4a03-b906-386f994d5a41")
 		(property "Reference" "#PWR058"
-			(at 35.56 77.47 0)
+			(at 38.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8160,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 76.454 0)
+			(at 38.1 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,7 +8168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +8334,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 67.31 0)
+		(at 38.1 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8343,7 +8343,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac16c72d-fead-4fe3-83aa-ad79505ca36e")
 		(property "Reference" "R19"
-			(at 38.1 66.0399 0)
+			(at 40.64 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +8352,7 @@
 			)
 		)
 		(property "Value" "560"
-			(at 38.1 68.5799 0)
+			(at 40.64 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +8361,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 33.782 67.31 90)
+			(at 36.322 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +8370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 67.31 0)
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +8379,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 67.31 0)
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8388,7 @@
 			)
 		)
 		(property "LCSC Part #" "C28636"
-			(at 35.56 67.31 0)
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8397,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" ""
-			(at 35.56 67.31 0)
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8406,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 35.56 67.31 0)
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +8415,7 @@
 			)
 		)
 		(property "Comment" "0805"
-			(at 35.56 67.31 0)
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +8440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 71.12 0)
+		(at 49.53 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8449,7 +8449,7 @@
 		(fields_autoplaced yes)
 		(uuid "af9ce610-5827-4f01-8613-e55b21a6263d")
 		(property "Reference" "#PWR059"
-			(at 44.45 77.47 0)
+			(at 49.53 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,7 +8458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 76.454 0)
+			(at 49.53 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +8466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 71.12 0)
+			(at 49.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 71.12 0)
+			(at 49.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +8484,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 71.12 0)
+			(at 49.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8891,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 67.31 0)
+		(at 49.53 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8900,7 +8900,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebc02cee-1834-4a8a-a183-00ee572c64a9")
 		(property "Reference" "R20"
-			(at 46.99 66.0399 0)
+			(at 52.07 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +8909,7 @@
 			)
 		)
 		(property "Value" "560"
-			(at 46.99 68.5799 0)
+			(at 52.07 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,7 +8918,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 42.672 67.31 90)
+			(at 47.752 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,7 +8927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 67.31 0)
+			(at 49.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +8936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 67.31 0)
+			(at 49.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +8945,7 @@
 			)
 		)
 		(property "LCSC Part #" "C28636"
-			(at 44.45 67.31 0)
+			(at 49.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +8954,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" ""
-			(at 44.45 67.31 0)
+			(at 49.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +8963,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 44.45 67.31 0)
+			(at 49.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8972,7 +8972,7 @@
 			)
 		)
 		(property "Comment" "0805"
-			(at 44.45 67.31 0)
+			(at 49.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9063,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 44.45 59.69 90)
+		(at 49.53 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9072,7 +9072,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbc11f6a-7bb8-4338-adfb-12ac49e7cb78")
 		(property "Reference" "D4"
-			(at 48.26 60.0074 90)
+			(at 53.34 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,8 +9080,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "green"
-			(at 48.26 62.5474 90)
+		(property "Value" "orange"
+			(at 53.34 62.5474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9090,7 +9090,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 44.45 59.69 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9099,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 59.69 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,7 +9108,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 59.69 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,8 +9116,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2297"
-			(at 44.45 59.69 0)
+		(property "LCSC Part #" " C110371"
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,7 +9126,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" ""
-			(at 44.45 59.69 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,7 +9135,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 44.45 59.69 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9144,7 +9144,7 @@
 			)
 		)
 		(property "Comment" "0805"
-			(at 44.45 59.69 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
