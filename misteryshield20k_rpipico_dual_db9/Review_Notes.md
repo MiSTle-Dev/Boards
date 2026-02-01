@@ -14,7 +14,13 @@
 * change debug header to 2x3 pins (RX TX GND) for reduced complexity
 * remove OR circuit
 * change LED0 = Power (green), LED1 = FDD (yellow), LED2 = HDD (red)
-* check resistors for uniform LED brightness
+* check resistors for uniform LED brightness 
+
+🔴 Rot 560 Ω
+🟠 Orange 510 Ω
+🟡 Gelb 470 Ω
+🟢 Grün 430 Ω
+
 * check LED / pin assignment
 * align Tang & Pi sockets
 
