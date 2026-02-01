@@ -23,6 +23,7 @@
 
 * check LED / pin assignment
 * align Tang & Pi sockets
+* move label for debug heder so it can be read from outside
 
 
 **fixed/checked already:**
