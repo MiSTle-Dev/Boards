@@ -16,9 +16,9 @@
 * change LED0 = Power (green), LED1 = FDD (yellow), LED2 = HDD (red)
 * check resistors for uniform LED brightness 
 
-🔴 Rot 560 Ω 
-🟠 Orange 510 Ω 
-🟡 Gelb 470 Ω 
+🔴 Rot 560 Ω/
+🟠 Orange 510 Ω/
+🟡 Gelb 470 Ω/
 🟢 Grün 430 Ω
 
 * check LED / pin assignment
