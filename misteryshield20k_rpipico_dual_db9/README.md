@@ -71,9 +71,9 @@ other cores may follow...
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB.PNG)
 
-![](../misteryshield20k_rpipico_dual_db9/PCB rounded 1.PNG)
+![](../misteryshield20k_rpipico_dual_db9/PCB3.PNG)
 
-![](../misteryshield20k_rpipico_dual_db9/PCB rounded 2.PNG)
+![](../misteryshield20k_rpipico_dual_db9/PCB4.PNG)
 
 
 **MIDI - optional on M5 Stack connector to be used with e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH)**
