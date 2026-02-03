@@ -5,6 +5,7 @@
 * the arrow symbols for LEDs and TVS are missing
 * C10, C11 not grounded well, move the next trace farther away
 * move R31 somewhere else
+* check orientation of LEDs and TVS Diode
 
 **suggestions for improvement:**
 
