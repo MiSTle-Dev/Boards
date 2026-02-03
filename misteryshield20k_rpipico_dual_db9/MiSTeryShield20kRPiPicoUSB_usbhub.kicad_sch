@@ -6079,7 +6079,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "510"
 			(at 29.21 68.5799 0)
 			(effects
 				(font
@@ -6115,7 +6115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C28636"
+		(property "LCSC Part #" "C17734"
 			(at 26.67 67.31 0)
 			(effects
 				(font
@@ -6406,6 +6406,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C110371"
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2d6805e-b993-4ecb-9875-02c3a11d75b4")
 		)
@@ -6655,6 +6664,15 @@
 			)
 		)
 		(property "JLC_3D_Size" "2.02 1.25"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C110371"
 			(at 38.1 59.69 0)
 			(effects
 				(font
@@ -7734,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C2894984"
+		(property "JLCPCB Rotation Offset" "90"
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -8387,7 +8405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "510"
 			(at 40.64 68.5799 0)
 			(effects
 				(font
@@ -8423,7 +8441,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C28636"
+		(property "LCSC Part #" "C17734"
 			(at 38.1 67.31 0)
 			(effects
 				(font
@@ -8944,7 +8962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "510"
 			(at 52.07 68.5799 0)
 			(effects
 				(font
@@ -8980,7 +8998,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C28636"
+		(property "LCSC Part #" "C17734"
 			(at 49.53 67.31 0)
 			(effects
 				(font
@@ -9198,6 +9216,15 @@
 			)
 		)
 		(property "JLC_3D_Size" "2.02 1.25"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C110371"
 			(at 49.53 59.69 0)
 			(effects
 				(font
