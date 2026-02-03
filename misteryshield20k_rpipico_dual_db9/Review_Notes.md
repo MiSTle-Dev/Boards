@@ -25,6 +25,8 @@
 * align Tang & Pi sockets
 * move label for debug heder so it can be read from outside
 
+* filled via's?
+
 
 **fixed/checked already:**
 
