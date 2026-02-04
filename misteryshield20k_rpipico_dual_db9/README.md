@@ -71,6 +71,8 @@ other cores may follow...
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB.PNG)
 
+![](../misteryshield20k_rpipico_dual_db9/BOM.PNG)
+
 ![](../misteryshield20k_rpipico_dual_db9/PCB3.jpg)
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB4.jpg)
