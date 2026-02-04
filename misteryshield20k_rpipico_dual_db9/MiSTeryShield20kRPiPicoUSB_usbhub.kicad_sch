@@ -4310,6 +4310,26 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 102.87) (xy 185.42 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16451dc8-7797-4baf-8477-2435473a4e98")
+	)
+	(wire
+		(pts
+			(xy 180.34 107.95) (xy 185.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19271b39-45a7-461b-b361-7dd540880280")
+	)
+	(wire
+		(pts
 			(xy 205.74 53.34) (xy 205.74 57.15)
 		)
 		(stroke
@@ -4377,16 +4397,6 @@
 			(type default)
 		)
 		(uuid "2653f2d2-4264-4c1b-9b2c-37e6c600cc5d")
-	)
-	(wire
-		(pts
-			(xy 198.12 107.95) (xy 218.44 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aac3c76-fe93-48b2-889a-8b79956332b1")
 	)
 	(wire
 		(pts
@@ -4490,16 +4500,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 102.87) (xy 198.12 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad221e4-acc8-433d-8fb4-2b72ccc789b0")
-	)
-	(wire
-		(pts
 			(xy 127 74.93) (xy 133.35 74.93)
 		)
 		(stroke
@@ -4600,16 +4600,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 102.87) (xy 185.42 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f72ec12-aaff-42ac-b365-0ae29b96d8dc")
-	)
-	(wire
-		(pts
 			(xy 45.72 36.83) (xy 66.04 36.83)
 		)
 		(stroke
@@ -4707,6 +4697,16 @@
 			(type default)
 		)
 		(uuid "82466b74-3960-4799-8247-4d0ec9025def")
+	)
+	(wire
+		(pts
+			(xy 200.66 105.41) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825b5345-ca51-4a59-9f99-624813ff837a")
 	)
 	(wire
 		(pts
@@ -4860,6 +4860,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 107.95) (xy 198.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e47f65-e563-4cb3-9238-fd22f0317f12")
+	)
+	(wire
+		(pts
 			(xy 269.24 85.09) (xy 269.24 86.36)
 		)
 		(stroke
@@ -4917,6 +4927,16 @@
 			(type default)
 		)
 		(uuid "c8ee127d-8c75-43bc-93cc-a14c65db8778")
+	)
+	(wire
+		(pts
+			(xy 198.12 102.87) (xy 217.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc7486e-b29b-48ee-a3f9-213792affc10")
 	)
 	(wire
 		(pts
@@ -5030,13 +5050,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 107.95) (xy 185.42 107.95)
+			(xy 181.61 105.41) (xy 185.42 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0e470e5-9434-4d25-9465-6d8b35a54819")
+		(uuid "e12d170a-1bce-4c6f-8953-a3c1b8bea232")
 	)
 	(wire
 		(pts
@@ -5047,16 +5067,6 @@
 			(type default)
 		)
 		(uuid "e217d834-ceba-4aa6-96ed-5bde7b6a4f3f")
-	)
-	(wire
-		(pts
-			(xy 170.18 105.41) (xy 185.42 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f87b6d-2ce7-4c5b-8c21-6a4fb919ef0d")
 	)
 	(wire
 		(pts
@@ -5170,16 +5180,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 105.41) (xy 198.12 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f43567b2-7b27-4043-b9d3-24d739714fb5")
-	)
-	(wire
-		(pts
 			(xy 66.04 39.37) (xy 63.5 39.37)
 		)
 		(stroke
@@ -5269,14 +5269,14 @@
 		(uuid "16d1af6b-ab03-43bf-9dcf-194559194569")
 	)
 	(label "PI_UART_TX"
-		(at 199.39 107.95 0)
+		(at 172.72 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1cff06de-d964-462b-9c2c-10da80d70fcd")
+		(uuid "24a91446-29ce-4882-bf0f-b4c8b65ecb88")
 	)
 	(label "UP_D+"
 		(at 54.61 41.91 180)
@@ -5448,6 +5448,16 @@
 		)
 		(uuid "d9424275-6be2-4066-a280-b9b27b9878c0")
 	)
+	(label "PI_UART_RX"
+		(at 199.39 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dda3ee78-9185-47fe-b445-9379068ff557")
+	)
 	(label "USB1_D+"
 		(at 273.05 48.26 180)
 		(effects
@@ -5457,16 +5467,6 @@
 			(justify right bottom)
 		)
 		(uuid "e01e47cb-cc99-4bf9-a266-24660b395c30")
-	)
-	(label "PI_UART_RX"
-		(at 173.99 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3653942-cafe-4348-a7d4-bd26047b8c52")
 	)
 	(label "USB1_D-"
 		(at 273.05 50.8 180)
@@ -5490,14 +5490,14 @@
 	)
 	(hierarchical_label "UART_TX"
 		(shape output)
-		(at 212.09 105.41 0)
+		(at 181.61 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "243c832e-e6b7-4fa4-baea-c0b7cd9d6391")
+		(uuid "10d63960-e12c-4c9d-ab7c-c1e16b79f02b")
 	)
 	(hierarchical_label "MISO"
 		(shape input)
@@ -5543,6 +5543,17 @@
 		)
 		(uuid "52c60a6c-9a57-4fdd-a7fd-931918f2d94d")
 	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 200.66 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a4abf5b-6335-4794-aaa3-fda02c2e9cab")
+	)
 	(hierarchical_label "RECONFGN"
 		(shape output)
 		(at 133.35 69.85 0)
@@ -5553,17 +5564,6 @@
 			(justify left)
 		)
 		(uuid "7af66993-b106-4810-81f8-7af09b2dd90d")
-	)
-	(hierarchical_label "UART_RX"
-		(shape input)
-		(at 170.18 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8fe9049c-e2af-47b6-8fa0-de0001216616")
 	)
 	(hierarchical_label "IRQ"
 		(shape input)
@@ -5770,7 +5770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 102.87 90)
+		(at 180.34 107.95 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5779,7 +5779,7 @@
 		(dnp no)
 		(uuid "1e9cb159-bc6c-4c03-857a-437b4a5ff582")
 		(property "Reference" "#PWR042"
-			(at 209.55 102.87 0)
+			(at 173.99 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +5788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 102.87 90)
+			(at 176.53 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +5797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 102.87 0)
+			(at 180.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 102.87 0)
+			(at 180.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 102.87 0)
+			(at 180.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +5928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical"
+		(property "Footprint" "MiSTeryShield20kRPiPico:PinSocket_1x20_P2.54mm_Vertical"
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -5946,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated"
+		(property "Description" ""
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -7370,7 +7370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 102.87 270)
+		(at 203.2 107.95 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7379,7 +7379,7 @@
 		(dnp no)
 		(uuid "8c9a02ee-86cf-4ed3-b6f8-bb5b35528c59")
 		(property "Reference" "#PWR043"
-			(at 173.99 102.87 0)
+			(at 209.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 102.87 90)
+			(at 207.01 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 102.87 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 102.87 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +7415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 102.87 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "MiSTeryShield20kRPiPico:HDR-TH_6P-P2.54-H-M-R2-C3-S2.54-W12.3-N"
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -7689,7 +7689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -7698,7 +7698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -7707,7 +7707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "PZ254-2-04-W-8.5"
+		(property "Manufacturer Part" "PZ254-2-03-W-8.5"
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -7734,7 +7734,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "2x4P 间距:2.54mm 方针 弯插"
+		(property "JLCPCB Rotation Offset" "0"
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -7743,16 +7743,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part # " "C2894984"
-			(at 190.5 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "LCSC Part #" "C2894983"
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -8062,7 +8053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical"
+		(property "Footprint" "MiSTeryShield20kRPiPico:PinSocket_1x20_P2.54mm_Vertical"
 			(at 121.92 57.15 0)
 			(effects
 				(font
@@ -8071,7 +8062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 121.92 57.15 0)
 			(effects
 				(font
@@ -8080,7 +8071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated"
+		(property "Description" ""
 			(at 121.92 57.15 0)
 			(effects
 				(font
@@ -8098,7 +8089,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
+		(property "JLCPCB Rotation Offset" "90"
 			(at 121.92 57.15 0)
 			(effects
 				(font

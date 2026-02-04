@@ -5030,9 +5030,9 @@
 		)
 		(uuid "06fdfdb6-d231-4c98-b9a5-f0ea59e857b2")
 	)
-	(text "Board Power Circuit Mod"
+	(text "Board Power Circuit (Mod)"
 		(exclude_from_sim no)
-		(at 171.45 121.92 0)
+		(at 175.26 124.46 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -5084,9 +5084,9 @@
 		)
 		(uuid "3fd6d64c-9ce2-4e1e-b3cf-10b6dc6024b3")
 	)
-	(text "MIDI Connector Mod"
+	(text "MIDI Connector (Mod)"
 		(exclude_from_sim no)
-		(at 232.41 87.63 0)
+		(at 237.49 87.63 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -5171,9 +5171,9 @@
 		)
 		(uuid "c08a48cf-1fc0-4779-a6af-0023cd68d0a5")
 	)
-	(text "2nd DB9 Port Mod"
+	(text "2nd DB9 Port (Mod)"
 		(exclude_from_sim no)
-		(at 30.48 91.44 0)
+		(at 29.21 91.44 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -5203,9 +5203,9 @@
 		)
 		(uuid "f4d69451-308b-4d69-be69-9f605dc52d2b")
 	)
-	(text "FPGA LED Array Mod"
+	(text "FPGA LED Array (Mod)"
 		(exclude_from_sim no)
-		(at 112.522 148.59 0)
+		(at 113.03 148.59 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -9243,7 +9243,7 @@
 				)
 			)
 		)
-		(property "Value" "Joystick"
+		(property "Value" "D-DMR009PM-D002"
 			(at 30.48 44.45 0)
 			(effects
 				(font
@@ -9260,7 +9260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/D-DMR009PM-D002/153211.html"
+		(property "Datasheet" ""
 			(at 30.48 59.69 0)
 			(effects
 				(font
@@ -9269,7 +9269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Type:Standard D-Sub Gender:Male Number of Pins:9P Mounting Type:Right Angle Number of Rows:2 Current Rating-Signal:3A Current Rating-Power:- Voltage Rating:- Color:Black Operating Temperature:-50°C~+105°C Operating Temperature:-50°C~+105°C"
+		(property "Description" ""
 			(at 30.48 59.69 0)
 			(effects
 				(font
@@ -9278,43 +9278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "D-DMR009PM-D002"
-			(at 30.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Ckmtw(灿科盟)"
-			(at 30.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C141880"
-			(at 30.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 30.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "DMR9公"
+		(property "LCSC Part # " "C141880"
 			(at 30.48 59.69 0)
 			(effects
 				(font
@@ -10584,7 +10548,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MiSTeryShield20kRPiPico:SOD-128_L3.7-W2.5-LS4.7-RD"
+		(property "Footprint" "MiSTeryShield20kRPiPico:SOD-123_L2.7-W1.6-LS3.7-RD"
 			(at 222.25 138.43 0)
 			(effects
 				(font
@@ -10593,7 +10557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/475226a1f5f23e88222b181b564f5c39/PTVSXP1UP_SER.pdf"
+		(property "Datasheet" ""
 			(at 222.25 138.43 0)
 			(effects
 				(font
@@ -10602,7 +10566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SOD-128 Unidirectional TVS diode, 5V, 600W, Alternate KiCAD Library"
+		(property "Description" ""
 			(at 222.25 138.43 0)
 			(effects
 				(font
@@ -10611,17 +10575,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C83329"
-			(at 222.25 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Bemerkung" "PTVS5V0P1UP"
-			(at 222.25 138.43 90)
+		(property "LCSC Part #" "C83329"
+			(at 222.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +10683,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S4B-PH-K-S_LF__SN (Grove 1125S-4P)"
+		(property "Value" "Grove 1125S-4P"
 			(at 253.746 108.458 0)
 			(effects
 				(font
@@ -11016,7 +10971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical"
+		(property "Footprint" "MiSTeryShield20kRPiPico:PinSocket_1x20_P2.54mm_Vertical"
 			(at 191.77 54.61 0)
 			(effects
 				(font
@@ -11025,7 +10980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 191.77 54.61 0)
 			(effects
 				(font
@@ -11034,25 +10989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated"
-			(at 191.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 191.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
+		(property "Description" ""
 			(at 191.77 54.61 0)
 			(effects
 				(font
@@ -11062,15 +10999,6 @@
 			)
 		)
 		(property "LCSC Part #" "C18078139"
-			(at 191.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "1x20, P2.54mm"
 			(at 191.77 54.61 0)
 			(effects
 				(font
@@ -11495,7 +11423,7 @@
 				)
 			)
 		)
-		(property "Value" "Joystick"
+		(property "Value" "D-DMR009PM-D002"
 			(at 33.02 105.41 0)
 			(effects
 				(font
@@ -11512,7 +11440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/D-DMR009PM-D002/153211.html"
+		(property "Datasheet" ""
 			(at 33.02 120.65 0)
 			(effects
 				(font
@@ -11521,7 +11449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Type:Standard D-Sub Gender:Male Number of Pins:9P Mounting Type:Right Angle Number of Rows:2 Current Rating-Signal:3A Current Rating-Power:- Voltage Rating:- Color:Black Operating Temperature:-50°C~+105°C Operating Temperature:-50°C~+105°C"
+		(property "Description" ""
 			(at 33.02 120.65 0)
 			(effects
 				(font
@@ -11530,43 +11458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "D-DMR009PM-D002"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Ckmtw(灿科盟)"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C141880"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "DMR9公"
+		(property "LCSC Part # " "C141880"
 			(at 33.02 120.65 0)
 			(effects
 				(font
@@ -13238,7 +13130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical"
+		(property "Footprint" "MiSTeryShield20kRPiPico:PinSocket_1x20_P2.54mm_Vertical"
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -13247,7 +13139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -13256,25 +13148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated"
-			(at 152.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 152.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
+		(property "Description" ""
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -13284,15 +13158,6 @@
 			)
 		)
 		(property "LCSC Part #" "C18078139"
-			(at 152.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "1x20, P2.54mm"
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -18081,7 +17946,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 255.27 137.16 270)
+		(at 252.73 137.16 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18089,7 +17955,7 @@
 		(dnp no)
 		(uuid "fc37ca91-fc1f-4306-bc30-48b447c3eb88")
 		(property "Reference" "J5"
-			(at 249.936 136.652 90)
+			(at 252.222 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18098,7 +17964,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 256.032 136.906 90)
+			(at 270.256 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18106,8 +17972,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 255.27 137.16 0)
+		(property "Footprint" "MiSTeryShield20kRPiPico:HDR-TH_2P-P2.54-H-M-W10.4"
+			(at 252.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,8 +17981,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 255.27 137.16 0)
+		(property "Datasheet" ""
+			(at 252.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18124,8 +17990,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 255.27 137.16 0)
+		(property "Description" ""
+			(at 252.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18134,7 +18000,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C492410"
-			(at 255.27 137.16 0)
+			(at 252.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
