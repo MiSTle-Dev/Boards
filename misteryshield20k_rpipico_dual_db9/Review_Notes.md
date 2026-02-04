@@ -35,3 +35,5 @@
 * the pins of MIDI connector are wired correctly
 * 2nd DB9 wired correctly
 * orientation of LEDs and TVS diode checked
+
+* https://jlcpcb.com/capabilities/pcb-capabilities
