@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 1.02,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -629,6 +629,78 @@
           "group_by": false,
           "label": "manufacturer",
           "name": "manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC_3DModel_Q",
+          "name": "JLC_3DModel_Q",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part # ",
+          "name": "LCSC Part # ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "checked",
+          "name": "checked",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC_3D_Size",
+          "name": "JLC_3D_Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Info",
+          "name": "Info",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Bemerkung",
+          "name": "Bemerkung",
           "show": false
         }
       ],

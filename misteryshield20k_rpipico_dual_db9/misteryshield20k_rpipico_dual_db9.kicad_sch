@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "MiSTeryShield-20K-PiPico-dual-DB9")
-		(date "2026-01-25")
+		(date "2026-02-09")
 		(rev "V1")
 		(company "Stefan Voss")
-		(comment 2 "DB9, LED, MIDI & Power Circuit Modifications by Gerry Mangione")
-		(comment 3 "Original Design (c) 2025 by Stefan Voss")
-		(comment 4 "MiSTery Pi Pico WLAN Shield for Tang Nano 20K")
+		(comment 2 "DB9, LED, MIDI & Power Circuit modifications by Gerry Mangione (Manger) 2026")
+		(comment 3 "original design (c) 2025 by Stefan Voss")
+		(comment 4 "design based on MiSTery Pi Pico WLAN Shield for Tang Nano 20K")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
