@@ -48,13 +48,14 @@ other cores may follow...
 
  
 
-**TO DO**
+**Current state**
 
-- Schematic Review
-- PCB Review
-- BOM check
-- Preparation of production data
-- Order placement
+- Schematic Review ✔️
+- PCB Review ✔️
+- BOM check ✔️
+- Preparation of production data ✔️
+- Order placement ✔️
+- Production
 - Shipping
 - Arrival
 - Testing
