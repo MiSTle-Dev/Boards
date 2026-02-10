@@ -55,7 +55,8 @@ other cores may follow...
 - BOM check ✔️
 - Preparation of production data ✔️
 - Order placement ✔️
-- Production 🕓
+- PCB production ✔️
+- Assembling 🕓
 - Shipping
 - Arrival
 - Testing
