@@ -8,8 +8,8 @@ With kind permission & support!
   + 2nd DB9 Joystick port on board
   + on board USB-C power receptacle (incl. fuse and ESD-protection)
   + pin header for case power switch (can be shorted if not needed)
-  + Power + FDD + HDD activity LEDs (Red, Yellow, Green)
-  + alternative core loading from USB-C Thumbstick (by Stefan Voss)
+  + Power + FDD + HDD activity LEDs (Red, Yellow, Green)\
+  + ~~alternative core loading from USB-C Thumbstick (by Stefan Voss)~~
   + debug header (Tang & Pi)
   + MIDI optional on M5 Stack connector to be used with  
     e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH
