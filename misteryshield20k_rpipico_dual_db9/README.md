@@ -57,9 +57,9 @@ other cores may follow...
 - Order placement ✔️
 - PCB production ✔️
 - Assembling ✔️
-- Shipping 🕓
-- Arrival
-- Testing
+- Shipping ✔️
+- Arrival ✔️
+- Testing 🕓
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB2.jpg)
 
