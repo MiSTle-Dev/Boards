@@ -65,6 +65,7 @@ other cores may follow...
 
 - Tang & PiPico ✔️
 - Power circuit ✔️
+- Power switch ✔️
 - DB9 Port's incl. original Amiga Mouse ✔️
 - USB-Hub ✔️
 - LED Array ✔️
