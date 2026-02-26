@@ -71,6 +71,10 @@ other cores may follow...
 - Debug Header 🕓
 - Midi-Port 🕓
 
+**Problems**
+
+- Power LED too bright
+
 ![](../misteryshield20k_rpipico_dual_db9/PCB2.jpg)
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB5.jpg)
