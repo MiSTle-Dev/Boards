@@ -61,6 +61,16 @@ other cores may follow...
 - Arrival ✔️
 - Testing 🕓
 
+**Test Procedure**
+
+- Tang & PiPico ✔️
+- Power circuit ✔️
+- DB9 Port's incl. original Amiga Mouse ✔️
+- USB-Hub ✔️
+- LED Array ✔️
+- Debug Header 🕓
+- Midi-Port 🕓
+
 ![](../misteryshield20k_rpipico_dual_db9/PCB2.jpg)
 
 ![](../misteryshield20k_rpipico_dual_db9/PCB5.jpg)
