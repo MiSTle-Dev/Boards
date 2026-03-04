@@ -43,11 +43,6 @@ other cores may follow...
 
 ## THE SHIELD IS A WORK IN PROGRESS! NOT READY YET!
 
-
-[Review Notes](Review_Notes.md)
-
- 
-
 **Current state**
 
 - Schematic Review ✔️
