@@ -20,17 +20,18 @@ Shields are carrier boards that carry one or more off-the-shelf development boar
 
 ## MCU PMOD's
 
-Many FPGA boards privide so-called PMOD ports. These can be used to add the FPGA Companion MCU to those boards. The
+Many FPGA boards provide so-called PMOD ports. These can be used to add the FPGA Companion MCU to those boards. The
 MCU PMOD's provide a PMOD connector to common MCU developments boards and makes them compatible with typical FPGA PMOD ports.
 
-FPGA baords providing PMOD ports are include the Tang Primer 20K, Primer 25K, Mega 60k/138K NEO, Mega138kPro and Console 60k/138k
+FPGA boards providing PMOD ports include the Tang Primer 20K, Primer 25K, Mega 60k/138K NEO, Mega138kPro and Console 60k/138k
 
   - The [PMOD M0S](m0s_pmod) provides a PMOD port for the M0S Dock (BL616 µC)
   - The [PMOD PiPico](pipico_pmod) provides a PMOD port for Raspberry Pi Pico and (W)ifi
   - The [PMOD PiZero](pizero_pmod) provides a PMOD port for Raspberry Pi Pico compatible RP2040-ZERO board
 
 ## Other boards
-  
+
+  - The [Console Hub](console_hub) is a small 4 port USB Hub designed to be used with the Tang Console allowing it to be powered via USB-C through the Hub.
   - The [T20 PMOD](t20_pmod) is an add-on for the Efinix T20BGA256 development board adding a PMOD for HDMI usage, the SD card slot and a Raspberry Pi PICO incl. USB-A header to it making it a complete MiSTeryNano setup.
   - The [LVDS2TMDS board](lvds2tmds) is and add-on for the Efinix T20BGA256 development board converting its LVDS outputs to TMDS allowing to drive regular digital video signals
   - The [Atari ST Keyboard](atarist_keyboard) design is a tiny 50% Atari ST style keyboard which is meant to become the basis for a Mini Atari ST
