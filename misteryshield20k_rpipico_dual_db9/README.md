@@ -9,7 +9,7 @@ With kind permission & support!
   + on board USB-C power receptacle (incl. fuse and ESD-protection)
   + pin header for case power switch (can be shorted if not needed)
   + Power + FDD + HDD activity LEDs (Red, Yellow, Green)\
-  + ~~alternative core loading from USB-C Thumbstick (by Stefan Voss)~~
+  + alternative core loading from USB Thumbstick by Stefan Voss (some fine soldering is required!)
   + debug header (Tang & Pi)
   + MIDI optional on M5 Stack connector to be used with  
     e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH
