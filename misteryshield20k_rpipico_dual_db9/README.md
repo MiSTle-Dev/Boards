@@ -62,6 +62,7 @@ other cores may follow...
 - DB9 Port's incl. original Amiga Mouse ✔️
 - USB-Hub ✔️
 - LED Array ✔️
+- PiPico core loader ✔️
 - Debug Header 🕓
 - Midi-Port 🕓
 
