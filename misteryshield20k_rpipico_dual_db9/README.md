@@ -89,6 +89,13 @@ other cores may follow...
 ![](../misteryshield20k_rpipico_dual_db9/BOM.PNG)
 
 
+
+**JTAG - to enable the core loader, four thin wires must be soldered**
+
+<img src="https://github.com/user-attachments/assets/157df5ab-bbb6-49e8-aaa0-3d5ca91b7599" />
+
+
+
 **MIDI - optional on M5 Stack connector to be used with e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH)**
 
 ![1000268608](https://github.com/user-attachments/assets/699d2773-37e1-4fde-b76c-7f6f060c6545)
