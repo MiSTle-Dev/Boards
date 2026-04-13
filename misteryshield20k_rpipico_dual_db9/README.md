@@ -8,8 +8,8 @@ With kind permission & support!
   + 2nd DB9 Joystick port on board
   + on board USB-C power receptacle (incl. fuse and ESD-protection)
   + pin header for case power switch (can be shorted if not needed)
-  + Power + FDD + HDD activity LEDs (Red, Yellow, Green)\
-  + alternative core loading from USB Thumbstick by Stefan Voss (some fine soldering is required!)
+  + Power + FDD + HDD activity LEDs (Red, Yellow, Green)
+  + core loading from USB Thumbstick by Stefan Voss (some fine soldering is required!)
   + debug header (Tang & Pi)
   + MIDI optional on M5 Stack connector to be used with  
     e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH
@@ -62,6 +62,7 @@ other cores may follow...
 - DB9 Port's incl. original Amiga Mouse ✔️
 - USB-Hub ✔️
 - LED Array ✔️
+- PiPico core loader ✔️
 - Debug Header 🕓
 - Midi-Port 🕓
 
@@ -86,6 +87,13 @@ other cores may follow...
 ![](../misteryshield20k_rpipico_dual_db9/PCB4.jpg)
 
 ![](../misteryshield20k_rpipico_dual_db9/BOM.PNG)
+
+
+
+**JTAG - to enable the core loader, four thin wires must be soldered**
+
+<img src="https://github.com/user-attachments/assets/157df5ab-bbb6-49e8-aaa0-3d5ca91b7599" />
+
 
 
 **MIDI - optional on M5 Stack connector to be used with e.g. M5 SAM2695 MIDI, or M5 SAM2695 SYNTH)**

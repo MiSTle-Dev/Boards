@@ -16,6 +16,7 @@ Features:
 * Debug header for Pico UART and e.g. FPGA UART
 * 3 x PiPico Status LED
 * 3D STEP model to ease case development
+* core loading from USB Thumbstick (some fine soldering is required!)
 * [CERN-OHL-S](https://cern-ohl.web.cern.ch/home) license
 
 PCBA production files for [JLCPCB](https://jlcpcb.com) are availble [here](Output/production)  
@@ -32,6 +33,9 @@ The great PCB Layout work using [KiCad](https://www.kicad.org) had been done by 
 |3      | none known |MIDI IN fix|-|
 
 
+**JTAG - to enable the core loader, four thin short wires must be soldered**
+
+<img src="https://github.com/user-attachments/assets/157df5ab-bbb6-49e8-aaa0-3d5ca91b7599" />
 
 ![RRPiPico](pico.png)  
 ![PNG](MiSTeryShield20kRPiPico-1.png)  
@@ -49,9 +53,15 @@ The great PCB Layout work using [KiCad](https://www.kicad.org) had been done by 
 | GP4  | LED 1  | indicator mice         |
 | GP5  | LED 2  | indicator keyboard     |
 | GP6  | LED 3  | indicator joystick     |
+| GP12 [^a]     | JTAG TDI |
+| GP13 [^a]     | JTAG TMS |
+| GP14 [^a]     | JTAG TDO |
+| GP15 [^a]     | JTAG TCK |
 | GP16 | MISO   | SPI data from FPGA     |
 | GP17 | CSn    | SPI chip select to FPGA|
 | GP18 | SCK    | SPI clock to FPGA      |
 | GP19 | MOSI   | SPI data to FPGA       |
 | GP20 |spare   | spare                  |
 | GP22 | IRQn   | SPI interrupt from FPGA|
+
+[^a]: JTAG FPGA loader
