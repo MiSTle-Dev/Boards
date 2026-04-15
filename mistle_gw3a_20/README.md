@@ -17,7 +17,8 @@ the pin mapping.
     - Updated pin mapping :heavy_check_mark:
     - Added external 64MBit (16M*16) SDRAM as the GW3A-LV20 has no internal SDRAM :heavy_check_mark: 
     - External peripherals mapped :heavy_check_mark:
-    - Update FPGA Power Supply :wrench:
+    - Update FPGA Power Supply :heavy_check_mark:
+    - Add smoothing capacitors and similar :wrench:
 
 ## Preliminary schematic
 
