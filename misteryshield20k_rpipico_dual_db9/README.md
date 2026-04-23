@@ -1,6 +1,6 @@
 # MiSTeryShield20k RPiPico USB dual DB9 board
 
-The Shield is a Modification of the original **MiSTeryShield20k RPiPico USB board** by Stefan Voss\
+The shield is a modification of the original **MiSTeryShield20k RPiPico USB board** by Stefan Voss\
 With kind permission & support!
 
 **New Features:**
