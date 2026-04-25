@@ -59,7 +59,8 @@ other cores may follow...
 - Tang & PiPico ✔️
 - Power circuit ✔️
 - Power switch ✔️
-- DB9 Port's (Port 1 working with original Amiga Mouse) ✔️
+- DB9 Port's ✔️
+- DB9 Port 1 working with original Amiga Mouse ✔️
 - USB-Hub ✔️
 - LED Array ✔️
 - JTAG wiring ✔️
