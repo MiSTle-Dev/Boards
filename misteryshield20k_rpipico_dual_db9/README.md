@@ -64,7 +64,7 @@ other cores may follow...
 - LED Array ✔️
 - JTAG wiring ✔️
 - PiPico core loader ✔️
-- Debug Header 🕓
+- Debug Header ✔️
 - Midi-Port 🕓
 
 **Problems**
