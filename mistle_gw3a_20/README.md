@@ -1,4 +1,4 @@
-# GW3A-LV20 MiSTle developent board
+# GW3A-LV20 MiSTle development board
 
 This board is meant to be a development board to run the upcoming
 [GW3A-LV20 FPGA](https://www.gowinsemi.com/en/product/detail/84/) with
@@ -17,13 +17,13 @@ the pin mapping.
   - Schematic updates
     - GW2AR-LV18 FPGA replaced by GW3A-LV20 :heavy_check_mark:
     - Updated pin mapping :heavy_check_mark:
-    - Added external 64MBit (16M*16) SDRAM as the GW3A-LV20 has no internal SDRAM :heavy_check_mark: 
+    - Added external 256MBit (16M*16) SDRAM as the GW3A-LV20 has no internal SDRAM :heavy_check_mark: 
     - External peripherals mapped :heavy_check_mark:
     - Update FPGA Power Supply :heavy_check_mark:
     - Add smoothing capacitors and similar :heavy_check_mark:
     - Initial routing :heavy_check_mark:
     - Verify schematic :wrench:
-    - Verify pcb
+    - Verify PCB
     - Update JLCPCB part numbers
     - Order
 
