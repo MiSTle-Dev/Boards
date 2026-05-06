@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "75b9521a-0ff9-453b-94db-43ff0ddddda1")
 	(paper "A4")
 	(title_block
 		(title "MiSTle - MiSTeryDev20k")
-		(date "2025-08-28")
-		(rev "1.0")
+		(date "2026-04-07")
+		(rev "1.1")
 		(company "Till Harbaum")
 		(comment 1 "FPGA pin usage")
 	)
@@ -50,7 +50,7 @@
 			(type color)
 			(color 194 194 194 1)
 		)
-		(uuid 4c193516-96bf-42d5-b94d-82f4b9b8254b)
+		(uuid "4c193516-96bf-42d5-b94d-82f4b9b8254b")
 	)
 	(polyline
 		(pts
@@ -77,7 +77,7 @@
 			(type color)
 			(color 22 133 67 1)
 		)
-		(uuid 62fea92c-8523-415d-bb8c-d0cacf63a227)
+		(uuid "62fea92c-8523-415d-bb8c-d0cacf63a227")
 	)
 	(polyline
 		(pts
@@ -117,7 +117,7 @@
 			(type color)
 			(color 194 194 194 1)
 		)
-		(uuid 78b320be-f8f3-4d13-9129-8a98bb8ee42f)
+		(uuid "78b320be-f8f3-4d13-9129-8a98bb8ee42f")
 	)
 	(bezier
 		(pts
@@ -131,7 +131,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 9973d5cd-6230-4927-b6f1-404c51bcf33e)
+		(uuid "9973d5cd-6230-4927-b6f1-404c51bcf33e")
 	)
 	(bezier
 		(pts
@@ -145,7 +145,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c1548f3e-ad04-4ba1-9da9-82a2a9920217)
+		(uuid "c1548f3e-ad04-4ba1-9da9-82a2a9920217")
 	)
 	(polyline
 		(pts
@@ -172,7 +172,7 @@
 			(type color)
 			(color 22 133 67 1)
 		)
-		(uuid c33ea71f-4eb5-477e-b858-866044f4acfa)
+		(uuid "c33ea71f-4eb5-477e-b858-866044f4acfa")
 	)
 	(polyline
 		(pts
@@ -212,7 +212,7 @@
 			(type color)
 			(color 194 194 194 1)
 		)
-		(uuid c4ece566-3e8a-4727-b5ca-0b31b23b5894)
+		(uuid "c4ece566-3e8a-4727-b5ca-0b31b23b5894")
 	)
 	(polyline
 		(pts
@@ -263,6 +263,7 @@
 			3.048 3.048 3.048 3.048 3.048 3.048 3.048 3.048 3.048 3.048 3.048 3.048
 			3.048 3.048 3.048 3.048 3.048 3.048 3.048 3.048 3.048 3.048 3.048
 		)
+		(uuid "c8a2960a-f941-40b0-a4cd-3cd87ab992e9")
 		(cells
 			(table_cell "Pin"
 				(exclude_from_sim no)

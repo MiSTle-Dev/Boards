@@ -54,18 +54,16 @@ Further minor improvements over the existing boards are:
   - Boards arrived :heavy_check_mark:
   - Basic 90% function test using Atari ST core :heavy_check_mark:
   - Extensive testing :heavy_check_mark:
-  - New features :wrench:
+  - New features :heavy_check_mark:
 
-Issues on V1.0:
-  - WS2812 should be powered by 5V. 3.3V is out of spec, but works
-  - JLCPCB BOM contains 16MBit flash for Pico and FPGA, at least FPGA
-    should be 64MBit
-  - Pico debug header labels on PCB are in reverse order
-  - Pico most not SD card in SPI mode. 1-bit SD mode does work. Also allow for 4 bit SD
+Upated in V1.1:
+  - WS2812 was powered by 3.3V, corrected to 5V
+  - JLCPCB BOM contained 16MBit flash for Pico and FPGA, are now 64MBit
+  - Pico debug header labels on PCB were in reverse order
 
 ## Usage
 
-The latest FPGA Companion allows test the new ability to load cores
+The latest FPGA Companion has the ability to load cores
 from SD card. Before doing so, please make sure you have a working
 setup by placing the core and the ROMs in flash and using an SD card
 with matching contents. Also build and install the latest FPGA
