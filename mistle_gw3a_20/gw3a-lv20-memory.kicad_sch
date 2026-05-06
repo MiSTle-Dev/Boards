@@ -5502,12 +5502,6 @@
 		(uuid "f3d67db1-cf34-4d48-937e-7f9787001868")
 	)
 	(junction
-		(at 85.725 158.115)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0335bf6f-b2c3-43a7-b0e3-64628360ef01")
-	)
-	(junction
 		(at 131.445 154.305)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5524,12 +5518,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "134c4cde-f731-4c97-9177-e9d10347bce3")
-	)
-	(junction
-		(at 85.725 146.685)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26a47e0f-0c8d-4328-8e93-a27c4f4f3c12")
 	)
 	(junction
 		(at 59.69 46.99)
@@ -5608,6 +5596,10 @@
 	(no_connect
 		(at 75.565 133.985)
 		(uuid "8a2acaca-709d-4f3f-b161-09766ae3010e")
+	)
+	(no_connect
+		(at 75.565 146.685)
+		(uuid "8efd38e7-964d-48cc-8481-57c7526ec12b")
 	)
 	(no_connect
 		(at 75.565 131.445)
@@ -5802,16 +5794,6 @@
 			(type default)
 		)
 		(uuid "20906966-336d-402f-a6aa-a16fd1ab6433")
-	)
-	(wire
-		(pts
-			(xy 85.725 158.115) (xy 85.725 146.685)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "218538ab-fe6b-4bbc-a9db-69437ce67b35")
 	)
 	(wire
 		(pts
@@ -7317,26 +7299,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 146.685) (xy 88.265 146.685)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f17a9e36-b0d4-4150-a68e-9caacef38549")
-	)
-	(wire
-		(pts
-			(xy 75.565 146.685) (xy 85.725 146.685)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f21990bc-f914-4ecd-bf42-8d8e9b16e3ff")
-	)
-	(wire
-		(pts
 			(xy 107.315 135.89) (xy 224.79 135.89)
 		)
 		(stroke
@@ -8432,30 +8394,6 @@
 		(uuid "85c09b68-66bc-4b77-b8ec-d71b5efe5512")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.7484 172.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "~{RESET}"
-		(shape input)
-		(at 88.265 146.685 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9694735d-4461-436b-a32f-b1a6256a04ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3411 146.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11404,109 +11342,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 80.645 158.115 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54c6b8da-de9d-49d3-8356-f357d8e96a1c")
-		(property "Reference" "SW5"
-			(at 79.883 155.194 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KEY1"
-			(at 84.201 159.893 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 80.645 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.645 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 80.645 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 80.645 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C318884"
-			(at 80.645 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "249e197f-e5c8-49b8-b9b9-0df37a447fa8")
-		)
-		(pin "2"
-			(uuid "8429f5c2-d94a-4e52-82de-60700afb6bcf")
-		)
-		(instances
-			(project "mistle_gw3a_20"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/7d0a0160-12dd-4ceb-bcf8-2a822c28d929"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 50.8 111.125 0)
 		(unit 1)
 		(body_style 1)
@@ -12387,107 +12222,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 85.725 160.655 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0ed8657-53c1-4bc8-8d4c-9e28e375e156")
-		(property "Reference" "R34"
-			(at 89.027 163.195 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 89.027 161.417 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.725 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.725 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 85.725 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 85.725 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C11702"
-			(at 85.725 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea29ebd6-19f9-4631-ba7c-544da314b592")
-		)
-		(pin "2"
-			(uuid "d4988575-6b87-48e4-87c7-665a9e685057")
-		)
-		(instances
-			(project "mistle_gw3a_20"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/7d0a0160-12dd-4ceb-bcf8-2a822c28d929"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Memory_RAM:MT48LC16M16A2TG")
 		(at 140.335 85.09 0)
 		(unit 1)
@@ -12809,86 +12543,6 @@
 			(project "mistle_gw3a_20"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/7d0a0160-12dd-4ceb-bcf8-2a822c28d929"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_1")
-		(lib_id "power:+3V3")
-		(at 70.485 158.115 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aa7b9435-bb2a-4faa-87de-564be632425f")
-		(property "Reference" "#PWR073"
-			(at 74.295 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 67.945 157.099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 70.485 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 70.485 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 70.485 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1487c29-64da-4bb2-928b-0dcd3079d89f")
-		)
-		(instances
-			(project "mistle_gw3a_20"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/7d0a0160-12dd-4ceb-bcf8-2a822c28d929"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -13948,185 +13602,6 @@
 			(project "mistle_gw3a_20"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/7d0a0160-12dd-4ceb-bcf8-2a822c28d929"
 					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.725 163.195 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4a8fa39-f326-4f22-be45-150947d921ba")
-		(property "Reference" "#PWR072"
-			(at 85.725 169.545 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.757 167.259 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.725 163.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.725 163.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.725 163.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3dbb7bda-8bb4-486d-b446-2889dcd5a9ae")
-		)
-		(instances
-			(project "mistle_gw3a_20"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/7d0a0160-12dd-4ceb-bcf8-2a822c28d929"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 73.025 158.115 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb1173fa-8326-492d-b8e3-a77810366e4a")
-		(property "Reference" "R35"
-			(at 73.025 156.083 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 73.025 160.401 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.025 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.025 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.025 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 73.025 158.115 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C105875"
-			(at 73.025 158.115 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78a25fcf-b7b0-49c7-bd6b-23855466ee9c")
-		)
-		(pin "2"
-			(uuid "7a4afd99-72d8-4301-a925-42e0705eae21")
-		)
-		(instances
-			(project "mistle_gw3a_20"
-				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97/1ae93680-6377-49c6-a9eb-78c5d0ac1afd/7d0a0160-12dd-4ceb-bcf8-2a822c28d929"
-					(reference "R35")
 					(unit 1)
 				)
 			)

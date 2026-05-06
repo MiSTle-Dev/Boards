@@ -197,7 +197,7 @@
         0.0,
         0.1524,
         0.2,
-        0.2032,
+        0.3,
         0.381,
         0.6
       ],
@@ -469,7 +469,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -712,7 +712,7 @@
         "uuid": "ba62e47e-9e07-4e97-ab08-24b670d50f97"
       }
     ],
-    "used_designators": "SW2-3,R13-16,R52,R57,D6-7,#PWR40-43,#PWR74-75",
+    "used_designators": "C65",
     "variants": []
   },
   "sheets": [
