@@ -1,13 +1,10 @@
 # MiSTeryDev20k
 
-This is a work-in-progress and it will be the first prototype of a
-complete custom board which will *not* be needing daughter boards
+This is the first complete custom board which does *not* need daughter boards
 like the [Tang Nano 20k](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html) or
 the [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html).
 
-The board features the [Gowin GW2AR-LV18QN88C8/I7](https://www.gowinsemi.com/en/product/detail/38/) FPGA present on the
-Tang Nano 20k and will run the same cores as that device including the
-[NanoMig](http://github.com/MiSTle-Dev/NanoMig) and [MisteryNano](http://github.com/MiSTle-Dev/MiSTeryNano).
+The board features the [Gowin GW2AR-LV18QN88C8/I7](https://www.gowinsemi.com/en/product/detail/38/) FPGA present on the Tang Nano 20k and runs the same cores as that device including the [NanoMig](http://github.com/MiSTle-Dev/NanoMig) and [MisteryNano](http://github.com/MiSTle-Dev/MiSTeryNano).
 
 This board can be manfactured through [JLCPCBs assembly service](http://jlcpcb.com) using the [production data](production).
 
