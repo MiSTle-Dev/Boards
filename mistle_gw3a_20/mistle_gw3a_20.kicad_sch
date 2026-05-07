@@ -5282,16 +5282,6 @@
 		)
 		(uuid "0fcc2012-9662-4e3b-a7c0-91fcbcbb64f7")
 	)
-	(text "~{SD_CS}"
-		(exclude_from_sim no)
-		(at 197.612 62.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2e351570-93ba-4ac2-8acb-634d8c446480")
-	)
 	(text "4x 3mm\nmounting holes"
 		(exclude_from_sim no)
 		(at 252.73 142.748 0)
@@ -5322,16 +5312,6 @@
 		)
 		(uuid "7475278b-41ce-4673-bd26-1dc23310d4e5")
 	)
-	(text "SD_DO"
-		(exclude_from_sim no)
-		(at 197.612 60.198 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7d2eb77f-07b6-4715-a658-b3c5bbe3953b")
-	)
 	(text "TODO: Use SD-1Bit nomenclature"
 		(exclude_from_sim no)
 		(at 207.518 91.694 0)
@@ -5341,16 +5321,6 @@
 			)
 		)
 		(uuid "820d2222-f7d0-461f-9c52-78988fd5bc35")
-	)
-	(text "SD_DI"
-		(exclude_from_sim no)
-		(at 197.358 68.072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "95eecd52-7904-4351-aabc-a094d272f157")
 	)
 	(text "Raspberry Pi Pico\ncompatible on-board LED"
 		(exclude_from_sim no)
@@ -5643,15 +5613,6 @@
 		(uuid "d5c361fe-bc14-4cdf-9292-93c7e65cb90f")
 	)
 	(bus_entry
-		(at 191.135 68.58)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "317383a2-6ded-4a3d-9b84-13e196d86757")
-	)
-	(bus_entry
 		(at 186.69 96.52)
 		(size -2.54 2.54)
 		(stroke
@@ -5661,7 +5622,7 @@
 		(uuid "65637a8c-42be-4e98-91d6-b6a6d9d5fa64")
 	)
 	(bus_entry
-		(at 191.135 63.5)
+		(at 190.5 63.5)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5679,7 +5640,7 @@
 		(uuid "be8718b3-f8ca-4799-84a7-9eb10ec4a6e4")
 	)
 	(bus_entry
-		(at 191.135 60.96)
+		(at 190.5 60.96)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5817,6 +5778,16 @@
 		)
 		(uuid "15df15ef-ef4d-4ecf-9d6d-3cd2f8b5591d")
 	)
+	(bus
+		(pts
+			(xy 193.04 56.515) (xy 193.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16aac7ce-94a9-47ba-9689-3a5b0fafda2c")
+	)
 	(wire
 		(pts
 			(xy 119.38 180.34) (xy 128.27 180.34)
@@ -5899,7 +5870,7 @@
 	)
 	(bus
 		(pts
-			(xy 193.675 56.515) (xy 194.31 56.515)
+			(xy 193.04 56.515) (xy 194.31 56.515)
 		)
 		(stroke
 			(width 0)
@@ -5999,7 +5970,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 63.5) (xy 191.135 63.5)
+			(xy 167.64 63.5) (xy 190.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6770,7 +6741,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 191.135 68.58)
+			(xy 167.64 68.58) (xy 171.45 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7051,7 +7022,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 191.135 60.96)
+			(xy 167.64 60.96) (xy 190.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7338,16 +7309,6 @@
 			(type default)
 		)
 		(uuid "e38c1bde-26f5-4a45-a412-e40bddcb629e")
-	)
-	(bus
-		(pts
-			(xy 193.675 66.04) (xy 193.675 56.515)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4011bde-7ef0-4789-ad3a-a6d41a7278a2")
 	)
 	(wire
 		(pts
@@ -7640,7 +7601,7 @@
 		(uuid "191f45c8-2bb1-44d7-bdb2-efbbfa7436e5")
 	)
 	(label "SD_DAT0"
-		(at 182.88 60.96 0)
+		(at 182.245 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7700,7 +7661,7 @@
 		(uuid "b142f9ba-50f5-49cf-bd8c-eebac8fd6eee")
 	)
 	(label "SD_DAT3"
-		(at 182.88 63.5 0)
+		(at 182.245 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7708,16 +7669,6 @@
 			(justify left bottom)
 		)
 		(uuid "c7764de3-9623-4fd4-80f1-7f173f87b727")
-	)
-	(label "SD_DAT1"
-		(at 182.88 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e887b3bb-3a72-4e80-9ff0-ae90426a7b42")
 	)
 	(global_label "USB D-"
 		(shape bidirectional)
@@ -8196,6 +8147,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SD_CMD"
+		(shape bidirectional)
+		(at 171.45 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "678785cb-8687-4cb9-8928-8f86a43fb3ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.172 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8983,17 +8958,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 74.93 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25905"
 			(at 74.93 41.91 90)
 			(hide yes)
@@ -9154,17 +9118,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 128.27 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9433,17 +9386,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 147.32 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "660a92a4-f49b-432b-a76f-181f05e69f7c")
 		)
@@ -9678,17 +9620,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 137.16 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9947,17 +9878,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 88.9 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Comment" "Samsung 6.3V X5R"
 			(at 88.9 184.15 0)
 			(hide yes)
@@ -10061,17 +9981,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 149.86 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C14663"
 			(at 149.86 151.13 0)
 			(hide yes)
@@ -10154,17 +10063,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 144.78 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10278,17 +10176,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10775,17 +10662,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 69.85 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C318884"
 			(at 69.85 115.57 90)
 			(hide yes)
@@ -10868,17 +10744,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 29.21 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10983,17 +10848,6 @@
 		)
 		(property "Description" ""
 			(at 119.38 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 119.38 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11174,17 +11028,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 95.25 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 95.25 105.41 90)
 			(hide yes)
@@ -11267,17 +11110,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 121.92 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11378,17 +11210,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 109.22 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1555"
 			(at 109.22 69.85 90)
 			(hide yes)
@@ -11471,17 +11292,6 @@
 		)
 		(property "Description" ""
 			(at 83.82 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 83.82 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11758,17 +11568,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 82.55 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Comment" "Samsung 25V X5R"
 			(at 82.55 184.15 0)
 			(hide yes)
@@ -11940,17 +11739,6 @@
 			)
 		)
 		(property "Description" "High Efficiency, 500kHz, 3A, 18V Input Synchronous Step Down Regulator"
-			(at 106.68 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 106.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12144,17 +11932,6 @@
 				)
 			)
 		)
-		(property "checked" ""
-			(at 255.27 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "mistle_gw3a_20"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
@@ -12219,17 +11996,6 @@
 		)
 		(property "Description" ""
 			(at 184.15 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 184.15 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12320,17 +12086,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 34.29 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12520,17 +12275,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12798,17 +12542,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 207.01 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2297"
 			(at 207.01 135.89 0)
 			(hide yes)
@@ -12891,17 +12624,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 95.25 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13017,17 +12739,6 @@
 				)
 			)
 		)
-		(property "checked" ""
-			(at 247.65 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "mistle_gw3a_20"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
@@ -13091,17 +12802,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 91.44 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -13193,17 +12893,6 @@
 		)
 		(property "Description" ""
 			(at 198.12 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 198.12 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13380,17 +13069,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 109.22 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1555"
 			(at 109.22 64.77 90)
 			(hide yes)
@@ -13473,17 +13151,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 119.38 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13668,17 +13335,6 @@
 				)
 			)
 		)
-		(property "checked" ""
-			(at 247.65 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "mistle_gw3a_20"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
@@ -13744,17 +13400,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 96.52 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -13857,17 +13502,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 110.49 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 110.49 184.15 0)
 			(hide yes)
@@ -13949,17 +13583,6 @@
 		)
 		(property "Description" ""
 			(at 74.93 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 74.93 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14062,17 +13685,6 @@
 			)
 		)
 		(property "LCSC Part #" "C9002"
-			(at 118.11 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 118.11 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -14249,17 +13861,6 @@
 		)
 		(property "Description" ""
 			(at 198.12 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 198.12 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14481,7 +14082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 90.17 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14514,18 +14115,7 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 90.17 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C179171"
 			(at 90.17 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14702,17 +14292,6 @@
 		)
 		(property "Description" ""
 			(at 73.66 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 73.66 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15049,17 +14628,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 130.81 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1555"
 			(at 130.81 151.13 0)
 			(hide yes)
@@ -15141,17 +14709,6 @@
 		)
 		(property "Description" ""
 			(at 110.49 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 110.49 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15328,17 +14885,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 110.49 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25190"
 			(at 110.49 54.61 90)
 			(hide yes)
@@ -15431,17 +14977,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 207.01 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 207.01 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15699,17 +15234,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 35.56 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 35.56 172.72 0)
 			(hide yes)
@@ -15792,17 +15316,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 71.12 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16148,17 +15661,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 127 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C408336"
 			(at 127 148.59 90)
 			(hide yes)
@@ -16240,17 +15742,6 @@
 		)
 		(property "Description" ""
 			(at 173.99 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 173.99 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16428,17 +15919,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 48.26 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C165948"
 			(at 48.26 49.53 0)
 			(hide yes)
@@ -16587,17 +16067,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 101.6 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 101.6 184.15 0)
 			(hide yes)
@@ -16688,18 +16157,7 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 86.36 153.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C25792"
 			(at 86.36 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -16879,17 +16337,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 207.01 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2297"
 			(at 207.01 153.67 0)
 			(hide yes)
@@ -16972,17 +16419,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 44.45 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -17315,17 +16751,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 124.46 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C11702"
 			(at 124.46 69.85 90)
 			(hide yes)
@@ -17649,17 +17074,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 137.16 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25756"
 			(at 137.16 151.13 90)
 			(hide yes)
@@ -17744,17 +17158,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" ""
 			(at 255.27 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -17906,17 +17309,6 @@
 		)
 		(property "Description" ""
 			(at 198.12 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 198.12 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

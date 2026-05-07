@@ -11245,17 +11245,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 130.175 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2676034"
 			(at 130.175 97.79 0)
 			(hide yes)
@@ -11395,17 +11384,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 161.29 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11827,17 +11805,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 182.245 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e3c1e6cd-48b2-4ecb-8f29-2d655b2abdbb")
 		)
@@ -11985,17 +11952,6 @@
 		)
 		(property "Description" ""
 			(at 243.84 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 243.84 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12253,17 +12209,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 79.375 116.205 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 79.375 116.205 90)
 			(hide yes)
@@ -12431,17 +12376,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 153.67 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C163460"
 			(at 153.67 127 90)
 			(hide yes)
@@ -12534,17 +12468,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 46.99 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 46.99 161.29 90)
 			(hide yes)
@@ -12628,17 +12551,6 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
-			(at 208.28 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 208.28 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12779,17 +12691,6 @@
 		)
 		(property "Description" "4 resistor network, parallel topology"
 			(at 154.305 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 154.305 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12987,17 +12888,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 118.745 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2676034"
 			(at 118.745 46.99 0)
 			(hide yes)
@@ -13095,7 +12985,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GW3A-LV20-Q144"
 			(at 46.99 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13813,17 +13703,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 161.29 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2297"
 			(at 161.29 133.35 0)
 			(hide yes)
@@ -13907,17 +13786,6 @@
 		)
 		(property "Description" ""
 			(at 81.915 113.665 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 81.915 113.665 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14017,17 +13885,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 153.67 146.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C163460"
 			(at 153.67 146.05 90)
 			(hide yes)
@@ -14109,17 +13966,6 @@
 		)
 		(property "Description" ""
 			(at 116.84 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 116.84 160.655 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14212,17 +14058,6 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
-			(at 208.28 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 208.28 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14370,17 +14205,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 53.975 122.555 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25744"
 			(at 53.975 122.555 90)
 			(hide yes)
@@ -14508,7 +14332,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GW3A-LV20-Q144"
 			(at 45.085 175.895 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15059,17 +14883,6 @@
 				)
 			)
 		)
-		(property "checked" ""
-			(at 255.905 116.205 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5a2b4365-f050-4064-a286-defa53fa36cc")
 		)
@@ -15326,17 +15139,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 161.29 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2297"
 			(at 161.29 139.7 0)
 			(hide yes)
@@ -15419,17 +15221,6 @@
 			)
 		)
 		(property "Description" "HDMI type A connector"
-			(at 61.595 136.525 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 61.595 136.525 0)
 			(hide yes)
 			(show_name no)
@@ -15675,17 +15466,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 130.175 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2676034"
 			(at 130.175 82.55 0)
 			(hide yes)
@@ -15816,17 +15596,6 @@
 		)
 		(property "Description" ""
 			(at 64.135 116.205 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 64.135 116.205 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16005,17 +15774,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 43.815 122.555 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25744"
 			(at 43.815 122.555 90)
 			(hide yes)
@@ -16097,17 +15855,6 @@
 		)
 		(property "Description" ""
 			(at 59.055 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 59.055 122.555 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16209,17 +15956,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 69.215 116.205 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 69.215 116.205 90)
 			(hide yes)
@@ -16301,17 +16037,6 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
-			(at 118.745 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 118.745 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16698,17 +16423,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 76.835 113.665 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 76.835 113.665 90)
 			(hide yes)
@@ -16790,17 +16504,6 @@
 		)
 		(property "Description" ""
 			(at 109.22 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 109.22 160.655 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16892,17 +16595,6 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
-			(at 118.745 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 118.745 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17128,17 +16820,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 51.435 122.555 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25744"
 			(at 51.435 122.555 90)
 			(hide yes)
@@ -17222,17 +16903,6 @@
 		)
 		(property "Description" ""
 			(at 66.675 113.665 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 66.675 113.665 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17334,17 +17004,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 71.755 113.665 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 71.755 113.665 90)
 			(hide yes)
@@ -17426,17 +17085,6 @@
 		)
 		(property "Description" ""
 			(at 153.67 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 153.67 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17536,17 +17184,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 247.65 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25744"
 			(at 247.65 44.45 0)
 			(hide yes)
@@ -17628,17 +17265,6 @@
 		)
 		(property "Description" ""
 			(at 106.68 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 106.68 160.655 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17900,17 +17526,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 153.67 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C163460"
 			(at 153.67 133.35 90)
 			(hide yes)
@@ -18090,17 +17705,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 161.29 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2297"
 			(at 161.29 127 0)
 			(hide yes)
@@ -18193,17 +17797,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -18384,17 +17977,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 114.3 160.655 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25744"
 			(at 114.3 160.655 90)
 			(hide yes)
@@ -18555,17 +18137,6 @@
 		)
 		(property "Description" "4 resistor network, parallel topology"
 			(at 169.545 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 169.545 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18763,17 +18334,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 155.575 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C110924"
 			(at 155.575 69.85 90)
 			(hide yes)
@@ -18961,17 +18521,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 130.175 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2676034"
 			(at 130.175 36.83 0)
 			(hide yes)
@@ -19101,17 +18650,6 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
-			(at 141.605 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 141.605 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -19271,17 +18809,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 194.945 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "FT Rotation Offset" "270"
 			(at 194.945 46.99 0)
 			(hide yes)
@@ -19399,17 +18926,6 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
-			(at 130.175 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 130.175 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -19636,17 +19152,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 118.745 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2676034"
 			(at 118.745 31.75 0)
 			(hide yes)
@@ -19786,17 +19291,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 210.82 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 210.82 81.28 90)
 			(hide yes)
@@ -19889,17 +19383,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -20169,17 +19652,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 191.135 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "cea673c4-454b-45f2-bf08-79df54456d43")
 		)
@@ -20252,17 +19724,6 @@
 		)
 		(property "Description" ""
 			(at 139.065 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 139.065 20.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20354,17 +19815,6 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
-			(at 141.605 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 141.605 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20760,17 +20210,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 143.51 177.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "5"
 			(uuid "17ad943c-1c44-4a15-bdf7-e74bb95e2e26")
 		)
@@ -20876,17 +20315,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 210.82 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 210.82 34.29 90)
 			(hide yes)
@@ -20970,17 +20398,6 @@
 		)
 		(property "Description" ""
 			(at 74.295 116.205 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 74.295 116.205 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21160,17 +20577,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 90.805 139.065 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 90.805 139.065 90)
 			(hide yes)
@@ -21252,17 +20658,6 @@
 		)
 		(property "Description" ""
 			(at 119.38 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 119.38 160.655 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21362,17 +20757,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 153.67 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C163460"
 			(at 153.67 114.3 90)
 			(hide yes)
@@ -21455,17 +20839,6 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 255.27 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 255.27 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -21806,17 +21179,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 90.805 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C191023"
 			(at 90.805 127.635 0)
 			(hide yes)
@@ -21909,17 +21271,6 @@
 			)
 		)
 		(property "LCSC Part #" "C141880"
-			(at 194.945 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 194.945 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -22055,17 +21406,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 153.67 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C163460"
 			(at 153.67 139.7 90)
 			(hide yes)
@@ -22147,17 +21487,6 @@
 		)
 		(property "Description" ""
 			(at 111.76 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 111.76 160.655 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22258,17 +21587,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 69.215 169.545 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25092"
 			(at 69.215 169.545 90)
 			(hide yes)
@@ -22318,8 +21636,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 111.76 124.46 0)
+		(property "Value" "GW3A-LV20-Q144"
+			(at 111.252 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22868,17 +22186,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 141.605 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2676034"
 			(at 141.605 102.87 0)
 			(hide yes)
@@ -23164,17 +22471,6 @@
 			)
 		)
 		(property "Description" "CMOS hex buffer (open drain) with 5V tolerant inputs"
-			(at 141.605 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 141.605 57.15 0)
 			(hide yes)
 			(show_name no)

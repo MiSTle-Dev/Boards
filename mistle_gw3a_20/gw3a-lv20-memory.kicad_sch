@@ -8656,7 +8656,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "063d35ce-a03a-42f2-8a31-5a6faa0c5f4e")
 		(property "Reference" "U7"
 			(at -11.176 39.624 0)
@@ -8669,8 +8668,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 31.75 68.58 0)
+		(property "Value" "GW3A-LV20-Q144"
+			(at 24.638 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9296,17 +9295,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 118.745 174.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C11702"
 			(at 118.745 174.625 0)
 			(hide yes)
@@ -9387,17 +9375,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 55.88 98.425 0)
 			(hide yes)
 			(show_name no)
@@ -9525,7 +9502,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c01f9c8-6739-4578-b814-189b797b44c5")
 		(property "Reference" "U7"
 			(at 2.159 169.291 0)
@@ -9538,8 +9514,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 45.085 140.335 0)
+		(property "Value" "GW3A-LV20-Q144"
+			(at 26.67 155.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10088,17 +10064,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 50.8 95.885 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C318884"
 			(at 50.8 95.885 0)
 			(hide yes)
@@ -10191,17 +10156,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 43.815 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 93.98 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -10380,17 +10334,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 87.63 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C163460"
 			(at 87.63 50.8 90)
 			(hide yes)
@@ -10481,17 +10424,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 87.63 43.815 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C163460"
 			(at 87.63 43.815 90)
 			(hide yes)
@@ -10572,17 +10504,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.745 159.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 118.745 159.385 0)
 			(hide yes)
 			(show_name no)
@@ -10683,17 +10604,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 145.415 156.845 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25900"
 			(at 145.415 156.845 0)
 			(hide yes)
@@ -10730,7 +10640,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4cfc1808-eaad-49bf-9379-896461b9aa8f")
 		(property "Reference" "U7"
 			(at 296.926 136.906 0)
@@ -10743,8 +10652,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 254 107.95 0)
+		(property "Value" "GW3A-LV20-Q144"
+			(at 237.998 140.462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11303,17 +11212,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 93.98 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2297"
 			(at 93.98 50.8 0)
 			(hide yes)
@@ -11396,17 +11294,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 50.8 111.125 0)
 			(hide yes)
 			(show_name no)
@@ -11670,17 +11557,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 154.305 154.305 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 154.305 154.305 90)
 			(hide yes)
@@ -11838,17 +11714,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.955 156.845 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 147.955 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -12184,17 +12049,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 77.47 122.555 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25900"
 			(at 77.47 122.555 90)
 			(hide yes)
@@ -12290,6 +12144,17 @@
 			)
 		)
 		(property "LCSC Part #" "C62246"
+			(at 140.335 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
 			(at 140.335 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12569,7 +12434,7 @@
 				)
 			)
 		)
-		(property "Value" "W25Q128JVS"
+		(property "Value" "W25Q64JVS"
 			(at 140.335 179.705 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12612,18 +12477,7 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 131.445 167.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C131025"
+		(property "LCSC Part #" "C179171"
 			(at 131.445 167.005 0)
 			(hide yes)
 			(show_name no)
@@ -12731,17 +12585,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 43.18 111.125 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C105875"
 			(at 43.18 111.125 90)
 			(hide yes)
@@ -12823,17 +12666,6 @@
 		)
 		(property "Description" ""
 			(at 43.18 95.885 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 43.18 95.885 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13046,8 +12878,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 51.435 36.195 0)
+		(property "Value" "GW3A-LV20-Q144"
+			(at 49.53 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13661,17 +13493,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 113.665 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 55.88 113.665 0)
 			(hide yes)
 			(show_name no)

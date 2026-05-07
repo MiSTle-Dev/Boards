@@ -3027,17 +3027,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 196.85 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C70076"
 			(at 196.85 55.88 90)
 			(hide yes)
@@ -3504,17 +3493,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 105.41 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c6e4a300-def2-403e-b05d-7b98b08fe110")
 		)
@@ -3620,17 +3598,6 @@
 			)
 		)
 		(property "Comment" "Samsung 25V X5R"
-			(at 97.79 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 97.79 65.405 0)
 			(hide yes)
 			(show_name no)
@@ -3925,17 +3892,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 113.03 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "201b46dc-3693-42c5-bbca-706a2b67cd7f")
 		)
@@ -4042,17 +3998,6 @@
 			)
 		)
 		(property "Comment" ""
-			(at 231.14 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 231.14 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4257,17 +4202,6 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
-			(at 90.17 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 90.17 65.405 0)
 			(hide yes)
 			(show_name no)
@@ -4534,17 +4468,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 231.14 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "8"
 			(uuid "9b0e499e-1a24-4e2c-a485-8308475e8e05")
 		)
@@ -4658,17 +4581,6 @@
 			)
 		)
 		(property "Comment" "SMD 3225 4-Pin"
-			(at 109.22 108.585 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 109.22 108.585 0)
 			(hide yes)
 			(show_name no)

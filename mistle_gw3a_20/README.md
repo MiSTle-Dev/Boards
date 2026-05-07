@@ -1,6 +1,10 @@
 # GW3A-LV20 MiSTle development board
 
-This board is meant to be a development board to run the upcoming
+This board is derived from the [MiSTeryDev20k
+board](https://github.com/MiSTle-Dev/Boards/tree/main/misterydev20k)
+which was the first full custom board designed for the MiSTle project.
+
+This board is a development board to test the upcoming
 [GW3A-LV20 FPGA](https://www.gowinsemi.com/en/product/detail/84/) with
 the MiSTle retro computing cores. The NanoMig has already [been
 prepared](https://github.com/MiSTle-Dev/NanoMig/tree/main/src/mistle/gw3a_20)
@@ -8,6 +12,13 @@ to ensure that the cores can be synthesized and especially to verify
 the pin mapping.
 
 ![Rendering](mistle_gw3a_20_render.jpeg)
+
+## Goals
+  - Get used to the new GW3A family of FPGAs
+    - Update openFPGAloader
+    - Verify use of external SDRAM
+  - Update Companion to RP2354
+    - Use additional PIO for JTAG
 
 ## Current state
 
@@ -23,8 +34,14 @@ the pin mapping.
     - Add smoothing capacitors and similar :heavy_check_mark:
     - Initial routing :heavy_check_mark:
     - Verify schematic :wrench:
-    - Verify PCB
-    - Update JLCPCB part numbers
+       - Check updated SD card wiring :heavy_check_mark:
+       - Option for 4 bit SDIO?
+       - Option for SD card power cycle?
+       - Check FPGA power supply
+       - Check rp2534 footprint compatibility to rp2040       
+    - Verify PCB :wrench:
+    - Update JLCPCB part numbers :heavy_check_mark:
+    - Generate [JLCPCB production data](production) :heavy_check_mark:
     - Order
 
 ## Preliminary schematic

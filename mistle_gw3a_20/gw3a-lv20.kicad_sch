@@ -8076,17 +8076,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 43.18 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 43.18 146.685 0)
 			(hide yes)
@@ -8177,18 +8166,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 185.42 56.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
+		(property "LCSC Part #" "C2901592"
 			(at 185.42 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -8353,17 +8331,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 150.495 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 150.495 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8801,7 +8768,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e41c2e5-7895-4082-a34e-b9b8d793afe6")
 		(property "Reference" "U7"
 			(at 173.736 122.936 0)
@@ -8814,8 +8780,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 130.81 93.98 0)
+		(property "Value" "GW3A-LV20-Q144"
+			(at 131.064 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9364,17 +9330,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 48.895 182.245 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 48.895 182.245 0)
 			(hide yes)
@@ -9458,17 +9413,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 64.77 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -9572,17 +9516,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 71.12 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 71.12 146.685 0)
 			(hide yes)
@@ -9665,17 +9598,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 159.385 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 159.385 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9935,17 +9857,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 97.155 177.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Comment" "Murata 10V X5R"
 			(at 97.155 177.165 0)
 			(hide yes)
@@ -10047,17 +9958,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 89.535 182.245 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C138044"
 			(at 89.535 182.245 0)
 			(hide yes)
@@ -10148,18 +10048,7 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 38.735 179.705 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C11702"
+		(property "LCSC Part #" "C25792"
 			(at 38.735 179.705 90)
 			(hide yes)
 			(show_name no)
@@ -10252,17 +10141,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 167.005 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 167.005 173.99 0)
 			(hide yes)
@@ -10345,17 +10223,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 123.19 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10544,17 +10411,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 89.535 177.165 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25752"
 			(at 89.535 177.165 90)
 			(hide yes)
@@ -10647,17 +10503,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 71.755 174.625 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 71.755 174.625 90)
 			(hide yes)
@@ -10739,17 +10584,6 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 116.205 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 116.205 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10920,17 +10754,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 133.35 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11582,17 +11405,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 50.165 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 50.165 146.685 0)
 			(hide yes)
@@ -11675,17 +11487,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.185 177.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 83.185 177.165 0)
 			(hide yes)
 			(show_name no)
@@ -11807,7 +11608,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11834,7 +11635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 76.2 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -11867,18 +11668,7 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 76.2 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C1525"
 			(at 76.2 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -12206,17 +11996,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 102.235 177.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C14663"
 			(at 102.235 177.165 0)
 			(hide yes)
@@ -12300,17 +12079,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 36.83 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -12414,17 +12182,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 57.15 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 57.15 146.685 0)
 			(hide yes)
@@ -12507,17 +12264,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 140.97 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12687,17 +12433,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.845 179.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 29.845 179.705 0)
 			(hide yes)
 			(show_name no)
@@ -12977,7 +12712,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13004,7 +12739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.315 177.165 0)
 			(hide yes)
 			(show_name no)
@@ -13037,18 +12772,7 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 107.315 177.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C1525"
 			(at 107.315 177.165 0)
 			(hide yes)
 			(show_name no)
@@ -13129,17 +12853,6 @@
 		)
 		(property "Description" "Inductor"
 			(at 79.375 174.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 79.375 174.625 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13231,17 +12944,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 132.08 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13576,17 +13278,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 53.975 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25900"
 			(at 53.975 73.025 0)
 			(hide yes)
@@ -13668,17 +13359,6 @@
 		)
 		(property "Description" ""
 			(at 230.505 43.815 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 230.505 43.815 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13858,17 +13538,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 23.495 179.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Comment" "Samsung 10V X5R"
 			(at 23.495 179.705 0)
 			(hide yes)
@@ -13912,7 +13581,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13939,7 +13608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 81.28 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -13972,18 +13641,7 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 81.28 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C1525"
 			(at 81.28 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -14329,7 +13987,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ab1783a6-8e28-40d4-9538-8a8a4884cda9")
 		(property "Reference" "U7"
 			(at 113.411 93.091 0)
@@ -14342,8 +13999,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 70.485 64.135 0)
+		(property "Value" "GW3A-LV20-Q144"
+			(at 69.85 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14832,7 +14489,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15058,17 +14715,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 48.895 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C25900"
 			(at 48.895 50.8 90)
 			(hide yes)
@@ -15194,8 +14840,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 66.675 106.68 0)
+		(property "Value" "GW3A-LV20-Q144"
+			(at 67.056 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15745,17 +15391,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 59.055 177.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C78989"
 			(at 59.055 177.165 0)
 			(hide yes)
@@ -16094,17 +15729,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 43.815 182.245 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C138008"
 			(at 43.815 182.245 0)
 			(hide yes)
@@ -16351,17 +15975,6 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 133.35 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C1525"
 			(at 133.35 48.26 0)
 			(hide yes)
@@ -16443,17 +16056,6 @@
 		)
 		(property "Description" ""
 			(at 212.725 56.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 212.725 56.515 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16546,17 +16148,6 @@
 		)
 		(property "Description" ""
 			(at 177.8 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 177.8 60.325 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16727,17 +16318,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
 			(at 123.19 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16946,7 +16526,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16973,7 +16553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 112.395 177.165 0)
 			(hide yes)
 			(show_name no)
@@ -17006,18 +16586,7 @@
 				)
 			)
 		)
-		(property "checked" "once"
-			(at 112.395 177.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C1525"
 			(at 112.395 177.165 0)
 			(hide yes)
 			(show_name no)
@@ -17177,17 +16746,6 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 116.205 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "checked" "once"
-			(at 116.205 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
