@@ -7,6 +7,7 @@ These boards are typically to be produced through a service like [JLCPCB](https:
 want to check the [instructions in our wiki](https://github.com/MiSTle-Dev/.github/wiki/JLCPCB-Order).
 
 ## Shields
+
 Shields are carrier boards that carry one or more off-the-shelf development boards, connect them and provide them with additional peripherals like USB Hubs, MIDI ports, Joystick ports etc.
 
   - The [MiSTeryShield20k](misteryshield20k) is a base board for
@@ -17,6 +18,17 @@ Shields are carrier boards that carry one or more off-the-shelf development boar
   - The [MiSTeryShield20k lite](misteryshield20k_lite) is also a base
   board for the Tang Nano 20k. It includes the RP2040 and a USB-A
   port and is a minimal all-in-one solution for the Tang Nano 20k.
+
+## Complete stand-alone solutions
+
+The stand-alone boards don't require any further daughter boards to be plugged in. They come with all the necessary parts
+including the Companion, the FPGA and a set of useful peripherals already integrated into one single board. These boards are
+also meant to be used as a basis for further designs using a modified set of peripherals or meant to fit certain cases.
+
+  - The [MiSTeryDev20k](misterydev20k) was the first complete all-in-one MiSTle board. It's based on the the GW2AR-LV18 FPGA
+  (the same one as on the Tang Nano 20k) and is fully compatible with any core developed for the Tang nano 20k.
+  - The [MiSTle GW3A-LV20 Dev](mistle_gw3a_20) is derived from the [MiSTeryDev20k](misterydev20k) and replaces the GW2AR-LV18 FPGA
+  with the GW3A-LV20 which is slightly newer and has a little more capacity than the GW2AR-LV18.
 
 ## MCU PMOD's
 
@@ -36,12 +48,6 @@ FPGA boards providing PMOD ports include the Tang Primer 20K, Primer 25K, Mega 6
   - The [LVDS2TMDS board](lvds2tmds) is and add-on for the Efinix T20BGA256 development board converting its LVDS outputs to TMDS allowing to drive regular digital video signals
   - The [Atari ST Keyboard](atarist_keyboard) design is a tiny 50% Atari ST style keyboard which is meant to become the basis for a Mini Atari ST
   - [MisteryShield20k DS2 Adapter](misteryshield20k_ds2_adapter) is an add-on for the [MiSTeryShield20k](misteryshield20k) allowing to connect Playstation Dualshock 2 Game controllers to it
-
-## Complete stand-alone solutions
-
-  - The [MiSTeryDev20k](misterydev20k) is meant to become a
-  first test of a complete all-in-one board for the GW2AR-LV18 FPGA
-  (the same one as on the Tang Nano 20k).
 
 ## Related projects
 
