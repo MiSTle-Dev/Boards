@@ -12972,7 +12972,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4095cfee-f56a-4e8b-be0d-4b930308bd01")
 		(property "Reference" "U7"
 			(at 4.064 92.456 0)
@@ -12986,7 +12985,7 @@
 			)
 		)
 		(property "Value" "GW3A-LV20-Q144"
-			(at 46.99 63.5 0)
+			(at 32.766 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14333,7 +14332,7 @@
 			)
 		)
 		(property "Value" "GW3A-LV20-Q144"
-			(at 45.085 175.895 0)
+			(at 36.068 188.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

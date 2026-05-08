@@ -5312,16 +5312,6 @@
 		)
 		(uuid "7475278b-41ce-4673-bd26-1dc23310d4e5")
 	)
-	(text "TODO: Use SD-1Bit nomenclature"
-		(exclude_from_sim no)
-		(at 207.518 91.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "820d2222-f7d0-461f-9c52-78988fd5bc35")
-	)
 	(text "Raspberry Pi Pico\ncompatible on-board LED"
 		(exclude_from_sim no)
 		(at 188.468 110.998 0)

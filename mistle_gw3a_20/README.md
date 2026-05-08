@@ -35,10 +35,8 @@ the pin mapping.
     - Initial routing :heavy_check_mark:
     - Verify schematic :wrench:
        - Check updated SD card wiring :heavy_check_mark:
-       - Option for 4 bit SDIO?
-       - Option for SD card power cycle?
-       - Check FPGA power supply
-       - Check rp2534 footprint compatibility to rp2040       
+       - Check FPGA power supply :heavy_check_mark:
+       - Check rp2354 footprint compatibility to rp2040       
     - Verify PCB :wrench:
     - Update JLCPCB part numbers :heavy_check_mark:
     - Generate [JLCPCB production data](production) :heavy_check_mark:
