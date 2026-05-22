@@ -17,7 +17,7 @@ the pin mapping.
   - Get used to the new GW3A family of FPGAs
     - Update openFPGAloader
     - Verify use of external SDRAM
-  - Update Companion to RP2354
+  - Update Companion to RP2350
     - Use additional PIO for JTAG
 
 ## Current state
@@ -36,7 +36,8 @@ the pin mapping.
     - Verify schematic :wrench:
        - Check updated SD card wiring :heavy_check_mark:
        - Check FPGA power supply :heavy_check_mark:
-       - Check rp2354 footprint compatibility to rp2040       
+       - Update from rp2040 to rp2350 :heavy_check_mark:
+       - Check compatibility with GW5A-LV25-LQ144 :wrench:
     - Verify PCB :wrench:
     - Update JLCPCB part numbers :heavy_check_mark:
     - Generate [JLCPCB production data](production) :heavy_check_mark:
