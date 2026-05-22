@@ -12333,7 +12333,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "1k"
 			(at 153.67 128.905 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12376,7 +12376,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C163460"
+		(property "LCSC Part #" "C11702"
 			(at 153.67 127 90)
 			(hide yes)
 			(show_name no)
@@ -13841,7 +13841,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "1k"
 			(at 153.67 147.955 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13884,7 +13884,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C163460"
+		(property "LCSC Part #" "C11702"
 			(at 153.67 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -17050,7 +17050,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "1k"
 			(at 153.67 122.555 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17093,7 +17093,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C163460"
+		(property "LCSC Part #" "C11702"
 			(at 153.67 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -17482,7 +17482,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "1k"
 			(at 153.67 135.255 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17525,7 +17525,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C163460"
+		(property "LCSC Part #" "C11702"
 			(at 153.67 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -20713,7 +20713,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "1k"
 			(at 153.67 116.205 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20756,7 +20756,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C163460"
+		(property "LCSC Part #" "C11702"
 			(at 153.67 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -21362,7 +21362,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "1k"
 			(at 153.67 141.605 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21405,7 +21405,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C163460"
+		(property "LCSC Part #" "C11702"
 			(at 153.67 139.7 90)
 			(hide yes)
 			(show_name no)
