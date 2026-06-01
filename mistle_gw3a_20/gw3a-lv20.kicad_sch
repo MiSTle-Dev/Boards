@@ -4997,6 +4997,17 @@
 		)
 		(uuid "1fc4215c-ffc7-44da-b5b8-dd2ac9b417b5")
 	)
+	(text "GW5A-LV25-LQ144 compatibility\n- supply\n  - vss/vccio1/2/5/6/7/10_vccx/vefuse/vcc -> ok\n  - gw5 vccio0_4 maps to gw3 vccio0 and vccio4 -> prob ok\n"
+		(exclude_from_sim no)
+		(at 106.68 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2cfa7f19-a379-4c9f-8387-2650578720b6")
+	)
 	(text "Pinout considerations\n- MSPI ~{WP}/~{HOLD} wired to D02 and D03 for optional QSPI\n- LVDS only available in banks 2 and 6\n- If SDRAM is powered at != 3.3V, then this voltage must also work for the flash\n- Buttons to MODE0/MODE1 as on the TN20k"
 		(exclude_from_sim no)
 		(at 195.58 155.575 0)
@@ -5185,12 +5196,6 @@
 		(uuid "50e573b3-3f8f-4b59-9ddb-cf923ba81841")
 	)
 	(junction
-		(at 115.57 98.425)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54cd0e14-1046-4f34-ba6d-57851851d2b5")
-	)
-	(junction
 		(at 115.57 75.565)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5377,6 +5382,12 @@
 		(uuid "e59eb816-cce9-4687-916d-3c43b5e01d99")
 	)
 	(junction
+		(at 115.57 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e645f8d9-8f15-4918-abf8-c7393c9e9238")
+	)
+	(junction
 		(at 48.895 65.405)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5451,6 +5462,10 @@
 		(uuid "49e6bca9-3fe5-43f7-86ce-cfcfa3776d8e")
 	)
 	(no_connect
+		(at 53.975 114.3)
+		(uuid "8747ea8d-9afa-4c51-9718-43b6c3840e99")
+	)
+	(no_connect
 		(at 149.86 55.245)
 		(uuid "d38d1e4b-e490-4940-831a-cd631efa728f")
 	)
@@ -5483,16 +5498,6 @@
 			(type default)
 		)
 		(uuid "0546f4e9-b036-4d20-9420-7df65ce880ec")
-	)
-	(wire
-		(pts
-			(xy 53.975 114.3) (xy 48.895 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05a9f3ef-238d-4ac2-a918-279a7d88ed80")
 	)
 	(wire
 		(pts
@@ -6277,16 +6282,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 100.965) (xy 115.57 98.425)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb3df5d-1cd6-406d-939c-96bf2df5e3b7")
-	)
-	(wire
-		(pts
 			(xy 23.495 174.625) (xy 29.845 174.625)
 		)
 		(stroke
@@ -6337,7 +6332,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 98.425) (xy 115.57 98.425)
+			(xy 109.22 100.965) (xy 115.57 100.965)
 		)
 		(stroke
 			(width 0)
@@ -6878,6 +6873,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 95.885) (xy 115.57 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9135482-ea7e-4268-b6e1-7a86d681b71b")
+	)
+	(wire
+		(pts
 			(xy 153.67 86.995) (xy 153.67 89.535)
 		)
 		(stroke
@@ -6948,16 +6953,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 82.55) (xy 234.95 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8fe6262-9754-4511-be13-7ac3e4f59042")
-	)
-	(wire
-		(pts
 			(xy 107.315 179.705) (xy 112.395 179.705)
 		)
 		(stroke
@@ -7025,16 +7020,6 @@
 			(type default)
 		)
 		(uuid "ef97e4ab-298e-4d9a-b7f1-456a7136bc6a")
-	)
-	(wire
-		(pts
-			(xy 229.87 80.01) (xy 234.95 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f01682f0-a3d2-4b24-a79f-c4e1094b39b7")
 	)
 	(wire
 		(pts
@@ -7228,54 +7213,6 @@
 			)
 		)
 	)
-	(global_label "MON_TX"
-		(shape input)
-		(at 229.87 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8b4ad8fa-0922-4d97-b124-ec9c18a93722")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.2819 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MON_TX"
-		(shape output)
-		(at 48.895 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "92c83002-1236-47f0-a630-2c7a28e3c7e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.3069 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "~{CFG}"
 		(shape input)
 		(at 234.315 102.235 180)
@@ -7321,30 +7258,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "MON_RX"
-		(shape output)
-		(at 229.87 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb36e20f-fa8e-4bbd-9375-1ce27796dfa1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.9795 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -14502,7 +14415,7 @@
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
-		(at 109.22 98.425 90)
+		(at 109.22 100.965 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14512,7 +14425,7 @@
 		(dnp no)
 		(uuid "c4e62005-3abb-40e3-b3ec-cef3c7390907")
 		(property "Reference" "#PWR069"
-			(at 113.03 98.425 0)
+			(at 113.03 100.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14523,7 +14436,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 104.648 98.171 90)
+			(at 104.648 100.711 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14534,7 +14447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 98.425 0)
+			(at 109.22 100.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14545,7 +14458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 98.425 0)
+			(at 109.22 100.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14556,7 +14469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 109.22 98.425 0)
+			(at 109.22 100.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15412,7 +15325,7 @@
 	)
 	(sheet
 		(at 234.95 34.925)
-		(size 26.67 50.8)
+		(size 26.67 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15438,7 +15351,7 @@
 			)
 		)
 		(property "Sheetfile" "interfaces.kicad_sch"
-			(at 234.95 86.3096 0)
+			(at 234.95 77.4196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15511,26 +15424,6 @@
 		(pin "MIDI_OUT" input
 			(at 234.95 74.295 180)
 			(uuid "c308cb35-6dc8-43b5-8243-ccd46798b345")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MON_RX" output
-			(at 234.95 80.01 180)
-			(uuid "27a931f3-408a-416c-b61b-1ac8f269d4b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MON_TX" input
-			(at 234.95 82.55 180)
-			(uuid "2bff65e9-e17e-438a-a7c7-e0634800f108")
 			(effects
 				(font
 					(size 1.27 1.27)

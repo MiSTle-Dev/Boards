@@ -7924,6 +7924,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.325 93.98) (xy 189.865 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb70c1d2-688f-4a63-8844-cf39bbb82a0e")
+	)
+	(wire
+		(pts
 			(xy 240.665 35.56) (xy 231.775 35.56)
 		)
 		(stroke
@@ -9128,7 +9138,7 @@
 	)
 	(global_label "SCK"
 		(shape output)
-		(at 182.245 93.98 0)
+		(at 189.865 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9138,7 +9148,7 @@
 		)
 		(uuid "859c3ab8-50a6-4b54-b083-85926011a1cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.9797 93.98 0)
+			(at 196.5997 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15992,6 +16002,96 @@
 			(project "mistle_gw3a_20"
 				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 184.785 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b244f267-8d51-49b9-848d-de5d357cedb6")
+		(property "Reference" "R52"
+			(at 180.975 92.964 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 180.721 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 184.785 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.785 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.785 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25092"
+			(at 184.785 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee1acbec-39ef-49fe-af91-fb92a9ea4323")
+		)
+		(pin "2"
+			(uuid "447cb5df-c23a-4513-b8eb-4b59d3b8bb8e")
+		)
+		(instances
+			(project "mistle_gw3a_20"
+				(path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+					(reference "R52")
 					(unit 1)
 				)
 			)
