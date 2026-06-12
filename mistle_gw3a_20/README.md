@@ -37,11 +37,16 @@ the pin mapping.
        - Check updated SD card wiring :heavy_check_mark:
        - Check FPGA power supply :heavy_check_mark:
        - Update from rp2040 to rp2350 :heavy_check_mark:
-       - Check compatibility with GW5A-LV25-LQ144 :wrench:
+       - Check compatibility with GW5A-LV25-LQ144 :heavy_check_mark:
     - Verify PCB :wrench:
     - Update JLCPCB part numbers :heavy_check_mark:
     - Generate [JLCPCB production data](production) :heavy_check_mark:
-    - Order
+    - Order partially assembled boards :heavy_check_mark:
+    - Order FPGAs :heavy_check_mark:	
+    - Waiting for delivery :wrench:
+    - Update Companion firmware for rp2350
+    - Solder and test FPGA
+    - Solder and test SDRAM
 
 ## Preliminary schematic
 
