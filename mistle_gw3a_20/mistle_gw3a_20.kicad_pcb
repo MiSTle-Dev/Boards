@@ -13591,6 +13591,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87a8d663-faf9-452c-8684-4b9687e8aec5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/2716b5bc-288e-4fe7-be39-f2f8fa7d58c7")
 		(sheetname "/")
