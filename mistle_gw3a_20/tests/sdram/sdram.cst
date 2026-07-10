@@ -1,0 +1,96 @@
+IO_LOC "clk" 75;        // 50Mhz
+IO_PORT "clk" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+
+
+
+// HDMI is on bank 7
+IO_LOC "tmds_clk_p" 129,130;
+IO_PORT "tmds_clk_p" PULL_MODE=NONE IO_TYPE=LVCMOS33D;
+IO_LOC "tmds_d_p[0]" 131,134;
+IO_PORT "tmds_d_p[0]" PULL_MODE=NONE IO_TYPE=LVCMOS33D;
+IO_LOC "tmds_d_p[1]" 133,135;
+IO_PORT "tmds_d_p[1]" PULL_MODE=NONE IO_TYPE=LVCMOS33D;
+IO_LOC "tmds_d_p[2]" 136,137;
+IO_PORT "tmds_d_p[2]" PULL_MODE=NONE IO_TYPE=LVCMOS33D;
+
+// SDRAM 
+IO_LOC "IO_sdram_dq[0]" 58;
+IO_PORT "IO_sdram_dq[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[1]" 57;
+IO_PORT "IO_sdram_dq[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[2]" 56;
+IO_PORT "IO_sdram_dq[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[3]" 54;
+IO_PORT "IO_sdram_dq[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[4]" 52;
+IO_PORT "IO_sdram_dq[4]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[5]" 50;
+IO_PORT "IO_sdram_dq[5]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[6]" 49;
+IO_PORT "IO_sdram_dq[6]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[7]" 48;
+IO_PORT "IO_sdram_dq[7]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[8]" 59;
+IO_PORT "IO_sdram_dq[8]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[9]" 60;
+IO_PORT "IO_sdram_dq[9]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[10]" 61;
+IO_PORT "IO_sdram_dq[10]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[11]" 62;
+IO_PORT "IO_sdram_dq[11]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[12]" 64;
+IO_PORT "IO_sdram_dq[12]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[13]" 65;
+IO_PORT "IO_sdram_dq[13]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[14]" 66;
+IO_PORT "IO_sdram_dq[14]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "IO_sdram_dq[15]" 67;
+IO_PORT "IO_sdram_dq[15]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "O_sdram_addr[0]" 35;
+IO_PORT "O_sdram_addr[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[1]" 34;
+IO_PORT "O_sdram_addr[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[2]" 32;
+IO_PORT "O_sdram_addr[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[3]" 23;
+IO_PORT "O_sdram_addr[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[4]" 6;
+IO_PORT "O_sdram_addr[4]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[5]" 7;
+IO_PORT "O_sdram_addr[5]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[6]" 8;
+IO_PORT "O_sdram_addr[6]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[7]" 10;
+IO_PORT "O_sdram_addr[7]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[8]" 11;
+IO_PORT "O_sdram_addr[8]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[9]" 13;
+IO_PORT "O_sdram_addr[9]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[10]" 39;
+IO_PORT "O_sdram_addr[10]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[11]" 14;
+IO_PORT "O_sdram_addr[11]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_addr[12]" 19;
+IO_PORT "O_sdram_addr[12]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "O_sdram_ba[0]" 42;
+IO_PORT "O_sdram_ba[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_ba[1]" 41;
+IO_PORT "O_sdram_ba[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "O_sdram_dqm[0]" 47;
+IO_PORT "O_sdram_dqm[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_dqm[1]" 22;
+IO_PORT "O_sdram_dqm[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "O_sdram_clk" 20;
+IO_PORT "O_sdram_clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_wen_n" 46;
+IO_PORT "O_sdram_wen_n" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_ras_n" 44;
+IO_PORT "O_sdram_ras_n" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_cas_n" 45;
+IO_PORT "O_sdram_cas_n" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "O_sdram_cs_n" 43;
+IO_PORT "O_sdram_cs_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
