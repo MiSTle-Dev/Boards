@@ -1,4 +1,4 @@
-# GW3A-LV20 MiSTle development board
+# GW3A-LV20 DEV25K MiSTle development board
 
 This board is derived from the [MiSTeryDev20k
 board](https://github.com/MiSTle-Dev/Boards/tree/main/misterydev20k)
@@ -43,10 +43,22 @@ the pin mapping.
     - Generate [JLCPCB production data](production) :heavy_check_mark:
     - Order partially assembled boards :heavy_check_mark:
     - Order FPGAs :heavy_check_mark:	
-    - Waiting for delivery :wrench:
-    - Update Companion firmware for rp2350
-    - Solder and test FPGA
-    - Solder and test SDRAM
+    - Waiting for delivery :heavy_check_mark:	
+    - Update Companion firmware for rp2350 :heavy_check_mark:	
+    - Solder and test FPGA :heavy_check_mark:	
+    - Solder and test SDRAM :heavy_check_mark:
+    - Testing :wrench:
+
+## FPGA Companion
+
+The FPGA Companion needs to be built with
+
+   ```cmake -DBOARD=DEV25K ..```
+
+## Issues with V1.0
+
+  - Polarity of ```MODE0``` os wrong and prevents FPGA flash boot/usage
+  - Flash ```IO2``` and ```IO3``` should probably be FPGA pins ```MI2``` and ```MI3``` instead ```DO2``` and ```DO3```. This is not critical but probably prevents a QSPI FPGA boot. This is misleading in figure 4-4 of [UG1356-1.0E_GW3A series of FPGA Products Schematic Manual.pdf](https://www.gowinsemi.com/en/document/chkLogin/?forward=product%2C3373).
 
 ## Preliminary schematic
 
