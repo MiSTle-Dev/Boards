@@ -6,7 +6,8 @@ which was the first full custom board designed for the MiSTle project.
 
 This board is a development board to test the upcoming
 [GW3A-LV20 FPGA](https://www.gowinsemi.com/en/product/detail/84/) with
-the MiSTle retro computing cores. The NanoMig has already [been
+the MiSTle retro computing cores. It can also be used with the
+GW5A-LV25 FPGA. The NanoMig has already [been
 prepared](https://github.com/MiSTle-Dev/NanoMig/tree/main/src/mistle/gw3a_20)
 to ensure that the cores can be synthesized and especially to verify
 the pin mapping.
