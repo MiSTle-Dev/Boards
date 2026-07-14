@@ -144,11 +144,6 @@ sdram sdram (
 wire [2:0] tmds;
 wire tmds_clock;
 
-//reg left_pix;
-//always @(posedge clk_pixel)
-//  left_pix <= (cx==0);
-//wire [23:0] rgb = left_pix?24'h000000:24'hffffff;   
-
 // shift pixel data out, msb first   
 wire [23:0] rgb = vdata[15]?24'h000000:24'hffffff;   
 

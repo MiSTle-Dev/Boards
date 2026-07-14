@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="640"
+   height="480"
+   viewBox="0 0 640 480"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="mistle.svg"
+   inkscape:export-filename="mistle.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1"
+     inkscape:cx="497"
+     inkscape:cy="132"
+     inkscape:window-width="2050"
+     inkscape:window-height="1145"
+     inkscape:window-x="180"
+     inkscape:window-y="97"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4034" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern1389"
+       id="pattern1350"
+       patternTransform="translate(2,1)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern1389"
+       id="pattern1348"
+       patternTransform="translate(2,1)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern1389"
+       id="pattern1346"
+       patternTransform="translate(2,1)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Checkerboard"
+       id="pattern1960"
+       patternTransform="translate(-81.070873,-2.3870773)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Checkerboard"
+       id="pattern1389"
+       patternTransform="matrix(0.44059025,0,0,0.42157896,1.7935196,0.98889042)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="2"
+       height="2"
+       patternTransform="translate(0,0) scale(1,1)"
+       id="Checkerboard"
+       inkscape:stockid="Checkerboard"
+       inkscape:isstock="true">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="0"
+         width="1"
+         height="1"
+         id="rect2033" />
+      <rect
+         style="fill:black;stroke:none"
+         x="1"
+         y="1"
+         width="1"
+         height="1"
+         id="rect2035" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Checkerboard-6"
+       id="pattern1960-3"
+       patternTransform="translate(-162.57087,13.112923)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="2"
+       height="2"
+       patternTransform="translate(0,0) scale(1,1)"
+       id="Checkerboard-6"
+       inkscape:stockid="Checkerboard"
+       inkscape:isstock="true">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="0"
+         width="1"
+         height="1"
+         id="rect2033-7" />
+      <rect
+         style="fill:black;stroke:none"
+         x="1"
+         y="1"
+         width="1"
+         height="1"
+         id="rect2035-5" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Checkerboard-62"
+       id="pattern1960-5"
+       patternTransform="translate(-73.57087,79.112923)" />
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="2"
+       height="2"
+       patternTransform="translate(0,0) scale(1,1)"
+       id="Checkerboard-62"
+       inkscape:stockid="Checkerboard"
+       inkscape:isstock="true">
+      <rect
+         style="fill:black;stroke:none"
+         x="0"
+         y="0"
+         width="1"
+         height="1"
+         id="rect2033-9" />
+      <rect
+         style="fill:black;stroke:none"
+         x="1"
+         y="1"
+         width="1"
+         height="1"
+         id="rect2035-1" />
+    </pattern>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g850"
+       transform="matrix(2.5691633,0,0,2.5966967,156.11519,-10.711344)"
+       style="stroke-width:3.59333;stroke-dasharray:none">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3.59333;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="M 14.472457,119.8697 C 32.480113,106.01505 40.668404,90.455121 58.087563,73.18719 70.536703,60.84613 81.912475,51.79221 93.110464,32.194474"
+         id="path3206"
+         sodipodi:nodetypes="csc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3.59333;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 75.555745,40.163569 5.867878,8.416096 10.40235,2.209363"
+         id="path3307"
+         sodipodi:nodetypes="ccc" />
+    </g>
+    <g
+       id="g1526"
+       transform="matrix(2.2696825,0,0,2.3720349,175.92928,2.6543174)">
+      <path
+         style="fill:url(#pattern1389);fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="M 27.618966,103.54306 C 36.138522,75.929792 45.343706,61.660995 42.636579,40.238835 39.929456,18.816675 13.142052,5.4497753 8.3173216,36.47198 3.4925855,67.494197 20.810921,81.462963 27.618966,103.54306 Z"
+         id="path2968-3"
+         sodipodi:nodetypes="czzc" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 30.811953,28.920966 C 9.6353175,37.3539 23.333334,71.855265 26.696278,93.214501 15.810689,70.690056 8.2000015,42.446556 14.460483,32.09115 20.720965,21.735744 27.015671,23.283122 30.811953,28.920966 Z"
+         id="path1132"
+         sodipodi:nodetypes="cczc" />
+    </g>
+    <g
+       id="g1530"
+       transform="matrix(2.2696825,0,0,2.3720349,175.92928,2.6543174)">
+      <path
+         style="fill:url(#pattern1389);fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="M 21.976517,113.40592 C 47.381222,98.347972 59.274682,86.078101 81.377366,83.103802 103.48005,80.1295 123.72063,101.73125 93.959979,114.21183 64.199324,126.69242 45.790404,114.09543 21.976517,113.40592 Z"
+         id="path2968"
+         sodipodi:nodetypes="czzc" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 97.620697,102.82173 c -12.697633,-18.929723 -43.546923,1.71734 -63.721338,9.49674 19.73162,-15.378867 45.743092,-28.75874 57.183465,-24.815907 11.440366,3.942834 11.251316,10.42218 6.537873,15.319167 z"
+         id="path1132-6"
+         sodipodi:nodetypes="cczc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:78.1749px;line-height:104%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.32888px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="326.96457"
+       y="382.94272"
+       id="text375"
+       transform="scale(0.97818728,1.0222991)"><tspan
+         sodipodi:role="line"
+         id="tspan373"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.32888px"
+         x="326.96457"
+         y="382.94272">MiSTle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:38.1211px;line-height:104%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.57383px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="327.94543"
+       y="440.63129"
+       id="text375-3"
+       transform="scale(0.97818728,1.0222991)"><tspan
+         sodipodi:role="line"
+         id="tspan373-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.57383px"
+         x="327.94543"
+         y="440.63129">http://github.com/MiSTle-Dev</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.82223px;line-height:104%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="8.8987589"
+       y="50.277988"
+       id="text427"><tspan
+         sodipodi:role="line"
+         id="tspan425"
+         style="stroke-width:0.264583px"
+         x="8.8987589"
+         y="50.277988" /></text>
+    <circle
+       style="fill:url(#pattern1348);fill-opacity:1;stroke:#000000;stroke-width:5.25447;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path1404"
+       cx="417"
+       cy="49.778278"
+       r="33.278278" />
+    <circle
+       style="fill:url(#pattern1346);fill-opacity:1;stroke:#000000;stroke-width:5.25447;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path1404-3"
+       cx="335.5"
+       cy="65.278275"
+       r="33.278278" />
+    <circle
+       style="fill:url(#pattern1350);fill-opacity:1;stroke:#000000;stroke-width:5.25447;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path1404-2"
+       cx="424.5"
+       cy="131.27826"
+       r="33.278278" />
+  </g>
+</svg>
