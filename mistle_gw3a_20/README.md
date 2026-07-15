@@ -4,13 +4,15 @@ This board is derived from the [MiSTeryDev20k
 board](https://github.com/MiSTle-Dev/Boards/tree/main/misterydev20k)
 which was the first full custom board designed for the MiSTle project.
 
-This board is a development board to test the upcoming
-[GW3A-LV20 FPGA](https://www.gowinsemi.com/en/product/detail/84/) with
-the MiSTle retro computing cores. It can also be used with the
-GW5A-LV25 FPGA. The NanoMig has already [been
-prepared](https://github.com/MiSTle-Dev/NanoMig/tree/main/src/mistle/gw3a_20)
+![Photo](photo.jpg)
+
+This board is a development board to initially designed to test the
+upcoming [GW3A-LV20 FPGA](https://www.gowinsemi.com/en/product/detail/84/) with the MiSTle
+retro computing cores. It can also be used with the GW5A-LV25
+FPGA. The NanoMig has already [been
+prepared to run on the GW3A](https://github.com/MiSTle-Dev/NanoMig/tree/main/src/mistle/gw3a_20)
 to ensure that the cores can be synthesized and especially to verify
-the pin mapping.
+the pin mapping. Depiced above is the board with the GW5A-25K mounted.
 
 ![Rendering](mistle_gw3a_20_render.jpeg)
 
@@ -48,13 +50,32 @@ the pin mapping.
     - Update Companion firmware for rp2350 :heavy_check_mark:	
     - Solder and test FPGA :heavy_check_mark:	
     - Solder and test SDRAM :heavy_check_mark:
-    - Testing :wrench:
+    - Testing :heavy_check_mark:
+    - Make use of bigger FPGA (AGA)
 
 ## FPGA Companion
 
 The FPGA Companion needs to be built with
 
    ```cmake -DBOARD=DEV25K ..```
+
+The Companion will then act as the regular support device during
+runtime but will also provide USB/JTAG functionality for setup and
+flashing from a PC.
+
+## Cores
+
+Currently only the NanoMig has been ported to this board. A tested and
+fully working core for the GW5A-25K is available and can be built using
+the following command:
+
+   ```build.sh mistle_gw5a_25```
+
+The GW3A-20K NanoMig variant can also be built in similar way:
+
+   ```build.sh mistle_gw3a_20```
+
+This is untested for obvious reasons.
 
 ## Issues with V1.0
 
