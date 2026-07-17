@@ -1,4 +1,4 @@
-# GW3A-LV20 DEV25K MiSTle development board
+# GW3A-LV20/GW5A-LV25 DEV25K MiSTle development board
 
 This board is derived from the [MiSTeryDev20k
 board](https://github.com/MiSTle-Dev/Boards/tree/main/misterydev20k)
@@ -6,13 +6,17 @@ which was the first full custom board designed for the MiSTle project.
 
 ![Photo](photo.jpg)
 
-This board is a development board to initially designed to test the
+This board is a development board initially designed to test the
 upcoming [GW3A-LV20 FPGA](https://www.gowinsemi.com/en/product/detail/84/) with the MiSTle
-retro computing cores. It can also be used with the GW5A-LV25
-FPGA. The NanoMig has already [been
+retro computing cores. It can also be used with the existing GW5A-LV25
+FPGA as seen in the image above.
+
+The NanoMig has [been
 prepared to run on the GW3A](https://github.com/MiSTle-Dev/NanoMig/tree/main/src/mistle/gw3a_20)
 to ensure that the cores can be synthesized and especially to verify
-the pin mapping. Depiced above is the board with the GW5A-25K mounted.
+the pin mapping. Depiced above is the board with the GW5A-25K mounted and running
+the [GW5A-LV25 variant](https://github.com/MiSTle-Dev/NanoMig/tree/main/src/mistle/gw5a_25)
+of the [NanoMig FPGA Core](https://github.com/MiSTle-Dev/NanoMig).
 
 ![Rendering](mistle_gw3a_20_render.jpeg)
 
