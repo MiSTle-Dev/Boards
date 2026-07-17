@@ -6,7 +6,7 @@ To simplify this the MiSTeryNano project provides additional custom designed har
 These boards are typically to be produced through a service like [JLCPCB](https://jlcpcb.com/). You might
 want to check the [instructions in our wiki](https://github.com/MiSTle-Dev/.github/wiki/JLCPCB-Order).
 
-## Shields
+## Shields and carrier boards
 
 Shields are carrier boards that carry one or more off-the-shelf development boards, connect them and provide them with additional peripherals like USB Hubs, MIDI ports, Joystick ports etc.
 
@@ -18,6 +18,7 @@ Shields are carrier boards that carry one or more off-the-shelf development boar
   - The [MiSTeryShield20k lite](misteryshield20k_lite) is also a base
   board for the Tang Nano 20k. It includes the RP2040 and a USB-A
   port and is a minimal all-in-one solution for the Tang Nano 20k.
+  - The [Icepi carrier](icepi_carrier) is a base board for the [Icepi-Zero](https://github.com/cheyao/icepi-zero) adds the FPGA Companion as well as USB and Joystick ports
 
 ## Complete stand-alone solutions
 
