@@ -15562,7 +15562,7 @@
 				)
 			)
 		)
-		(property "Value" "green"
+		(property "Value" "yellow"
 			(at 138.43 157.861 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15615,7 +15615,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2297"
+		(property "LCSC Part #" "C2296"
 			(at 133.985 163.195 0)
 			(hide yes)
 			(show_name no)

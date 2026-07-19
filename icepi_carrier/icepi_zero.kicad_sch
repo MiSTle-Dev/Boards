@@ -10760,7 +10760,7 @@
 				)
 			)
 		)
-		(property "Value" "green"
+		(property "Value" "yellow"
 			(at 103.886 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10814,7 +10814,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2297"
+		(property "LCSC Part #" "C2296"
 			(at 104.14 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -13365,7 +13365,7 @@
 				)
 			)
 		)
-		(property "Value" "green"
+		(property "Value" "red"
 			(at 103.886 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13419,7 +13419,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2297"
+		(property "LCSC Part #" "C2295"
 			(at 104.14 140.335 0)
 			(hide yes)
 			(show_name no)
