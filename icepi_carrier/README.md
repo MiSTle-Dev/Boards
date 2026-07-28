@@ -9,13 +9,13 @@ joystick/mouse ports and a few LEDs.
 
 ![With icepi](icepi_carrier.jpg)
 
-[!WARNING]
+> [!WARNING]
 > The IcePi Zero needs to be mounted face down. Otherwise the IcePi and/or the carrier
 > board may be damaged!
 
 This carrier board is supported by the [Lattice/IcePi port of NanoMig](https://github.com/MiSTle-Dev/NanoMig/tree/main/src/lattice/icepi-zero). 
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > The 3.3V voltage regulation of the IcePi is being used for the carrier as well. This means
 > that the RP2350 on the carrier will not work without the IcePi installed.
 
