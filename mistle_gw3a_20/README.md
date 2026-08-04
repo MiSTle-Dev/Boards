@@ -11,7 +11,7 @@ upcoming [GW3A-LV20 FPGA](https://www.gowinsemi.com/en/product/detail/84/) with 
 retro computing cores. It can also be used with the existing GW5A-LV25
 FPGA as seen in the image above.
 
-The NanoMig has [been
+The NanoMig and C64Nano had [been
 prepared to run on the GW3A](https://github.com/MiSTle-Dev/NanoMig/tree/main/src/mistle/gw3a_20)
 to ensure that the cores can be synthesized and especially to verify
 the pin mapping. Depiced above is the board with the GW5A-25K mounted and running
@@ -69,7 +69,7 @@ flashing from a PC.
 
 ## Cores
 
-Currently only the NanoMig has been ported to this board. A tested and
+Currently the NanoMig and C64Nano had been ported to this board. A tested and
 fully working core for the GW5A-25K is available and can be built using
 the following command:
 
