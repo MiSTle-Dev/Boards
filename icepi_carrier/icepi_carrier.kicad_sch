@@ -7,7 +7,7 @@
 	(title_block
 		(title "MiSTle IcePi Carrier")
 		(date "2025-08-28")
-		(rev "1.0")
+		(rev "1.0a")
 		(company "Till Harbaum")
 		(comment 1 "FPGA Companion MCU")
 	)

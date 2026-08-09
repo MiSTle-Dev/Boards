@@ -7,7 +7,7 @@
 	(title_block
 		(title "MiSTle IcePi Carrier")
 		(date "2026-04-29")
-		(rev "1.0")
+		(rev "1.0a")
 		(company "Till Harbaum")
 		(comment 1 "IcePi-Zero")
 	)
@@ -3554,7 +3554,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B-2020"
+		(symbol "LED:WS2812B"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3574,7 +3574,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B-2020"
+			(property "Value" "WS2812B"
 				(at 1.27 -5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3585,7 +3585,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3597,7 +3597,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 				(at 2.54 -9.525 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3609,7 +3609,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(property "Description" "RGB LED with integrated controller"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3620,7 +3620,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3631,7 +3631,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3642,7 +3642,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B-2020_0_0"
+			(symbol "WS2812B_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -3652,7 +3652,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B-2020_0_1"
+			(symbol "WS2812B_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -3749,7 +3749,25 @@
 					)
 				)
 			)
-			(symbol "WS2812B-2020_1_1"
+			(symbol "WS2812B_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -3760,7 +3778,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3778,7 +3796,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3790,24 +3808,6 @@
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11957,7 +11957,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
+		(lib_id "LED:WS2812B")
 		(at 154.94 142.875 0)
 		(unit 1)
 		(body_style 1)
@@ -11977,7 +11977,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "WS2812B"
 			(at 144.78 135.255 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11987,7 +11987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm"
 			(at 156.21 150.495 0)
 			(hide yes)
 			(show_name no)
@@ -11999,7 +11999,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 			(at 157.48 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12011,7 +12011,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" "RGB LED with integrated controller"
 			(at 154.94 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -12022,7 +12022,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C965555"
+		(property "LCSC Part #" "C527089"
 			(at 154.94 142.875 0)
 			(hide yes)
 			(show_name no)

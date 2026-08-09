@@ -45,3 +45,9 @@ See the [schematics](icepi_carrier_sch.pdf) and the [board layout](icepi_carrier
 ![Render without icepi](icepi_carrier_empty_render.jpg)
 
 This board can be manfactured through [JLCPCBs assembly service](http://jlcpcb.com) using the [production data](production). The production data does not include the pin header/socket required to mount the IcePi as this needs to match what's mounted on the IcePi itself.
+
+## History
+
+  - V1.0: Initial version
+  - V1.0a: Replaced ws2812b with slightly bigger one with better availability at JLC
+  
