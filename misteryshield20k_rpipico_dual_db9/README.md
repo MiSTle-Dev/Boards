@@ -2,7 +2,6 @@
 
 The shield is a modification of the original **MiSTeryShield20k RPiPico USB board** by Stefan Voss\
 With kind permission & support!
-
 Manger
 
 **New Features:**
